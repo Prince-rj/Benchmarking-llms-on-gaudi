@@ -1,0 +1,106 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+loading file tokenizer.model
+loading file tokenizer.json
+loading file added_tokens.json
+loading file special_tokens_map.json
+loading file tokenizer_config.json
+loading file chat_template.jinja
+loading configuration file /software/data/llama_inference/Llama-2-7b-hf/config.json
+Model config LlamaConfig {
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "head_dim": 128,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "intermediate_size": 11008,
+  "max_position_embeddings": 4096,
+  "mlp_bias": false,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 32,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 10000.0,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.51.3",
+  "use_cache": true,
+  "vocab_size": 32000
+}
+
+loading weights file /software/data/llama_inference/Llama-2-7b-hf/model.safetensors.index.json
+Instantiating LlamaForCausalLM model under default dtype torch.bfloat16.
+Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2
+}
+
+Loading model...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.57it/s]
+All model checkpoint weights were used when initializing LlamaForCausalLM.
+
+All the weights of LlamaForCausalLM were initialized from the model checkpoint at /software/data/llama_inference/Llama-2-7b-hf.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlamaForCausalLM for predictions without further training.
+loading configuration file /software/data/llama_inference/Llama-2-7b-hf/generation_config.json
+/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "pad_token_id": 0,
+  "temperature": 0.9,
+  "top_p": 0.6
+}
+
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 1
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 1
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Running benchmark...
+<s> what is Llamma2 explain in in very detail along with architecture.
+Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads.
+Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads.
+Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads.
+Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads.
+Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads.
+Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads.
+Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads.
+Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used by the Linux kernel to manage the memory of processes and threads. Llamma2 is a Linux kernel module that provides a low-level interface for accessing the Linux kernel's memory management subsystem. It is used
+
+=== Benchmark Results ===
+Prompt length: 16 tokens
+Generated tokens: 1000
+Time to First Token (TTFT): 0.0127 sec
+Inter-Token Latency (Mean): 0.0534 sec
+Inter-Token Latency (Median): 0.0509 sec
+Throughput: 18.70 tokens/sec
+
+power_usage in power_log.csv
