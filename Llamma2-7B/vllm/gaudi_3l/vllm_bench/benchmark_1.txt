@@ -1,0 +1,4 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   460  100   215  100   245  39859  45420 --:--:-- --:--:-- --:--:-- 92000
+{"object":"error","message":"[{'type': 'json_invalid', 'loc': ('body', 147), 'msg': 'JSON decode error', 'input': {}, 'ctx': {'error': 'Invalid control character at'}}]","type":"Bad Request","param":null,"code":400}
