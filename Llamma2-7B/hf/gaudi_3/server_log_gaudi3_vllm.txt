@@ -1,0 +1,288 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+INFO 07-30 19:05:19 [__init__.py:254] Automatically detected platform hpu.
+INFO 07-30 19:05:21 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 07-30 19:05:22 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 07-30 19:05:22 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 07-30 19:05:23 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 07-30 19:05:23 [api_server.py:1289] vLLM API server version 0.6.3.dev5453+ge9c83fca1
+INFO 07-30 19:05:23 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 07-30 19:05:23 [cli_args.py:309] non-default args: {'model': '/software/data/llama_inference/Llama-2-7b-hf/'}
+INFO 07-30 19:05:32 [config.py:822] This model supports multiple tasks: {'classify', 'score', 'embed', 'reward', 'generate'}. Defaulting to 'generate'.
+WARNING 07-30 19:05:32 [config.py:3236] Your device 'hpu' doesn't support torch.float16. Falling back to torch.bfloat16 for compatibility.
+WARNING 07-30 19:05:32 [config.py:3287] Casting torch.float16 to torch.bfloat16.
+INFO 07-30 19:05:32 [arg_utils.py:1706] hpu is experimental on VLLM_USE_V1=1. Falling back to V0 Engine.
+INFO 07-30 19:05:32 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 07-30 19:05:32 [api_server.py:267] Started engine process with PID 3434439
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+WARNING 07-30 19:05:35 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 07-30 19:05:35 [__init__.py:254] Automatically detected platform hpu.
+INFO 07-30 19:05:37 [llm_engine.py:239] Initializing a V0 LLM engine (v0.6.3.dev5453+ge9c83fca1) with config: model='/software/data/llama_inference/Llama-2-7b-hf/', speculative_config=None, tokenizer='/software/data/llama_inference/Llama-2-7b-hf/', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=True, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=hpu, decoding_config=DecodingConfig(backend='xgrammar', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=None, served_model_name=/software/data/llama_inference/Llama-2-7b-hf/, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=None, chunked_prefill_enabled=False, use_async_output_proc=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":[],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"use_cudagraph":false,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"max_capture_size":256,"local_cache_dir":null}, use_cached_outputs=True, 
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+WARNING 07-30 19:05:38 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+WARNING 07-30 19:05:38 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+WARNING 07-30 19:05:38 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+WARNING 07-30 19:05:38 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x7f445a751de0>
+INFO 07-30 19:05:39 [runtime.py:26] Environment:
+INFO 07-30 19:05:39 [runtime.py:30]     hw: gaudi3
+INFO 07-30 19:05:39 [runtime.py:30]     build: 1.22.0.538
+INFO 07-30 19:05:39 [runtime.py:30]     engine_version: v0
+INFO 07-30 19:05:39 [runtime.py:30]     bridge_mode: eager
+INFO 07-30 19:05:39 [runtime.py:30]     model_type: llama
+INFO 07-30 19:05:39 [runtime.py:26] Features:
+INFO 07-30 19:05:39 [runtime.py:30]     fp32_alibi_biases: True
+INFO 07-30 19:05:39 [runtime.py:30]     fp32_softmax: False
+INFO 07-30 19:05:39 [runtime.py:30]     fused_block_softmax_adjustment: True
+INFO 07-30 19:05:39 [runtime.py:30]     fused_block_softmax: False
+INFO 07-30 19:05:39 [runtime.py:30]     prompt_attn_impl: fsdpa_impl
+INFO 07-30 19:05:39 [runtime.py:30]     skip_warmup: False
+INFO 07-30 19:05:39 [runtime.py:30]     merged_prefill: False
+INFO 07-30 19:05:39 [runtime.py:30]     use_contiguous_pa: True
+INFO 07-30 19:05:39 [runtime.py:30]     use_delayed_sampling: True
+INFO 07-30 19:05:39 [runtime.py:30]     use_bucketing: True
+INFO 07-30 19:05:39 [runtime.py:30]     bucketing_strategy: exponential_bucketing
+INFO 07-30 19:05:39 [runtime.py:26] User flags:
+INFO 07-30 19:05:39 [runtime.py:30]     VLLM_USE_V1: False
+WARNING 07-30 19:05:39 [hpu.py:135] Pin memory is not supported on HPU.
+INFO 07-30 19:05:39 [hpu.py:60] Using HPUAttention backend.
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 1
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 1
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+INFO 07-30 19:05:39 [parallel_state.py:1065] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+Loading safetensors checkpoint shards:   0% Completed | 0/2 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  50% Completed | 1/2 [00:00<00:00,  1.51it/s]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:02<00:00,  1.36s/it]
+Loading safetensors checkpoint shards: 100% Completed | 2/2 [00:02<00:00,  1.26s/it]
+
+INFO 07-30 19:05:43 [default_loader.py:272] Loading weights took 2.92 seconds
+INFO 07-30 19:05:43 [hpu_model_runner.py:1184] Pre-loading model weights on hpu:0 took 12.55 GiB of device memory (12.56 GiB/126.5 GiB used) and 9.574 MiB of host memory (150.7 GiB/1007 GiB used)
+INFO 07-30 19:05:43 [hpu_model_runner.py:1266] Wrapping in HPU Graph took 0 B of device memory (12.56 GiB/126.5 GiB used) and 32 KiB of host memory (150.7 GiB/1007 GiB used)
+INFO 07-30 19:05:43 [hpu_model_runner.py:1270] Compiling took 0 B of device memory (12.56 GiB/126.5 GiB used) and 0 B of host memory (150.7 GiB/1007 GiB used)
+INFO 07-30 19:05:43 [hpu_model_runner.py:1274] Loading model weights took in total 12.55 GiB of device memory (12.56 GiB/126.5 GiB used) and 8.543 MiB of host memory (150.7 GiB/1007 GiB used)
+WARNING 07-30 19:05:44 [common.py:139] Prompt bucket for (1, 4096, 0) was not prepared. Adding new bucket: (1, 4096, 0)
+INFO 07-30 19:05:45 [hpu_worker.py:289] Model profiling run took 440 MiB of device memory (12.99 GiB/126.5 GiB used) and -361.8 MiB of host memory (150.3 GiB/1007 GiB used)
+INFO 07-30 19:05:45 [hpu_worker.py:313] Free device memory: 113.6 GiB, 102.2 GiB usable (gpu_memory_utilization=0.9), 10.22 GiB reserved for HPUGraphs (VLLM_GRAPH_RESERVED_MEM=0.1), 91.98 GiB reserved for KV cache
+INFO 07-30 19:05:46 [executor_base.py:113] # hpu blocks: 1471, # CPU blocks: 64
+INFO 07-30 19:05:46 [executor_base.py:118] Maximum concurrency for 4096 tokens per request: 45.97x
+INFO 07-30 19:05:46 [exponential.py:49] Prompt bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], seq:[128, 128, 4096, 13]
+INFO 07-30 19:05:46 [common.py:117] Generated 38 prompt buckets [bs, query, num_blocks]: [(1, 128, 0), (1, 256, 0), (1, 384, 0), (1, 512, 0), (1, 640, 0), (1, 768, 0), (1, 896, 0), (1, 1024, 0), (1, 1408, 0), (1, 1792, 0), (1, 2304, 0), (1, 3072, 0), (1, 4096, 0), (2, 128, 0), (2, 256, 0), (2, 384, 0), (2, 512, 0), (2, 640, 0), (2, 768, 0), (2, 896, 0), (2, 1024, 0), (2, 1408, 0), (2, 1792, 0), (4, 128, 0), (4, 256, 0), (4, 384, 0), (4, 512, 0), (4, 640, 0), (4, 768, 0), (4, 896, 0), (4, 1024, 0), (8, 128, 0), (8, 256, 0), (8, 384, 0), (8, 512, 0), (16, 128, 0), (16, 256, 0), (32, 128, 0)]
+INFO 07-30 19:05:46 [exponential.py:79] Decode bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], block:[128, 128, 1471, 12]
+INFO 07-30 19:05:46 [common.py:117] Generated 108 decode buckets [bs, query, num_blocks]: [(1, 1, 128), (1, 1, 256), (1, 1, 384), (1, 1, 512), (1, 1, 640), (1, 1, 768), (1, 1, 896), (1, 1, 1024), (1, 1, 1152), (1, 1, 1280), (1, 1, 1408), (1, 1, 1471), (2, 1, 128), (2, 1, 256), (2, 1, 384), (2, 1, 512), (2, 1, 640), (2, 1, 768), (2, 1, 896), (2, 1, 1024), (2, 1, 1152), (2, 1, 1280), (2, 1, 1408), (2, 1, 1471), (4, 1, 128), (4, 1, 256), (4, 1, 384), (4, 1, 512), (4, 1, 640), (4, 1, 768), (4, 1, 896), (4, 1, 1024), (4, 1, 1152), (4, 1, 1280), (4, 1, 1408), (4, 1, 1471), (8, 1, 128), (8, 1, 256), (8, 1, 384), (8, 1, 512), (8, 1, 640), (8, 1, 768), (8, 1, 896), (8, 1, 1024), (8, 1, 1152), (8, 1, 1280), (8, 1, 1408), (8, 1, 1471), (16, 1, 128), (16, 1, 256), (16, 1, 384), (16, 1, 512), (16, 1, 640), (16, 1, 768), (16, 1, 896), (16, 1, 1024), (16, 1, 1152), (16, 1, 1280), (16, 1, 1408), (16, 1, 1471), (32, 1, 128), (32, 1, 256), (32, 1, 384), (32, 1, 512), (32, 1, 640), (32, 1, 768), (32, 1, 896), (32, 1, 1024), (32, 1, 1152), (32, 1, 1280), (32, 1, 1408), (32, 1, 1471), (64, 1, 128), (64, 1, 256), (64, 1, 384), (64, 1, 512), (64, 1, 640), (64, 1, 768), (64, 1, 896), (64, 1, 1024), (64, 1, 1152), (64, 1, 1280), (64, 1, 1408), (64, 1, 1471), (128, 1, 128), (128, 1, 256), (128, 1, 384), (128, 1, 512), (128, 1, 640), (128, 1, 768), (128, 1, 896), (128, 1, 1024), (128, 1, 1152), (128, 1, 1280), (128, 1, 1408), (128, 1, 1471), (256, 1, 128), (256, 1, 256), (256, 1, 384), (256, 1, 512), (256, 1, 640), (256, 1, 768), (256, 1, 896), (256, 1, 1024), (256, 1, 1152), (256, 1, 1280), (256, 1, 1408), (256, 1, 1471)]
+INFO 07-30 19:05:47 [hpu_worker.py:350] Initializing cache engine took 91.94 GiB of device memory (104.9 GiB/126.5 GiB used) and 3.98 GiB of host memory (154.3 GiB/1007 GiB used)
+INFO 07-30 19:05:47 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][1/38] batch_size:32 query_len:128 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:48 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][2/38] batch_size:16 query_len:256 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:50 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][3/38] batch_size:16 query_len:128 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:51 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][4/38] batch_size:8 query_len:512 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:52 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][5/38] batch_size:8 query_len:384 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:54 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][6/38] batch_size:8 query_len:256 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:55 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][7/38] batch_size:8 query_len:128 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:56 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][8/38] batch_size:4 query_len:1024 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:58 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][9/38] batch_size:4 query_len:896 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:05:59 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][10/38] batch_size:4 query_len:768 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:01 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][11/38] batch_size:4 query_len:640 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:02 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][12/38] batch_size:4 query_len:512 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:04 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][13/38] batch_size:4 query_len:384 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:05 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][14/38] batch_size:4 query_len:256 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:07 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][15/38] batch_size:4 query_len:128 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:08 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][16/38] batch_size:2 query_len:1792 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:10 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][17/38] batch_size:2 query_len:1408 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:11 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][18/38] batch_size:2 query_len:1024 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:13 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][19/38] batch_size:2 query_len:896 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:14 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][20/38] batch_size:2 query_len:768 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:16 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][21/38] batch_size:2 query_len:640 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:18 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][22/38] batch_size:2 query_len:512 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:19 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][23/38] batch_size:2 query_len:384 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:21 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][24/38] batch_size:2 query_len:256 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:22 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][25/38] batch_size:2 query_len:128 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:24 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][26/38] batch_size:1 query_len:4096 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:26 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][27/38] batch_size:1 query_len:3072 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:28 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][28/38] batch_size:1 query_len:2304 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:30 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][29/38] batch_size:1 query_len:1792 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:31 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][30/38] batch_size:1 query_len:1408 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:33 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][31/38] batch_size:1 query_len:1024 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:35 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][32/38] batch_size:1 query_len:896 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:37 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][33/38] batch_size:1 query_len:768 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:38 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][34/38] batch_size:1 query_len:640 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:40 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][35/38] batch_size:1 query_len:512 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:42 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][36/38] batch_size:1 query_len:384 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:43 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][37/38] batch_size:1 query_len:256 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:45 [hpu_model_runner.py:3029] [Warmup][Graph/prompt][38/38] batch_size:1 query_len:128 num_blocks:0 free_mem:21.61 GiB
+INFO 07-30 19:06:47 [hpu_model_runner.py:3029] [Warmup][Graph/decode][1/108] batch_size:256 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:06:49 [hpu_model_runner.py:3029] [Warmup][Graph/decode][2/108] batch_size:256 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:06:51 [hpu_model_runner.py:3029] [Warmup][Graph/decode][3/108] batch_size:256 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:06:53 [hpu_model_runner.py:3029] [Warmup][Graph/decode][4/108] batch_size:256 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:06:55 [hpu_model_runner.py:3029] [Warmup][Graph/decode][5/108] batch_size:256 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:06:57 [hpu_model_runner.py:3029] [Warmup][Graph/decode][6/108] batch_size:256 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:06:59 [hpu_model_runner.py:3029] [Warmup][Graph/decode][7/108] batch_size:256 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:07:01 [hpu_model_runner.py:3029] [Warmup][Graph/decode][8/108] batch_size:256 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:07:03 [hpu_model_runner.py:3029] [Warmup][Graph/decode][9/108] batch_size:256 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:07:05 [hpu_model_runner.py:3029] [Warmup][Graph/decode][10/108] batch_size:256 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:07:07 [hpu_model_runner.py:3029] [Warmup][Graph/decode][11/108] batch_size:256 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:07:09 [hpu_model_runner.py:3029] [Warmup][Graph/decode][12/108] batch_size:256 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:07:11 [hpu_model_runner.py:3029] [Warmup][Graph/decode][13/108] batch_size:128 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:07:13 [hpu_model_runner.py:3029] [Warmup][Graph/decode][14/108] batch_size:128 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:07:15 [hpu_model_runner.py:3029] [Warmup][Graph/decode][15/108] batch_size:128 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:07:18 [hpu_model_runner.py:3029] [Warmup][Graph/decode][16/108] batch_size:128 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:07:20 [hpu_model_runner.py:3029] [Warmup][Graph/decode][17/108] batch_size:128 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:07:22 [hpu_model_runner.py:3029] [Warmup][Graph/decode][18/108] batch_size:128 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:07:24 [hpu_model_runner.py:3029] [Warmup][Graph/decode][19/108] batch_size:128 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:07:26 [hpu_model_runner.py:3029] [Warmup][Graph/decode][20/108] batch_size:128 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:07:29 [hpu_model_runner.py:3029] [Warmup][Graph/decode][21/108] batch_size:128 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:07:31 [hpu_model_runner.py:3029] [Warmup][Graph/decode][22/108] batch_size:128 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:07:33 [hpu_model_runner.py:3029] [Warmup][Graph/decode][23/108] batch_size:128 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:07:35 [hpu_model_runner.py:3029] [Warmup][Graph/decode][24/108] batch_size:128 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:07:37 [hpu_model_runner.py:3029] [Warmup][Graph/decode][25/108] batch_size:64 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:07:40 [hpu_model_runner.py:3029] [Warmup][Graph/decode][26/108] batch_size:64 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:07:42 [hpu_model_runner.py:3029] [Warmup][Graph/decode][27/108] batch_size:64 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:07:44 [hpu_model_runner.py:3029] [Warmup][Graph/decode][28/108] batch_size:64 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:07:47 [hpu_model_runner.py:3029] [Warmup][Graph/decode][29/108] batch_size:64 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:07:49 [hpu_model_runner.py:3029] [Warmup][Graph/decode][30/108] batch_size:64 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:07:51 [hpu_model_runner.py:3029] [Warmup][Graph/decode][31/108] batch_size:64 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:07:54 [hpu_model_runner.py:3029] [Warmup][Graph/decode][32/108] batch_size:64 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:07:56 [hpu_model_runner.py:3029] [Warmup][Graph/decode][33/108] batch_size:64 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:07:59 [hpu_model_runner.py:3029] [Warmup][Graph/decode][34/108] batch_size:64 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:08:01 [hpu_model_runner.py:3029] [Warmup][Graph/decode][35/108] batch_size:64 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:08:03 [hpu_model_runner.py:3029] [Warmup][Graph/decode][36/108] batch_size:64 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:08:06 [hpu_model_runner.py:3029] [Warmup][Graph/decode][37/108] batch_size:32 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:08:09 [hpu_model_runner.py:3029] [Warmup][Graph/decode][38/108] batch_size:32 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:08:11 [hpu_model_runner.py:3029] [Warmup][Graph/decode][39/108] batch_size:32 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:08:14 [hpu_model_runner.py:3029] [Warmup][Graph/decode][40/108] batch_size:32 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:08:17 [hpu_model_runner.py:3029] [Warmup][Graph/decode][41/108] batch_size:32 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:08:19 [hpu_model_runner.py:3029] [Warmup][Graph/decode][42/108] batch_size:32 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:08:22 [hpu_model_runner.py:3029] [Warmup][Graph/decode][43/108] batch_size:32 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:08:24 [hpu_model_runner.py:3029] [Warmup][Graph/decode][44/108] batch_size:32 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:08:27 [hpu_model_runner.py:3029] [Warmup][Graph/decode][45/108] batch_size:32 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:08:30 [hpu_model_runner.py:3029] [Warmup][Graph/decode][46/108] batch_size:32 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:08:32 [hpu_model_runner.py:3029] [Warmup][Graph/decode][47/108] batch_size:32 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:08:35 [hpu_model_runner.py:3029] [Warmup][Graph/decode][48/108] batch_size:32 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:08:38 [hpu_model_runner.py:3029] [Warmup][Graph/decode][49/108] batch_size:16 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:08:41 [hpu_model_runner.py:3029] [Warmup][Graph/decode][50/108] batch_size:16 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:08:43 [hpu_model_runner.py:3029] [Warmup][Graph/decode][51/108] batch_size:16 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:08:46 [hpu_model_runner.py:3029] [Warmup][Graph/decode][52/108] batch_size:16 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:08:49 [hpu_model_runner.py:3029] [Warmup][Graph/decode][53/108] batch_size:16 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:08:52 [hpu_model_runner.py:3029] [Warmup][Graph/decode][54/108] batch_size:16 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:08:54 [hpu_model_runner.py:3029] [Warmup][Graph/decode][55/108] batch_size:16 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:08:57 [hpu_model_runner.py:3029] [Warmup][Graph/decode][56/108] batch_size:16 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:09:00 [hpu_model_runner.py:3029] [Warmup][Graph/decode][57/108] batch_size:16 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:09:03 [hpu_model_runner.py:3029] [Warmup][Graph/decode][58/108] batch_size:16 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:09:06 [hpu_model_runner.py:3029] [Warmup][Graph/decode][59/108] batch_size:16 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:09:09 [hpu_model_runner.py:3029] [Warmup][Graph/decode][60/108] batch_size:16 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:09:12 [hpu_model_runner.py:3029] [Warmup][Graph/decode][61/108] batch_size:8 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:09:15 [hpu_model_runner.py:3029] [Warmup][Graph/decode][62/108] batch_size:8 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:09:18 [hpu_model_runner.py:3029] [Warmup][Graph/decode][63/108] batch_size:8 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:09:21 [hpu_model_runner.py:3029] [Warmup][Graph/decode][64/108] batch_size:8 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:09:24 [hpu_model_runner.py:3029] [Warmup][Graph/decode][65/108] batch_size:8 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:09:27 [hpu_model_runner.py:3029] [Warmup][Graph/decode][66/108] batch_size:8 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:09:30 [hpu_model_runner.py:3029] [Warmup][Graph/decode][67/108] batch_size:8 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:09:33 [hpu_model_runner.py:3029] [Warmup][Graph/decode][68/108] batch_size:8 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:09:36 [hpu_model_runner.py:3029] [Warmup][Graph/decode][69/108] batch_size:8 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:09:39 [hpu_model_runner.py:3029] [Warmup][Graph/decode][70/108] batch_size:8 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:09:42 [hpu_model_runner.py:3029] [Warmup][Graph/decode][71/108] batch_size:8 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:09:45 [hpu_model_runner.py:3029] [Warmup][Graph/decode][72/108] batch_size:8 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:09:48 [hpu_model_runner.py:3029] [Warmup][Graph/decode][73/108] batch_size:4 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:09:51 [hpu_model_runner.py:3029] [Warmup][Graph/decode][74/108] batch_size:4 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:09:54 [hpu_model_runner.py:3029] [Warmup][Graph/decode][75/108] batch_size:4 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:09:58 [hpu_model_runner.py:3029] [Warmup][Graph/decode][76/108] batch_size:4 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:10:01 [hpu_model_runner.py:3029] [Warmup][Graph/decode][77/108] batch_size:4 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:10:04 [hpu_model_runner.py:3029] [Warmup][Graph/decode][78/108] batch_size:4 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:10:07 [hpu_model_runner.py:3029] [Warmup][Graph/decode][79/108] batch_size:4 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:10:10 [hpu_model_runner.py:3029] [Warmup][Graph/decode][80/108] batch_size:4 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:10:14 [hpu_model_runner.py:3029] [Warmup][Graph/decode][81/108] batch_size:4 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:10:17 [hpu_model_runner.py:3029] [Warmup][Graph/decode][82/108] batch_size:4 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:10:20 [hpu_model_runner.py:3029] [Warmup][Graph/decode][83/108] batch_size:4 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:10:24 [hpu_model_runner.py:3029] [Warmup][Graph/decode][84/108] batch_size:4 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:10:27 [hpu_model_runner.py:3029] [Warmup][Graph/decode][85/108] batch_size:2 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:10:31 [hpu_model_runner.py:3029] [Warmup][Graph/decode][86/108] batch_size:2 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:10:34 [hpu_model_runner.py:3029] [Warmup][Graph/decode][87/108] batch_size:2 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:10:38 [hpu_model_runner.py:3029] [Warmup][Graph/decode][88/108] batch_size:2 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:10:41 [hpu_model_runner.py:3029] [Warmup][Graph/decode][89/108] batch_size:2 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:10:45 [hpu_model_runner.py:3029] [Warmup][Graph/decode][90/108] batch_size:2 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:10:48 [hpu_model_runner.py:3029] [Warmup][Graph/decode][91/108] batch_size:2 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:10:52 [hpu_model_runner.py:3029] [Warmup][Graph/decode][92/108] batch_size:2 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:10:55 [hpu_model_runner.py:3029] [Warmup][Graph/decode][93/108] batch_size:2 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:10:59 [hpu_model_runner.py:3029] [Warmup][Graph/decode][94/108] batch_size:2 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:11:02 [hpu_model_runner.py:3029] [Warmup][Graph/decode][95/108] batch_size:2 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:11:06 [hpu_model_runner.py:3029] [Warmup][Graph/decode][96/108] batch_size:2 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:11:09 [hpu_model_runner.py:3029] [Warmup][Graph/decode][97/108] batch_size:1 query_len:1 num_blocks:1471 free_mem:21.61 GiB
+INFO 07-30 19:11:13 [hpu_model_runner.py:3029] [Warmup][Graph/decode][98/108] batch_size:1 query_len:1 num_blocks:1408 free_mem:21.61 GiB
+INFO 07-30 19:11:17 [hpu_model_runner.py:3029] [Warmup][Graph/decode][99/108] batch_size:1 query_len:1 num_blocks:1280 free_mem:21.61 GiB
+INFO 07-30 19:11:20 [hpu_model_runner.py:3029] [Warmup][Graph/decode][100/108] batch_size:1 query_len:1 num_blocks:1152 free_mem:21.61 GiB
+INFO 07-30 19:11:24 [hpu_model_runner.py:3029] [Warmup][Graph/decode][101/108] batch_size:1 query_len:1 num_blocks:1024 free_mem:21.61 GiB
+INFO 07-30 19:11:28 [hpu_model_runner.py:3029] [Warmup][Graph/decode][102/108] batch_size:1 query_len:1 num_blocks:896 free_mem:21.61 GiB
+INFO 07-30 19:11:32 [hpu_model_runner.py:3029] [Warmup][Graph/decode][103/108] batch_size:1 query_len:1 num_blocks:768 free_mem:21.61 GiB
+INFO 07-30 19:11:35 [hpu_model_runner.py:3029] [Warmup][Graph/decode][104/108] batch_size:1 query_len:1 num_blocks:640 free_mem:21.61 GiB
+INFO 07-30 19:11:39 [hpu_model_runner.py:3029] [Warmup][Graph/decode][105/108] batch_size:1 query_len:1 num_blocks:512 free_mem:21.61 GiB
+INFO 07-30 19:11:43 [hpu_model_runner.py:3029] [Warmup][Graph/decode][106/108] batch_size:1 query_len:1 num_blocks:384 free_mem:21.61 GiB
+INFO 07-30 19:11:46 [hpu_model_runner.py:3029] [Warmup][Graph/decode][107/108] batch_size:1 query_len:1 num_blocks:256 free_mem:21.61 GiB
+INFO 07-30 19:11:50 [hpu_model_runner.py:3029] [Warmup][Graph/decode][108/108] batch_size:1 query_len:1 num_blocks:128 free_mem:21.61 GiB
+INFO 07-30 19:11:54 [hpu_model_runner.py:3152] Prompt captured:38 (100.0%) used_mem:0 B
+INFO 07-30 19:11:54 [hpu_model_runner.py:3152] Decode captured:108 (100.0%) used_mem:0 B
+INFO 07-30 19:11:54 [hpu_model_runner.py:3280] Warmup finished in 367 secs, allocated 0 B of device memory
+INFO 07-30 19:11:54 [llm_engine.py:431] init engine (profile, create kv cache, warmup model) took 370.46 seconds
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+WARNING 07-30 19:11:54 [config.py:1364] Default sampling parameters have been overridden by the model's Hugging Face generation config recommended from the model creator. If this is not intended, please relaunch vLLM instance with `--generation-config vllm`.
+INFO 07-30 19:11:54 [serving_chat.py:118] Using default chat sampling params from model: {'temperature': 0.9, 'top_p': 0.6}
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+INFO 07-30 19:11:54 [serving_completion.py:66] Using default completion sampling params from model: {'temperature': 0.9, 'top_p': 0.6}
+INFO 07-30 19:11:54 [api_server.py:1351] Starting vLLM API server 0 on http://0.0.0.0:8000
+INFO 07-30 19:11:54 [launcher.py:29] Available routes are:
+INFO 07-30 19:11:54 [launcher.py:37] Route: /openapi.json, Methods: HEAD, GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /docs, Methods: HEAD, GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /docs/oauth2-redirect, Methods: HEAD, GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /redoc, Methods: HEAD, GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /health, Methods: GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /load, Methods: GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /ping, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /ping, Methods: GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /tokenize, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /detokenize, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /v1/models, Methods: GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /version, Methods: GET
+INFO 07-30 19:11:54 [launcher.py:37] Route: /v1/chat/completions, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /v1/completions, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /v1/embeddings, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /pooling, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /classify, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /score, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /v1/score, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /v1/audio/transcriptions, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /rerank, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /v1/rerank, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /v2/rerank, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /invocations, Methods: POST
+INFO 07-30 19:11:54 [launcher.py:37] Route: /metrics, Methods: GET
+INFO:     Started server process [3433681]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO 07-30 19:17:51 [logger.py:43] Received request cmpl-92ea11ec7e07493f9b11c348af2ca73c-0: prompt: 'You are llama2, a large-language model and AI assistant created by Facebook.\nDescribe what is LLaMA model and its architecture in detail.', params: SamplingParams(n=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.9, top_p=0.6, top_k=0, min_p=0.0, seed=None, stop=[], stop_token_ids=[], bad_words=[], include_stop_str_in_output=False, ignore_eos=False, max_tokens=1000, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None, guided_decoding=None, extra_args=None), prompt_token_ids: [1, 887, 526, 11148, 3304, 29906, 29892, 263, 2919, 29899, 11675, 1904, 322, 319, 29902, 20255, 2825, 491, 13327, 29889, 13, 4002, 29581, 825, 338, 365, 5661, 1529, 1904, 322, 967, 11258, 297, 9493, 29889], prompt_embeds shape: None, lora_request: None, prompt_adapter_request: None.
+INFO 07-30 19:17:51 [engine.py:331] Added request cmpl-92ea11ec7e07493f9b11c348af2ca73c-0.
+INFO 07-30 19:17:51 [metrics.py:417] Avg prompt throughput: 5.1 tokens/s, Avg generation throughput: 0.1 tokens/s, Running: 1 reqs, Swapped: 0 reqs, Pending: 0 reqs, GPU KV cache usage: 0.1%, CPU KV cache usage: 0.0%.
+INFO 07-30 19:17:56 [metrics.py:417] Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 115.1 tokens/s, Running: 1 reqs, Swapped: 0 reqs, Pending: 0 reqs, GPU KV cache usage: 0.4%, CPU KV cache usage: 0.0%.
+INFO:     127.0.0.1:52404 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO 07-30 19:18:10 [metrics.py:417] Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 30.9 tokens/s, Running: 0 reqs, Swapped: 0 reqs, Pending: 0 reqs, GPU KV cache usage: 0.1%, CPU KV cache usage: 0.0%.
+INFO 07-30 19:18:20 [metrics.py:417] Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 0.0 tokens/s, Running: 0 reqs, Swapped: 0 reqs, Pending: 0 reqs, GPU KV cache usage: 0.1%, CPU KV cache usage: 0.0%.
+Received Interrupt
+INFO 07-30 19:23:18 [launcher.py:80] Shutting down FastAPI HTTP server.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
