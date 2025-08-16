@@ -1,0 +1,22 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Traceback (most recent call last):
+  File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Llamma2-7B/Hugging_face/gaudi_2/benchmark_llamma2.py", line 8, in <module>
+    from transformers import AutoTokenizer, AutoModelForCausalLM, TextStreamer
+  File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/core/__init__.py", line 106, in wrapper
+    ret = original_fn(*args, **kwargs)
+ModuleNotFoundError: No module named 'transformers'
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[26827,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+
+power_usage in power_log.csv

@@ -11,7 +11,7 @@ hl-smi -Q timestamp,power.draw -f csv -l 1 > "$POWER_LOG" &
 POWER_PID=$!
 
 # Run your Python model
-python "$PYTHON_SCRIPT"
+mpirun --allow-run-as-root -np 1     python "$PYTHON_SCRIPT"
 
 # Kill power monitoring after model finishes
 kill $POWER_PID
