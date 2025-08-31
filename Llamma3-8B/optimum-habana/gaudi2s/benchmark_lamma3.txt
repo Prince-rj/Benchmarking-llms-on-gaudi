@@ -1,0 +1,208 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+[WARNING|utils.py:212] 2025-08-25 19:38:12,013 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but habana-frameworks v1.22.0.538 was found, this could lead to undefined behavior!
+[WARNING|utils.py:212] 2025-08-25 19:38:12,014 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but habana-frameworks v1.22.0.538 was found, this could lead to undefined behavior!
+[WARNING|utils.py:225] 2025-08-25 19:38:12,641 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but the driver version is v1.22.0, this could lead to undefined behavior!
+[WARNING|utils.py:225] 2025-08-25 19:38:12,647 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but the driver version is v1.22.0, this could lead to undefined behavior!
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Running on 2 HPUs...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:5803: UserWarning: "hpu:X" notation is not supported by Gaudi PyTorch intergration bridge. Please change to "hpu" without index (Triggered internally at /npu-stack/pytorch-integration/habana_eager/ops/empty.cpp:37.)
+  _ = torch.empty(byte_count // factor, dtype=torch.float16, device=device, requires_grad=False)
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 1
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 160
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:787: UserWarning: "hpu:X" notation is not supported by Gaudi PyTorch intergration bridge. Please change to "hpu" without index (Triggered internally at /npu-stack/pytorch-integration/habana_eager/ops/empty.cpp:74.)
+  param = param[...]
+Loading checkpoint shards:  14%|█▍        | 1/7 [00:03<00:20,  3.38s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:03<00:20,  3.37s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:04<00:09,  1.92s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:04<00:09,  1.90s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:05<00:05,  1.49s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:05<00:06,  1.50s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:06<00:03,  1.31s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:06<00:03,  1.31s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:07<00:02,  1.18s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:07<00:02,  1.18s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:08<00:01,  1.13s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:08<00:01,  1.13s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:08<00:00,  1.08it/s]Loading checkpoint shards: 100%|██████████| 7/7 [00:08<00:00,  1.25s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:08<00:00,  1.08it/s]Loading checkpoint shards: 100%|██████████| 7/7 [00:08<00:00,  1.26s/it]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+<|begin_of_text|>what is Llama3 explain in very detail along with Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+<|begin_of_text|>what is Llama3 explain in very detail along with architecture.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+architecture.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+LLaMA LLaMA (Large (Large Language Language Model Model Application) Application) is is an an artificial artificial intelligence intelligence model model developed developed by by Meta Meta AI, AI. designed to It's a process and large generate language model human-like that can language. process and generate LLaMA is human-like a large language, language similar to model, other similar popular to language other models popular like models like BERT and BERT and RoBERTa. RoBERTa, but with LLaMA some is key designed differences to in be its highly architecture efficient and and training scalable, objectives. making it Here's suitable a for detailed a explanation wide of range of applications, LLaMA, from including its chatbots architecture and and virtual key assistants features:
+
+to text summarization **Architecture:**
+
+and language translation.
+
+Architecture:
+LLaMA's architecture ----------------
+
+is based The on architecture a of transformer LLaMA encoder-decoder is based model, on which the is transformer a type model, of which neural is network a designed type specifically of for neural natural network language designed processing specifically for tasks. natural The language model processing consists of tasks. several The key transformer components:
+
+model consists of 1. an encoder and **Encoder:** a The encoder decoder, takes which in are a used sequence to of process tokens input sequences (such and as generate words output or sequences, characters) respectively.
+
+and outputs a Here's continuous a representation detailed of overview the of input the sequence. This LLaMA representation architecture:
+
+is called ### the Encoder
+
+The encoder "contextualized is responsible embedding." for The processing encoder the is input based sequence on and a generating transformer a set architecture, of which vectors consists of that multiple represent layers the of input. The self-attention encoder and consists of feed-forward multiple neural networks.
+layers, each of 2. which applies a **Decoder:** The decoder self-attention takes mechanism in to the the input contextualized sequence.
+
+embedding from #### the encoder and generates Self-Attention a Mechanism
+
+sequence of The tokens as self-attention output. mechanism The is decoder a is key also component based of on the a transformer transformer model. architecture, It with allows multiple the layers model of to attend to self-attention different and parts of feed-forward the neural input networks.
+sequence simultaneously 3. and weigh their **Self-Attention importance. The Mechanism:** self-attention LLaMA mechanism uses consists a of three components:
+
+self-attention mechanism 1. to allow  the **Query model to focus on (Q)**: different The parts query of is the a input sequence vector that simultaneously. represents This the input is achieved sequence.
+by computing attention 2.  weights between **Key each token and every (K)**: other token The in key the is a sequence, vector and that then represents using the these input weights sequence.
+to compute 3. a  weighted sum of **Value the token embeddings.
+(V)**: The 4. value is a **Positional vector that Encoding:** represents the input LLaMA sequence.
+
+uses positional The encoding to incorporate self-attention information mechanism about computes the the position dot of product each of token the in query the and input key sequence. This vectors, is which achieved produces by a adding score a that learned represents vector the to relevance each of each token input embedding element that represents to its the position in query. The the scores sequence.
+
+are then used **Key to compute Features:**
+
+a weighted sum 1. of the **Large value Model vectors, Size:** which produces the LLaMA final is output.
+
+a large #### language model, Multi-Head with a Attention
+
+total The of multi-head attention mechanism 7.5 is billion an parameters. extension This of is the significantly larger than self-attention other popular mechanism. language It models allows like the model to BERT attend and to different parts of RoBERTa, the which input have around sequence simultaneously and weigh 100-200 their million importance parameters.
+in multiple ways.
+
+2. The multi-head **Multi-Task attention mechanism Training:** consists of multiple LLaMA is trained self-attention on a heads, variety each of of which tasks, applies including the language translation, self-attention question mechanism to answering, the and input text sequence. classification. The This outputs of multi-task each training head approach are allows then the concatenated model and to learn linearly a transformed more to general produce and the robust final representation output.
+
+of language.
+### Decoder
+
+3. The decoder is responsible for **Pre-Training:** generating the LLaMA output is sequence based pre-trained on on the a input large sequence corpus and of the text encoder data, output. which The allows decoder the consists model of to multiple learn a layers, rich each and of nuanced which representation applies of a language. The self-attention mechanism pre-training to process involves the output training sequence.
+
+the model #### on a masked Cross-Attention language modeling Mechanism
+
+task, The where some of cross-attention the mechanism input is tokens a are key randomly component replaced with of a the decoder. It [MASK] allows token, the model and the to attend model is to trained the to encoder output predict the and original generate output token.
+sequences that are 4. relevant to the input sequence.
+
+**Fine-Tuning:** After The pre-training, cross-attention mechanism computes LLaMA can the be dot product of fine-tuned the on query specific and tasks key and datasets vectors, to which adapt produces to a the score task that at represents the hand. relevance This of involves each training encoder the output model element on to a the smaller dataset query. and The adjusting scores the are model's then parameters used to to optimize compute its a weighted performance sum on of the the task.
+
+value vectors, **Training which produces Objectives:**
+
+the final output.
+
+### LLaMA Feed is trained Forward on Network a variety of (FFN)
+
+objectives, The including:
+
+feed forward network 1. **Masked (FFN) Language is a Modeling:** fully This connected involves neural training network the that model is to used predict to the transform original the token output when of some the of encoder the and input decoder tokens are layers. randomly The replaced with FFN a consists of two [MASK] token.
+linear transformations and 2. a **Next ReLU Sentence activation function.
+
+Prediction:** This ### involves training the Positional Encoding
+
+model to The predict positional whether encoding two is input a sentences mechanism are that adjacent allows in the the model original to text.
+preserve the order 3. of the **Text input Classification:** sequence. This The involves positional training encoding the consists model of to a classify vector text that into is different added categories to the (such input as positive sequence, or which negative represents sentiment).
+the position of 4. each element **Question in the sequence.
+
+Answering:** This ### involves Architecture training Diagram
+
+the model to answer Here's questions a based on high-level a architecture given diagram text of passage.
+
+LLaMA:
+**Advantages:**
+
+```markdown
+1. +---------------+
+**Improved | Language  Input Understanding:**  |
++---------------+
+LLaMA's       large  |
+model       size  |
+and        multi-task v
+training approach allow +---------------+
+it to | learn  a Encoder more  |
+general and | robust representation  of language.
+(Multi-Head 2.  |
+**Better |  Performance  on Attention) |
+Downstream Tasks:** +---------------+
+       |
+      LLaMA's  |
+      pre-training  and v
+fine-tuning approach +---------------+
+allow it | to  adapt Encoder to  |
+specific tasks | and  Output datasets,  |
+leading to improved +---------------+
+performance       on  |
+downstream       tasks.
+ |
+       3. v
+**Improved +---------------+
+Efficiency:** |  Decoder LLaMA's  |
+transformer architecture | and  self-attention mechanism (Cross- allow  |
+it to |  process  input sequences Attention) |
+more efficiently than +---------------+
+traditional       recurrent  |
+neural       networks.
+
+ |
+       v
+**Disadvantages:**
+
++---------------+
+| 1.  Decoder **High  |
+Computational | Requirements:**  Output  |
+LLaMA's large model +---------------+
+size       and  |
+training       requirements  |
+make       it  v
+computationally expensive to +---------------+
+train and | deploy.
+ FFN 2.  |
+**Data +---------------+
+Requirements:**        |
+      LLaMA  |
+requires       a  large v
+corpus of text +---------------+
+data to | train  and Positional  |
+fine-tune, which | can  be Encoding difficult  |
+to obtain and +---------------+
+process.
+       |
+      3.  |
+       v
+**Interpretability:** +---------------+
+| LLaMA's  Output complex  |
+architecture and large model +---------------+
+size make ```
+it challenging Training:
+to ---------
+
+interpret and understand the LLaMA is model's trained decisions.
+
+on a In large dataset summary, of text, LLaMA which is is a split large into language input model sequences developed and by output Meta sequences. AI, The designed model to is process trained and to generate predict the human-like output language. sequence Its based architecture on is the based input on sequence.
+
+a transformer The training process encoder-decoder involves the model, following with steps:
+
+a 1. self-attention  mechanism and **Data positional Preparation**: encoding. The input and LLaMA output is trained sequences on are a prepared variety by of tasks tokenizing and the text objectives, and including converting masked it language into a modeling, numerical next representation.
+sentence prediction, 2. text  classification, **Model and question Initialization**: The answering. model Its is large initialized model size with random and weights and multi-task biases.
+training approach allow
+3.  **Training**: The model is trained on the input and output sequences using a combination
+
+=== Benchmark Results ===
+Prompt length: 14 tokens
+Generated tokens: 1000
+Time to First Token (TTFT): 0.0064 sec
+Inter-Token Latency (Mean): 0.1693 sec
+Inter-Token Latency (Median): 0.1664 sec
+Throughput: 5.90 tokens/sec
+
+power_usage in power_log.csv

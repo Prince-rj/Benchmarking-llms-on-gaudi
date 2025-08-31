@@ -10,7 +10,7 @@ import habana_frameworks.torch.core as htcore  # HPU ops (mark_step)
 ###############################################################################
 # Config
 ###############################################################################
-MODEL_ID = "/software/data/llama_inference/Llama-2-7b-hf/"
+MODEL_ID = "/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct"
 PROMPT = "Explain Llama 2 and DeepSpeed inference."
 MAX_NEW_TOKENS = 1000
 DTYPE = torch.bfloat16
@@ -78,10 +78,10 @@ def main():
     base_model = AutoModelForCausalLM.from_pretrained(MODEL_ID, torch_dtype=DTYPE)
     ds_engine = deepspeed.init_inference(
         base_model,
-        mp_size=world_size,           # shard across N HPUs
+        mp_size=2,           # shard across N HPUs
         dtype=DTYPE,
         replace_method="auto",
-        replace_with_kernel_inject=True
+        replace_with_kernel_inject=False
     )
 
     # DeepSpeed returns an engine; actual model is in .module

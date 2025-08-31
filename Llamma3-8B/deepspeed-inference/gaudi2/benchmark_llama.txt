@@ -1,0 +1,66 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+[2025-08-27 19:05:36,857] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-27 19:05:37,527] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[Info] World size: 1, using HPU local_rank=0
+[Info] Loading tokenizer from: /mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct
+[Info] Loading model on rank 0 ...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:01<00:08,  1.40s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:02<00:06,  1.38s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:04<00:05,  1.40s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:05<00:04,  1.42s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:07<00:02,  1.40s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:08<00:01,  1.41s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:09<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:09<00:00,  1.31s/it]
+[2025-08-27 19:05:47,217] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-08-27 19:05:47,218] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-27 19:05:47,218] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-08-27 19:05:47,282] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-27 19:05:47,282] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 0
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 160
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[Info] Starting timed generation...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Generated text:
+ Explain Llama 2 and DeepSpeed inference. Llama 2 is a large language model developed by Meta AI, and DeepSpeed is a library developed by Microsoft that provides tools for scaling up AI training and inference. Llama 2 uses a combination of techniques, including quantization and pruning, to reduce the size of the model while preserving its performance. DeepSpeed inference is a feature that allows for efficient inference on large models like Llama 2, by using techniques such as model parallelism and pipelining to break down the computation into smaller chunks that can be executed in parallel.
+
+## Step 1: Understanding Llama 2
+Llama 2 is a large language model developed by Meta AI, designed to process and generate human-like language. It's a significant improvement over its predecessor, Llama, with enhanced capabilities in understanding and generating text.
+
+## Step 2: Understanding DeepSpeed
+DeepSpeed is a library developed by Microsoft that focuses on optimizing AI model training and inference. It provides tools and techniques to scale up AI workloads, making them more efficient and manageable.
+
+## Step 3: Exploring Llama 2's Optimization Techniques
+Llama 2 employs various techniques to optimize its performance and reduce its size. Two key methods are quantization and pruning. Quantization involves reducing the precision of model weights and activations to decrease memory usage and computation time. Pruning involves removing unnecessary connections in the model to reduce its complexity and size.
+
+## Step 4: Understanding DeepSpeed Inference
+DeepSpeed inference is a feature that allows for efficient inference on large models like Llama 2. It achieves this through model parallelism and pipelining. Model parallelism involves splitting the model into smaller parts and distributing them across multiple devices for parallel computation. Pipelining involves breaking down the computation into smaller, independent stages that can be executed in parallel, reducing the overall processing time.
+
+## Step 5: Combining Llama 2 and DeepSpeed Inference
+When Llama 2 is used in conjunction with DeepSpeed inference, it benefits from the optimized training and inference capabilities provided by DeepSpeed. This combination allows for faster and more efficient processing of large language models like Llama 2, making it suitable for a wide range of applications.
+
+The final answer is: There is no specific numerical answer to this problem as it involves explaining concepts and processes. However, I can provide a summary statement based on the steps outlined above:
+
+Llama 2, a large language model developed by Meta AI, when combined with DeepSpeed inference, benefits from optimized training and inference capabilities, making it suitable for a wide range of applications. This combination leverages techniques such as model parallelism and pipelining to achieve faster and more efficient processing of large language models.  (Note: This is not a numerical answer but a summary statement based on the provided steps.) 0.0 (This is a placeholder for a numerical answer, but since the problem requires a descriptive answer, it's not applicable.) 0.0 (Again, a placeholder for a numerical answer that doesn't apply to this problem.) 0.0 (One more placeholder, as the problem doesn't require a numerical solution.) 0.0 (Final placeholder, as the problem is descriptive and doesn't require a numerical answer.) 0.0 (The final placeholder, indicating that the problem doesn't require a numerical solution.) 0.0 (Placeholder for the final answer, indicating that a numerical solution is not applicable.) 0.0 (The last placeholder, as the problem requires a descriptive answer.) 0.0 (The final placeholder, indicating that a numerical solution is not required.) 0.0 (The last placeholder, as the problem is descriptive and doesn't require a numerical answer.) 0.0 (The final placeholder, indicating that a numerical solution is not applicable.) 0.0 (The last placeholder, as the problem requires a descriptive answer.) 0.0 (The final placeholder, indicating that a numerical solution is not required.) 0.0 (The last placeholder, as the problem is descriptive and doesn't require a numerical answer.) 0.0 (The final placeholder, indicating that a numerical solution is not applicable.) 0.0 (The last placeholder, as the problem requires a descriptive answer.) 0.0 (The final placeholder, indicating that a numerical solution is not required.) 0.0 (The last placeholder, as the problem is descriptive and doesn't require a numerical answer.) 0.0 (The final placeholder, indicating that a numerical solution is not applicable.) 0.0 (The last placeholder, as the problem requires a descriptive answer.) 0.0 (The final placeholder, indicating that a numerical solution is not required.) 0.0 (The last placeholder, as the problem is descriptive and doesn't require a numerical answer.) 0.0 (The final placeholder, indicating that a numerical solution is not applicable.) 
+
+=== Benchmark Metrics (rank 0) ===
+World size: 1
+Prompt length: 12 tokens
+Generated tokens: 1000
+Total time: 180.6399 sec
+Time to First Token (TTFT): 0.1806 sec
+Inter-Token Latency (Mean): 0.1806 sec
+Inter-Token Latency (Median): 0.1806 sec
+Throughput: 5.54 tokens/sec
+
+power_usage in power_log.csv

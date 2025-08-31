@@ -1,0 +1,56 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+[WARNING|utils.py:212] 2025-08-24 17:06:24,057 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but habana-frameworks v1.22.0.538 was found, this could lead to undefined behavior!
+[WARNING|utils.py:225] 2025-08-24 17:06:24,254 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but the driver version is v1.22.0, this could lead to undefined behavior!
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Running on 1 HPUs...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 1
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 160
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Loading checkpoint shards:  14%|█▍        | 1/7 [00:03<00:20,  3.43s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:04<00:09,  1.95s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:05<00:05,  1.47s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:06<00:03,  1.25s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:06<00:02,  1.10s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:07<00:01,  1.03s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:08<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 7/7 [00:08<00:00,  1.19s/it]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+<|begin_of_text|>what is Llama3 explain in very detail along with architecture.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! I want to know all the details about Llama3.
+Please go through the following link for Llama3 architecture details:
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/creating_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/visualizing_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/adding_a_large_area_3d_reconstruction_to_a_scene
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/using_a_large_area_3d_reconstruction_to_simulate_real_world_scenes
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction
+https://developer.apple.com/documentation/arkit/large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d_reconstruction/working_with_a_large_area_3d
+
+=== Benchmark Results ===
+Prompt length: 14 tokens
+Generated tokens: 1000
+Time to First Token (TTFT): 0.0067 sec
+Inter-Token Latency (Mean): 0.1637 sec
+Inter-Token Latency (Median): 0.1614 sec
+Throughput: 6.10 tokens/sec
+
+power_usage in power_log.csv
