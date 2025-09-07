@@ -1,0 +1,1012 @@
+🟢 Starting power monitoring...
+🚀 Running benchmarks from prompts.txt...
+[1/200] Running: What is LLaMA 2 and how does it work?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is LLaMA 2 and how does it work?
+[2/200] Running: Explain the architecture of a transformer model....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the architecture of a transformer model.
+[3/200] Running: What are the core differences between CNN and RNN?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are the core differences between CNN and RNN?
+[4/200] Running: Describe how attention mechanism improves translation models...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how attention mechanism improves translation models.
+[5/200] Running: What is the role of positional encoding in transformers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the role of positional encoding in transformers?
+[6/200] Running: How does self-attention differ from cross-attention?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does self-attention differ from cross-attention?
+[7/200] Running: Explain the concept of tokenization in NLP....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the concept of tokenization in NLP.
+[8/200] Running: What is the vanishing gradient problem and how to mitigate i...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the vanishing gradient problem and how to mitigate it?
+[9/200] Running: Describe how Gaudi architecture differs from NVIDIA GPUs....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how Gaudi architecture differs from NVIDIA GPUs.
+[10/200] Running: What is model parallelism and how does it help scale large m...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is model parallelism and how does it help scale large models?
+[11/200] Running: Explain the difference between GPT and BERT architectures....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the difference between GPT and BERT architectures.
+[12/200] Running: How does prompt engineering affect language model outputs?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does prompt engineering affect language model outputs?
+[13/200] Running: What is the function of layer normalization in deep networks...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the function of layer normalization in deep networks?
+[14/200] Running: Explain causal language modeling with examples....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain causal language modeling with examples.
+[15/200] Running: What is quantization and how does it improve inference perfo...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is quantization and how does it improve inference performance?
+[16/200] Running: Describe how fine-tuning works for large language models....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how fine-tuning works for large language models.
+[17/200] Running: What are LoRA adapters and how do they help in parameter-eff...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are LoRA adapters and how do they help in parameter-efficient training?
+[18/200] Running: Explain the purpose of rotary positional embeddings....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the purpose of rotary positional embeddings.
+[19/200] Running: How does DeepSpeed improve model training efficiency?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does DeepSpeed improve model training efficiency?
+[20/200] Running: Compare data parallelism and pipeline parallelism....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Compare data parallelism and pipeline parallelism.
+[21/200] Running: What is ALiBi positional encoding?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is ALiBi positional encoding?
+[22/200] Running: Describe the purpose of HF Transformers library....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe the purpose of HF Transformers library.
+[23/200] Running: How do attention heads capture contextual meaning?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How do attention heads capture contextual meaning?
+[24/200] Running: What is dynamic batching in inference servers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is dynamic batching in inference servers?
+[25/200] Running: Explain greedy decoding vs beam search vs sampling....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain greedy decoding vs beam search vs sampling.
+[26/200] Running: What is perplexity in language models and why is it importan...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is perplexity in language models and why is it important?
+[27/200] Running: How does mixed precision training benefit model training?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does mixed precision training benefit model training?
+[28/200] Running: What is the function of the softmax layer in transformers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the function of the softmax layer in transformers?
+[29/200] Running: Explain embeddings and how they're used in NLP models....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain embeddings and how they're used in NLP models.
+[30/200] Running: Describe the function of the tokenizer's vocabulary....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe the function of the tokenizer's vocabulary.
+[31/200] Running: What is causal masking in transformer decoders?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is causal masking in transformer decoders?
+[32/200] Running: How does gradient checkpointing reduce memory usage?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does gradient checkpointing reduce memory usage?
+[33/200] Running: Explain the difference between encoder-decoder and decoder-o...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the difference between encoder-decoder and decoder-only models.
+[34/200] Running: What is zero-shot vs few-shot vs fine-tuned inference?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is zero-shot vs few-shot vs fine-tuned inference?
+[35/200] Running: What are prompt templates and why do they matter?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are prompt templates and why do they matter?
+[36/200] Running: Explain the role of BOS and EOS tokens in transformers....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the role of BOS and EOS tokens in transformers.
+[37/200] Running: What is a floating-point tensor and how is it represented?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a floating-point tensor and how is it represented?
+[38/200] Running: What are hypernetworks in neural architectures?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are hypernetworks in neural architectures?
+[39/200] Running: Explain MoE (Mixture of Experts) architecture....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain MoE (Mixture of Experts) architecture.
+[40/200] Running: What is distillation in model compression?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is distillation in model compression?
+[41/200] Running: How do you implement top-k and top-p sampling?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How do you implement top-k and top-p sampling?
+[42/200] Running: What is a vector database and how is it used with LLMs?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a vector database and how is it used with LLMs?
+[43/200] Running: Describe how you would use RAG (Retrieval Augmented Generati...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how you would use RAG (Retrieval Augmented Generation).
+[44/200] Running: What is streaming inference and how is it used?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is streaming inference and how is it used?
+[45/200] Running: How does TTFT relate to user-perceived latency?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does TTFT relate to user-perceived latency?
+[46/200] Running: Explain transformer decoder blocks layer-by-layer....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain transformer decoder blocks layer-by-layer.
+[47/200] Running: What is a KV cache in transformer inference?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a KV cache in transformer inference?
+[48/200] Running: Describe token-by-token generation and its challenges....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe token-by-token generation and its challenges.
+[49/200] Running: How does LLaMA 2 compare to GPT-3.5?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does LLaMA 2 compare to GPT-3.5?
+[50/200] Running: Explain the training data pipeline for a large model....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the training data pipeline for a large model.
+[51/200] Running: What are the ethical concerns with generative models?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are the ethical concerns with generative models?
+[52/200] Running: How do transformers process multilingual text?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How do transformers process multilingual text?
+[53/200] Running: What are flash attention mechanisms?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are flash attention mechanisms?
+[54/200] Running: Describe how memory-efficient attention works....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how memory-efficient attention works.
+[55/200] Running: What is inference throughput and how is it calculated?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is inference throughput and how is it calculated?
+[56/200] Running: Explain how masked self-attention works in BERT....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain how masked self-attention works in BERT.
+[57/200] Running: How do instruction-tuned models differ from base models?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How do instruction-tuned models differ from base models?
+[58/200] Running: Describe an RLHF (Reinforcement Learning from Human Feedback...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe an RLHF (Reinforcement Learning from Human Feedback) process.
+[59/200] Running: What is SFT (Supervised Fine-Tuning) in LLM training?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is SFT (Supervised Fine-Tuning) in LLM training?
+[60/200] Running: Explain the role of HPU in Gaudi chips....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the role of HPU in Gaudi chips.
+[61/200] Running: What is a causal attention mask?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a causal attention mask?
+[62/200] Running: Describe the HF `generate()` function in Transformers....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe the HF `generate()` function in Transformers.
+[63/200] Running: Explain differences between T5, BART, and GPT models....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain differences between T5, BART, and GPT models.
+[64/200] Running: What is model checkpointing and resumption?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is model checkpointing and resumption?
+[65/200] Running: Describe how checkpoint sharding works in distributed traini...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how checkpoint sharding works in distributed training.
+[66/200] Running: How are model weights stored in HuggingFace format?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How are model weights stored in HuggingFace format?
+[67/200] Running: Explain the impact of batch size on training and inference....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the impact of batch size on training and inference.
+[68/200] Running: What are fused kernels and why are they fast?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are fused kernels and why are they fast?
+[69/200] Running: How does the `AutoModelForCausalLM` class work?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does the `AutoModelForCausalLM` class work?
+[70/200] Running: What are tensor parallel and tensor slicing?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are tensor parallel and tensor slicing?
+[71/200] Running: Describe the key steps of model serving using vLLM....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe the key steps of model serving using vLLM.
+[72/200] Running: What are inference graphs in deep learning?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are inference graphs in deep learning?
+[73/200] Running: What is a streaming response in OpenAI-style APIs?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a streaming response in OpenAI-style APIs?
+[74/200] Running: How does speculative decoding reduce latency?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does speculative decoding reduce latency?
+[75/200] Running: What is JAX and how is it different from PyTorch?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is JAX and how is it different from PyTorch?
+[76/200] Running: Describe lazy loading of weights in vLLM....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe lazy loading of weights in vLLM.
+[77/200] Running: Explain the role of SynapseAI in Gaudi software stack....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the role of SynapseAI in Gaudi software stack.
+[78/200] Running: What are the differences between HPU and GPU tensors?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are the differences between HPU and GPU tensors?
+[79/200] Running: What are the limitations of LLaMA 2?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are the limitations of LLaMA 2?
+[80/200] Running: How is multilingual performance evaluated in LLMs?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How is multilingual performance evaluated in LLMs?
+[81/200] Running: Describe an example use of prompt tuning....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe an example use of prompt tuning.
+[82/200] Running: What is the attention bottleneck and how to address it?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the attention bottleneck and how to address it?
+[83/200] Running: How does token alignment affect downstream tasks?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does token alignment affect downstream tasks?
+[84/200] Running: What are the challenges in inference on edge devices?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are the challenges in inference on edge devices?
+[85/200] Running: Explain the principle behind rotary embeddings....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the principle behind rotary embeddings.
+[86/200] Running: How does temperature affect language model output?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does temperature affect language model output?
+[87/200] Running: What are stop sequences in generation APIs?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are stop sequences in generation APIs?
+[88/200] Running: Describe token streaming latency optimization....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe token streaming latency optimization.
+[89/200] Running: How to evaluate hallucinations in language models?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to evaluate hallucinations in language models?
+[90/200] Running: What is the purpose of `bos_token_id`?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the purpose of `bos_token_id`?
+[91/200] Running: How are fused attention layers implemented?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How are fused attention layers implemented?
+[92/200] Running: Describe a pipeline for deploying LLaMA 2 in production....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe a pipeline for deploying LLaMA 2 in production.
+[93/200] Running: How does instruction following improve model usability?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does instruction following improve model usability?
+[94/200] Running: What is a sequence-to-sequence model?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a sequence-to-sequence model?
+[95/200] Running: What is the purpose of `pad_token_id` in generation?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the purpose of `pad_token_id` in generation?
+[96/200] Running: Explain the concept of auto-regressive generation....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the concept of auto-regressive generation.
+[97/200] Running: How is top-p sampling different from nucleus sampling?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How is top-p sampling different from nucleus sampling?
+[98/200] Running: What are decoding strategies for safe responses?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are decoding strategies for safe responses?
+[99/200] Running: How are model prompts structured in ChatML?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How are model prompts structured in ChatML?
+[100/200] Running: What is a system prompt in chat inference?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a system prompt in chat inference?
+[101/200] Running: How do you batch requests for high throughput?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How do you batch requests for high throughput?
+[102/200] Running: Explain model serving with `transformers + vLLM`....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain model serving with `transformers + vLLM`.
+[103/200] Running: What is Triton Inference Server?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is Triton Inference Server?
+[104/200] Running: Describe the significance of large context windows....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe the significance of large context windows.
+[105/200] Running: What is dynamic quantization in transformers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is dynamic quantization in transformers?
+[106/200] Running: How to prevent prompt injection in LLMs?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to prevent prompt injection in LLMs?
+[107/200] Running: What are attention scores and how are they computed?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are attention scores and how are they computed?
+[108/200] Running: What are residual connections in transformers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are residual connections in transformers?
+[109/200] Running: How to handle long sequences in generation?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to handle long sequences in generation?
+[110/200] Running: Explain the use of flash attention v2....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the use of flash attention v2.
+[111/200] Running: What is a greedy search in inference?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a greedy search in inference?
+[112/200] Running: How do checkpoints improve fault tolerance?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How do checkpoints improve fault tolerance?
+[113/200] Running: Describe how text-to-text generation works....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how text-to-text generation works.
+[114/200] Running: Explain cosine similarity in embeddings....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain cosine similarity in embeddings.
+[115/200] Running: What is token-wise parallelism?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is token-wise parallelism?
+[116/200] Running: How do shared embeddings help in decoder-only models?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How do shared embeddings help in decoder-only models?
+[117/200] Running: Explain how to measure latency in model output....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain how to measure latency in model output.
+[118/200] Running: What is the purpose of dropout during training?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the purpose of dropout during training?
+[119/200] Running: What is the role of GELU activation in transformers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the role of GELU activation in transformers?
+[120/200] Running: Explain forward and backward pass in transformers....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain forward and backward pass in transformers.
+[121/200] Running: What is speculative decoding and how does it help?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is speculative decoding and how does it help?
+[122/200] Running: How to optimize HPU memory usage during inference?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to optimize HPU memory usage during inference?
+[123/200] Running: Explain profiling for LLM inference performance....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain profiling for LLM inference performance.
+[124/200] Running: How to compute inter-token latency per request?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to compute inter-token latency per request?
+[125/200] Running: What is the difference between BFloat16 and Float16?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the difference between BFloat16 and Float16?
+[126/200] Running: What are logits and how are they interpreted?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are logits and how are they interpreted?
+[127/200] Running: What is log probability in token prediction?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is log probability in token prediction?
+[128/200] Running: How to use `TextStreamer` for streaming output?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to use `TextStreamer` for streaming output?
+[129/200] Running: How to tokenize and detokenize a prompt manually?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to tokenize and detokenize a prompt manually?
+[130/200] Running: Describe how a prompt flows through the transformer layers....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how a prompt flows through the transformer layers.
+[131/200] Running: How to handle EOS in streaming responses?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to handle EOS in streaming responses?
+[132/200] Running: What is a model config JSON in HF models?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a model config JSON in HF models?
+[133/200] Running: What is kv_cache reuse in decoder models?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is kv_cache reuse in decoder models?
+[134/200] Running: Describe a scenario of real-time chatbot streaming....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe a scenario of real-time chatbot streaming.
+[135/200] Running: How to compute throughput with variable prompts?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to compute throughput with variable prompts?
+[136/200] Running: How does `max_new_tokens` differ from `max_length`?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does `max_new_tokens` differ from `max_length`?
+[137/200] Running: Explain the difference between loss and perplexity....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the difference between loss and perplexity.
+[138/200] Running: How to log benchmark results in a structured CSV?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to log benchmark results in a structured CSV?
+[139/200] Running: What are attention heads and how do they specialize?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are attention heads and how do they specialize?
+[140/200] Running: How to ensure reproducible benchmarking?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to ensure reproducible benchmarking?
+[141/200] Running: What are model shards and when are they used?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are model shards and when are they used?
+[142/200] Running: Explain the relationship between prompt length and latency....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the relationship between prompt length and latency.
+[143/200] Running: What is batch inference and why is it faster?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is batch inference and why is it faster?
+[144/200] Running: What are rotary sin-cos embeddings?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are rotary sin-cos embeddings?
+[145/200] Running: Describe HuggingFace's `AutoTokenizer` features....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe HuggingFace's `AutoTokenizer` features.
+[146/200] Running: How does positional encoding interact with attention?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does positional encoding interact with attention?
+[147/200] Running: What is a streaming callback in Transformers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a streaming callback in Transformers?
+[148/200] Running: How to benchmark models using curl and Python?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to benchmark models using curl and Python?
+[149/200] Running: How to parse streaming responses from vLLM?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to parse streaming responses from vLLM?
+[150/200] Running: How does deep caching work in inference?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does deep caching work in inference?
+[151/200] Running: What is a prompt-truncation error?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a prompt-truncation error?
+[152/200] Running: Explain the role of tokenizer config files....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the role of tokenizer config files.
+[153/200] Running: How to batch multiple prompts into one request?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to batch multiple prompts into one request?
+[154/200] Running: What is a chat template in HuggingFace?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a chat template in HuggingFace?
+[155/200] Running: What is inference latency and why is it important?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is inference latency and why is it important?
+[156/200] Running: How to reduce memory footprint of LLaMA models?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to reduce memory footprint of LLaMA models?
+[157/200] Running: What is the difference between `generation_config.json` and ...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the difference between `generation_config.json` and `config.json`?
+[158/200] Running: What is a quantized model and how is it served?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a quantized model and how is it served?
+[159/200] Running: How to handle prompt overflow in generation?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to handle prompt overflow in generation?
+[160/200] Running: What is warmup time in inference pipelines?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is warmup time in inference pipelines?
+[161/200] Running: How to stream JSON tokens using curl?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to stream JSON tokens using curl?
+[162/200] Running: What is a `generate_with_streaming()` wrapper?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is a `generate_with_streaming()` wrapper?
+[163/200] Running: How to evaluate TTFT and ITL for multiple prompts?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to evaluate TTFT and ITL for multiple prompts?
+[164/200] Running: What are server cold starts in model serving?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are server cold starts in model serving?
+[165/200] Running: Explain how to avoid padding inefficiencies....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain how to avoid padding inefficiencies.
+[166/200] Running: How does tokenizer pre-processing affect TTFT?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does tokenizer pre-processing affect TTFT?
+[167/200] Running: How to track per-prompt latency in logs?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to track per-prompt latency in logs?
+[168/200] Running: Explain streaming benchmarks with high concurrency....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain streaming benchmarks with high concurrency.
+[169/200] Running: How to calculate power usage per prompt?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to calculate power usage per prompt?
+[170/200] Running: How does the tokenizer handle emojis and symbols?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does the tokenizer handle emojis and symbols?
+[171/200] Running: How does model size affect inference latency?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does model size affect inference latency?
+[172/200] Running: How to debug slow streaming responses?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to debug slow streaming responses?
+[173/200] Running: What causes generation to stall midway?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What causes generation to stall midway?
+[174/200] Running: How to load a model on HPU using HF Transformers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to load a model on HPU using HF Transformers?
+[175/200] Running: How to pass prompt + history into a chat model?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to pass prompt + history into a chat model?
+[176/200] Running: What is an OpenAI-compatible inference API?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is an OpenAI-compatible inference API?
+[177/200] Running: How to handle decoding errors in stream?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to handle decoding errors in stream?
+[178/200] Running: What are temperature vs randomness in sampling?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are temperature vs randomness in sampling?
+[179/200] Running: Explain token logprobs in output....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain token logprobs in output.
+[180/200] Running: How to measure and reduce TTFT on Gaudi?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to measure and reduce TTFT on Gaudi?
+[181/200] Running: Explain the internals of HF `generate()` loop....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the internals of HF `generate()` loop.
+[182/200] Running: What is speculative token generation?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is speculative token generation?
+[183/200] Running: What are possible failure points in vLLM serving?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are possible failure points in vLLM serving?
+[184/200] Running: How to catch stream decoding errors gracefully?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to catch stream decoding errors gracefully?
+[185/200] Running: How to enable/disable kv caching in transformers?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to enable/disable kv caching in transformers?
+[186/200] Running: What are challenges of multilingual streaming inference?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are challenges of multilingual streaming inference?
+[187/200] Running: How to benchmark with different model precisions?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How to benchmark with different model precisions?
+[188/200] Running: What is the tradeoff between token latency and batch size?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What is the tradeoff between token latency and batch size?
+[189/200] Running: Describe the advantages and limitations of transformer-based...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe the advantages and limitations of transformer-based neural networks.
+[190/200] Running: Explain the concept of overfitting in machine learning and h...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the concept of overfitting in machine learning and how to prevent it.
+[191/200] Running: How does the attention mechanism work in transformer models?...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How does the attention mechanism work in transformer models?
+[192/200] Running: Summarize the main differences between supervised and unsupe...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Summarize the main differences between supervised and unsupervised learning.
+[193/200] Running: What are the ethical concerns associated with deploying larg...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are the ethical concerns associated with deploying large language models?
+[194/200] Running: Explain how gradient descent works in training deep neural n...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain how gradient descent works in training deep neural networks.
+[195/200] Running: Describe the role of activation functions in deep learning....
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe the role of activation functions in deep learning.
+[196/200] Running: How can transfer learning improve model performance on small...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: How can transfer learning improve model performance on small datasets?
+[197/200] Running: Explain the concept of reinforcement learning with an exampl...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Explain the concept of reinforcement learning with an example.
+[198/200] Running: What are the main components of a convolutional neural netwo...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: What are the main components of a convolutional neural network (CNN)?
+[199/200] Running: Describe how large language models like GPT or LLaMA are tra...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Describe how large language models like GPT or LLaMA are trained and fine-tuned.
+[200/200] Running: Compare and contrast BERT and GPT in terms of architecture a...
+
+🧠 LLM Response:
+
+⚠️ Failed to generate tokens for: Compare and contrast BERT and GPT in terms of architecture and use cases.
+
+✅ Benchmark complete. Results saved to benchmark_results.csv
+🛑 Stopping power logging...
+
+🔋 === Power Summary ===
+Samples: 1
+Average Power: -8084495760799957957 W
+Peak Power: 0 W
+Benchmark Results: benchmark_results.csv
+Power Log: power_log.csv
