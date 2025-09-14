@@ -1,86 +1,0 @@
-Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
-Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
-Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
-[2025-09-12 23:02:51,526] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
-[2025-09-12 23:02:52,086] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
-Initializing conditional components...
-Using HPU fused kernel for apply_rotary_pos_emb
-Using HPU fused kernel for RMSNorm
-Using HPU fused kernel for apply_rotary_pos_emb
-Using HPU fused kernel for RMSNorm
-Running on 1 HPUs...
-Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]============================= HPU SW VERSION ====================================== 
- HB_BUILD_VER = 1.22.0-538
-============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
- PT_HPU_LAZY_MODE = 0
- PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
- PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
- PT_HPU_LAZY_ACC_PAR_MODE = 0
- PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
- PT_HPU_EAGER_PIPELINE_ENABLE = 1
- PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
- PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
----------------------------: System Configuration :---------------------------
-Num CPU Cores : 224
-CPU RAM       : 1007 GB
-------------------------------------------------------------------------------
-Loading checkpoint shards:  14%|█▍        | 1/7 [00:01<00:09,  1.55s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:02<00:05,  1.09s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:03<00:03,  1.04it/s]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:03<00:02,  1.11it/s]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:04<00:01,  1.18it/s]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:05<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 7/7 [00:05<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 7/7 [00:05<00:00,  1.19it/s]
-Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
-<|begin_of_text|>what is Llama3 explain in very detail along with architecture.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
-Llama3 (Large Language Model Meta AI 3) is a cutting-edge artificial intelligence model developed by Meta AI, a leading research organization in the field of natural language processing (NLP). Llama3 is a significant upgrade to its predecessors, Llama and Llama2, and represents a major milestone in the development of large language models. In this response, we will delve into the architecture, capabilities, and features of Llama3, providing a detailed overview of this powerful AI model.
-
-**Architecture:**
-
-Llama3 is based on a transformer architecture, which is a type of neural network designed specifically for sequence-to-sequence tasks, such as language translation and text generation. The transformer architecture consists of multiple layers, each of which performs a different function:
-
-1.  **Encoder:** The encoder takes in a sequence of input tokens (e.g., words or characters) and generates a continuous representation of the input sequence. This representation is called the "contextualized embedding" or "hidden state."
-2.  **Decoder:** The decoder takes the contextualized embedding from the encoder and generates a sequence of output tokens. The decoder uses self-attention mechanisms to weigh the importance of different input tokens when generating each output token.
-3.  **Self-Attention Mechanism:** The self-attention mechanism allows the model to weigh the importance of different input tokens when generating each output token. This mechanism is based on the dot product of the query and key vectors, which are derived from the input tokens.
-4.  **Feed-Forward Network (FFN):** The FFN is a fully connected neural network that takes the output of the self-attention mechanism and generates a new representation of the input sequence.
-
-**Key Components:**
-
-1.  **Tokenization:** Llama3 uses a subword tokenization approach, which splits words into subwords (e.g., "un" and "happy" are split into "un-" and "-happy"). This approach allows the model to handle out-of-vocabulary words and rare words more effectively.
-2.  **Positional Encoding:** Llama3 uses a sinusoidal positional encoding scheme to capture the position of each token in the input sequence. This helps the model to understand the relationships between tokens and their positions.
-3.  **Layer Normalization:** Llama3 uses layer normalization to normalize the output of each layer, which helps to stabilize the training process and improve the model's performance.
-
-**Training:**
-
-Llama3 is trained on a massive dataset of text from various sources, including books, articles, and websites. The training process involves the following steps:
-
-1.  **Data Preprocessing:** The input data is preprocessed by tokenizing the text, removing special characters, and converting all text to lowercase.
-2.  **Model Initialization:** The model is initialized with random weights and biases.
-3.  **Training Loop:** The model is trained using a variant of the Adam optimizer, which is a popular optimization algorithm for deep learning models. The training loop involves forward passes, backward passes, and weight updates.
-4.  **Evaluation Metrics:** The model's performance is evaluated using metrics such as perplexity, accuracy, and ROUGE score.
-
-**Capabilities:**
-
-Llama3 has been shown to achieve state-of-the-art results in various natural language processing tasks, including:
-
-1.  **Text Generation:** Llama3 can generate coherent and contextually relevant text given a prompt or input sequence.
-2.  **Language Translation:** Llama3 can translate text from one language to another with high accuracy.
-3.  **Question Answering:** Llama3 can answer questions based on a given passage or input sequence.
-4.  **Summarization:** Llama3 can summarize long pieces of text into concise and accurate summaries.
-
-**Features:**
-
-Llama3 has several features that make it a powerful AI model:
-
-1.  **Multitask Learning:** Llama3 can perform multiple tasks simultaneously, such as text generation, language translation, and question answering.
-2.  **Domain Adaptation:** Llama3 can adapt to different domains and tasks with minimal training data.
-3.  **Explainability:** Llama3 provides explanations for its predictions and outputs, which can be useful for understanding the model's decision-making process.
-4.  **Scalability:** Llama3 can be scaled up or down depending on the specific use case and computational resources available.
-
-**Conclusion:**
-
-Llama3 is a cutting-edge AI model that has achieved state-of-the-art results in various natural language processing tasks. Its transformer architecture, key components, and training process make it a powerful tool for text generation, language translation, question answering, and summarization. Llama3's features, such as multitask learning, domain adaptation, explainability, and scalability, make it a valuable asset for a wide range of applications, from customer service chatbots to content generation platforms. As AI
-
-=== Benchmark Results ===
-Prompt length: 14 tokens
-Generated tokens: 1000
-Time to First Token (TTFT): 0.0063 sec
-Inter-Token Latency (Mean): 0.1343 sec
-Inter-Token Latency (Median): 0.1340 sec
-Throughput: 7.44 tokens/sec
-
-power_usage in power_log.csv
