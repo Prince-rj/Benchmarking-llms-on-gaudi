@@ -1,0 +1,114 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+[2025-09-12 21:37:01,582] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-09-12 21:37:02,183] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[Info] World size: 1, using HPU local_rank=0
+[Info] Loading tokenizer from: /mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct
+[Info] Loading model on rank 0 ...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:01<00:10,  1.74s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:03<00:08,  1.65s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:04<00:06,  1.63s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:06<00:04,  1.63s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:08<00:03,  1.60s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:09<00:01,  1.58s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:10<00:00,  1.33s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:10<00:00,  1.49s/it]
+[2025-09-12 21:37:13,129] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-09-12 21:37:13,130] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-09-12 21:37:13,130] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-09-12 21:37:13,200] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 21:37:13,200] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 0
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[Info] Starting timed generation...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Generated text:
+ Explain Llama 2 and DeepSpeed inference. Llama 2 is a large language model developed by Meta AI, and it uses the DeepSpeed library to optimize its inference process. DeepSpeed is a library that allows for efficient and scalable inference of large language models, and it's designed to work seamlessly with Llama 2.
+
+Here's a high-level overview of how Llama 2 and DeepSpeed inference work together:
+
+1.  **Model Loading**: When you want to use Llama 2 for inference, the first step is to load the model. DeepSpeed takes care of loading the model in a way that's optimized for inference.
+2.  **Model Pruning**: DeepSpeed uses a technique called model pruning to reduce the number of parameters in the model. This makes the model smaller and faster to run, without sacrificing too much accuracy.
+3.  **Quantization**: DeepSpeed also uses a technique called quantization to reduce the precision of the model's weights and activations. This makes the model even smaller and faster to run.
+4.  **Inference**: Once the model is loaded and pruned/quantized, DeepSpeed uses a technique called pipeline parallelism to split the model into smaller pieces and run them in parallel. This makes the inference process much faster.
+5.  **Result Collection**: After the inference is complete, DeepSpeed collects the results from each piece of the model and combines them to produce the final output.
+
+Overall, Llama 2 and DeepSpeed inference work together to provide fast and efficient inference for large language models. By using techniques like model pruning, quantization, and pipeline parallelism, DeepSpeed is able to make Llama 2 much faster and more scalable.
+
+Here's an example code snippet that demonstrates how to use Llama 2 and DeepSpeed inference:
+
+```python
+import deepspeed
+
+# Load the Llama 2 model
+model = deepspeed.load_model("llama_2_model")
+
+# Define the input data
+input_data = ["This is a test input"]
+
+# Run the inference
+output = model(input_data)
+
+# Print the output
+print(output)
+```
+
+In this example, we first load the Llama 2 model using the `deepspeed.load_model` function. We then define the input data and run the inference using the `model` object. Finally, we print the output of the inference process.
+
+Note that this is a simplified example and in a real-world scenario, you would need to handle things like model loading, data preprocessing, and result collection more robustly. Additionally, you would need to ensure that the DeepSpeed library is installed and configured correctly.  You can install DeepSpeed using pip:
+
+```bash
+pip install deepspeed
+```
+
+You can also install the `transformers` library which provides a simple interface for loading and using Llama 2 models:
+
+```bash
+pip install transformers
+```
+
+You can then use the `transformers` library to load and use Llama 2 models. For example:
+
+```python
+import torch
+from transformers import LlamaForConditionalGeneration, LlamaTokenizer
+
+# Load the Llama 2 model
+model = LlamaForConditionalGeneration.from_pretrained("facebook/llama-2-7b-vocab")
+
+# Load the tokenizer
+tokenizer = LlamaTokenizer.from_pretrained("facebook/llama-2-7b-vocab")
+
+# Define the input data
+input_data = ["This is a test input"]
+
+# Preprocess the input data
+input_ids = tokenizer.encode(input_data, return_tensors="pt")
+
+# Run the inference
+output = model.generate(input_ids)
+
+# Print the output
+print(tokenizer.decode(output[0], skip_special_tokens=True))
+```  This example uses the `transformers` library to load the Llama 2 model and tokenizer, preprocess the input data, and run the inference. Finally, it prints the output of the inference process.  You can use this code as a starting point and modify it to suit your specific needs.  I hope this helps! Let me know if you have any questions or need further clarification.  Best regards, [Your Name]  Note: This is a general example and may need to be adapted to your specific use case.  Also, please be aware that running large language models like Llama 2 can be computationally intensive and may require significant resources.  Make sure to check the system requirements and adjust the code accordingly.  Additionally, be aware of the potential risks and limitations of using large language models, such as data bias and model interpretability.  Always follow best practices and guidelines when working with AI models.  I hope this helps! Let me know if you have any questions or need further clarification.  Best regards, [Your Name]  Note: This is a general example and may need to be adapted to your specific use case.  Also, please be aware that running large language models like Llama 2 can
+
+=== Benchmark Metrics (rank 0) ===
+World size: 1
+Prompt length: 12 tokens
+Generated tokens: 1000
+Total time: 139.0909 sec
+Time to First Token (TTFT): 0.1391 sec
+Inter-Token Latency (Mean): 0.1391 sec
+Inter-Token Latency (Median): 0.1391 sec
+Throughput: 7.19 tokens/sec
+
+power_usage in power_log.csv

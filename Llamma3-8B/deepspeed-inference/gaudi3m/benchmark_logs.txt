@@ -1,0 +1,194 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+[2025-09-12 22:06:28,879] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-09-12 22:06:28,884] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-09-12 22:06:28,937] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-09-12 22:06:28,952] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-09-12 22:06:29,472] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 22:06:29,475] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 22:06:29,536] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 22:06:29,556] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s][Info] World size: 4, using HPU local_rank=0
+[Info] Loading tokenizer from: /mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s][Info] Loading model on rank 0 ...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:01<00:08,  1.49s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:01<00:08,  1.47s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:01<00:09,  1.50s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:01<00:09,  1.53s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:05<00:14,  2.84s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:05<00:14,  2.91s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:05<00:13,  2.69s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:05<00:13,  2.70s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:09<00:13,  3.35s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:09<00:13,  3.47s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:09<00:13,  3.44s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:09<00:13,  3.36s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:12<00:09,  3.18s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:12<00:09,  3.19s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:12<00:09,  3.25s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:12<00:09,  3.28s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:16<00:07,  3.54s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:16<00:07,  3.52s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:16<00:07,  3.53s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:16<00:07,  3.57s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:20<00:03,  3.65s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:20<00:03,  3.63s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:20<00:03,  3.65s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:20<00:03,  3.63s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:21<00:00,  3.02s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:21<00:00,  3.12s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:21<00:00,  3.02s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:21<00:00,  3.12s/it]
+[2025-09-12 22:06:52,525] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-09-12 22:06:52,526] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-09-12 22:06:52,526] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-09-12 22:06:52,526] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-09-12 22:06:52,526] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-09-12 22:06:52,526] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-09-12 22:06:52,534] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 22:06:52,534] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-09-12 22:06:52,535] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 22:06:52,535] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-09-12 22:06:52,536] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-09-12 22:06:52,536] [INFO] [comm.py:821:init_distributed] cdb=None
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:22<00:00,  3.05s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:22<00:00,  3.16s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:22<00:00,  3.06s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:22<00:00,  3.18s/it]
+[2025-09-12 22:06:52,581] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-09-12 22:06:52,582] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-09-12 22:06:52,582] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-09-12 22:06:52,582] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-09-12 22:06:52,582] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-09-12 22:06:52,582] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-09-12 22:06:52,590] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 22:06:52,590] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-09-12 22:06:52,590] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 22:06:52,590] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-09-12 22:06:52,592] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-09-12 22:06:52,592] [INFO] [comm.py:821:init_distributed] cdb=None
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 0
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[Info] Starting timed generation...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Generated text:
+ Explain Llama 2 and DeepSpeed inference.  
+Llama 2 is a large language model developed by Meta AI. It is a successor to the previous Llama model and has been trained on a much larger dataset, allowing it to generate more accurate and informative responses. Llama 2 has a number of key features, including:
+
+*   **Improved accuracy**: Llama 2 has been trained on a much larger dataset than its predecessor, which allows it to generate more accurate and informative responses.
+*   **Increased capacity**: Llama 2 has a larger model size and more parameters than the previous Llama model, which allows it to handle more complex tasks and generate longer responses.
+*   **Faster inference**: Llama 2 uses a new inference engine called DeepSpeed, which is designed to accelerate the inference process and allow for faster response times.
+
+DeepSpeed is an open-source software library developed by Meta AI that is designed to accelerate the inference process for large language models like Llama 2. It uses a number of techniques, including:
+
+*   **Model parallelism**: DeepSpeed splits the model across multiple GPUs, allowing it to process larger models and generate faster responses.
+*   **Data parallelism**: DeepSpeed splits the input data across multiple GPUs, allowing it to process larger datasets and generate faster responses.
+*   **Mixed precision training**: DeepSpeed uses a technique called mixed precision training, which allows it to train models using lower precision data types, reducing memory usage and increasing training speed.
+
+Overall, Llama 2 and DeepSpeed are designed to work together to provide faster and more accurate responses to user queries. By leveraging the power of large language models and the acceleration capabilities of DeepSpeed, Llama 2 is able to handle complex tasks and generate longer, more informative responses.  
+
+Here's an example of how you might use Llama 2 and DeepSpeed in a Python script:
+```python
+import llama2
+from deepspeed import DeepSpeed
+
+# Load the Llama 2 model
+model = llama2.load_model("llama2-base")
+
+# Create a DeepSpeed instance
+ds = DeepSpeed(model, batch_size=32, num_gpus=4)
+
+# Define a function to generate responses
+def generate_response(prompt):
+    # Use DeepSpeed to accelerate the inference process
+    response = ds.infer(prompt)
+    return response
+
+# Test the function
+prompt = "What is the capital of France?"
+response = generate_response(prompt)
+print(response)
+```
+This code loads the Llama 2 model, creates a DeepSpeed instance, and defines a function to generate responses using the DeepSpeed instance. The function uses the `infer` method to accelerate the inference process, and returns the generated response.  
+
+Note that this is just a simple example, and you may need to modify the code to suit your specific use case. Additionally, you will need to have the Llama 2 model and the DeepSpeed library installed in order to run this code.  
+
+In conclusion, Llama 2 and DeepSpeed are powerful tools for generating accurate and informative responses to user queries. By leveraging the acceleration capabilities of DeepSpeed, Llama 2 is able to handle complex tasks and generate longer, more informative responses. With the right setup and configuration, you can use Llama 2 and DeepSpeed to build powerful language models that can help you achieve your goals.  
+```python
+# Import necessary libraries
+import llama2
+from deepspeed import DeepSpeed
+
+# Load the Llama 2 model
+model = llama2.load_model("llama2-base")
+
+# Create a DeepSpeed instance
+ds = DeepSpeed(model, batch_size=32, num_gpus=4)
+
+# Define a function to generate responses
+def generate_response(prompt):
+    # Use DeepSpeed to accelerate the inference process
+    response = ds.infer(prompt)
+    return response
+
+# Test the function
+prompt = "What is the capital of France?"
+response = generate_response(prompt)
+print(response)
+```
+This code loads the Llama 2 model, creates a DeepSpeed instance, and defines a function to generate responses using the DeepSpeed instance. The function uses the `infer` method to accelerate the inference process, and returns the generated response.  
+```python
+# Import necessary libraries
+import llama2
+from deepspeed import DeepSpeed
+
+# Load the Llama 2 model
+model = llama2.load_model("llama2-base")
+
+# Create a DeepSpeed instance
+ds = DeepSpeed(model, batch_size=32, num_gpus=4)
+
+# Define a function to generate responses
+def generate_response(prompt):
+    # Use DeepSpeed to accelerate the inference process
+    response = ds.infer(prompt)
+    return response
+
+# Test the function
+prompt = "What is the capital of France?"
+response = generate_response(prompt)
+print(response)
+```  
+```python
+# Import necessary libraries
+import llama2
+from deepspeed import DeepSpeed
+
+
+
+=== Benchmark Metrics (rank 0) ===
+World size: 4
+Prompt length: 12 tokens
+Generated tokens: 1000
+Total time: 206.6647 sec
+Time to First Token (TTFT): 0.2067 sec
+Inter-Token Latency (Mean): 0.2067 sec
+Inter-Token Latency (Median): 0.2067 sec
+Throughput: 4.84 tokens/sec
+
+power_usage in power_log.csv
