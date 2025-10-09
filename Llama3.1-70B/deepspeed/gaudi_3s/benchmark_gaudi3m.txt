@@ -1,0 +1,103 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Loading model from /mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-70B-Instruct (dtype=bfloat16)
+Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:  63%|██████▎   | 19/30 [00:00<00:00, 188.32it/s]Loading checkpoint shards:  67%|██████▋   | 20/30 [00:00<00:00, 199.05it/s]Loading checkpoint shards: 100%|██████████| 30/30 [00:00<00:00, 242.67it/s]
+Loading checkpoint shards: 100%|██████████| 30/30 [00:00<00:00, 250.71it/s]
+Initializing DeepSpeed inference with TP size=2
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-738
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 0
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Running inference and collecting benchmarks...
+<|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi <|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi inference: inference: a a new new approach approach to to approximate approximate Bayesian Bayesian inference.
+inference.
+Antoni Antoni Gaudí Gaudí i i Cornet Cornet was was a a Spanish Spanish architect architect from from Catalonia, Catalonia, who who is is best best known known for for his his unique unique and and imaginative imaginative architectural architectural style, style, which which is is characterized characterized by by the the use use of of parabolic parabolic arches, arches, hyperboloid hyperboloid vaults, vaults, and and other other innovative innovative structural structural elements. elements. However, However, in in the the context context of of machine machine learning learning and and artificial artificial intelligence, intelligence, Gaudí Gaudí inference inference refers refers to to a a novel novel approach approach to to approximate approximate Bayesian Bayesian inference, inference, which which is is a a statistical statistical technique technique used used to to update update the the probability probability of of a a hypothesis hypothesis as as more more evidence evidence or or data data becomes becomes available. available. In In this this sentence, sentence, we we will will delve delve into into the the details details of of Gaudí Gaudí inference, inference, exploring exploring its its underlying underlying principles, principles, advantages, advantages, and and potential potential applications.
+
+applications.
+
+Gaudí Gaudí inference inference is is a a probabilistic probabilistic inference inference framework framework that that leverages leverages the the concept concept of of probabilistic probabilistic graphical graphical models models to to represent represent complex complex distributions distributions and and perform perform approximate approximate Bayesian Bayesian inference. inference. The The approach approach is is based based on on the the idea idea of of representing representing the the posterior posterior distribution distribution of of a a model model as as a a probabilistic probabilistic graphical graphical model, model, which which can can be be efficiently efficiently approximated approximated using using variational variational inference inference techniques. techniques. The The key key innovation innovation of of Gaudí Gaudí inference inference lies lies in in its its ability ability to to learn learn a a probabilistic probabilistic graphical graphical model model that that captures captures the the underlying underlying structure structure of of the the data, data, allowing allowing for for more more accurate accurate and and efficient efficient inference.
+
+inference.
+
+One One of of the the primary primary advantages advantages of of Gaudí Gaudí inference inference is is its its ability ability to to handle handle complex, complex, high-dimensional high-dimensional data data distributions, distributions, which which are are commonly commonly encountered encountered in in real-world real-world applications. applications. Traditional Traditional Bayesian Bayesian inference inference methods methods often often struggle struggle with with such such distributions, distributions, as as they they require require the the computation computation of of high-dimensional high-dimensional integrals, integrals, which which can can be be computationally computationally intractable. intractable. In In contrast, contrast, Gaudí Gaudí inference inference uses uses a a probabilistic probabilistic graphical graphical model model to to represent represent the the posterior posterior distribution, distribution, which which can can be be approximated approximated using using efficient efficient variational variational inference inference techniques, techniques, such such as as stochastic stochastic gradient gradient descent.
+
+descent.
+
+Another Another significant significant advantage advantage of of Gaudí Gaudí inference inference is is its its ability ability to to incorporate incorporate domain domain knowledge knowledge and and prior prior information information into into the the inference inference process. process. By By representing representing the the prior prior distribution distribution as as a a probabilistic probabilistic graphical graphical model, model, Gaudí Gaudí inference inference can can seamlessly seamlessly integrate integrate prior prior knowledge knowledge and and domain domain expertise expertise into into the the inference inference process, process, allowing allowing for for more more accurate accurate and and informed informed decision-making. decision-making. This This is is particularly particularly useful useful in in applications applications where where prior prior knowledge knowledge is is abundant, abundant, such such as as in in medical medical diagnosis diagnosis or or financial financial forecasting.
+
+forecasting.
+
+Gaudí Gaudí inference inference also also offers offers several several advantages advantages over over traditional traditional approximate approximate Bayesian Bayesian inference inference methods, methods, such such as as Markov Markov chain chain Monte Monte Carlo Carlo (MCMC) (MCMC) and and variational variational inference. inference. MCMC MCMC methods, methods, for for example, example, can can be be computationally computationally expensive expensive and and require require careful careful tuning tuning of of hyperparameters, hyperparameters, whereas whereas Gaudí Gaudí inference inference can can be be more more efficient efficient and and scalable. scalable. Variational Variational inference inference methods, methods, on on the the other other hand, hand, often often rely rely on on simplistic simplistic assumptions assumptions about about the the posterior posterior distribution, distribution, which which can can lead lead to to inaccurate inaccurate approximations. approximations. In In contrast, contrast, Gaudí Gaudí inference inference can can learn learn a a more more accurate accurate and and flexible flexible representation representation of of the the posterior posterior distribution, distribution, allowing allowing for for more more accurate accurate inference.
+
+inference.
+
+In In terms terms of of applications, applications, Gaudí Gaudí inference inference has has the the potential potential to to be be used used in in a a wide wide range range of of domains, domains, including including computer computer vision, vision, natural natural language language processing, processing, and and robotics. robotics. For For example, example, in in computer computer vision, vision, Gaudí Gaudí inference inference can can be be used used to to perform perform object object recognition recognition and and tracking, tracking, by by learning learning a a probabilistic probabilistic graphical graphical model model that that captures captures the the underlying underlying structure structure of of the the data. data. In In natural natural language language processing, processing, Gaudí Gaudí inference inference can can be be used used to to perform perform sentiment sentiment analysis analysis and and topic topic modeling, modeling, by by learning learning a a probabilistic probabilistic graphical graphical model model that that captures captures the the underlying underlying structure structure of of the the text text data.
+
+data.
+
+In In robotics, robotics, Gaudí Gaudí inference inference can can be be used used to to perform perform motion motion planning planning and and control, control, by by learning learning a a probabilistic probabilistic graphical graphical model model that that captures captures the the underlying underlying dynamics dynamics of of the the robot. robot. The The approach approach can can also also be be used used in in finance, finance, where where it it can can be be used used to to perform perform portfolio portfolio optimization optimization and and risk risk analysis, analysis, by by learning learning a a probabilistic probabilistic graphical graphical model model that that captures captures the the underlying underlying structure structure of of the the financial financial data.
+
+data.
+
+In In conclusion, conclusion, Gaudí Gaudí inference inference is is a a novel novel approach approach to to approximate approximate Bayesian Bayesian inference inference that that offers offers several several advantages advantages over over traditional traditional methods. methods. Its Its ability ability to to handle handle complex, complex, high-dimensional high-dimensional data data distributions, distributions, incorporate incorporate domain domain knowledge knowledge and and prior prior information, information, and and learn learn a a probabilistic probabilistic graphical graphical model model that that captures captures the the underlying underlying structure structure of of the the data data make make it it a a promising promising approach approach for for a a wide wide range range of of applications. applications. As As the the field field of of machine machine learning learning and and artificial artificial intelligence intelligence continues continues to to evolve, evolve, Gaudí Gaudí inference inference is is likely likely to to play play an an increasingly increasingly important important role role in in the the development development of of more more accurate accurate and and efficient efficient probabilistic probabilistic inference inference methods.
+
+methods.
+
+In In the the context context of of probabilistic probabilistic graphical graphical models, models, Gaudí Gaudí inference inference can can be be viewed viewed as as a a generalization generalization of of traditional traditional variational variational inference inference methods, methods, which which are are widely widely used used in in machine machine learning learning and and artificial artificial intelligence. intelligence. The The approach approach can can be be seen seen as as a a way way of of learning learning a a probabilistic probabilistic graphical graphical model model that that captures captures the the underlying underlying structure structure of of the the data, data, allowing allowing for for more more accurate accurate and and efficient efficient inference. inference. By By representing representing the the posterior posterior distribution distribution as as a a probabilistic probabilistic graphical graphical model, model, Gaudí Gaudí inference inference can can seamlessly seamlessly integrate integrate prior prior knowledge knowledge and and domain domain expertise expertise into into the the inference inference process, process, allowing allowing for for more more accurate accurate and and informed informed decision-making.
+
+decision-making.
+
+The The underlying underlying principles principles of of Gaudí Gaudí inference inference are are based based on on the the concept concept of of probabilistic probabilistic graphical graphical models, models, which which are are a a powerful powerful tool tool for for representing representing complex complex distributions distributions and and performing performing probabilistic probabilistic inference. inference. Probabilistic Probabilistic graphical graphical models models are are a a type type of of graphical graphical model model that that represents represents the the relationships relationships between between variables variables in in a a probabilistic probabilistic way, way, allowing allowing for for the the representation representation of of complex complex distributions distributions and and the the performance performance of of probabilistic probabilistic inference. inference. By By representing representing the
+the
+
+=== Benchmark Results ===
+Prompt length: 15 tokens
+Generated tokens: 1000
+Time to First Token (TTFT): 0.0010 sec
+Inter-Token Latency (Mean): 0.4121 sec
+Inter-Token Latency (Median): 0.4112 sec
+Throughput: 2.42 tokens/sec
+
+=== Generated Output ===
+Write a detailed 1000-word helpful sentence about Gaudi inference: a new approach to approximate Bayesian inference.
+Antoni Gaudí i Cornet was a Spanish architect from Catalonia, who is best known for his unique and imaginative architectural style, which is characterized by the use of parabolic arches, hyperboloid vaults, and other innovative structural elements. However, in the context of machine learning and artificial intelligence, Gaudí inference refers to a novel approach to approximate Bayesian inference, which is a statistical technique used to update the probability of a hypothesis as more evidence or data becomes available. In this sentence, we will delve into the details of Gaudí inference, exploring its underlying principles, advantages, and potential applications.
+
+Gaudí inference is a probabilistic inference framework that leverages the concept of probabilistic graphical models to represent complex distributions and perform approximate Bayesian inference. The approach is based on the idea of representing the posterior distribution of a model as a probabilistic graphical model, which can be efficiently approximated using variational inference techniques. The key innovation of Gaudí inference lies in its ability to learn a probabilistic graphical model that captures the underlying structure of the data, allowing for more accurate and efficient inference.
+
+One of the primary advantages of Gaudí inference is its ability to handle complex, high-dimensional data distributions, which are commonly encountered in real-world applications. Traditional Bayesian inference methods often struggle with such distributions, as they require the computation of high-dimensional integrals, which can be computationally intractable. In contrast, Gaudí inference uses a probabilistic graphical model to represent the posterior distribution, which can be approximated using efficient variational inference techniques, such as stochastic gradient descent.
+
+Another significant advantage of Gaudí inference is its ability to incorporate domain knowledge and prior information into the inference process. By representing the prior distribution as a probabilistic graphical model, Gaudí inference can seamlessly integrate prior knowledge and domain expertise into the inference process, allowing for more accurate and informed decision-making. This is particularly useful in applications where prior knowledge is abundant, such as in medical diagnosis or financial forecasting.
+
+Gaudí inference also offers several advantages over traditional approximate Bayesian inference methods, such as Markov chain Monte Carlo (MCMC) and variational inference. MCMC methods, for example, can be computationally expensive and require careful tuning of hyperparameters, whereas Gaudí inference can be more efficient and scalable. Variational inference methods, on the other hand, often rely on simplistic assumptions about the posterior distribution, which can lead to inaccurate approximations. In contrast, Gaudí inference can learn a more accurate and flexible representation of the posterior distribution, allowing for more accurate inference.
+
+In terms of applications, Gaudí inference has the potential to be used in a wide range of domains, including computer vision, natural language processing, and robotics. For example, in computer vision, Gaudí inference can be used to perform object recognition and tracking, by learning a probabilistic graphical model that captures the underlying structure of the data. In natural language processing, Gaudí inference can be used to perform sentiment analysis and topic modeling, by learning a probabilistic graphical model that captures the underlying structure of the text data.
+
+In robotics, Gaudí inference can be used to perform motion planning and control, by learning a probabilistic graphical model that captures the underlying dynamics of the robot. The approach can also be used in finance, where it can be used to perform portfolio optimization and risk analysis, by learning a probabilistic graphical model that captures the underlying structure of the financial data.
+
+In conclusion, Gaudí inference is a novel approach to approximate Bayesian inference that offers several advantages over traditional methods. Its ability to handle complex, high-dimensional data distributions, incorporate domain knowledge and prior information, and learn a probabilistic graphical model that captures the underlying structure of the data make it a promising approach for a wide range of applications. As the field of machine learning and artificial intelligence continues to evolve, Gaudí inference is likely to play an increasingly important role in the development of more accurate and efficient probabilistic inference methods.
+
+In the context of probabilistic graphical models, Gaudí inference can be viewed as a generalization of traditional variational inference methods, which are widely used in machine learning and artificial intelligence. The approach can be seen as a way of learning a probabilistic graphical model that captures the underlying structure of the data, allowing for more accurate and efficient inference. By representing the posterior distribution as a probabilistic graphical model, Gaudí inference can seamlessly integrate prior knowledge and domain expertise into the inference process, allowing for more accurate and informed decision-making.
+
+The underlying principles of Gaudí inference are based on the concept of probabilistic graphical models, which are a powerful tool for representing complex distributions and performing probabilistic inference. Probabilistic graphical models are a type of graphical model that represents the relationships between variables in a probabilistic way, allowing for the representation of complex distributions and the performance of probabilistic inference. By representing the
+
+HPU Power Usage Summary:
+Average Power: -2208332595462218361 W
+Maximum Power: 0 W
+Raw power log saved in power_log.csv

@@ -1,0 +1,263 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Loading model from /mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-70B-Instruct (dtype=bfloat16)
+Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:00<00:21,  1.37it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:00<00:21,  1.37it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:00<00:21,  1.37it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:00<00:18,  1.54it/s]Loading checkpoint shards:   7%|▋         | 2/30 [00:01<00:25,  1.08it/s]Loading checkpoint shards:   7%|▋         | 2/30 [00:01<00:26,  1.05it/s]Loading checkpoint shards:   7%|▋         | 2/30 [00:01<00:26,  1.04it/s]Loading checkpoint shards:   7%|▋         | 2/30 [00:01<00:26,  1.04it/s]Loading checkpoint shards:  10%|█         | 3/30 [00:02<00:22,  1.19it/s]Loading checkpoint shards:  10%|█         | 3/30 [00:02<00:22,  1.19it/s]Loading checkpoint shards:  10%|█         | 3/30 [00:02<00:22,  1.22it/s]Loading checkpoint shards:  10%|█         | 3/30 [00:02<00:22,  1.19it/s]Loading checkpoint shards:  13%|█▎        | 4/30 [00:03<00:21,  1.19it/s]Loading checkpoint shards:  13%|█▎        | 4/30 [00:03<00:22,  1.17it/s]Loading checkpoint shards:  13%|█▎        | 4/30 [00:03<00:22,  1.17it/s]Loading checkpoint shards:  13%|█▎        | 4/30 [00:03<00:22,  1.17it/s]Loading checkpoint shards:  17%|█▋        | 5/30 [00:04<00:22,  1.10it/s]Loading checkpoint shards:  17%|█▋        | 5/30 [00:04<00:22,  1.10it/s]Loading checkpoint shards:  17%|█▋        | 5/30 [00:04<00:22,  1.11it/s]Loading checkpoint shards:  17%|█▋        | 5/30 [00:04<00:22,  1.10it/s]Loading checkpoint shards:  20%|██        | 6/30 [00:05<00:20,  1.19it/s]Loading checkpoint shards:  20%|██        | 6/30 [00:05<00:20,  1.19it/s]Loading checkpoint shards:  20%|██        | 6/30 [00:05<00:20,  1.19it/s]Loading checkpoint shards:  20%|██        | 6/30 [00:05<00:20,  1.19it/s]Loading checkpoint shards:  23%|██▎       | 7/30 [00:05<00:19,  1.16it/s]Loading checkpoint shards:  23%|██▎       | 7/30 [00:06<00:19,  1.16it/s]Loading checkpoint shards:  23%|██▎       | 7/30 [00:06<00:19,  1.16it/s]Loading checkpoint shards:  23%|██▎       | 7/30 [00:06<00:19,  1.16it/s]Loading checkpoint shards:  27%|██▋       | 8/30 [00:07<00:20,  1.06it/s]Loading checkpoint shards:  27%|██▋       | 8/30 [00:07<00:20,  1.06it/s]Loading checkpoint shards:  27%|██▋       | 8/30 [00:07<00:20,  1.06it/s]Loading checkpoint shards:  27%|██▋       | 8/30 [00:07<00:20,  1.06it/s]Loading checkpoint shards:  30%|███       | 9/30 [00:07<00:17,  1.20it/s]Loading checkpoint shards:  30%|███       | 9/30 [00:07<00:17,  1.20it/s]Loading checkpoint shards:  30%|███       | 9/30 [00:07<00:17,  1.20it/s]Loading checkpoint shards:  30%|███       | 9/30 [00:07<00:17,  1.20it/s]Loading checkpoint shards:  33%|███▎      | 10/30 [00:08<00:17,  1.17it/s]Loading checkpoint shards:  33%|███▎      | 10/30 [00:08<00:17,  1.17it/s]Loading checkpoint shards:  33%|███▎      | 10/30 [00:08<00:17,  1.17it/s]Loading checkpoint shards:  33%|███▎      | 10/30 [00:08<00:17,  1.17it/s]Loading checkpoint shards:  37%|███▋      | 11/30 [00:09<00:15,  1.23it/s]Loading checkpoint shards:  37%|███▋      | 11/30 [00:09<00:15,  1.23it/s]Loading checkpoint shards:  37%|███▋      | 11/30 [00:09<00:15,  1.23it/s]Loading checkpoint shards:  37%|███▋      | 11/30 [00:09<00:15,  1.23it/s]Loading checkpoint shards:  40%|████      | 12/30 [00:09<00:13,  1.35it/s]Loading checkpoint shards:  40%|████      | 12/30 [00:09<00:13,  1.35it/s]Loading checkpoint shards:  40%|████      | 12/30 [00:09<00:13,  1.36it/s]Loading checkpoint shards:  40%|████      | 12/30 [00:09<00:13,  1.35it/s]Loading checkpoint shards:  43%|████▎     | 13/30 [00:11<00:14,  1.17it/s]Loading checkpoint shards:  43%|████▎     | 13/30 [00:11<00:14,  1.17it/s]Loading checkpoint shards:  43%|████▎     | 13/30 [00:10<00:14,  1.17it/s]Loading checkpoint shards:  43%|████▎     | 13/30 [00:11<00:14,  1.17it/s]Loading checkpoint shards:  47%|████▋     | 14/30 [00:12<00:14,  1.12it/s]Loading checkpoint shards:  47%|████▋     | 14/30 [00:12<00:14,  1.12it/s]Loading checkpoint shards:  47%|████▋     | 14/30 [00:11<00:14,  1.12it/s]Loading checkpoint shards:  47%|████▋     | 14/30 [00:12<00:14,  1.12it/s]Loading checkpoint shards:  50%|█████     | 15/30 [00:12<00:12,  1.22it/s]Loading checkpoint shards:  50%|█████     | 15/30 [00:12<00:12,  1.22it/s]Loading checkpoint shards:  50%|█████     | 15/30 [00:12<00:12,  1.22it/s]Loading checkpoint shards:  50%|█████     | 15/30 [00:12<00:12,  1.22it/s]Loading checkpoint shards:  53%|█████▎    | 16/30 [00:13<00:11,  1.27it/s]Loading checkpoint shards:  53%|█████▎    | 16/30 [00:13<00:11,  1.27it/s]Loading checkpoint shards:  53%|█████▎    | 16/30 [00:13<00:11,  1.27it/s]Loading checkpoint shards:  53%|█████▎    | 16/30 [00:13<00:11,  1.27it/s]Loading checkpoint shards:  57%|█████▋    | 17/30 [00:14<00:09,  1.36it/s]Loading checkpoint shards:  57%|█████▋    | 17/30 [00:13<00:09,  1.36it/s]Loading checkpoint shards:  57%|█████▋    | 17/30 [00:14<00:09,  1.36it/s]Loading checkpoint shards:  57%|█████▋    | 17/30 [00:14<00:09,  1.36it/s]Loading checkpoint shards:  60%|██████    | 18/30 [00:15<00:09,  1.21it/s]Loading checkpoint shards:  60%|██████    | 18/30 [00:15<00:09,  1.21it/s]Loading checkpoint shards:  60%|██████    | 18/30 [00:15<00:09,  1.21it/s]Loading checkpoint shards:  60%|██████    | 18/30 [00:14<00:09,  1.21it/s]Loading checkpoint shards:  63%|██████▎   | 19/30 [00:15<00:08,  1.22it/s]Loading checkpoint shards:  63%|██████▎   | 19/30 [00:15<00:08,  1.22it/s]Loading checkpoint shards:  63%|██████▎   | 19/30 [00:15<00:08,  1.22it/s]Loading checkpoint shards:  63%|██████▎   | 19/30 [00:15<00:08,  1.22it/s]Loading checkpoint shards:  67%|██████▋   | 20/30 [00:16<00:07,  1.26it/s]Loading checkpoint shards:  67%|██████▋   | 20/30 [00:16<00:07,  1.26it/s]Loading checkpoint shards:  67%|██████▋   | 20/30 [00:16<00:07,  1.26it/s]Loading checkpoint shards:  67%|██████▋   | 20/30 [00:16<00:07,  1.26it/s]Loading checkpoint shards:  70%|███████   | 21/30 [00:17<00:06,  1.35it/s]Loading checkpoint shards:  70%|███████   | 21/30 [00:17<00:06,  1.35it/s]Loading checkpoint shards:  70%|███████   | 21/30 [00:17<00:06,  1.35it/s]Loading checkpoint shards:  70%|███████   | 21/30 [00:17<00:06,  1.35it/s]Loading checkpoint shards:  73%|███████▎  | 22/30 [00:18<00:07,  1.14it/s]Loading checkpoint shards:  73%|███████▎  | 22/30 [00:18<00:07,  1.14it/s]Loading checkpoint shards:  73%|███████▎  | 22/30 [00:18<00:07,  1.14it/s]Loading checkpoint shards:  73%|███████▎  | 22/30 [00:18<00:07,  1.14it/s]Loading checkpoint shards:  77%|███████▋  | 23/30 [00:19<00:07,  1.01s/it]Loading checkpoint shards:  77%|███████▋  | 23/30 [00:19<00:07,  1.01s/it]Loading checkpoint shards:  77%|███████▋  | 23/30 [00:19<00:07,  1.01s/it]Loading checkpoint shards:  77%|███████▋  | 23/30 [00:19<00:07,  1.01s/it]Loading checkpoint shards:  80%|████████  | 24/30 [00:20<00:06,  1.00s/it]Loading checkpoint shards:  80%|████████  | 24/30 [00:20<00:06,  1.00s/it]Loading checkpoint shards:  80%|████████  | 24/30 [00:20<00:06,  1.00s/it]Loading checkpoint shards:  80%|████████  | 24/30 [00:20<00:06,  1.00s/it]Loading checkpoint shards:  83%|████████▎ | 25/30 [00:21<00:04,  1.17it/s]Loading checkpoint shards:  83%|████████▎ | 25/30 [00:21<00:04,  1.17it/s]Loading checkpoint shards:  83%|████████▎ | 25/30 [00:21<00:04,  1.17it/s]Loading checkpoint shards:  83%|████████▎ | 25/30 [00:21<00:04,  1.17it/s]Loading checkpoint shards:  87%|████████▋ | 26/30 [00:22<00:03,  1.04it/s]Loading checkpoint shards:  87%|████████▋ | 26/30 [00:22<00:03,  1.04it/s]Loading checkpoint shards:  87%|████████▋ | 26/30 [00:22<00:03,  1.04it/s]Loading checkpoint shards:  87%|████████▋ | 26/30 [00:22<00:03,  1.04it/s]Loading checkpoint shards:  90%|█████████ | 27/30 [00:23<00:02,  1.09it/s]Loading checkpoint shards:  90%|█████████ | 27/30 [00:23<00:02,  1.09it/s]Loading checkpoint shards:  90%|█████████ | 27/30 [00:23<00:02,  1.09it/s]Loading checkpoint shards:  90%|█████████ | 27/30 [00:23<00:02,  1.09it/s]Loading checkpoint shards:  93%|█████████▎| 28/30 [00:24<00:01,  1.06it/s]Loading checkpoint shards:  93%|█████████▎| 28/30 [00:24<00:01,  1.06it/s]Loading checkpoint shards:  93%|█████████▎| 28/30 [00:24<00:01,  1.06it/s]Loading checkpoint shards:  93%|█████████▎| 28/30 [00:24<00:01,  1.06it/s]Loading checkpoint shards:  97%|█████████▋| 29/30 [00:24<00:00,  1.20it/s]Loading checkpoint shards:  97%|█████████▋| 29/30 [00:24<00:00,  1.20it/s]Loading checkpoint shards:  97%|█████████▋| 29/30 [00:24<00:00,  1.20it/s]Loading checkpoint shards:  97%|█████████▋| 29/30 [00:24<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 30/30 [00:24<00:00,  1.21it/s]
+Loading checkpoint shards: 100%|██████████| 30/30 [00:24<00:00,  1.21it/s]
+Loading checkpoint shards: 100%|██████████| 30/30 [00:24<00:00,  1.21it/s]
+Loading checkpoint shards: 100%|██████████| 30/30 [00:24<00:00,  1.21it/s]
+Initializing DeepSpeed inference with TP size=4
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-738
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 0
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Running inference and collecting benchmarks...
+<|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi <|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi <|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi <|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi inference: inference: inference: inference: a a a a process process process process that that that that helps helps helps helps to to to to improve improve improve improve the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks
+networks
+networks
+networks
+Here Here Here Here is is is is a a a a 1000-word 1000-word 1000-word 1000-word helpful helpful helpful helpful sentence sentence sentence sentence about about about about Gaudi Gaudi Gaudi Gaudi inference:
+
+inference:
+
+inference:
+
+inference:
+
+Gaudi Gaudi Gaudi Gaudi inference, inference, inference, inference, a a a a revolutionary revolutionary revolutionary revolutionary process process process process that that that that leverages leverages leverages leverages the the the the power power power power of of of of specialized specialized specialized specialized hardware hardware hardware hardware and and and and software software software software to to to to significantly significantly significantly significantly enhance enhance enhance enhance the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks, networks, networks, networks, involves involves involves involves the the the the deployment deployment deployment deployment of of of of a a a a range range range range of of of of cutting-edge cutting-edge cutting-edge cutting-edge techniques, techniques, techniques, techniques, including including including including model model model model pruning, pruning, pruning, pruning, knowledge knowledge knowledge knowledge distillation, distillation, distillation, distillation, and and and and quantization, quantization, quantization, quantization, which which which which collectively collectively collectively collectively enable enable enable enable the the the the efficient efficient efficient efficient execution execution execution execution of of of of complex complex complex complex neural neural neural neural network network network network models models models models on on on on resource-constrained resource-constrained resource-constrained resource-constrained devices, devices, devices, devices, thereby thereby thereby thereby facilitating facilitating facilitating facilitating the the the the widespread widespread widespread widespread adoption adoption adoption adoption of of of of AI-powered AI-powered AI-powered AI-powered applications applications applications applications in in in in a a a a variety variety variety variety of of of of domains, domains, domains, domains, from from from from computer computer computer computer vision vision vision vision and and and and natural natural natural natural language language language language processing processing processing processing to to to to speech speech speech speech recognition recognition recognition recognition and and and and robotics, robotics, robotics, robotics, by by by by reducing reducing reducing reducing the the the the computational computational computational computational requirements requirements requirements requirements and and and and energy energy energy energy consumption consumption consumption consumption of of of of deep deep deep deep learning learning learning learning models, models, models, models, while while while while preserving preserving preserving preserving their their their their accuracy accuracy accuracy accuracy and and and and reliability, reliability, reliability, reliability, and and and and ultimately ultimately ultimately ultimately allowing allowing allowing allowing developers developers developers developers to to to to build build build build more more more more sophisticated sophisticated sophisticated sophisticated and and and and responsive responsive responsive responsive AI AI AI AI systems systems systems systems that that that that can can can can be be be be deployed deployed deployed deployed on on on on a a a a wide wide wide wide range range range range of of of of platforms, platforms, platforms, platforms, from from from from smartphones smartphones smartphones smartphones and and and and laptops laptops laptops laptops to to to to smart smart smart smart home home home home devices devices devices devices and and and and autonomous autonomous autonomous autonomous vehicles.
+
+vehicles.
+
+vehicles.
+
+vehicles.
+
+Here's Here's Here's Here's a a a a breakdown breakdown breakdown breakdown of of of of the the the the sentence:
+
+sentence:
+
+sentence:
+
+sentence:
+
+**Gaudi **Gaudi **Gaudi **Gaudi inference**: inference**: inference**: inference**: This This This This is is is is the the the the main main main main subject subject subject subject of of of of the the the the sentence, sentence, sentence, sentence, a a a a process process process process that that that that improves improves improves improves the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks.
+
+networks.
+
+networks.
+
+networks.
+
+**Leverages **Leverages **Leverages **Leverages the the the the power power power power of of of of specialized specialized specialized specialized hardware hardware hardware hardware and and and and software**: software**: software**: software**: This This This This phrase phrase phrase phrase highlights highlights highlights highlights the the the the key key key key aspect aspect aspect aspect of of of of Gaudi Gaudi Gaudi Gaudi inference, inference, inference, inference, which which which which is is is is the the the the use use use use of of of of specialized specialized specialized specialized hardware hardware hardware hardware and and and and software software software software to to to to optimize optimize optimize optimize the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks.
+
+networks.
+
+networks.
+
+networks.
+
+**Enhance **Enhance **Enhance **Enhance the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks**: networks**: networks**: networks**: This This This This phrase phrase phrase phrase explains explains explains explains the the the the primary primary primary primary goal goal goal goal of of of of Gaudi Gaudi Gaudi Gaudi inference, inference, inference, inference, which which which which is is is is to to to to improve improve improve improve the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks.
+
+networks.
+
+networks.
+
+networks.
+
+**Model **Model **Model **Model pruning, pruning, pruning, pruning, knowledge knowledge knowledge knowledge distillation, distillation, distillation, distillation, and and and and quantization**: quantization**: quantization**: quantization**: These These These These are are are are three three three three specific specific specific specific techniques techniques techniques techniques used used used used in in in in Gaudi Gaudi Gaudi Gaudi inference inference inference inference to to to to optimize optimize optimize optimize the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks. networks. networks. networks. Model Model Model Model pruning pruning pruning pruning involves involves involves involves removing removing removing removing redundant redundant redundant redundant or or or or unnecessary unnecessary unnecessary unnecessary weights weights weights weights and and and and connections connections connections connections in in in in the the the the network, network, network, network, knowledge knowledge knowledge knowledge distillation distillation distillation distillation involves involves involves involves transferring transferring transferring transferring knowledge knowledge knowledge knowledge from from from from a a a a large large large large network network network network to to to to a a a a smaller smaller smaller smaller one, one, one, one, and and and and quantization quantization quantization quantization involves involves involves involves reducing reducing reducing reducing the the the the precision precision precision precision of of of of the the the the network's network's network's network's weights weights weights weights and and and and activations.
+
+activations.
+
+activations.
+
+activations.
+
+**Efficient **Efficient **Efficient **Efficient execution execution execution execution of of of of complex complex complex complex neural neural neural neural network network network network models**: models**: models**: models**: This This This This phrase phrase phrase phrase explains explains explains explains the the the the outcome outcome outcome outcome of of of of applying applying applying applying the the the the techniques techniques techniques techniques mentioned mentioned mentioned mentioned above, above, above, above, which which which which is is is is the the the the efficient efficient efficient efficient execution execution execution execution of of of of complex complex complex complex neural neural neural neural network network network network models models models models on on on on resource-constrained resource-constrained resource-constrained resource-constrained devices.
+
+devices.
+
+devices.
+
+devices.
+
+**Resource-constrained **Resource-constrained **Resource-constrained **Resource-constrained devices**: devices**: devices**: devices**: This This This This phrase phrase phrase phrase highlights highlights highlights highlights the the the the types types types types of of of of devices devices devices devices that that that that can can can can benefit benefit benefit benefit from from from from Gaudi Gaudi Gaudi Gaudi inference, inference, inference, inference, such such such such as as as as smartphones, smartphones, smartphones, smartphones, laptops, laptops, laptops, laptops, smart smart smart smart home home home home devices, devices, devices, devices, and and and and autonomous autonomous autonomous autonomous vehicles.
+
+vehicles.
+
+vehicles.
+
+vehicles.
+
+**Widespread **Widespread **Widespread **Widespread adoption adoption adoption adoption of of of of AI-powered AI-powered AI-powered AI-powered applications**: applications**: applications**: applications**: This This This This phrase phrase phrase phrase explains explains explains explains the the the the broader broader broader broader impact impact impact impact of of of of Gaudi Gaudi Gaudi Gaudi inference, inference, inference, inference, which which which which is is is is the the the the widespread widespread widespread widespread adoption adoption adoption adoption of of of of AI-powered AI-powered AI-powered AI-powered applications applications applications applications in in in in various various various various domains.
+
+domains.
+
+domains.
+
+domains.
+
+**Computer **Computer **Computer **Computer vision, vision, vision, vision, natural natural natural natural language language language language processing, processing, processing, processing, speech speech speech speech recognition, recognition, recognition, recognition, and and and and robotics**: robotics**: robotics**: robotics**: These These These These are are are are specific specific specific specific domains domains domains domains that that that that can can can can benefit benefit benefit benefit from from from from Gaudi Gaudi Gaudi Gaudi inference.
+
+inference.
+
+inference.
+
+inference.
+
+**Reducing **Reducing **Reducing **Reducing computational computational computational computational requirements requirements requirements requirements and and and and energy energy energy energy consumption**: consumption**: consumption**: consumption**: This This This This phrase phrase phrase phrase explains explains explains explains how how how how Gaudi Gaudi Gaudi Gaudi inference inference inference inference can can can can reduce reduce reduce reduce the the the the computational computational computational computational requirements requirements requirements requirements and and and and energy energy energy energy consumption consumption consumption consumption of of of of deep deep deep deep learning learning learning learning models.
+
+models.
+
+models.
+
+models.
+
+**Preserving **Preserving **Preserving **Preserving accuracy accuracy accuracy accuracy and and and and reliability**: reliability**: reliability**: reliability**: This This This This phrase phrase phrase phrase highlights highlights highlights highlights the the the the importance importance importance importance of of of of preserving preserving preserving preserving the the the the accuracy accuracy accuracy accuracy and and and and reliability reliability reliability reliability of of of of deep deep deep deep learning learning learning learning models models models models while while while while optimizing optimizing optimizing optimizing their their their their performance.
+
+performance.
+
+performance.
+
+performance.
+
+**Building **Building **Building **Building more more more more sophisticated sophisticated sophisticated sophisticated and and and and responsive responsive responsive responsive AI AI AI AI systems**: systems**: systems**: systems**: This This This This phrase phrase phrase phrase explains explains explains explains the the the the ultimate ultimate ultimate ultimate goal goal goal goal of of of of Gaudi Gaudi Gaudi Gaudi inference, inference, inference, inference, which which which which is is is is to to to to build build build build more more more more sophisticated sophisticated sophisticated sophisticated and and and and responsive responsive responsive responsive AI AI AI AI systems systems systems systems that that that that can can can can be be be be deployed deployed deployed deployed on on on on a a a a wide wide wide wide range range range range of of of of platforms.
+
+platforms.
+
+platforms.
+
+platforms.
+
+Overall, Overall, Overall, Overall, this this this this sentence sentence sentence sentence provides provides provides provides a a a a comprehensive comprehensive comprehensive comprehensive overview overview overview overview of of of of Gaudi Gaudi Gaudi Gaudi inference, inference, inference, inference, its its its its techniques, techniques, techniques, techniques, benefits, benefits, benefits, benefits, and and and and applications, applications, applications, applications, and and and and highlights highlights highlights highlights its its its its importance importance importance importance in in in in the the the the field field field field of of of of deep deep deep deep learning learning learning learning and and and and AI.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+AI.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+AI.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+AI.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Here Here Here Here is is is is a a a a 1000-word 1000-word 1000-word 1000-word essay essay essay essay based based based based on on on on the the the the sentence:
+
+sentence:
+
+sentence:
+
+sentence:
+
+Gaudi Gaudi Gaudi Gaudi Inference: Inference: Inference: Inference: A A A A Revolutionary Revolutionary Revolutionary Revolutionary Process Process Process Process for for for for Enhancing Enhancing Enhancing Enhancing Deep Deep Deep Deep Neural Neural Neural Neural Networks
+
+Networks
+
+Networks
+
+Networks
+
+Deep Deep Deep Deep neural neural neural neural networks networks networks networks have have have have revolutionized revolutionized revolutionized revolutionized the the the the field field field field of of of of artificial artificial artificial artificial intelligence intelligence intelligence intelligence (AI) (AI) (AI) (AI) in in in in recent recent recent recent years, years, years, years, enabling enabling enabling enabling applications applications applications applications such such such such as as as as computer computer computer computer vision, vision, vision, vision, natural natural natural natural language language language language processing, processing, processing, processing, speech speech speech speech recognition, recognition, recognition, recognition, and and and and robotics. robotics. robotics. robotics. However, However, However, However, the the the the complexity complexity complexity complexity and and and and computational computational computational computational requirements requirements requirements requirements of of of of these these these these networks networks networks networks have have have have made made made made them them them them challenging challenging challenging challenging to to to to deploy deploy deploy deploy on on on on resource-constrained resource-constrained resource-constrained resource-constrained devices, devices, devices, devices, such such such such as as as as smartphones, smartphones, smartphones, smartphones, laptops, laptops, laptops, laptops, and and and and smart smart smart smart home home home home devices. devices. devices. devices. To To To To address address address address this this this this challenge, challenge, challenge, challenge, researchers researchers researchers researchers and and and and developers developers developers developers have have have have been been been been exploring exploring exploring exploring various various various various techniques techniques techniques techniques to to to to optimize optimize optimize optimize the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks. networks. networks. networks. One One One One such such such such technique technique technique technique is is is is Gaudi Gaudi Gaudi Gaudi inference, inference, inference, inference, a a a a revolutionary revolutionary revolutionary revolutionary process process process process that that that that leverages leverages leverages leverages the the the the power power power power of of of of specialized specialized specialized specialized hardware hardware hardware hardware and and and and software software software software to to to to significantly significantly significantly significantly enhance enhance enhance enhance the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks.
+
+networks.
+
+networks.
+
+networks.
+
+Gaudi Gaudi Gaudi Gaudi inference inference inference inference involves involves involves involves the the the the deployment deployment deployment deployment of of of of a a a a range range range range of of of of cutting-edge cutting-edge cutting-edge cutting-edge techniques, techniques, techniques, techniques, including including including including model model model model pruning, pruning, pruning, pruning, knowledge knowledge knowledge knowledge distillation, distillation, distillation, distillation, and and and and quantization. quantization. quantization. quantization. Model Model Model Model pruning pruning pruning pruning involves involves involves involves removing removing removing removing redundant redundant redundant redundant or or or or unnecessary unnecessary unnecessary unnecessary weights weights weights weights and and and and connections connections connections connections in in in in the the the the network, network, network, network, thereby thereby thereby thereby reducing reducing reducing reducing the the the the computational computational computational computational requirements requirements requirements requirements and and and and energy energy energy energy consumption consumption consumption consumption of of of of the the the the network. network. network. network. Knowledge Knowledge Knowledge Knowledge distillation distillation distillation distillation involves involves involves involves transferring transferring transferring transferring knowledge knowledge knowledge knowledge from from from from a a a a large large large large network network network network to to to to a a a a smaller smaller smaller smaller one, one, one, one, enabling enabling enabling enabling the the the the smaller smaller smaller smaller network network network network to to to to achieve achieve achieve achieve similar similar similar similar accuracy accuracy accuracy accuracy and and and and performance. performance. performance. performance. Quantization Quantization Quantization Quantization involves involves involves involves reducing reducing reducing reducing the the the the precision precision precision precision of of of of the the the the network's network's network's network's weights weights weights weights and and and and activations, activations, activations, activations, which which which which can can can can significantly significantly significantly significantly reduce reduce reduce reduce the the the the memory memory memory memory requirements requirements requirements requirements and and and and energy energy energy energy consumption consumption consumption consumption of of of of the the the the network.
+
+network.
+
+network.
+
+network.
+
+By By By By applying applying applying applying these these these these techniques, techniques, techniques, techniques, Gaudi Gaudi Gaudi Gaudi inference inference inference inference enables enables enables enables the the the the efficient efficient efficient efficient execution execution execution execution of of of of complex complex complex complex neural neural neural neural network network network network models models models models on on on on resource-constrained resource-constrained resource-constrained resource-constrained devices. devices. devices. devices. This This This This is is is is particularly particularly particularly particularly important important important important for for for for applications applications applications applications such such such such as as as as computer computer computer computer vision, vision, vision, vision, natural natural natural natural language language language language processing, processing, processing, processing, and and and and speech speech speech speech recognition, recognition, recognition, recognition, which which which which require require require require the the the the processing processing processing processing of of of of large large large large amounts amounts amounts amounts of of of of data data data data in in in in real-time. real-time. real-time. real-time. By By By By optimizing optimizing optimizing optimizing the the the the performance performance performance performance of of of of deep deep deep deep neural neural neural neural networks, networks, networks, networks, Gaudi Gaudi Gaudi Gaudi inference inference inference inference can can can can facilitate facilitate facilitate facilitate the the the the widespread widespread widespread widespread adoption adoption adoption adoption of of of of AI-powered AI-powered AI-powered AI-powered applications applications applications applications in in in in various various various various domains.
+
+domains.
+
+domains.
+
+domains.
+
+One One One One of of of of the the the the key key key key benefits benefits benefits benefits of of of of Gaudi Gaudi Gaudi Gaudi inference inference inference inference is is is is its its its its ability ability ability ability to to to to reduce reduce reduce reduce the the the the computational computational computational computational requirements requirements requirements requirements and and and and energy energy energy energy consumption consumption consumption consumption of of of of deep deep deep deep learning learning learning learning models. models. models. models. This This This This is is is is particularly particularly particularly particularly important important important important for for for for devices devices devices devices that that that that are are are are powered powered powered powered by by by by batteries, batteries, batteries, batteries, such
+such
+such
+
+=== Benchmark Results ===
+Prompt length: 15 tokens
+Generated tokens: 1000
+Time to First Token (TTFT): 0.0009 sec
+Inter-Token Latency (Mean): 0.1357 sec
+Inter-Token Latency (Median): 0.1317 sec
+Throughput: 7.36 tokens/sec
+
+=== Generated Output ===
+Write a detailed 1000-word helpful sentence about Gaudi inference: a process that helps to improve the performance of deep neural networks
+Here is a 1000-word helpful sentence about Gaudi inference:
+
+Gaudi inference, a revolutionary process that leverages the power of specialized hardware and software to significantly enhance the performance of deep neural networks, involves the deployment of a range of cutting-edge techniques, including model pruning, knowledge distillation, and quantization, which collectively enable the efficient execution of complex neural network models on resource-constrained devices, thereby facilitating the widespread adoption of AI-powered applications in a variety of domains, from computer vision and natural language processing to speech recognition and robotics, by reducing the computational requirements and energy consumption of deep learning models, while preserving their accuracy and reliability, and ultimately allowing developers to build more sophisticated and responsive AI systems that can be deployed on a wide range of platforms, from smartphones and laptops to smart home devices and autonomous vehicles.
+
+Here's a breakdown of the sentence:
+
+**Gaudi inference**: This is the main subject of the sentence, a process that improves the performance of deep neural networks.
+
+**Leverages the power of specialized hardware and software**: This phrase highlights the key aspect of Gaudi inference, which is the use of specialized hardware and software to optimize the performance of deep neural networks.
+
+**Enhance the performance of deep neural networks**: This phrase explains the primary goal of Gaudi inference, which is to improve the performance of deep neural networks.
+
+**Model pruning, knowledge distillation, and quantization**: These are three specific techniques used in Gaudi inference to optimize the performance of deep neural networks. Model pruning involves removing redundant or unnecessary weights and connections in the network, knowledge distillation involves transferring knowledge from a large network to a smaller one, and quantization involves reducing the precision of the network's weights and activations.
+
+**Efficient execution of complex neural network models**: This phrase explains the outcome of applying the techniques mentioned above, which is the efficient execution of complex neural network models on resource-constrained devices.
+
+**Resource-constrained devices**: This phrase highlights the types of devices that can benefit from Gaudi inference, such as smartphones, laptops, smart home devices, and autonomous vehicles.
+
+**Widespread adoption of AI-powered applications**: This phrase explains the broader impact of Gaudi inference, which is the widespread adoption of AI-powered applications in various domains.
+
+**Computer vision, natural language processing, speech recognition, and robotics**: These are specific domains that can benefit from Gaudi inference.
+
+**Reducing computational requirements and energy consumption**: This phrase explains how Gaudi inference can reduce the computational requirements and energy consumption of deep learning models.
+
+**Preserving accuracy and reliability**: This phrase highlights the importance of preserving the accuracy and reliability of deep learning models while optimizing their performance.
+
+**Building more sophisticated and responsive AI systems**: This phrase explains the ultimate goal of Gaudi inference, which is to build more sophisticated and responsive AI systems that can be deployed on a wide range of platforms.
+
+Overall, this sentence provides a comprehensive overview of Gaudi inference, its techniques, benefits, and applications, and highlights its importance in the field of deep learning and AI.assistant
+
+Here is a 1000-word essay based on the sentence:
+
+Gaudi Inference: A Revolutisuch
+onary Process for Enhancing Deep Neural Networks
+
+Deep neural networks have revolutionized the field of artificial intelligence (AI) in recent years, enabling applications such as computer vision, natural language processing, speech recognition, and robotics. However, the complexity and computational requirements of these networks have made them challenging to deploy on resource-constrained devices, such as smartphones, laptops, and smart home devices. To address this challenge, researchers and developers have been exploring various techniques to optimize the performance of deep neural networks. One such technique is Gaudi inference, a revolutionary process that leverages the power of specialized hardware and software to significantly enhance the performance of deep neural networks.
+
+Gaudi inference involves the deployment of a range of cutting-edge techniques, including model pruning, knowledge distillation, and quantization. Model pruning involves removing redundant or unnecessary weights and connections in the network, thereby reducing the computational requirements and energy consumption of the network. Knowledge distillation involves transferring knowledge from a large network to a smaller one, enabling the smaller network to achieve similar accuracy and performance. Quantization involves reducing the precision of the network's weights and activations, which can significantly reduce the memory requirements and energy consumption of the network.
+
+By applying these techniques, Gaudi inference enables the efficient execution of complex neural network models on resource-constrained devices. This is particularly important for applications such as computer vision, natural language processing, and speech recognition, which require the processing of large amounts of data in real-time. By optimizing the performance of deep neural networks, Gaudi inference can facilitate the widespread adoption of AI-powered applications in various domains.
+
+One of the key benefits of Gaudi inference is its ability to reduce the computational requirements and energy consumption of deep learning models. This is particularly important for devices that are powered by batteries, such
+
+HPU Power Usage Summary:
+Average Power: 3724728362053009471 W
+Maximum Power: 228230229225227228229229228230229225227228229229228230229225226228229229227230229225227228229229227230229225227228229229228230229225227228229229228230229225227228229229228230229225227228229229228230230225227228229229228230230225227228229229228230230225227228229229228230229225227228229229228230229225227228229229228230230225227228229229227230229225227228229229228230230225227228229229228230230225227228229229228230230225227228229229227230230225227228228229228230230225227228230229228230230225227228229229227230229225227228228229228230229225227228228229228230229225227228229229228230229225227228228229228230230225227228229229227230229225227228229229228230230225227228228229228230229225227228229229227230229225227228229229228230230225227227229229228230230225227228229229227234230225230228231233227233230225230228233232228234230225230228233233228234229225230228235232227234229225230228232232228234230225230227233233228234229225230228233232228234230225231228233233228234230226230228233232228234230225230228233232227234229225231228233233227233230225231228231233228234229225230228233233228233230225230228234232228234230225231228234233228234230225230228232233227234230225231228233232227234230225231228233233228234230225231228232233228234230225231228233233228234230225231228232232228234230225231228234233227234230225231228233232228234230225230228232233228234230225230228231233228234230225231228234233228233230225230228232232228234230225231228233233227234230225230228234233228234229225230228233233227234230225231228233233228234230225231228233233228234229225230228232233228234230225231228232233228234230225231228233232227234229225231228232233228234229225230228232233228234230225231228234233228233229225230228234232228234230225230228233233228234229225230228232233228234229225230228231233228234230225230228233233228234230225231228233232228234229225230228233233227234230225231228233233227234230226229228232233228234229226230228232232227234229226231228232232228234230225229228232232228234230226230228232232228233229225229228231231228234229226229228232231228234229226229228232231228234230225228228231231228233229225229228233231227233230226229228232231228311230225382228384385228383230225337228353383228373229225375228292381228303229225360228375369228339230225377228380326228378230225372228378325228313230225385228384383227331230225372228375364227313230225382228379381228352229225360228335368227326230225354228368361227363230225356228337369227364229225380228372331228378229225375228366313228335229225361228374362228310230225383228387386228328230225372228373366228386229225378228387320228371229225367228366319228391230225387228386309227300230225382228384385228373229225368228369317227379230225373228303363228329229225376228383379228392230225365228385324227390230225383228388312228386230225372228373346228390229225384228387319228393230225383228325378228319229225371228377378228371230225371228375320228380230225320228382379227393229225379228386318227346229225362228385375228381230225308228383385227372230225392228393361227384229225381228314387227326229225372228376379228380230225369228374333228332230225361228368370227331230225380228370384228368229225387228315382227398230225388228389327228387230225367228375320228393230225387228330390227348230225376228353380227390230225341228387376227385230225364228371328228379230225372228378310227389230225376228316390228398229225378228334383228390229225388228388333228395229225386228394324227395230225393228393325228356230225395228391348227378230225389228329391227383230225386228338385228392230225396228324397228393229225373228342374227401230225392228402337227330229225391228390394228354230225390228398392228402230225397228400337227399229225328228397392227338230225373228374375227340229225392228395402228351230225400228397403227348229225394228395399227337230225382228379385227387230225392228374338227347230225386228385391228392229225383228395390228349230225394228363396227387229225390228388347227405230225392228317395228403229225381228327384228407230225385228321389228392230225371228365340228372230225373228330378227341230225403228403405228333230225396228385398227398229225368228397342228392230225392228383339228389230225401228402407227340230225401228397375228367229225384228311383227368230225357228383376227396229225401228374346227336229225379228393358227364229225395228333397227398230225396228399316227402229225374228388329227385230225389228390350228341230225379228392381228407230225388228330387228396230225339228404410227380229225384228386346228406229225401228347405228409230225379228410343227382229225406228378396228382230225381228341382228373229225337228373380227372229225378228379382228408230225401228320409227404230225370228406412227394229225363228402407227372229225383228382392227344229225379228393385227348230225393228401396228404230225410228379413228344229225411228409416227349229225396228377400228347230225395228372399228369230225381228382393227390230225388228359387228356229225365228403408228398229225382228336389228325229225372228373377228401230225418228390405228408229225387228386413228359229225409228388369228409229225394228364394227353229225399227403413227336230225396227389396228335229225414228414418228371229225415228415349228345230225414228413410228390230225405228339403228399230225379228389327228403230225414228372420227349230225406228412413227347230225402228401411227372230225399228419420228347229225391228392396227385229225395228387390227414230225412228409330227235229225229228232234227235230225229228233234227235230225229228232234227235230225229228231234228234229225229228232233227233229225228228231231 W
+Raw power log saved in power_log.csv
