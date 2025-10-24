@@ -1,0 +1,4 @@
+🟢 Starting power monitoring...
+✅ Loaded 1024 prompts from Alpaca dataset
+
+🚀 Running batch 1/64 (16 prompts)
