@@ -1,0 +1,154 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+INFO 10-22 20:08:30 [__init__.py:254] Automatically detected platform hpu.
+INFO 10-22 20:08:33 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:08:34 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:08:35 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:08:35 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:08:35 [api_server.py:1289] vLLM API server version 0.6.3.dev5453+ge9c83fca1
+INFO 10-22 20:08:36 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:08:36 [cli_args.py:309] non-default args: {'model': '/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct'}
+INFO 10-22 20:08:43 [config.py:822] This model supports multiple tasks: {'classify', 'reward', 'embed', 'generate', 'score'}. Defaulting to 'generate'.
+INFO 10-22 20:08:43 [config.py:3284] Downcasting torch.float32 to torch.bfloat16.
+INFO 10-22 20:08:43 [arg_utils.py:1706] hpu is experimental on VLLM_USE_V1=1. Falling back to V0 Engine.
+WARNING 10-22 20:08:43 [arg_utils.py:1543] The model has a long context length (131072). This may causeOOM during the initial memory profiling phase, or result in low performance due to small KV cache size. Consider setting --max-model-len to a smaller value.
+INFO 10-22 20:08:43 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:08:43 [api_server.py:267] Started engine process with PID 1889169
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+WARNING 10-22 20:08:46 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 10-22 20:08:47 [__init__.py:254] Automatically detected platform hpu.
+INFO 10-22 20:08:48 [llm_engine.py:239] Initializing a V0 LLM engine (v0.6.3.dev5453+ge9c83fca1) with config: model='/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct', speculative_config=None, tokenizer='/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=True, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=hpu, decoding_config=DecodingConfig(backend='xgrammar', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=None, served_model_name=/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=None, chunked_prefill_enabled=False, use_async_output_proc=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":[],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"use_cudagraph":false,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"max_capture_size":256,"local_cache_dir":null}, use_cached_outputs=True, 
+WARNING 10-22 20:08:49 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+WARNING 10-22 20:08:49 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+WARNING 10-22 20:08:49 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+WARNING 10-22 20:08:49 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x74b31bf7ace0>
+WARNING 10-22 20:08:50 [runtime.py:60] ************************************************ Warning! ************************************************
+WARNING 10-22 20:08:50 [runtime.py:61] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+WARNING 10-22 20:08:50 [runtime.py:62] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+WARNING 10-22 20:08:50 [runtime.py:63] **********************************************************************************************************
+INFO 10-22 20:08:50 [runtime.py:26] Environment:
+INFO 10-22 20:08:50 [runtime.py:30]     hw: gaudi2
+INFO 10-22 20:08:50 [runtime.py:30]     build: 1.23.0.307
+INFO 10-22 20:08:50 [runtime.py:30]     engine_version: v0
+INFO 10-22 20:08:50 [runtime.py:30]     bridge_mode: eager
+INFO 10-22 20:08:50 [runtime.py:30]     model_type: llama
+INFO 10-22 20:08:50 [runtime.py:26] Features:
+INFO 10-22 20:08:50 [runtime.py:30]     fp32_alibi_biases: True
+INFO 10-22 20:08:50 [runtime.py:30]     fp32_softmax: False
+INFO 10-22 20:08:50 [runtime.py:30]     fused_block_softmax_adjustment: False
+INFO 10-22 20:08:50 [runtime.py:30]     fused_block_softmax: False
+INFO 10-22 20:08:50 [runtime.py:30]     prompt_attn_impl: fsdpa_impl
+INFO 10-22 20:08:50 [runtime.py:30]     skip_warmup: True
+INFO 10-22 20:08:50 [runtime.py:30]     merged_prefill: False
+INFO 10-22 20:08:50 [runtime.py:30]     use_contiguous_pa: True
+INFO 10-22 20:08:50 [runtime.py:30]     use_delayed_sampling: True
+INFO 10-22 20:08:50 [runtime.py:30]     use_bucketing: True
+INFO 10-22 20:08:50 [runtime.py:30]     bucketing_strategy: exponential_bucketing
+INFO 10-22 20:08:50 [runtime.py:26] User flags:
+INFO 10-22 20:08:50 [runtime.py:30]     VLLM_USE_V1: False
+INFO 10-22 20:08:50 [runtime.py:26] Experimental flags:
+INFO 10-22 20:08:50 [runtime.py:30]     VLLM_SKIP_WARMUP: True
+WARNING 10-22 20:08:50 [hpu.py:135] Pin memory is not supported on HPU.
+INFO 10-22 20:08:50 [hpu.py:60] Using HPUAttention backend.
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.23.0-307
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 1
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 1
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 160
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+INFO 10-22 20:08:52 [parallel_state.py:1065] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+Loading safetensors checkpoint shards:   0% Completed | 0/7 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  14% Completed | 1/7 [00:00<00:05,  1.07it/s]
+Loading safetensors checkpoint shards:  29% Completed | 2/7 [00:01<00:04,  1.02it/s]
+Loading safetensors checkpoint shards:  43% Completed | 3/7 [00:03<00:04,  1.06s/it]
+Loading safetensors checkpoint shards:  57% Completed | 4/7 [00:04<00:03,  1.01s/it]
+Loading safetensors checkpoint shards:  71% Completed | 5/7 [00:04<00:01,  1.21it/s]
+Loading safetensors checkpoint shards:  86% Completed | 6/7 [00:05<00:00,  1.19it/s]
+Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:06<00:00,  1.17it/s]
+Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:06<00:00,  1.11it/s]
+
+INFO 10-22 20:08:59 [default_loader.py:272] Loading weights took 6.37 seconds
+INFO 10-22 20:08:59 [hpu_model_runner.py:1184] Pre-loading model weights on hpu:0 took 14.99 GiB of device memory (14.99 GiB/94.62 GiB used) and -354.7 MiB of host memory (245.8 GiB/1007 GiB used)
+INFO 10-22 20:09:00 [hpu_model_runner.py:1266] Wrapping in HPU Graph took 0 B of device memory (14.99 GiB/94.62 GiB used) and -584 KiB of host memory (245.7 GiB/1007 GiB used)
+INFO 10-22 20:09:00 [hpu_model_runner.py:1270] Compiling took 0 B of device memory (14.99 GiB/94.62 GiB used) and 0 B of host memory (245.8 GiB/1007 GiB used)
+INFO 10-22 20:09:00 [hpu_model_runner.py:1274] Loading model weights took in total 14.99 GiB of device memory (14.99 GiB/94.62 GiB used) and -359.6 MiB of host memory (245.8 GiB/1007 GiB used)
+WARNING 10-22 20:09:00 [common.py:139] Prompt bucket for (1, 131072, 0) was not prepared. Adding new bucket: (1, 131072, 0)
+/usr/local/lib/python3.10/dist-packages/torch/_dynamo/variables/functions.py:1686: UserWarning: Dynamo detected a call to a `functools.lru_cache`-wrapped function. Dynamo ignores the cache wrapper and directly traces the wrapped function. Silent incorrectness is only a *potential* risk, not something we have observed. Enable TORCH_LOGS="+dynamo" for a DEBUG stack trace.
+  torch._dynamo.utils.warn_once(msg)
+INFO 10-22 20:12:10 [hpu_worker.py:289] Model profiling run took 9.697 GiB of device memory (24.69 GiB/94.62 GiB used) and 10.47 GiB of host memory (256.2 GiB/1007 GiB used)
+INFO 10-22 20:12:10 [hpu_worker.py:313] Free device memory: 69.93 GiB, 62.94 GiB usable (gpu_memory_utilization=0.9), 6.294 GiB reserved for HPUGraphs (VLLM_GRAPH_RESERVED_MEM=0.1), 56.65 GiB reserved for KV cache
+INFO 10-22 20:12:10 [executor_base.py:113] # hpu blocks: 3625, # CPU blocks: 256
+INFO 10-22 20:12:10 [executor_base.py:118] Maximum concurrency for 131072 tokens per request: 3.54x
+INFO 10-22 20:12:10 [exponential.py:49] Prompt bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], seq:[128, 128, 131072, 18]
+INFO 10-22 20:12:10 [common.py:117] Generated 80 prompt buckets [bs, query, num_blocks]: [(1, 128, 0), (1, 256, 0), (1, 384, 0), (1, 640, 0), (1, 1024, 0), (1, 1664, 0), (1, 2688, 0), (1, 4480, 0), (1, 7296, 0), (1, 21120, 0), (1, 34816, 0), (1, 48640, 0), (1, 62336, 0), (1, 76160, 0), (1, 89856, 0), (1, 103680, 0), (1, 117376, 0), (1, 131072, 0), (2, 128, 0), (2, 256, 0), (2, 384, 0), (2, 640, 0), (2, 1024, 0), (2, 1664, 0), (2, 2688, 0), (2, 4480, 0), (2, 7296, 0), (2, 21120, 0), (2, 34816, 0), (2, 48640, 0), (2, 62336, 0), (4, 128, 0), (4, 256, 0), (4, 384, 0), (4, 640, 0), (4, 1024, 0), (4, 1664, 0), (4, 2688, 0), (4, 4480, 0), (4, 7296, 0), (4, 21120, 0), (8, 128, 0), (8, 256, 0), (8, 384, 0), (8, 640, 0), (8, 1024, 0), (8, 1664, 0), (8, 2688, 0), (8, 4480, 0), (8, 7296, 0), (16, 128, 0), (16, 256, 0), (16, 384, 0), (16, 640, 0), (16, 1024, 0), (16, 1664, 0), (16, 2688, 0), (16, 4480, 0), (16, 7296, 0), (32, 128, 0), (32, 256, 0), (32, 384, 0), (32, 640, 0), (32, 1024, 0), (32, 1664, 0), (32, 2688, 0), (64, 128, 0), (64, 256, 0), (64, 384, 0), (64, 640, 0), (64, 1024, 0), (64, 1664, 0), (128, 128, 0), (128, 256, 0), (128, 384, 0), (128, 640, 0), (128, 1024, 0), (256, 128, 0), (256, 256, 0), (256, 384, 0)]
+INFO 10-22 20:12:10 [exponential.py:79] Decode bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], block:[128, 128, 3625, 13]
+INFO 10-22 20:12:10 [common.py:117] Generated 117 decode buckets [bs, query, num_blocks]: [(1, 1, 128), (1, 1, 256), (1, 1, 384), (1, 1, 512), (1, 1, 640), (1, 1, 768), (1, 1, 896), (1, 1, 1024), (1, 1, 1280), (1, 1, 1664), (1, 1, 2176), (1, 1, 2816), (1, 1, 3625), (2, 1, 128), (2, 1, 256), (2, 1, 384), (2, 1, 512), (2, 1, 640), (2, 1, 768), (2, 1, 896), (2, 1, 1024), (2, 1, 1280), (2, 1, 1664), (2, 1, 2176), (2, 1, 2816), (2, 1, 3625), (4, 1, 128), (4, 1, 256), (4, 1, 384), (4, 1, 512), (4, 1, 640), (4, 1, 768), (4, 1, 896), (4, 1, 1024), (4, 1, 1280), (4, 1, 1664), (4, 1, 2176), (4, 1, 2816), (4, 1, 3625), (8, 1, 128), (8, 1, 256), (8, 1, 384), (8, 1, 512), (8, 1, 640), (8, 1, 768), (8, 1, 896), (8, 1, 1024), (8, 1, 1280), (8, 1, 1664), (8, 1, 2176), (8, 1, 2816), (8, 1, 3625), (16, 1, 128), (16, 1, 256), (16, 1, 384), (16, 1, 512), (16, 1, 640), (16, 1, 768), (16, 1, 896), (16, 1, 1024), (16, 1, 1280), (16, 1, 1664), (16, 1, 2176), (16, 1, 2816), (16, 1, 3625), (32, 1, 128), (32, 1, 256), (32, 1, 384), (32, 1, 512), (32, 1, 640), (32, 1, 768), (32, 1, 896), (32, 1, 1024), (32, 1, 1280), (32, 1, 1664), (32, 1, 2176), (32, 1, 2816), (32, 1, 3625), (64, 1, 128), (64, 1, 256), (64, 1, 384), (64, 1, 512), (64, 1, 640), (64, 1, 768), (64, 1, 896), (64, 1, 1024), (64, 1, 1280), (64, 1, 1664), (64, 1, 2176), (64, 1, 2816), (64, 1, 3625), (128, 1, 128), (128, 1, 256), (128, 1, 384), (128, 1, 512), (128, 1, 640), (128, 1, 768), (128, 1, 896), (128, 1, 1024), (128, 1, 1280), (128, 1, 1664), (128, 1, 2176), (128, 1, 2816), (128, 1, 3625), (256, 1, 128), (256, 1, 256), (256, 1, 384), (256, 1, 512), (256, 1, 640), (256, 1, 768), (256, 1, 896), (256, 1, 1024), (256, 1, 1280), (256, 1, 1664), (256, 1, 2176), (256, 1, 2816), (256, 1, 3625)]
+INFO 10-22 20:12:11 [hpu_worker.py:350] Initializing cache engine took 56.64 GiB of device memory (81.33 GiB/94.62 GiB used) and -8.24 GiB of host memory (247.9 GiB/1007 GiB used)
+INFO 10-22 20:12:11 [hpu_model_runner.py:3202] Skipping warmup...
+INFO 10-22 20:12:11 [llm_engine.py:431] init engine (profile, create kv cache, warmup model) took 191.00 seconds
+WARNING 10-22 20:12:11 [config.py:1364] Default sampling parameters have been overridden by the model's Hugging Face generation config recommended from the model creator. If this is not intended, please relaunch vLLM instance with `--generation-config vllm`.
+INFO 10-22 20:12:11 [serving_chat.py:118] Using default chat sampling params from model: {'temperature': 0.6, 'top_p': 0.9}
+INFO 10-22 20:12:11 [serving_completion.py:66] Using default completion sampling params from model: {'temperature': 0.6, 'top_p': 0.9}
+INFO 10-22 20:12:11 [api_server.py:1351] Starting vLLM API server 0 on http://0.0.0.0:8000
+INFO 10-22 20:12:11 [launcher.py:29] Available routes are:
+INFO 10-22 20:12:11 [launcher.py:37] Route: /openapi.json, Methods: GET, HEAD
+INFO 10-22 20:12:11 [launcher.py:37] Route: /docs, Methods: GET, HEAD
+INFO 10-22 20:12:11 [launcher.py:37] Route: /docs/oauth2-redirect, Methods: GET, HEAD
+INFO 10-22 20:12:11 [launcher.py:37] Route: /redoc, Methods: GET, HEAD
+INFO 10-22 20:12:11 [launcher.py:37] Route: /health, Methods: GET
+INFO 10-22 20:12:11 [launcher.py:37] Route: /load, Methods: GET
+INFO 10-22 20:12:11 [launcher.py:37] Route: /ping, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /ping, Methods: GET
+INFO 10-22 20:12:11 [launcher.py:37] Route: /tokenize, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /detokenize, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /v1/models, Methods: GET
+INFO 10-22 20:12:11 [launcher.py:37] Route: /version, Methods: GET
+INFO 10-22 20:12:11 [launcher.py:37] Route: /v1/chat/completions, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /v1/completions, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /v1/embeddings, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /pooling, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /classify, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /score, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /v1/score, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /v1/audio/transcriptions, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /rerank, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /v1/rerank, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /v2/rerank, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /invocations, Methods: POST
+INFO 10-22 20:12:11 [launcher.py:37] Route: /metrics, Methods: GET
+INFO:     Started server process [1888054]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:51576 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51590 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51606 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51612 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51616 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51626 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51634 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51650 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51660 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51666 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51672 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51684 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51686 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51690 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51702 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51712 - "POST /v1/completions HTTP/1.1" 404 Not Found

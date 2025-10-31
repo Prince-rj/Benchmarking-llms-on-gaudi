@@ -1,0 +1,30 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+INFO 10-16 21:46:29 [__init__.py:254] Automatically detected platform hpu.
+INFO 10-16 21:46:37 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-16 21:46:38 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-16 21:46:38 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-16 21:46:39 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-16 21:46:39 [api_server.py:1289] vLLM API server version 0.6.3.dev5453+ge9c83fca1
+INFO 10-16 21:46:39 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-16 21:46:39 [cli_args.py:309] non-default args: {'model': '/software/data/llama_inference/Llama-2-7b-hf/', 'tensor_parallel_size': 2}
+Traceback (most recent call last):
+  File "/usr/local/bin/vllm", line 33, in <module>
+    sys.exit(load_entry_point('vllm', 'console_scripts', 'vllm')())
+  File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Llamma2-7B/vllm/gaudi_2s/vllm-fork/vllm/entrypoints/cli/main.py", line 59, in main
+    args.dispatch_function(args)
+  File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Llamma2-7B/vllm/gaudi_2s/vllm-fork/vllm/entrypoints/cli/serve.py", line 58, in cmd
+    uvloop.run(run_server(args))
+  File "/usr/local/lib/python3.10/dist-packages/uvloop/__init__.py", line 82, in run
+    return loop.run_until_complete(wrapper())
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/usr/local/lib/python3.10/dist-packages/uvloop/__init__.py", line 61, in wrapper
+    return await main
+  File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Llamma2-7B/vllm/gaudi_2s/vllm-fork/vllm/entrypoints/openai/api_server.py", line 1324, in run_server
+    listen_address, sock = setup_server(args)
+  File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Llamma2-7B/vllm/gaudi_2s/vllm-fork/vllm/entrypoints/openai/api_server.py", line 1301, in setup_server
+    sock = create_server_socket(sock_addr)
+  File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Llamma2-7B/vllm/gaudi_2s/vllm-fork/vllm/entrypoints/openai/api_server.py", line 1265, in create_server_socket
+    sock.bind(addr)
+OSError: [Errno 98] Address already in use

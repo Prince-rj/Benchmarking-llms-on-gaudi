@@ -1,0 +1,664 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+INFO 10-22 20:17:11 [__init__.py:254] Automatically detected platform hpu.
+INFO 10-22 20:17:18 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:17:19 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:17:19 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:17:20 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:17:20 [api_server.py:1289] vLLM API server version 0.6.3.dev5453+ge9c83fca1
+INFO 10-22 20:17:20 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:17:20 [cli_args.py:309] non-default args: {'model': '/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct'}
+INFO 10-22 20:17:26 [config.py:822] This model supports multiple tasks: {'score', 'embed', 'generate', 'reward', 'classify'}. Defaulting to 'generate'.
+INFO 10-22 20:17:26 [config.py:3284] Downcasting torch.float32 to torch.bfloat16.
+INFO 10-22 20:17:26 [arg_utils.py:1706] hpu is experimental on VLLM_USE_V1=1. Falling back to V0 Engine.
+WARNING 10-22 20:17:26 [arg_utils.py:1543] The model has a long context length (131072). This may causeOOM during the initial memory profiling phase, or result in low performance due to small KV cache size. Consider setting --max-model-len to a smaller value.
+INFO 10-22 20:17:26 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 10-22 20:17:26 [api_server.py:267] Started engine process with PID 3106110
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+WARNING 10-22 20:17:29 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 10-22 20:17:30 [__init__.py:254] Automatically detected platform hpu.
+INFO 10-22 20:17:32 [llm_engine.py:239] Initializing a V0 LLM engine (v0.6.3.dev5453+ge9c83fca1) with config: model='/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct', speculative_config=None, tokenizer='/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=True, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=hpu, decoding_config=DecodingConfig(backend='xgrammar', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=None, served_model_name=/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=None, chunked_prefill_enabled=False, use_async_output_proc=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":[],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"use_cudagraph":false,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"max_capture_size":256,"local_cache_dir":null}, use_cached_outputs=True, 
+WARNING 10-22 20:17:33 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+WARNING 10-22 20:17:33 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+WARNING 10-22 20:17:33 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+WARNING 10-22 20:17:33 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x7a03e1ef6770>
+WARNING 10-22 20:17:34 [runtime.py:60] ************************************************ Warning! ************************************************
+WARNING 10-22 20:17:34 [runtime.py:61] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+WARNING 10-22 20:17:34 [runtime.py:62] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+WARNING 10-22 20:17:34 [runtime.py:63] **********************************************************************************************************
+INFO 10-22 20:17:34 [runtime.py:26] Environment:
+INFO 10-22 20:17:34 [runtime.py:30]     hw: gaudi3
+INFO 10-22 20:17:34 [runtime.py:30]     build: 1.23.0.307
+INFO 10-22 20:17:34 [runtime.py:30]     engine_version: v0
+INFO 10-22 20:17:34 [runtime.py:30]     bridge_mode: eager
+INFO 10-22 20:17:34 [runtime.py:30]     model_type: llama
+INFO 10-22 20:17:34 [runtime.py:26] Features:
+INFO 10-22 20:17:34 [runtime.py:30]     fp32_alibi_biases: True
+INFO 10-22 20:17:34 [runtime.py:30]     fp32_softmax: False
+INFO 10-22 20:17:34 [runtime.py:30]     fused_block_softmax_adjustment: True
+INFO 10-22 20:17:34 [runtime.py:30]     fused_block_softmax: False
+INFO 10-22 20:17:34 [runtime.py:30]     prompt_attn_impl: fsdpa_impl
+INFO 10-22 20:17:34 [runtime.py:30]     skip_warmup: True
+INFO 10-22 20:17:34 [runtime.py:30]     merged_prefill: False
+INFO 10-22 20:17:34 [runtime.py:30]     use_contiguous_pa: True
+INFO 10-22 20:17:34 [runtime.py:30]     use_delayed_sampling: True
+INFO 10-22 20:17:34 [runtime.py:30]     use_bucketing: True
+INFO 10-22 20:17:34 [runtime.py:30]     bucketing_strategy: exponential_bucketing
+INFO 10-22 20:17:34 [runtime.py:26] User flags:
+INFO 10-22 20:17:34 [runtime.py:30]     VLLM_USE_V1: False
+INFO 10-22 20:17:34 [runtime.py:26] Experimental flags:
+INFO 10-22 20:17:34 [runtime.py:30]     VLLM_SKIP_WARMUP: True
+WARNING 10-22 20:17:34 [hpu.py:135] Pin memory is not supported on HPU.
+INFO 10-22 20:17:34 [hpu.py:60] Using HPUAttention backend.
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.23.0-307
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 1
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 1
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+INFO 10-22 20:17:35 [parallel_state.py:1065] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+Loading safetensors checkpoint shards:   0% Completed | 0/7 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  14% Completed | 1/7 [00:01<00:11,  1.94s/it]
+Loading safetensors checkpoint shards:  29% Completed | 2/7 [00:03<00:09,  1.95s/it]
+Loading safetensors checkpoint shards:  43% Completed | 3/7 [00:05<00:07,  1.92s/it]
+Loading safetensors checkpoint shards:  57% Completed | 4/7 [00:07<00:06,  2.01s/it]
+Loading safetensors checkpoint shards:  71% Completed | 5/7 [00:09<00:03,  1.75s/it]
+Loading safetensors checkpoint shards:  86% Completed | 6/7 [00:11<00:01,  1.83s/it]
+Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:13<00:00,  1.89s/it]
+Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:13<00:00,  1.89s/it]
+
+INFO 10-22 20:17:48 [default_loader.py:272] Loading weights took 13.29 seconds
+INFO 10-22 20:17:48 [hpu_model_runner.py:1184] Pre-loading model weights on hpu:0 took 14.99 GiB of device memory (15 GiB/126.5 GiB used) and 76.24 MiB of host memory (386.9 GiB/1007 GiB used)
+INFO 10-22 20:17:49 [hpu_model_runner.py:1266] Wrapping in HPU Graph took 0 B of device memory (15 GiB/126.5 GiB used) and -1.051 MiB of host memory (386.9 GiB/1007 GiB used)
+INFO 10-22 20:17:49 [hpu_model_runner.py:1270] Compiling took 0 B of device memory (15 GiB/126.5 GiB used) and -12 KiB of host memory (386.9 GiB/1007 GiB used)
+INFO 10-22 20:17:49 [hpu_model_runner.py:1274] Loading model weights took in total 14.99 GiB of device memory (15 GiB/126.5 GiB used) and 70.03 MiB of host memory (386.9 GiB/1007 GiB used)
+WARNING 10-22 20:17:49 [common.py:139] Prompt bucket for (1, 131072, 0) was not prepared. Adding new bucket: (1, 131072, 0)
+/usr/local/lib/python3.10/dist-packages/torch/_dynamo/variables/functions.py:1686: UserWarning: Dynamo detected a call to a `functools.lru_cache`-wrapped function. Dynamo ignores the cache wrapper and directly traces the wrapped function. Silent incorrectness is only a *potential* risk, not something we have observed. Enable TORCH_LOGS="+dynamo" for a DEBUG stack trace.
+  torch._dynamo.utils.warn_once(msg)
+INFO 10-22 20:20:27 [hpu_worker.py:289] Model profiling run took 9.708 GiB of device memory (24.7 GiB/126.5 GiB used) and 11.92 GiB of host memory (398.8 GiB/1007 GiB used)
+INFO 10-22 20:20:27 [hpu_worker.py:313] Free device memory: 101.8 GiB, 91.65 GiB usable (gpu_memory_utilization=0.9), 9.165 GiB reserved for HPUGraphs (VLLM_GRAPH_RESERVED_MEM=0.1), 82.49 GiB reserved for KV cache
+INFO 10-22 20:20:27 [executor_base.py:113] # hpu blocks: 5279, # CPU blocks: 256
+INFO 10-22 20:20:27 [executor_base.py:118] Maximum concurrency for 131072 tokens per request: 5.16x
+INFO 10-22 20:20:27 [exponential.py:49] Prompt bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], seq:[128, 128, 131072, 18]
+INFO 10-22 20:20:27 [common.py:117] Generated 80 prompt buckets [bs, query, num_blocks]: [(1, 128, 0), (1, 256, 0), (1, 384, 0), (1, 640, 0), (1, 1024, 0), (1, 1664, 0), (1, 2688, 0), (1, 4480, 0), (1, 7296, 0), (1, 21120, 0), (1, 34816, 0), (1, 48640, 0), (1, 62336, 0), (1, 76160, 0), (1, 89856, 0), (1, 103680, 0), (1, 117376, 0), (1, 131072, 0), (2, 128, 0), (2, 256, 0), (2, 384, 0), (2, 640, 0), (2, 1024, 0), (2, 1664, 0), (2, 2688, 0), (2, 4480, 0), (2, 7296, 0), (2, 21120, 0), (2, 34816, 0), (2, 48640, 0), (2, 62336, 0), (4, 128, 0), (4, 256, 0), (4, 384, 0), (4, 640, 0), (4, 1024, 0), (4, 1664, 0), (4, 2688, 0), (4, 4480, 0), (4, 7296, 0), (4, 21120, 0), (8, 128, 0), (8, 256, 0), (8, 384, 0), (8, 640, 0), (8, 1024, 0), (8, 1664, 0), (8, 2688, 0), (8, 4480, 0), (8, 7296, 0), (16, 128, 0), (16, 256, 0), (16, 384, 0), (16, 640, 0), (16, 1024, 0), (16, 1664, 0), (16, 2688, 0), (16, 4480, 0), (16, 7296, 0), (32, 128, 0), (32, 256, 0), (32, 384, 0), (32, 640, 0), (32, 1024, 0), (32, 1664, 0), (32, 2688, 0), (64, 128, 0), (64, 256, 0), (64, 384, 0), (64, 640, 0), (64, 1024, 0), (64, 1664, 0), (128, 128, 0), (128, 256, 0), (128, 384, 0), (128, 640, 0), (128, 1024, 0), (256, 128, 0), (256, 256, 0), (256, 384, 0)]
+INFO 10-22 20:20:27 [exponential.py:79] Decode bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], block:[128, 128, 5279, 14]
+INFO 10-22 20:20:27 [common.py:117] Generated 126 decode buckets [bs, query, num_blocks]: [(1, 1, 128), (1, 1, 256), (1, 1, 384), (1, 1, 512), (1, 1, 640), (1, 1, 768), (1, 1, 896), (1, 1, 1024), (1, 1, 1280), (1, 1, 1792), (1, 1, 2304), (1, 1, 3072), (1, 1, 3968), (1, 1, 5279), (2, 1, 128), (2, 1, 256), (2, 1, 384), (2, 1, 512), (2, 1, 640), (2, 1, 768), (2, 1, 896), (2, 1, 1024), (2, 1, 1280), (2, 1, 1792), (2, 1, 2304), (2, 1, 3072), (2, 1, 3968), (2, 1, 5279), (4, 1, 128), (4, 1, 256), (4, 1, 384), (4, 1, 512), (4, 1, 640), (4, 1, 768), (4, 1, 896), (4, 1, 1024), (4, 1, 1280), (4, 1, 1792), (4, 1, 2304), (4, 1, 3072), (4, 1, 3968), (4, 1, 5279), (8, 1, 128), (8, 1, 256), (8, 1, 384), (8, 1, 512), (8, 1, 640), (8, 1, 768), (8, 1, 896), (8, 1, 1024), (8, 1, 1280), (8, 1, 1792), (8, 1, 2304), (8, 1, 3072), (8, 1, 3968), (8, 1, 5279), (16, 1, 128), (16, 1, 256), (16, 1, 384), (16, 1, 512), (16, 1, 640), (16, 1, 768), (16, 1, 896), (16, 1, 1024), (16, 1, 1280), (16, 1, 1792), (16, 1, 2304), (16, 1, 3072), (16, 1, 3968), (16, 1, 5279), (32, 1, 128), (32, 1, 256), (32, 1, 384), (32, 1, 512), (32, 1, 640), (32, 1, 768), (32, 1, 896), (32, 1, 1024), (32, 1, 1280), (32, 1, 1792), (32, 1, 2304), (32, 1, 3072), (32, 1, 3968), (32, 1, 5279), (64, 1, 128), (64, 1, 256), (64, 1, 384), (64, 1, 512), (64, 1, 640), (64, 1, 768), (64, 1, 896), (64, 1, 1024), (64, 1, 1280), (64, 1, 1792), (64, 1, 2304), (64, 1, 3072), (64, 1, 3968), (64, 1, 5279), (128, 1, 128), (128, 1, 256), (128, 1, 384), (128, 1, 512), (128, 1, 640), (128, 1, 768), (128, 1, 896), (128, 1, 1024), (128, 1, 1280), (128, 1, 1792), (128, 1, 2304), (128, 1, 3072), (128, 1, 3968), (128, 1, 5279), (256, 1, 128), (256, 1, 256), (256, 1, 384), (256, 1, 512), (256, 1, 640), (256, 1, 768), (256, 1, 896), (256, 1, 1024), (256, 1, 1280), (256, 1, 1792), (256, 1, 2304), (256, 1, 3072), (256, 1, 3968), (256, 1, 5279)]
+INFO 10-22 20:20:28 [hpu_worker.py:350] Initializing cache engine took 82.48 GiB of device memory (107.2 GiB/126.5 GiB used) and 308 KiB of host memory (398.8 GiB/1007 GiB used)
+INFO 10-22 20:20:28 [hpu_model_runner.py:3202] Skipping warmup...
+INFO 10-22 20:20:28 [llm_engine.py:431] init engine (profile, create kv cache, warmup model) took 158.66 seconds
+WARNING 10-22 20:20:28 [config.py:1364] Default sampling parameters have been overridden by the model's Hugging Face generation config recommended from the model creator. If this is not intended, please relaunch vLLM instance with `--generation-config vllm`.
+INFO 10-22 20:20:28 [serving_chat.py:118] Using default chat sampling params from model: {'temperature': 0.6, 'top_p': 0.9}
+INFO 10-22 20:20:28 [serving_completion.py:66] Using default completion sampling params from model: {'temperature': 0.6, 'top_p': 0.9}
+INFO 10-22 20:20:28 [api_server.py:1351] Starting vLLM API server 0 on http://0.0.0.0:8000
+INFO 10-22 20:20:28 [launcher.py:29] Available routes are:
+INFO 10-22 20:20:28 [launcher.py:37] Route: /openapi.json, Methods: GET, HEAD
+INFO 10-22 20:20:28 [launcher.py:37] Route: /docs, Methods: GET, HEAD
+INFO 10-22 20:20:28 [launcher.py:37] Route: /docs/oauth2-redirect, Methods: GET, HEAD
+INFO 10-22 20:20:28 [launcher.py:37] Route: /redoc, Methods: GET, HEAD
+INFO 10-22 20:20:28 [launcher.py:37] Route: /health, Methods: GET
+INFO 10-22 20:20:28 [launcher.py:37] Route: /load, Methods: GET
+INFO 10-22 20:20:28 [launcher.py:37] Route: /ping, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /ping, Methods: GET
+INFO 10-22 20:20:28 [launcher.py:37] Route: /tokenize, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /detokenize, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /v1/models, Methods: GET
+INFO 10-22 20:20:28 [launcher.py:37] Route: /version, Methods: GET
+INFO 10-22 20:20:28 [launcher.py:37] Route: /v1/chat/completions, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /v1/completions, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /v1/embeddings, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /pooling, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /classify, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /score, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /v1/score, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /v1/audio/transcriptions, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /rerank, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /v1/rerank, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /v2/rerank, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /invocations, Methods: POST
+INFO 10-22 20:20:28 [launcher.py:37] Route: /metrics, Methods: GET
+INFO:     Started server process [3105802]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:46844 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46852 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46862 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46876 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46878 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46882 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46884 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46888 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46890 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46898 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46910 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46922 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46926 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46932 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46934 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46950 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37398 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37400 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37404 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37412 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37418 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37428 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37444 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37456 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37462 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37468 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37472 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37488 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37496 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37508 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37512 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37518 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37532 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37542 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37544 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37552 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37562 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37564 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37574 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37580 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58550 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58560 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58562 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58576 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58578 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58582 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58590 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58598 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58600 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58616 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58626 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58632 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58648 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58658 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58674 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58690 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58692 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58702 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58710 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58720 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58726 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58728 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58734 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58748 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44176 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44192 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44208 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44212 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44226 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44234 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44238 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44254 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44268 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44274 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44280 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44288 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44294 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44306 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44314 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44320 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44328 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44338 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44340 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44344 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44358 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44364 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44380 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44394 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55648 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55652 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55656 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55660 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55672 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55680 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55692 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55694 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55700 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55702 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55714 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55726 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55736 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55748 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55756 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55762 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55772 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55778 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55792 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55798 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55810 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55826 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55834 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55842 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51598 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51614 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51626 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51632 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51636 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51638 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51640 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51652 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51660 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51658 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51664 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51680 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51690 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51700 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51706 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51712 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51728 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51730 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51734 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51736 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51750 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51756 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51758 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51772 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44106 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44108 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44114 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44126 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44142 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44156 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44168 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44174 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44184 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44190 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44196 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44212 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44216 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44218 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44226 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44228 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44244 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44252 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44260 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44264 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44272 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44274 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44276 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44286 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54508 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54512 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54526 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54530 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54542 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54556 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54568 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54580 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54588 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54602 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54610 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54620 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54622 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54630 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54638 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54648 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54652 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54654 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54656 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54670 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54674 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54684 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54700 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54714 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49640 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49654 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49662 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49670 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49674 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49686 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49702 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49706 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49714 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49716 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49722 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49736 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49744 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49750 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49764 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49778 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43316 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43320 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43334 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43348 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43354 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43358 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43370 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43382 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43384 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43394 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43410 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43412 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43414 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43418 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43424 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43432 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43444 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43452 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43458 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43474 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43476 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43478 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43486 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43496 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40194 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40204 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40210 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40216 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40222 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40238 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40252 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40268 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40278 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40280 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40286 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40296 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40312 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40328 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40334 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40336 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40338 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40354 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40364 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40376 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40392 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40406 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40408 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40422 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48842 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48840 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48860 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48868 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48884 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48896 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48902 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48906 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48912 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48926 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48938 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48950 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48960 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48974 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48978 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48992 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48998 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49010 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49018 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49028 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49036 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49052 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49054 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49058 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36202 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36204 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36214 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36216 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36222 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36230 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36244 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36260 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36272 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36276 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36284 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36300 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36304 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36308 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36316 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36320 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36322 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36328 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36330 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36336 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36340 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36352 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36364 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36370 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44668 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44682 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44694 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44700 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44704 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44710 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44726 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44728 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44738 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44752 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44760 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44772 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44786 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44792 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44808 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44820 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44828 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44844 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44842 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44846 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44850 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44856 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44858 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44860 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53192 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53196 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53200 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53202 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53218 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53226 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53232 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53244 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53248 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53254 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53262 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53274 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53288 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53294 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53300 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53302 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53306 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53310 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53324 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53334 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53336 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53344 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53356 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53364 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37542 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37556 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37560 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37572 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37580 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37594 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37610 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37626 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37640 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37642 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37646 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37650 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37664 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37680 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37682 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37688 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37702 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37714 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37720 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37728 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37734 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37740 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37748 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37760 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59418 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59420 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59434 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59440 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59456 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59470 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59474 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59490 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59498 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59504 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59520 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59522 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59530 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59540 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59544 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59556 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59562 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59564 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59572 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59588 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59600 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59612 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59616 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59630 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46218 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46226 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46238 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46252 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46264 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46280 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46290 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46300 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46314 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46330 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46334 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46348 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46360 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46372 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46384 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46394 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40714 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40718 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40720 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40728 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40734 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40740 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40748 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40752 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40766 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40780 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40796 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40800 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40804 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40820 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40836 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40838 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40850 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40862 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40870 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40882 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40888 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40904 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40920 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40928 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35530 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35544 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35558 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35568 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35580 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35590 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35602 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35610 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35614 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35618 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35620 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35628 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35642 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35650 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35656 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35660 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35662 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35666 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35670 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35682 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35684 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35694 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35702 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35708 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44550 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44566 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44572 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44584 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44586 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44594 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44598 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44612 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44616 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44628 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44634 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44646 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44660 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44662 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44668 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44674 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44680 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44684 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44698 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44710 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44720 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44734 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44740 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44748 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46100 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46104 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46110 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46114 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46130 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46132 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46148 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46160 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46162 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46176 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46178 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46188 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46196 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46212 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46218 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46220 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46236 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46238 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46252 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46254 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46268 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46274 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46284 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46296 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33514 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33528 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33540 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33548 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33562 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33582 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33566 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33586 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33602 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33618 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33630 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33634 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33642 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33658 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33672 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33676 - "POST /v1/completions HTTP/1.1" 404 Not Found
+INFO 10-22 20:36:04 [launcher.py:80] Shutting down FastAPI HTTP server.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

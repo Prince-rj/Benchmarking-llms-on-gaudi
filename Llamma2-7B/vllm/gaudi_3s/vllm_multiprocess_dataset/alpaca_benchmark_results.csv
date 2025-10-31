@@ -1,0 +1,521 @@
+prompt,tokens_generated,ttft,mean_itl,median_itl,throughput
+Instruction: Give three tips for staying healthy. Response:...,322,2.0106,0.0087,0.0087,67.21
+Instruction: What are the three primary colors? Response:...,37,0.0268,0.0384,0.0088,26.25
+Instruction: Describe the structure of an atom. Response:...,389,1.0863,0.0088,0.0088,86.43
+Instruction: How can we reduce air pollution? Response:...,467,0.0242,0.0088,0.0088,113.08
+Instruction: Describe a time when you had to make a difficul...,429,0.0238,0.0088,0.0088,112.61
+"Instruction: Identify the odd one out. Input: Twitter, Insta...",88,0.0239,0.0088,0.0088,111.46
+Instruction: Explain why the following fraction is equivalen...,146,0.0241,0.0088,0.0088,112.39
+Instruction: Write a short story in third person narration a...,419,0.0241,0.0087,0.0087,114.47
+Instruction: Render a 3D model of a house Response:...,302,0.0217,0.0087,0.0087,114.88
+Instruction: Evaluate this sentence for spelling and grammar...,55,0.0167,0.0086,0.0087,113.96
+Instruction: How did Julius Caesar die? Response:...,354,0.0165,0.0087,0.0087,115.05
+Instruction: What is the capital of France? Response:...,1024,0.0171,0.0087,0.0087,115.15
+Instruction: Generate a list of ten items a person might nee...,353,0.0169,0.014,0.0087,71.57
+Instruction: Discuss the causes of the Great Depression Resp...,667,0.8573,0.0103,0.0088,86.16
+"Instruction: Classify the following into animals, plants, an...",34,0.8549,0.0396,0.009,15.74
+Instruction: Explain the use of word embeddings in Natural L...,813,1.8575,0.0088,0.0088,90.39
+Instruction: Describe the function of a computer motherboard...,426,0.0219,0.0087,0.0087,114.96
+Instruction: Reverse engineer this code to create a new vers...,478,0.017,0.0087,0.0087,115.15
+Instruction: Propose an ethical solution to the problem of d...,711,0.0165,0.0087,0.0087,115.11
+"Instruction: Generate three verbs that mean the same as ""to ...",33,0.0167,0.0087,0.0087,112.37
+Instruction: What does DNA stand for? Response:...,1024,0.0186,0.0088,0.0088,113.34
+Instruction: Compare and contrast the Cuban Missile Crisis a...,509,0.0579,0.0089,0.0089,110.84
+Instruction: Generate a list of random words. Response:...,41,0.0486,0.009,0.0091,99.99
+Instruction: Transcribe the recording into text. Input: Reco...,275,0.0312,0.009,0.009,109.6
+Instruction: Who is the world's most famous painter? Respons...,143,0.0219,0.0086,0.0087,114.41
+Instruction: Explain the concept of cogging torque. Response...,373,0.0165,0.0087,0.0087,114.98
+Instruction: Look up the boiling point of water. Response:...,32,0.0164,0.0086,0.0086,112.47
+Instruction: Describe the life and reign of King Charles II....,525,0.0166,0.0087,0.0087,115.08
+Instruction: Find the area of a circle given its radius. Inp...,1024,0.0165,0.0096,0.0087,103.83
+Instruction: Identify the lines of longitude that divides No...,264,0.9671,0.009,0.009,79.14
+Instruction: Explain the process of cellular respiration in ...,578,0.9609,0.0089,0.0089,94.87
+Instruction: Rewrite the following sentence using active voi...,1024,0.9585,0.0088,0.0088,102.54
+Instruction: Generate a list of adjectives that describe a p...,334,0.0251,0.0087,0.0087,114.63
+Instruction: Outline the consequences of deforestation. Resp...,1024,0.0174,0.0087,0.0087,115.09
+Instruction: Develop a plan to reduce electricity usage in a...,797,0.0172,0.0101,0.0087,99.19
+Instruction: Arrange the words in the given sentence to form...,58,0.0378,0.0275,0.0092,36.13
+Instruction: Analyze the given text for its tone. Input: The...,92,0.0282,0.0207,0.0092,48.17
+Instruction: Use the given data to calculate the median. Inp...,76,0.0226,0.0232,0.0092,43.19
+"Instruction: Rewrite the given paragraph in a shorter, easie...",34,1.069,0.0091,0.0092,24.82
+Instruction: Design a logo for a website about recycling. Re...,324,1.0666,0.0088,0.0088,82.62
+Instruction: Generate a poem that expresses joy. Response:...,202,0.025,0.0087,0.0087,114.5
+Instruction: Convert the given equation into an algebraic ex...,126,0.0191,0.0086,0.0087,114.59
+Instruction: Brainstorm possible solutions to reduce water p...,514,0.0166,0.0087,0.0087,115.1
+Instruction: Explain why the given definition is wrong. Inpu...,185,0.0169,0.0087,0.0087,114.79
+Instruction: Variable x is defined as “4x + 2y = 10”. Find t...,313,0.0166,0.0087,0.0087,115.0
+Instruction: Write a short paragraph about the given topic. ...,131,0.0168,0.0087,0.0087,114.49
+Instruction: Explain the concept of artificial intelligence ...,626,0.0172,0.0087,0.0087,114.64
+Instruction: Design an app for a delivery company. Response:...,812,0.0366,0.0087,0.0087,114.53
+Instruction: Summarize the given passage. Input: A recent st...,74,0.0215,0.0086,0.0087,113.72
+Instruction: Extract the facts from the paragraph. Input: On...,40,0.0169,0.0086,0.0087,113.21
+Instruction: Edit the following sentence to make it more con...,68,0.0164,0.0086,0.0087,114.31
+Instruction: Generate a poem with 10 lines. Response:...,78,0.0172,0.0087,0.0087,114.12
+Instruction: Convert from celsius to fahrenheit. Input: Temp...,174,0.0173,0.0087,0.0087,114.76
+Instruction: Arrange the given numbers in ascending order. I...,47,0.0172,0.0086,0.0086,113.47
+Instruction: Calculate the total surface area of a cube with...,150,0.0169,0.0087,0.0087,114.66
+Instruction: What is the force on a 1 kg mass due to the gra...,250,0.0166,0.0087,0.0087,114.93
+Instruction: Provide one example for a cultural practice. Re...,133,0.0215,0.0086,0.0087,114.35
+"Instruction: Given a set of numbers, find the maximum value....",53,0.0175,0.0086,0.0087,114.01
+Instruction: Give two examples of a liquid. Response:...,130,0.016,0.0087,0.0087,114.57
+Instruction: What is the product of 6 and 2? Response:...,14,0.017,0.0086,0.0086,109.12
+Instruction: What type of plant is a skunk cabbage? Response...,133,0.0165,0.0087,0.0087,114.53
+Instruction: Convert the given binary number to its decimal ...,220,0.0168,0.0087,0.0087,114.87
+Instruction: Name two types of desert biomes. Response:...,136,0.0172,0.0087,0.0087,114.59
+"Instruction: Given a sentence, convert it into passive voice...",80,0.0155,0.0087,0.0087,114.11
+Instruction: Transform the following sentence into the passi...,1024,0.0208,0.0087,0.0087,114.8
+Instruction: Create a dialog between two people who are disc...,704,0.0167,0.0087,0.0087,115.1
+Instruction: Identify the most suitable adverb for the follo...,70,0.0178,0.0086,0.0087,114.04
+Instruction: Find the main idea of the following passage Inp...,44,0.0167,0.0086,0.0086,113.44
+Instruction: Analyze the tone of the following sentences Inp...,1024,0.0161,0.0088,0.0087,113.93
+Instruction: Construct an argument to defend the following s...,407,0.0469,0.0089,0.0089,111.43
+Instruction: Convert the following sentence into the present...,125,0.0425,0.009,0.009,107.64
+Instruction: Give an example of a metaphor that uses the fol...,150,0.0386,0.009,0.009,108.45
+Instruction: Describe the following person Input: John Respo...,131,0.0212,0.0086,0.0087,114.34
+Instruction: Construct a mathematical problem with the follo...,1024,0.0159,0.0087,0.0087,115.13
+Instruction: Aim to reduce the following sentence without ch...,896,0.0176,0.0087,0.0087,114.37
+Instruction: Identify the conjunctions in the following sent...,69,0.0455,0.0093,0.0093,102.19
+Instruction: Rewrite the following sentence in the third per...,1024,0.0422,0.009,0.0089,110.77
+Instruction: Generate a list of business ideas for a food de...,546,0.0387,0.0091,0.0091,109.02
+Instruction: Edit the following sentence to improve clarity ...,1024,0.0249,0.009,0.0089,110.84
+Instruction: Imagine you are speaking with a customer who is...,142,0.0223,0.0093,0.0091,106.31
+Instruction: Explain the concept of a bubble sort algorithm ...,392,0.0219,0.0087,0.0087,114.41
+Instruction: Classify the following incident as a breach of ...,116,0.0157,0.0088,0.0087,112.92
+"Instruction: Given the following input, construct a creative...",417,0.0157,0.0087,0.0087,115.03
+Instruction: Generate a list of methods to reduce food waste...,801,0.0167,0.0087,0.0087,115.12
+Instruction: Propose an idea for a self-driving car. Respons...,736,0.0162,0.0089,0.0089,111.98
+Instruction: Explain the concept of a linear regression mode...,342,0.0423,0.009,0.009,109.63
+Instruction: Construct a list of tips to help reduce stress....,494,0.0344,0.009,0.009,110.35
+Instruction: Write a review of a recent movie you watched. I...,461,0.0242,0.009,0.009,110.18
+Instruction: Create a Twitter post to promote your new produ...,203,0.0215,0.0087,0.0087,114.67
+"Instruction: Given the following input, classify the verb as...",35,0.0163,0.0086,0.0086,113.41
+Instruction: Generate a list of marketing strategies to prom...,571,0.017,0.0087,0.0087,115.08
+Instruction: Rewrite the sentence to provide more clarity an...,1024,0.0162,0.0087,0.0087,115.15
+Instruction: Give a description of the following customer se...,423,0.0164,0.0088,0.0088,112.91
+Instruction: Design a logo for a mobile application. Respons...,182,0.0434,0.009,0.009,109.09
+Instruction: Generate a list of country names in the western...,140,0.0399,0.009,0.009,108.09
+Instruction: Translate the following phrase into French. Inp...,106,0.026,0.0091,0.009,107.88
+Instruction: Explain what an API is. Response:...,423,0.0206,0.0087,0.0087,115.03
+Instruction: Compute the area of a rectangle with length 10c...,63,0.0168,0.0086,0.0087,114.15
+Instruction: Find the capital of Spain. Response:...,1024,0.016,0.0087,0.0087,114.94
+Instruction: Classify the following statement as true or fal...,52,0.0194,0.0086,0.0086,113.66
+Instruction: Design a database to record employee salaries. ...,525,0.0161,0.0087,0.0087,114.3
+Instruction: Identify the theme of the following book. Input...,23,0.0363,0.0091,0.009,97.43
+Instruction: Assign each word in the sentence below to its p...,31,0.032,0.009,0.009,102.13
+Instruction: Generate a password of 8 characters. Response:...,1024,0.0217,0.0088,0.0087,114.0
+Instruction: Create a web page about robotics. Response:...,736,0.0212,0.0087,0.0087,114.35
+Instruction: What is the most commonly shared type of conten...,114,0.0176,0.0087,0.0087,114.37
+Instruction: What is the main idea of this text? Input: The ...,34,0.0263,0.0089,0.0087,106.21
+Instruction: Generate a list of present continuous verbs. Re...,93,0.0157,0.0087,0.0087,114.3
+Instruction: Think of a phrase or idiom containing the word ...,1024,0.0159,0.0087,0.0087,114.52
+Instruction: Make a prediction about what will happen in the...,50,0.0163,0.009,0.0089,109.23
+Instruction: Generate a headline for the following article. ...,155,0.0411,0.0087,0.0087,111.71
+Instruction: What type of punctuation should be used at the ...,19,0.0373,0.0091,0.0091,94.74
+Instruction: Identify the incorrect word and suggest a bette...,56,0.0214,0.0086,0.0087,113.21
+Instruction: Rewrite this sentence using the third person po...,808,0.0174,0.0087,0.0087,115.14
+Instruction: Change this sentence into the future tense. Inp...,52,0.0162,0.0087,0.0087,113.57
+Instruction: Summarize the following article in your own wor...,59,0.0176,0.0086,0.0087,113.84
+Instruction: What is the meaning of the following idiom? Inp...,131,0.0161,0.0087,0.0087,114.6
+Instruction: Generate a sentence using the following words i...,1024,0.0161,0.0087,0.0087,114.53
+Instruction: Is the sentence grammatically correct? Input: T...,95,0.0497,0.0091,0.0091,104.95
+Instruction: Classify the relationship between John and Mary...,85,0.0326,0.0091,0.0091,107.18
+Instruction: Identify the language used in the given sentenc...,3,0.0219,0.0069,0.0071,83.68
+Instruction: Generate a summary of the given article. Input:...,99,0.0159,0.0087,0.0087,114.53
+Instruction: Conver the temperature from Fahrenheit to Celsi...,1024,0.0161,0.0087,0.0087,115.0
+Instruction: Construct a phrase using the given words Input:...,30,0.0166,0.0086,0.0087,112.24
+Instruction: Find the synonyms of the following word: 'Tenac...,26,0.0171,0.0086,0.0087,112.03
+"Instruction: Suggest a good restaurant. Input: Los Angeles, ...",430,0.0163,0.0087,0.0087,115.12
+Instruction: Calculate the area of the triangle. Input: Base...,107,0.0165,0.0087,0.0087,114.48
+Instruction: Rewrite the sentence with more descriptive word...,1024,0.0164,0.0089,0.0087,112.7
+Instruction: Generate a creative birthday wish for a friend....,84,0.0212,0.0086,0.0087,113.92
+Instruction: Make the second sentence shorter. Input: Winter...,93,0.0169,0.0086,0.0087,114.57
+Instruction: Find the solution to the quadratic equation. In...,151,0.0161,0.0087,0.0087,114.72
+Instruction: Find the average of these three numbers. Input:...,1024,0.0167,0.0087,0.0087,115.19
+Instruction: Rewrite the sentence in a different tense. Inpu...,50,0.0165,0.0086,0.0087,113.56
+Instruction: Classify the following data with three labels. ...,200,0.0174,0.0087,0.0087,114.04
+Instruction: Compose a five word sentence describing your da...,11,0.0162,0.0086,0.0087,107.72
+Instruction: Describe the following painting in one sentence...,43,0.0156,0.0087,0.0087,113.15
+Instruction: Search the web and find the title of the longes...,75,0.0208,0.0086,0.0087,113.85
+Instruction: Change the following sentence from the singular...,8,0.0168,0.0084,0.0086,105.51
+Instruction: Compile a list of 5 US states located in the Mi...,35,0.0158,0.0087,0.0087,112.66
+Instruction: Analyze the following sentence and find the dir...,11,0.0162,0.0086,0.0086,107.69
+"Instruction: During the last member meeting, create a list o...",377,0.0163,0.0087,0.0087,115.02
+Instruction: Edit the following sentence to correct the gram...,80,0.0165,0.0086,0.0087,114.45
+Instruction: Create a questions that can be answered using t...,1024,0.0173,0.0087,0.0087,115.13
+"Instruction: Write a simple definition of the word ""economic...",99,0.0167,0.0087,0.0087,114.44
+Instruction: Find the cutoff score for successful completion...,353,0.0214,0.0087,0.0087,114.62
+Instruction: Generate a topic sentence to introduce the foll...,45,0.0171,0.0086,0.0086,113.74
+Instruction: Write a function to calculate the factorial of ...,1024,0.0165,0.0087,0.0087,114.61
+Instruction: Write a function to convert a given string to u...,145,0.0176,0.0087,0.0087,114.77
+Instruction: Extract the positive integers from an array? In...,30,0.0163,0.0086,0.0087,112.52
+Instruction: Calculate the square root of a given number. Re...,66,0.0161,0.0087,0.0087,113.91
+Instruction: Reverse a linked list. Response:...,431,0.016,0.0088,0.0087,113.51
+Instruction: Compute the longest increasing subsequence of a...,1024,0.022,0.0087,0.0087,114.34
+Instruction: Design an algorithm to find the maximum profit ...,771,0.0208,0.0087,0.0087,114.42
+"Instruction: Given two strings, check whether one string is ...",181,0.0158,0.0088,0.0087,113.54
+"Instruction: Given an array of integers, return the first re...",179,0.0158,0.0088,0.0087,113.74
+Instruction: Find the two non-repeating elements in an array...,118,0.0161,0.0088,0.0087,112.88
+"Instruction: Given a binary tree, check if it is a binary se...",708,0.0159,0.0087,0.0087,114.78
+Instruction: Find the maximum profit that can be earned from...,204,0.0163,0.0091,0.0089,109.67
+Instruction: Calculate the amount of money in a bank account...,173,0.0323,0.009,0.009,109.16
+Instruction: Give me a detailed overview of the framework of...,880,0.0216,0.0088,0.0087,114.07
+Instruction: Create a timeline describing the history of the...,608,0.0211,0.0087,0.0087,115.03
+Instruction: Paraphrase the following sentence Input: The sc...,1024,0.0171,0.0087,0.0087,115.16
+Instruction: Develop a web-based application that does the f...,404,0.0171,0.0089,0.0087,112.53
+Instruction: Describe the pros and cons of the following pol...,616,0.0438,0.0089,0.0089,111.06
+Instruction: Design a post for a social media account to pro...,226,0.0234,0.0092,0.0091,107.63
+Instruction: Summarize the following article Input: https://...,264,0.0209,0.0092,0.0091,108.15
+Instruction: Create a job description for the following role...,563,0.0291,0.009,0.0089,111.02
+Instruction: Identify the correct order for the following co...,93,0.0256,0.0094,0.0093,104.47
+Instruction: Create a survey question to measure customer sa...,258,0.0214,0.0087,0.0087,114.83
+Instruction: Create a list of 10 different animals Response:...,65,0.0165,0.0087,0.0087,113.87
+Instruction: Suggest a good idea for a family photoshoot. Re...,586,0.0167,0.0087,0.0087,115.08
+Instruction: Create a response for a customer's email about ...,298,0.0167,0.0087,0.0087,114.97
+Instruction: Summarize the given news article in one sentenc...,26,0.016,0.0086,0.0087,112.08
+Instruction: Provide five adjectives that describe a particu...,52,0.016,0.0087,0.0087,113.47
+Instruction: Rearrange the words to create a complete senten...,80,0.0165,0.0087,0.0086,114.18
+Instruction: Write a story that begins with the following se...,1024,0.0166,0.0087,0.0087,114.6
+Instruction: Convert the given sentence into active voice. I...,1024,0.0216,0.0087,0.0087,115.11
+Instruction: Explain why a given topic is important. Input: ...,351,0.0162,0.0087,0.0087,114.98
+Instruction: Describe the sound of the given object. Input: ...,119,0.0167,0.0087,0.0087,114.57
+Instruction: Rewrite the given sentence using a different bu...,1024,0.017,0.0088,0.0087,114.11
+"Instruction: Classify the given input as either a poem, stor...",69,0.0804,0.0089,0.0092,100.17
+Instruction: Create a title for the following description. I...,130,0.1119,0.0089,0.0091,103.19
+Instruction: Rewrite the given sentence in a more formal ton...,68,0.0563,0.0091,0.0092,102.32
+Instruction: Write a few sentences about a given historical ...,110,0.0548,0.0091,0.0092,105.52
+Instruction: Generate a list of questions related to a given...,213,0.0211,0.0087,0.0087,114.73
+Instruction: Create a slogan for a given product. Input: Hea...,101,0.0164,0.0088,0.0087,112.3
+Instruction: Categorize the following text into one of the t...,34,0.0165,0.0086,0.0087,112.79
+Instruction: Summarize the paragraph into a sentence. Input:...,39,0.0165,0.0086,0.0087,113.28
+Instruction: Make the following sentence more concise. Input...,86,0.0157,0.0088,0.0087,112.43
+Instruction: Transform the following sentence into a yes/no ...,7,0.0174,0.0083,0.0087,103.98
+Instruction: Compose a tweet that addresses the issue of env...,92,0.0162,0.0087,0.0087,114.34
+Instruction: Replace the underlined words with appropriate s...,1024,0.0168,0.0087,0.0087,115.17
+Instruction: Correct the grammatical errors in the sentence....,282,0.0212,0.0087,0.0087,114.89
+Instruction: Identify the type of the relationship between t...,39,0.0172,0.0086,0.0087,113.03
+Instruction: Compose an informative sentence explaining the ...,130,0.0164,0.0087,0.0087,114.57
+Instruction: Rewrite the following sentence without changing...,1024,0.0171,0.0087,0.0087,115.16
+"Instruction: What's the output of this code? Input: x = [1, ...",89,0.017,0.0087,0.0087,114.35
+"Instruction: Write a short review for the novel ""The Catcher...",428,0.017,0.0087,0.0087,115.1
+Instruction: Identify the following animal. Input: It has th...,8,0.0173,0.0084,0.0086,105.07
+Instruction: Describe the impact of the coronavirus on the e...,442,0.0168,0.0087,0.0087,115.05
+Instruction: What geometric shape has 5 sides and 5 angles? ...,14,0.0216,0.0083,0.0086,107.64
+Instruction: Generate a pitch for a new and original product...,858,0.0159,0.0087,0.0087,115.14
+Instruction: Compose a sonnet about the beauty of nature. Re...,163,0.0162,0.0087,0.0087,114.81
+Instruction: Rewrite the following sentence so that it is in...,71,0.0166,0.0087,0.0087,114.08
+Instruction: Write a short story about a day in the life of ...,495,0.0166,0.0087,0.0087,115.09
+Instruction: What's the difference between a virus and a wor...,523,0.0158,0.0087,0.0087,114.58
+Instruction: Explain the concept of the blockchain. Response...,479,0.0385,0.0087,0.0087,114.02
+"Instruction: What is the contraction of ""they are""? Response...",15,0.0348,0.0091,0.0091,92.64
+Instruction: Create a list of items for a picnic. Response:...,257,0.0214,0.0087,0.0087,114.81
+Instruction: Find the lowest common multiple of two numbers....,127,0.0169,0.0087,0.0087,114.69
+Instruction: Classify the given article as either positive o...,5,0.0184,0.0079,0.0086,100.17
+Instruction: Convert the following hexadecimal number to oct...,1024,0.0169,0.009,0.0088,111.19
+Instruction: Gather some recent data related to the increasi...,408,0.0284,0.0093,0.0088,107.3
+Instruction: Indicate how the following characters in the no...,647,0.0242,0.0088,0.0088,113.0
+Instruction: Rewrite the following sentence to avoid any log...,112,0.0234,0.0088,0.0088,112.03
+Instruction: Name two different ways to reduce poverty in a ...,197,0.024,0.0087,0.0087,113.73
+Instruction: Generate a sentence that follows the structure ...,10,0.0214,0.0082,0.0086,104.98
+Instruction: Describe the principle of the Law of Supply. Re...,346,0.0169,0.0087,0.0087,115.01
+Instruction: Find the area of the given trapezoid. Input: Ba...,1024,0.017,0.0087,0.0087,115.12
+Instruction: Describe the themes present in the given poem. ...,177,0.017,0.0087,0.0087,114.82
+Instruction: Generate a haiku poem. Response:...,23,0.016,0.0087,0.0087,111.36
+Instruction: Design a logo for a web development company. Re...,445,0.0161,0.0087,0.0087,114.76
+Instruction: Compare cats and dogs. Response:...,620,0.0404,0.0087,0.0087,114.37
+Instruction: Classify this text as Fiction or Non-fiction. I...,45,0.0361,0.0088,0.0088,106.11
+Instruction: Name three fruits that are rich in Vitamin C. R...,136,0.0212,0.0086,0.0087,114.41
+Instruction: Translate this sentence from French to English....,112,0.0167,0.0087,0.0087,114.5
+"Instruction: Generate the third term in the sequence 2, 5, 9...",24,0.0173,0.0085,0.0087,112.32
+Instruction: What is the purpose of Financial Accounting? Re...,622,0.0165,0.0087,0.0087,115.1
+Instruction: Describe a unique way to cook a steak. Response...,427,0.0173,0.0087,0.0087,115.06
+Instruction: Summarize the advantages of renewable energy. R...,473,0.0164,0.0087,0.0087,115.05
+Instruction: Identify the incorrect word in this sentence. I...,101,0.0164,0.0087,0.0087,114.39
+Instruction: Suggest a powerful quote. Response:...,90,0.0161,0.0087,0.0087,114.18
+Instruction: Sort the following list in alphabetical order. ...,24,0.0217,0.0085,0.0087,110.5
+Instruction: What is a trade deficit? Response:...,502,0.0167,0.0087,0.0087,115.04
+Instruction: Name one benefit of meditation. Response:...,143,0.0164,0.0087,0.0087,114.75
+Instruction: Name the three main mountain ranges in the Unit...,58,0.0168,0.0086,0.0087,113.8
+Instruction: Assign this task to the design team. Input: Des...,745,0.0165,0.0087,0.0087,115.14
+Instruction: Provide the lyrics for the song titled “Yesterd...,191,0.0174,0.009,0.0087,110.68
+"Instruction: Provide a brief summary of the novel ""Never Let...",163,0.0167,0.0087,0.0087,114.74
+Instruction: Edit the following sentence so that it has corr...,13,0.0165,0.0086,0.0086,108.76
+Instruction: Name something you can do with paper. Response:...,1024,0.0215,0.0087,0.0087,115.1
+"Instruction: Construct a sentence using the phrase ""every da...",72,0.0165,0.0087,0.0087,114.1
+Instruction: What type of fruit would be a good addition to ...,354,0.0168,0.0087,0.0087,115.06
+Instruction: Describe in a few words what makes a good leade...,42,0.0167,0.0087,0.0087,113.04
+"Instruction: Find a rhyming word for the word ""river"". Respo...",15,0.0165,0.0086,0.0087,109.22
+Instruction: What is the scientific name for a beaver? Respo...,14,0.0176,0.0085,0.0087,109.21
+Instruction: Convert the following number from base 10 to he...,158,0.0163,0.0087,0.0087,114.71
+"Instruction: Give a definition of ""algae"". Response:...",190,0.0166,0.0087,0.0087,114.79
+Instruction: Name a natural process which occurs in food pre...,114,0.0207,0.0086,0.0087,114.31
+"Instruction: Supply a phrase to complete this proverb: ""It's...",12,0.017,0.0084,0.0086,109.9
+Instruction: Give an example of a convergent boundary. Respo...,677,0.016,0.0087,0.0087,115.14
+"Instruction: Follow the law of supply and demand, describe w...",232,0.0172,0.0087,0.0087,114.84
+Instruction: Provide an example of an endangered species of ...,170,0.0164,0.0087,0.0087,114.78
+Instruction: Research about a famous scientist and provide a...,433,0.0165,0.0087,0.0087,115.04
+Instruction: Explain why the election of Abraham Lincoln was...,581,0.0164,0.0087,0.0087,114.28
+Instruction: Research Einstein's theory of relativity and pr...,461,0.0546,0.0087,0.0087,113.12
+Instruction: Analyze the historical significance of the Ston...,644,0.0218,0.0087,0.0087,114.98
+Instruction: Create a sentence that employs a figure of spee...,96,0.0161,0.0087,0.0087,114.51
+Instruction: Generate a sentence in Spanish that describes t...,1024,0.0171,0.0087,0.0087,115.19
+"Instruction: Describe the painting ""The Great Wave off Kanag...",398,0.017,0.0088,0.0087,113.42
+Instruction: Explain the concept of entropy in thermodynamic...,620,0.0473,0.009,0.009,110.23
+Instruction: Provide an example of a non-renewable source of...,85,0.0403,0.0092,0.0092,104.44
+Instruction: Describe the major differences between the Cath...,581,0.0373,0.009,0.009,110.12
+Instruction: What is the process of photosynthesis and why i...,518,0.0309,0.0091,0.0091,109.85
+Instruction: Write a 250 word essay about Coral Reef Conserv...,508,0.0213,0.0087,0.0087,114.88
+Instruction: Compose a haiku about cats Response:...,36,0.0198,0.0086,0.0086,112.75
+"Instruction: Given a sequence of numbers, calculate the aver...",108,0.0195,0.0087,0.0087,114.1
+Instruction: What are the important contributions of NASA to...,770,0.0158,0.0087,0.0087,115.12
+"Instruction: Rewrite this sentence, ""She is taking a short b...",43,0.0158,0.0087,0.0087,113.28
+"Instruction: Given a movie title ""The Iron Giant"", come up w...",14,0.0157,0.0086,0.0086,109.3
+"Instruction: Given the following data, What is the median sc...",66,0.0162,0.0087,0.0087,113.95
+Instruction: Describe the qualities of a good leader Respons...,514,0.0157,0.0087,0.0087,115.05
+Instruction: Explain the difference between a personal compu...,532,0.021,0.0087,0.0087,115.05
+Instruction: What is the main purpose of blockchain technolo...,579,0.0173,0.0087,0.0087,115.1
+Instruction: Come up with a creative metaphor for smile Resp...,401,0.0164,0.0087,0.0087,115.07
+"Instruction: Given a list of ingredients, come up with a dis...",1024,0.0168,0.0087,0.0087,114.25
+"Instruction: For the following passage, identify the theme o...",156,0.0445,0.009,0.009,107.95
+Instruction: What critically acclaimed 2016 movie has a sett...,82,0.0398,0.0092,0.0092,104.34
+"Instruction: Given the following sentence, add appropriate p...",65,0.0359,0.0093,0.0093,103.45
+"Instruction: Label the following news article as either ""Pol...",94,0.0208,0.0093,0.0092,106.21
+Instruction: Reword the following sentence to the past tense...,11,0.0211,0.0083,0.0088,105.12
+Instruction: Summarize the following passage in less than 50...,37,0.0179,0.0086,0.0087,113.32
+Instruction: How many bytes are there in a kilobyte? Respons...,18,0.0167,0.0086,0.0087,110.47
+Instruction: Generate a creative description of a sunset in ...,158,0.0174,0.0087,0.0087,114.71
+Instruction: Standardize the following date to the ISO 8601 ...,1024,0.0163,0.0087,0.0087,115.16
+Instruction: Rewrite the following sentence in a more concis...,75,0.0168,0.0086,0.0087,114.2
+Instruction: Classify the following fruit according to its c...,719,0.0155,0.0087,0.0087,115.13
+Instruction: Compute the following expression. Input: 2^3 + ...,1024,0.0159,0.0087,0.0087,115.18
+Instruction: Suggest a suitable card game for a birthday par...,306,0.0217,0.0087,0.0087,114.89
+Instruction: Translate the following sentence from English t...,61,0.0168,0.0086,0.0087,114.2
+Instruction: Analyze the given poem and explain the theme. I...,135,0.0163,0.0087,0.0087,114.65
+Instruction: Calculate the average age of the following five...,100,0.0165,0.0087,0.0087,114.43
+"Instruction: Explain the following quote. Input: ""Education ...",287,0.0163,0.0087,0.0087,114.96
+Instruction: Determine the longest word in the following sen...,30,0.0158,0.0087,0.0087,112.32
+Instruction: Rewrite the following equation in expanded form...,1024,0.0161,0.0087,0.0087,115.07
+Instruction: Explain the meaning of the following phrase. In...,325,0.1279,0.0098,0.0087,97.97
+Instruction: Write a review for the following movie. Input: ...,387,0.1332,0.0477,0.048,20.85
+Instruction: Identify the main character in the following st...,14,0.1134,0.0463,0.0466,19.56
+Instruction: Describe the solution in detail. Input: We esta...,448,0.108,0.0103,0.0091,95.11
+Instruction: Name three diseases that can be caused by poor ...,180,0.0443,0.0093,0.0092,105.45
+Instruction: Generate a random password of 6 characters in l...,1024,0.0332,0.0092,0.0088,108.69
+Instruction: Explain what is meant by the circle of fifths. ...,346,0.0378,0.0099,0.0091,100.66
+Instruction: Generate a story with the given keywords. Input...,225,0.0336,0.0093,0.0093,106.15
+Instruction: Calculate the winning percentage for the team i...,570,0.0317,0.0095,0.009,104.76
+Instruction: Translate the given phrase from French to Engli...,264,0.1421,0.0487,0.0481,20.39
+Instruction: Create a haiku poetry with the given theme. Inp...,25,0.0908,0.046,0.0459,20.91
+Instruction: Design a logo for the given company. Input: Exa...,98,0.1029,0.046,0.0453,21.46
+Instruction: Find the synonyms for the words below. Input: D...,1024,0.1097,0.0092,0.0089,107.33
+Instruction: Draft a letter of appreciation for the given re...,410,0.0501,0.0092,0.0091,107.21
+Instruction: Analyze the given film and explain why it shoul...,539,0.0428,0.0092,0.0091,108.04
+Instruction: Explain the implications of artificial intellig...,736,0.0244,0.0091,0.009,109.57
+"Instruction: Write a definition of ""photoshop"". Response:...",210,0.0229,0.0093,0.0093,106.53
+Instruction: List five factors that lead to global warming. ...,378,0.1657,0.0479,0.0479,20.75
+Instruction: Name 5 invasive species. Response:...,261,0.1087,0.0122,0.0093,79.57
+Instruction: What is an AI algorithm? Response:...,438,0.0508,0.0091,0.0091,108.5
+"Instruction: Explain the term ""AI explainability"". Response:...",386,0.0461,0.0092,0.0092,108.01
+Instruction: Pick out the adverbs in the following sentence....,10,0.0351,0.0099,0.0093,80.66
+Instruction: Generate a poem about spring. Response:...,167,0.0281,0.0093,0.0093,105.75
+Instruction: Write a scientific explanation for why the sky ...,276,0.0252,0.0093,0.0092,106.85
+Instruction: List five characteristics of good communication...,287,0.0221,0.0093,0.0092,107.12
+Instruction: Suggest five strategies for self-motivation. Re...,373,0.141,0.0479,0.0479,20.77
+Instruction: Name five characteristics of a typical resume. ...,200,0.1106,0.0215,0.0092,45.61
+Instruction: Describe the benefits of using a GPT model. Res...,521,1.0368,0.0091,0.0091,89.97
+Instruction: Compare two types of text processing techniques...,795,1.0322,0.009,0.009,96.8
+Instruction: Summarize the article below in 5 sentences. Inp...,104,1.0295,0.0094,0.0093,52.15
+"Instruction: Given a set of eight numbers (1,2, 3, 4, 5, 6, ...",76,1.0315,0.0093,0.0093,43.96
+Instruction: Explain why decision trees may be better than l...,954,1.0207,0.009,0.0089,99.41
+"Instruction: Suggest a sentence that follows ""He had never s...",17,1.0153,0.0096,0.0093,14.55
+Instruction: Select the best prediction from the sentences b...,23,0.1513,0.0505,0.0514,18.22
+Instruction: Describe the effects of climate change. Respons...,498,0.0956,0.0383,0.0449,26.02
+Instruction: Classify the given sentence as either negative ...,3,0.0455,0.0091,0.0093,47.13
+Instruction: Rewrite the cover letter below in the first per...,321,0.0392,0.009,0.0089,109.94
+Instruction: Explain why computational models can be used in...,449,0.0371,0.0089,0.0088,111.32
+Instruction: Generate a question that could follow the respo...,19,0.0346,0.0092,0.0093,94.52
+Instruction: Summarize the article below in a maximum of 100...,67,0.0325,0.0092,0.0093,104.24
+Instruction: Create a sentence that ends with an ellipsis. R...,79,0.0295,0.0093,0.0093,104.67
+Instruction: Explain the difference between HTML and CSS. Re...,446,0.1321,0.0441,0.047,22.55
+Instruction: Generate a tweet about a new product Input: Pro...,78,0.0481,0.0094,0.0093,100.64
+Instruction: Create a new recipe for flavorful noodles Respo...,577,0.0449,0.0093,0.0093,106.28
+Instruction: Train a logistic regression model with credit d...,744,0.0419,0.0093,0.0092,107.17
+Instruction: Name four diseases caused by cold temperatures....,243,0.0391,0.0093,0.0093,105.61
+Instruction: Translate the following sentence into Spanish. ...,1024,0.0344,0.0092,0.0091,108.65
+Instruction: Generate a function for calculating the mean of...,1024,0.0322,0.0092,0.0091,108.67
+Instruction: Write a blog post about how AI is transforming ...,590,0.0362,0.0093,0.0093,106.66
+Instruction: Explain the role of a computer scientist in the...,573,0.1552,0.0363,0.0441,27.36
+Instruction: Describe the importance of renewable energy Res...,518,0.0582,0.0093,0.0092,106.75
+Instruction: Generate a review for a recent movie Input: Mov...,416,0.055,0.0093,0.0093,106.08
+Instruction: Generate a function to sort a list of strings a...,291,0.0519,0.0093,0.0093,105.6
+Instruction: Write a Satire article about the coronavirus pa...,553,0.0339,0.0093,0.0092,107.36
+Instruction: Create a function to check whether two strings ...,457,0.0442,0.0093,0.0093,106.74
+Instruction: Explain what is a neural network Response:...,653,0.0421,0.0092,0.0091,108.48
+Instruction: Tag the language of the following text Input: K...,98,0.0391,0.0093,0.0092,103.95
+Instruction: Explain what the article is about in 1 to 2 sen...,70,0.1741,0.0477,0.0471,20.19
+Instruction: Find the three least common values in the given...,20,0.1032,0.0508,0.0508,18.73
+Instruction: Write a few sentences about the current state o...,73,0.1257,0.0522,0.0528,18.78
+Instruction: Identify the two main characters in the given p...,13,0.1177,0.0597,0.0573,15.58
+Instruction: Suggest topics for an informal discussion about...,693,0.1125,0.021,0.009,47.34
+Instruction: Explain the implications of the given informati...,197,0.0696,0.0091,0.009,105.93
+Instruction: Convert the following text into a list. Input: ...,950,0.0405,0.0089,0.0088,112.36
+Instruction: Generate a sentence that contains the given wor...,14,0.0232,0.0088,0.009,101.68
+Instruction: Compile a list of five items that would help so...,354,0.1462,0.0487,0.0481,20.4
+Instruction: Correct any spelling or grammar mistakes in the...,44,0.096,0.0458,0.0481,21.28
+Instruction: Find the differences between the two short text...,84,0.0566,0.0093,0.0092,101.08
+Instruction: Rewrite the following paragraph to make it soun...,64,0.0524,0.0094,0.0093,98.93
+Instruction: Classify the following sentence as either a met...,85,0.0483,0.0093,0.0092,102.21
+Instruction: Generate a creative name for a restaurant servi...,119,0.0524,0.0092,0.009,104.76
+Instruction: Suggest two marketing strategies for launching ...,388,0.039,0.0089,0.0087,111.67
+Instruction: Edit the following sentence for grammar and sty...,61,0.0376,0.0094,0.0093,101.13
+Instruction: Rewrite the following sentence for clarity. Inp...,37,0.1502,0.0473,0.048,19.95
+Instruction: Change this sentence to make it a question. Inp...,1024,0.1001,0.0225,0.0094,44.23
+Instruction: Explain the concept of a GPT language model. Re...,536,0.0498,0.0093,0.0092,106.88
+Instruction: Generate a slogan for a clothing brand. Respons...,138,0.045,0.0093,0.0092,104.46
+"Instruction: Add the article ""the"" to the following sentence...",1024,0.0416,0.0091,0.009,109.48
+Instruction: Generate an example that illustrates the concep...,314,0.0398,0.0093,0.0093,106.08
+Instruction: Describe the process of account creation for a ...,428,0.0376,0.0093,0.0093,106.42
+Instruction: Analyze the following poem and explain its mean...,1024,0.0318,0.0091,0.009,109.6
+Instruction: Suggest two ways to increase the reach of a blo...,147,0.1478,0.0486,0.0481,20.3
+Instruction: Name three natural elements. Response:...,29,0.1232,0.0527,0.0519,18.15
+Instruction: Give a brief description of the coronavirus. Re...,229,0.1216,0.0473,0.0498,20.99
+Instruction: Predict the monthly electricity bill of a 1000 ...,423,0.0446,0.0091,0.009,109.34
+"Instruction: Generate 10 rhyming words for the word ""love"". ...",66,0.0376,0.0091,0.0091,105.06
+Instruction: Explain the concept of binary search. Response:...,357,0.0341,0.0091,0.009,108.91
+Instruction: Name all the elements in the periodic table wit...,19,0.032,0.0093,0.0093,95.63
+Instruction: Compare the differences between a wooden and pl...,360,0.0298,0.0091,0.009,109.11
+Instruction: Calculate the area of a right triangle with bas...,77,0.1513,0.0521,0.0502,18.72
+Instruction: Identify the continents with the most carnivore...,266,0.0956,0.0523,0.052,19.07
+Instruction: Explain the difference between a primary and se...,254,0.1137,0.0146,0.0093,66.82
+Instruction: Explain the purpose of hypertext markup languag...,365,0.0534,0.0093,0.0091,106.68
+Instruction: Describe the differences between a substantive ...,1019,0.0392,0.0089,0.0087,111.6
+Instruction: Suggest three methods for recycling paper. Resp...,390,0.0426,0.0092,0.0091,107.42
+Instruction: Describe the color pink. Response:...,129,0.0393,0.0094,0.0092,104.05
+Instruction: Generate a rate for a driver for a ride sharing...,238,0.0338,0.0093,0.0093,105.96
+Instruction: Come up with a social media campaign slogan. Re...,121,0.1435,0.0524,0.0518,18.81
+Instruction: Compose a haiku with the provided subject. Inpu...,69,0.1086,0.0522,0.052,18.85
+Instruction: Choose an appropriate introduction for the foll...,142,0.1115,0.0487,0.0492,20.35
+Instruction: Write a tweet about customer service. Response:...,49,0.1015,0.0482,0.0489,20.28
+Instruction: Generate a sound effect for a car passing by. R...,8,0.0529,0.0097,0.009,66.24
+Instruction: Identify the type of the following musical chor...,159,0.0518,0.0091,0.009,106.45
+Instruction: Name a planet from our solar system. Response:...,1024,0.0484,0.0088,0.0087,113.07
+Instruction: Compute the sum of the following numbers. Input...,211,0.041,0.009,0.009,108.94
+Instruction: Come up with a creative tagline for a beauty pr...,134,0.1427,0.0492,0.0491,20.03
+Instruction: Describe how quantum computers work. Response:...,426,0.1012,0.033,0.042,30.17
+Instruction: Generate a memorable quote from Albert Einstein...,30,0.0542,0.0096,0.0092,90.51
+Instruction: Find the sum of the numbers 6 and 12. Input: 6 ...,125,0.0412,0.0093,0.0092,104.55
+Instruction: Transform the following sentence using the past...,84,0.0392,0.0093,0.0093,103.07
+Instruction: Explain the uses of artificial intelligence. Re...,509,0.0357,0.009,0.0089,110.81
+Instruction: Describe a scenario in which blockchain technol...,728,0.0319,0.0089,0.0088,111.93
+Instruction: Complete the following analogy: Loud is to quie...,23,0.0295,0.0096,0.0093,95.16
+Instruction: Create an example of alliteration. Response:...,299,0.1438,0.0501,0.05,19.85
+Instruction: Classify the following words by their grammatic...,19,0.1094,0.0486,0.0489,19.32
+Instruction: Find the greatest common factor of 12 and 18. I...,17,0.1136,0.0478,0.047,19.34
+Instruction: Come up with a riddle Response:...,57,0.1293,0.045,0.05,21.49
+Instruction: Identify the conjugation of the verb: I will ha...,89,0.0549,0.009,0.0089,104.9
+Instruction: What is the first rule of storytelling? Respons...,119,0.0505,0.0089,0.0089,107.75
+Instruction: Rewrite the sentence into more descriptive form...,57,0.0336,0.0093,0.0091,103.11
+Instruction: Name 5 emotional states Response:...,36,0.0357,0.0091,0.0091,101.77
+Instruction: Create a funny one-liner. Response:...,22,0.1493,0.0502,0.049,18.28
+Instruction: Generate a list of fashion trends for Spring 20...,722,0.1221,0.0295,0.0357,33.8
+Instruction: What is the impact of deforestation on wildlife...,858,0.0747,0.0092,0.0091,108.34
+Instruction: Explain economics with an example. Response:...,395,0.0528,0.0093,0.0093,106.09
+Instruction: Provide me a list of diseases that can be cause...,688,0.0485,0.0092,0.0092,107.75
+Instruction: What is the difference between machine learning...,862,0.0366,0.0092,0.0091,108.82
+Instruction: Describe a typical workday for a barista. Respo...,395,0.0339,0.0093,0.0093,106.61
+Instruction: How does the human brain remember information? ...,660,0.0293,0.0092,0.0092,107.98
+Instruction: How does the internet of things (IoT) work? Res...,517,0.1468,0.0402,0.046,24.72
+Instruction: Give me an example of a conflict resolution tec...,321,0.0645,0.0092,0.0091,106.32
+Instruction: Pick out the correct noun from the following li...,50,0.0593,0.0095,0.0093,94.91
+Instruction: Identify a programming language suitable for ga...,645,0.055,0.009,0.0089,109.79
+Instruction: Make a list of different types of cryptocurrenc...,837,0.0512,0.009,0.0089,110.83
+Instruction: Create a tweet with the following hashtag. Inpu...,31,0.0413,0.0095,0.0093,95.3
+Instruction: Rewrite the following sentence using the root w...,78,0.035,0.0093,0.0093,103.38
+Instruction: Combine the two sentences into a single sentenc...,355,0.0326,0.0092,0.0091,108.25
+Instruction: Split the following sentence into two separate ...,18,0.1462,0.0501,0.0491,18.05
+"Instruction: Classify the following sentence as positive, ne...",33,0.1177,0.0505,0.0508,19.04
+Instruction: Discover which word in the sentence carries the...,128,0.0944,0.0509,0.0504,19.53
+Instruction: Rewrite the following sentence omitting the pro...,1024,0.1166,0.0171,0.0089,58.08
+Instruction: Write a review of the restaurant. Input: The re...,173,0.0463,0.0091,0.0091,107.22
+Instruction: Outline an itinerary for a three day trip. Inpu...,596,0.0384,0.0089,0.0089,111.16
+Instruction: Classify the item as either animal or vegetable...,34,0.0349,0.0092,0.0092,100.06
+Instruction: Derive the mathematical equation for a straight...,190,0.0313,0.0091,0.0091,107.99
+Instruction: Describe the physical features of a tiger. Resp...,179,0.1506,0.0481,0.0472,20.55
+Instruction: Summarize the argument in the text. Input: In t...,148,0.1055,0.0481,0.0479,20.61
+Instruction: Generate ideas for a fiction story. Response:...,551,0.1016,0.0141,0.0092,70.06
+Instruction: Describe the Renaissance period. Response:...,469,0.0412,0.0093,0.0092,107.02
+Instruction: List 5 items of personal protective equipment. ...,332,0.0448,0.0093,0.0092,106.15
+"Instruction: Replace the single quote (') to double quote (""...",75,0.0326,0.0094,0.0092,102.78
+Instruction: Construct plumbing diagrams for a two-story hou...,388,0.0265,0.0093,0.0092,106.92
+Instruction: Compare student debt crisis in the US and Canad...,694,0.025,0.0091,0.009,109.52
+Instruction: List the benefits of Amazon Web Services. Respo...,472,0.154,0.0418,0.046,23.78
+Instruction: Generate a limerick poem about a lemur. Respons...,48,0.0401,0.0095,0.0093,98.21
+Instruction: Describe the functions of the Endoplasmic Retic...,659,0.0498,0.009,0.0089,110.15
+Instruction: Summarize the industrial revolution. Response:...,368,0.0326,0.0092,0.0091,108.39
+"Instruction: Rewrite the sentence, replacing the idioms with...",1024,0.0444,0.0089,0.0088,111.72
+Instruction: Select the correct term for the phrase ‘the art...,70,0.0408,0.0092,0.0093,103.11
+Instruction: Identify any usage errors in the following sent...,56,0.0384,0.0092,0.0092,102.44
+Instruction: Explain the concept of net neutrality. Response...,386,0.0341,0.0091,0.009,108.89
+Instruction: Brainstorm creative ideas for designing a confe...,629,0.1489,0.0343,0.043,29.01
+Instruction: Calculate the area of a square with the sides o...,94,0.06,0.0093,0.0093,101.19
+Instruction: List the countries that are in the Schengen are...,195,0.049,0.0093,0.0092,104.78
+Instruction: Describe the form and structure of a haiku poem...,242,0.0466,0.0093,0.0092,105.64
+Instruction: Explain how a random forest algorithm achieves ...,612,0.04,0.0091,0.0089,109.68
+Instruction: Give an example of a place where an endangered ...,98,0.0347,0.0093,0.0092,104.12
+Instruction: Create a pop quiz about clouds. Response:...,285,0.0322,0.0093,0.0092,106.61
+Instruction: Explain why trade protectionism can hurt the ec...,616,0.029,0.0091,0.0089,109.91
+Instruction: Come up with a slogan to describe a new lipstic...,157,0.1397,0.047,0.0473,21.0
+Instruction: Describe how a Docker container works. Response...,596,0.1093,0.0252,0.0095,39.53
+"Instruction: Given an economic concept, define it in simple ...",499,0.0595,0.0093,0.0092,106.05
+Instruction: Propose a transportation solution for a city wi...,597,0.0567,0.0093,0.0092,106.71
+Instruction: Identify a potential security threat for a glob...,420,0.0424,0.0094,0.0093,105.68
+Instruction: Describe what it takes to be a successful manag...,649,0.0352,0.0093,0.0092,107.49
+Instruction: Arrange the given sentences into a well-structu...,116,0.0353,0.0094,0.0093,103.82
+Instruction: Construct a timeline for the coronavirus outbre...,688,0.0294,0.0092,0.0091,108.09
+Instruction: Compare and contrast two types of computer netw...,611,0.1624,0.0349,0.0433,28.5
+Instruction: Describe how machine learning can be used to au...,572,0.0554,0.0093,0.0092,106.78
+Instruction: Write a blog post on how to deploy machine lear...,701,0.0456,0.0092,0.0092,107.54
+Instruction: Classify the following sentence into one of the...,21,0.0339,0.0096,0.0093,92.59
+Instruction: Generate a list of five elements for a grocery ...,1024,0.0318,0.0091,0.0091,109.29
+Instruction: Create a dialogue between a customer and a flig...,323,0.0282,0.0094,0.0093,106.22
+Instruction: Generate a design specification for the followi...,1024,0.0308,0.0091,0.009,109.39
+Instruction: Evaluate the following statement Input: AI is t...,434,0.024,0.0093,0.0093,106.82
+Instruction: Compose a simple melody for the following lyric...,337,0.1571,0.047,0.0462,21.14
+Instruction: Suggest an alternative to the following sentenc...,83,0.0936,0.0382,0.0428,25.73
+Instruction: Explain what a decision tree is. Response:...,514,0.0498,0.0092,0.0091,108.17
+Instruction: Design a function to count the number of unique...,1024,0.0486,0.009,0.0088,111.22
+Instruction: Suggest a good screen capture tool for Mac. Res...,241,0.0371,0.0093,0.0093,105.7
+"Instruction: Summarize the main argument of the paper ""A Soc...",286,0.034,0.0093,0.0092,106.3
+Instruction: Write a Python function that takes two integers...,393,0.0303,0.0093,0.0091,107.36
+Instruction: Rewrite the following paragraph in the active v...,72,0.0288,0.0095,0.0092,102.66
+Instruction: Generate three different ways to greet the user...,40,0.1394,0.0505,0.0501,18.96
+Instruction: Name one way to start a conversation with someo...,89,0.1142,0.0517,0.052,19.08
+Instruction: Compose a poem about a single color. Response:...,222,0.0926,0.0481,0.048,20.7
+Instruction: Provide the answer to the equation. Input: 7 + ...,1024,0.0966,0.0104,0.0088,95.38
+Instruction: Write a limerick about a holiday. Response:...,42,0.045,0.0095,0.0092,96.48
+"Instruction: Provide a definition of the word ""vacillation""....",131,0.0466,0.0109,0.0091,89.54
+Instruction: Write a haiku about the ocean. Response:...,124,0.0365,0.0111,0.0091,88.75
+Instruction: Organize the following words into a meaningful ...,1024,0.0296,0.0091,0.0088,109.35
+Instruction: Sort the following items into two categories. I...,66,0.1475,0.0494,0.0489,19.66
+Instruction: Rewrite the following sentence with more accura...,59,0.1231,0.0501,0.0499,19.49
+Instruction: Name three government positions in the United S...,29,0.0974,0.0491,0.0498,19.71
+Instruction: Improve the following sentence by using a bette...,1024,0.1231,0.0181,0.0089,55.03
+Instruction: Describe the character of Romeo from Romeo and ...,464,0.0438,0.009,0.009,109.7
+Instruction: Determine which statement is true. Input: Ameri...,67,0.039,0.0093,0.0092,102.91
+Instruction: Make a list of five items that you need to buy ...,43,0.0291,0.0095,0.0093,100.51
+Instruction: Name five societal advantages of the internet. ...,312,0.0258,0.0091,0.0091,108.84
+Instruction: Re-write this sentence using an active voice. I...,8,0.1401,0.0491,0.0462,16.53
+Instruction: Check if the following phrase is a well-formed ...,90,0.1109,0.0492,0.049,20.05
+Instruction: Describe the similarities and difference betwee...,582,0.0978,0.0308,0.0381,32.32
+Instruction: Provide an example of how AI can solve a proble...,555,0.0537,0.0091,0.0089,109.49
+Instruction: Change the given verb to its past perfect form....,57,0.0505,0.0092,0.0093,100.26
+Instruction: List five ways to reduce energy consumption. Re...,255,0.0456,0.0093,0.0092,105.68
+Instruction: Name 6 components of an artificial neural netwo...,370,0.0352,0.0092,0.0092,107.65
+"Instruction: Using the provided information, build a SQL que...",289,0.0356,0.0093,0.0092,106.68
+Instruction: Create a listicle using the given data. Input: ...,380,0.153,0.0487,0.049,20.42
+Instruction: Answer this math problem. Input: 12/8 Response:...,64,0.1066,0.0356,0.0093,27.25
+Instruction: Generate a list of 5 creative ways to use techn...,316,1.0518,0.0091,0.0089,80.7
+Instruction: Describe the process of creating a website from...,754,1.0503,0.0089,0.0087,97.42
+Instruction: Name 3 countries that border France. Response:...,16,1.052,0.0096,0.0092,13.37
+Instruction: Summarize the given article in 1-2 sentences. I...,155,1.0429,0.0092,0.0092,63.09
+Instruction: Provide a summary for the passage given below. ...,84,1.0327,0.0094,0.0093,46.31
+Instruction: Choose the most appropriate answer Input: What ...,128,1.0304,0.0093,0.0092,57.97
