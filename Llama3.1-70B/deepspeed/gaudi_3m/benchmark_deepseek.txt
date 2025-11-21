@@ -1,0 +1,249 @@
+root@rajprinc-31nx-g3-m-tfjob-worker-0:/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Llama3.1-70B/optimum-habana/gaudi_3m# ./monitor.sh > benchmark_deepseek.txt
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Loading checkpoint shards: 100%|██████████| 30/30 [00:00<00:00, 256.90it/s]
+Loading checkpoint shards: 100%|██████████| 30/30 [00:00<00:00, 264.66it/s]
+Loading checkpoint shards: 100%|██████████| 30/30 [00:00<00:00, 273.11it/s]
+Loading checkpoint shards: 100%|██████████| 30/30 [00:00<00:00, 276.08it/s]
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-738
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 0
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Loading model from /mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-70B-Instruct (dtype=bfloat16)
+Initializing DeepSpeed inference with TP size=4
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+Running inference and collecting benchmarks...
+<|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi <|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi <|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi <|begin_of_text|>Write a detailed 1000-word helpful sentence about Gaudi inference: inference: inference: inference: Gaudí’s Gaudí’s Gaudí’s Gaudí’s architecture architecture architecture architecture is is is is characterized characterized characterized characterized by by by by its its its its use use use use of of of of parabolic parabolic parabolic parabolic arches, arches, arches, arches, hyperboloid hyperboloid hyperboloid hyperboloid vaults, vaults, vaults, vaults, and and and and intricate intricate intricate intricate mosaics, mosaics, mosaics, mosaics, which which which which are are are are often often often often inspired inspired inspired inspired by by by by nature nature nature nature and and and and infused infused infused infused with with with with a a a a sense sense sense sense of of of of mysticism mysticism mysticism mysticism and and and and symbolism, symbolism, symbolism, symbolism, reflecting reflecting reflecting reflecting the the the the Catalan Catalan Catalan Catalan architect’s architect’s architect’s architect’s deep deep deep deep connection connection connection connection to to to to his his his his homeland homeland homeland homeland and and and and his his his his desire desire desire desire to to to to create create create create buildings buildings buildings buildings that that that that are are are are both both both both functional functional functional functional and and and and aesthetically aesthetically aesthetically aesthetically striking.
+striking.
+striking.
+striking.
+Here Here Here Here is is is is a a a a detailed detailed detailed detailed 1000-word 1000-word 1000-word 1000-word helpful helpful helpful helpful sentence sentence sentence sentence about about about about Gaudí Gaudí Gaudí Gaudí inference:
+
+inference:
+
+inference:
+
+inference:
+
+Antoni Antoni Antoni Antoni Gaudí's Gaudí's Gaudí's Gaudí's architectural architectural architectural architectural style style style style is is is is distinguished distinguished distinguished distinguished by by by by its its its its innovative innovative innovative innovative and and and and imaginative imaginative imaginative imaginative use use use use of of of of parabolic parabolic parabolic parabolic arches, arches, arches, arches, hyperboloid hyperboloid hyperboloid hyperboloid vaults, vaults, vaults, vaults, and and and and intricate intricate intricate intricate mosaics, mosaics, mosaics, mosaics, which which which which are are are are frequently frequently frequently frequently inspired inspired inspired inspired by by by by the the the the natural natural natural natural world world world world and and and and imbued imbued imbued imbued with with with with a a a a profound profound profound profound sense sense sense sense of of of of mysticism mysticism mysticism mysticism and and and and symbolism, symbolism, symbolism, symbolism, reflecting reflecting reflecting reflecting the the the the Catalan Catalan Catalan Catalan architect's architect's architect's architect's profound profound profound profound connection connection connection connection to to to to his his his his native native native native Catalonia Catalonia Catalonia Catalonia and and and and his his his his unwavering unwavering unwavering unwavering desire desire desire desire to to to to design design design design buildings buildings buildings buildings that that that that are are are are not not not not only only only only functional functional functional functional and and and and practical practical practical practical but but but but also also also also aesthetically aesthetically aesthetically aesthetically striking striking striking striking and and and and emotionally emotionally emotionally emotionally resonant, resonant, resonant, resonant, as as as as evident evident evident evident in in in in iconic iconic iconic iconic landmarks landmarks landmarks landmarks such such such such as as as as the the the the Sagrada Sagrada Sagrada Sagrada Família, Família, Família, Família, Park Park Park Park Güell, Güell, Güell, Güell, and and and and Casa Casa Casa Casa Batlló, Batlló, Batlló, Batlló, which which which which showcase showcase showcase showcase Gaudí's Gaudí's Gaudí's Gaudí's unique unique unique unique ability ability ability ability to to to to blend blend blend blend Gothic Gothic Gothic Gothic and and and and Art Art Art Art Nouveau Nouveau Nouveau Nouveau styles styles styles styles with with with with his his his his own own own own distinctive distinctive distinctive distinctive vision, vision, vision, vision, resulting resulting resulting resulting in in in in structures structures structures structures that that that that are are are are at at at at once once once once futuristic futuristic futuristic futuristic and and and and timeless, timeless, timeless, timeless, and and and and which which which which continue continue continue continue to to to to inspire inspire inspire inspire wonder wonder wonder wonder and and and and awe awe awe awe in in in in visitors visitors visitors visitors from from from from around around around around the the the the world, world, world, world, while while while while also also also also providing providing providing providing a a a a glimpse glimpse glimpse glimpse into into into into the the the the architect's architect's architect's architect's inner inner inner inner world world world world and and and and his his his his deep deep deep deep reverence reverence reverence reverence for for for for the the the the natural natural natural natural beauty beauty beauty beauty and and and and cultural cultural cultural cultural heritage heritage heritage heritage of of of of Catalonia.
+
+Catalonia.
+
+Catalonia.
+
+Catalonia.
+
+Here's Here's Here's Here's a a a a breakdown breakdown breakdown breakdown of of of of the the the the sentence:
+
+sentence:
+
+sentence:
+
+sentence:
+
+* * * * The The The The sentence sentence sentence sentence begins begins begins begins by by by by introducing introducing introducing introducing Gaudí's Gaudí's Gaudí's Gaudí's architectural architectural architectural architectural style, style, style, style, highlighting highlighting highlighting highlighting its its its its distinctive distinctive distinctive distinctive features features features features such such such such as as as as parabolic parabolic parabolic parabolic arches, arches, arches, arches, hyperboloid hyperboloid hyperboloid hyperboloid vaults, vaults, vaults, vaults, and and and and intricate intricate intricate intricate mosaics.
+mosaics.
+mosaics.
+mosaics.
+* * * * The The The The phrase phrase phrase phrase "frequently "frequently "frequently "frequently inspired inspired inspired inspired by by by by the the the the natural natural natural natural world" world" world" world" suggests suggests suggests suggests that that that that Gaudí Gaudí Gaudí Gaudí drew drew drew drew inspiration inspiration inspiration inspiration from from from from the the the the forms forms forms forms and and and and patterns patterns patterns patterns found found found found in in in in nature, nature, nature, nature, which which which which is is is is a a a a common common common common theme theme theme theme in in in in his his his his work.
+work.
+work.
+work.
+* * * * The The The The sentence sentence sentence sentence then then then then notes notes notes notes that that that that Gaudí's Gaudí's Gaudí's Gaudí's architecture architecture architecture architecture is is is is "imbued "imbued "imbued "imbued with with with with a a a a profound profound profound profound sense sense sense sense of of of of mysticism mysticism mysticism mysticism and and and and symbolism", symbolism", symbolism", symbolism", which which which which reflects reflects reflects reflects his his his his deep deep deep deep connection connection connection connection to to to to his his his his Catholic Catholic Catholic Catholic faith faith faith faith and and and and his his his his desire desire desire desire to to to to create create create create buildings buildings buildings buildings that that that that are are are are not not not not only only only only functional functional functional functional but but but but also also also also spiritually spiritually spiritually spiritually meaningful.
+meaningful.
+meaningful.
+meaningful.
+* * * * The The The The phrase phrase phrase phrase "reflecting "reflecting "reflecting "reflecting the the the the Catalan Catalan Catalan Catalan architect's architect's architect's architect's profound profound profound profound connection connection connection connection to to to to his his his his native native native native Catalonia" Catalonia" Catalonia" Catalonia" highlights highlights highlights highlights Gaudí's Gaudí's Gaudí's Gaudí's deep deep deep deep love love love love for for for for his his his his homeland homeland homeland homeland and and and and his his his his desire desire desire desire to to to to create create create create buildings buildings buildings buildings that that that that are are are are rooted rooted rooted rooted in in in in Catalan Catalan Catalan Catalan culture culture culture culture and and and and tradition.
+tradition.
+tradition.
+tradition.
+* * * * The The The The sentence sentence sentence sentence then then then then lists lists lists lists several several several several of of of of Gaudí's Gaudí's Gaudí's Gaudí's most most most most famous famous famous famous landmarks, landmarks, landmarks, landmarks, including including including including the the the the Sagrada Sagrada Sagrada Sagrada Família, Família, Família, Família, Park Park Park Park Güell, Güell, Güell, Güell, and and and and Casa Casa Casa Casa Batlló, Batlló, Batlló, Batlló, which which which which showcase showcase showcase showcase his his his his unique unique unique unique style style style style and and and and vision.
+vision.
+vision.
+vision.
+* * * * The The The The phrase phrase phrase phrase "blend "blend "blend "blend Gothic Gothic Gothic Gothic and and and and Art Art Art Art Nouveau Nouveau Nouveau Nouveau styles styles styles styles with with with with his his his his own own own own distinctive distinctive distinctive distinctive vision" vision" vision" vision" suggests suggests suggests suggests that that that that Gaudí Gaudí Gaudí Gaudí was was was was influenced influenced influenced influenced by by by by a a a a range range range range of of of of architectural architectural architectural architectural styles, styles, styles, styles, but but but but ultimately ultimately ultimately ultimately created created created created something something something something entirely entirely entirely entirely new new new new and and and and original.
+original.
+original.
+original.
+* * * * The The The The sentence sentence sentence sentence concludes concludes concludes concludes by by by by noting noting noting noting that that that that Gaudí's Gaudí's Gaudí's Gaudí's buildings buildings buildings buildings are are are are "at "at "at "at once once once once futuristic futuristic futuristic futuristic and and and and timeless", timeless", timeless", timeless", which which which which reflects reflects reflects reflects their their their their enduring enduring enduring enduring appeal appeal appeal appeal and and and and relevance, relevance, relevance, relevance, even even even even in in in in the the the the modern modern modern modern era.
+era.
+era.
+era.
+* * * * Finally, Finally, Finally, Finally, the the the the sentence sentence sentence sentence suggests suggests suggests suggests that that that that Gaudí's Gaudí's Gaudí's Gaudí's architecture architecture architecture architecture provides provides provides provides a a a a glimpse glimpse glimpse glimpse into into into into his his his his inner inner inner inner world world world world and and and and his his his his deep deep deep deep reverence reverence reverence reverence for for for for the the the the natural natural natural natural beauty beauty beauty beauty and and and and cultural cultural cultural cultural heritage heritage heritage heritage of of of of Catalonia, Catalonia, Catalonia, Catalonia, which which which which is is is is a a a a common common common common theme theme theme theme in in in in his his his his work.
+
+work.
+
+work.
+
+work.
+
+Overall, Overall, Overall, Overall, this this this this sentence sentence sentence sentence provides provides provides provides a a a a detailed detailed detailed detailed and and and and nuanced nuanced nuanced nuanced overview overview overview overview of of of of Gaudí's Gaudí's Gaudí's Gaudí's architectural architectural architectural architectural style, style, style, style, highlighting highlighting highlighting highlighting its its its its key key key key features, features, features, features, inspirations, inspirations, inspirations, inspirations, and and and and themes, themes, themes, themes, while while while while also also also also providing providing providing providing a a a a sense sense sense sense of of of of the the the the architect's architect's architect's architect's unique unique unique unique vision vision vision vision and and and and creative creative creative creative genius.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+genius.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+genius.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+genius.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+Here Here Here Here is is is is a a a a rewritten rewritten rewritten rewritten version version version version of of of of the the the the text text text text in in in in a a a a more more more more readable readable readable readable format:
+
+format:
+
+format:
+
+format:
+
+**Understanding **Understanding **Understanding **Understanding Gaudí's Gaudí's Gaudí's Gaudí's Architecture**
+
+Architecture**
+
+Architecture**
+
+Architecture**
+
+Antoni Antoni Antoni Antoni Gaudí's Gaudí's Gaudí's Gaudí's architectural architectural architectural architectural style style style style is is is is a a a a unique unique unique unique blend blend blend blend of of of of innovative innovative innovative innovative and and and and imaginative imaginative imaginative imaginative elements. elements. elements. elements. His His His His use use use use of of of of parabolic parabolic parabolic parabolic arches, arches, arches, arches, hyperboloid hyperboloid hyperboloid hyperboloid vaults, vaults, vaults, vaults, and and and and intricate intricate intricate intricate mosaics mosaics mosaics mosaics is is is is inspired inspired inspired inspired by by by by the the the the natural natural natural natural world world world world and and and and infused infused infused infused with with with with a a a a sense sense sense sense of of of of mysticism mysticism mysticism mysticism and and and and symbolism. symbolism. symbolism. symbolism. This This This This distinctive distinctive distinctive distinctive style style style style reflects reflects reflects reflects Gaudí's Gaudí's Gaudí's Gaudí's deep deep deep deep connection connection connection connection to to to to his his his his native native native native Catalonia Catalonia Catalonia Catalonia and and and and his his his his desire desire desire desire to to to to create create create create buildings buildings buildings buildings that that that that are are are are both both both both functional functional functional functional and and and and aesthetically aesthetically aesthetically aesthetically striking.
+
+striking.
+
+striking.
+
+striking.
+
+**Inspiration **Inspiration **Inspiration **Inspiration from from from from Nature**
+
+Nature**
+
+Nature**
+
+Nature**
+
+Gaudí's Gaudí's Gaudí's Gaudí's architecture architecture architecture architecture is is is is frequently frequently frequently frequently inspired inspired inspired inspired by by by by the the the the natural natural natural natural world. world. world. world. He He He He drew drew drew drew inspiration inspiration inspiration inspiration from from from from the the the the forms forms forms forms and and and and patterns patterns patterns patterns found found found found in in in in nature, nature, nature, nature, which which which which is is is is evident evident evident evident in in in in the the the the organic organic organic organic shapes shapes shapes shapes and and and and curves curves curves curves that that that that characterize characterize characterize characterize his his his his buildings. buildings. buildings. buildings. This This This This emphasis emphasis emphasis emphasis on on on on natural natural natural natural forms forms forms forms reflects reflects reflects reflects Gaudí's Gaudí's Gaudí's Gaudí's deep deep deep deep reverence reverence reverence reverence for for for for the the the the natural natural natural natural beauty beauty beauty beauty of of of of Catalonia Catalonia Catalonia Catalonia and and and and his his his his desire desire desire desire to to to to create create create create buildings buildings buildings buildings that that that that are are are are in in in in harmony harmony harmony harmony with with with with their their their their surroundings.
+
+surroundings.
+
+surroundings.
+
+surroundings.
+
+**Mysticism **Mysticism **Mysticism **Mysticism and and and and Symbolism**
+
+Symbolism**
+
+Symbolism**
+
+Symbolism**
+
+Gaudí's Gaudí's Gaudí's Gaudí's architecture architecture architecture architecture is is is is also also also also imbued imbued imbued imbued with with with with a a a a profound profound profound profound sense sense sense sense of of of of mysticism mysticism mysticism mysticism and and and and symbolism. symbolism. symbolism. symbolism. His His His His buildings buildings buildings buildings often often often often feature feature feature feature intricate intricate intricate intricate mosaics mosaics mosaics mosaics and and and and ornate ornate ornate ornate decorations decorations decorations decorations that that that that reflect reflect reflect reflect his his his his deep deep deep deep Catholic Catholic Catholic Catholic faith faith faith faith and and and and his his his his desire desire desire desire to to to to create create create create buildings buildings buildings buildings that that that that are are are are spiritually spiritually spiritually spiritually meaningful. meaningful. meaningful. meaningful. This This This This emphasis emphasis emphasis emphasis on on on on mysticism mysticism mysticism mysticism and and and and symbolism symbolism symbolism symbolism adds adds adds adds a a a a layer layer layer layer of of of of depth depth depth depth and and and and complexity complexity complexity complexity to to to to Gaudí's Gaudí's Gaudí's Gaudí's architecture, architecture, architecture, architecture, making making making making it it it it more more more more than than than than just just just just functional functional functional functional buildings.
+
+buildings.
+
+buildings.
+
+buildings.
+
+**Catalan **Catalan **Catalan **Catalan Heritage**
+
+Heritage**
+
+Heritage**
+
+Heritage**
+
+Gaudí's Gaudí's Gaudí's Gaudí's architecture architecture architecture architecture is is is is deeply deeply deeply deeply rooted rooted rooted rooted in in in in Catalan Catalan Catalan Catalan culture culture culture culture and and and and tradition. tradition. tradition. tradition. His His His His buildings buildings buildings buildings reflect reflect reflect reflect his his his his love love love love for for for for his his his his homeland homeland homeland homeland and and and and his his his his desire desire desire desire to to to to create create create create structures structures structures structures that that that that are are are are uniquely uniquely uniquely uniquely Catalan. Catalan. Catalan. Catalan. This This This This emphasis emphasis emphasis emphasis on on on on Catalan Catalan Catalan Catalan heritage heritage heritage heritage is is is is evident evident evident evident in in in in the the the the use use use use of of of of traditional traditional traditional traditional materials materials materials materials and and and and techniques, techniques, techniques, techniques, as as as as well well well well as as as as the the the the incorporation incorporation incorporation incorporation of of of of Catalan Catalan Catalan Catalan motifs motifs motifs motifs and and and and symbols symbols symbols symbols into into into into his his his his designs.
+
+designs.
+
+designs.
+
+designs.
+
+**Iconic **Iconic **Iconic **Iconic Landmarks**
+
+Landmarks**
+
+Landmarks**
+
+Landmarks**
+
+Some Some Some Some of of of of G
+G
+G
+G
+
+=== Benchmark Results ===
+Prompt length: 15 tokens
+Generated tokens: 1000
+Time to First Token (TTFT): 0.0009 sec
+Inter-Token Latency (Mean): 0.1685 sec
+Inter-Token Latency (Median): 0.1627 sec
+Throughput: 5.93 tokens/sec
+
+=== Generated Output ===
+Write a detailed 1000-word helpful sentence about Gaudi inference: Gaudí’s architecture is characterized by its use of parabolic arches, hyperboloid vaults, and intricate mosaics, which are often inspired by nature and infused with a sense of mysticism and symbolism, reflecting the Catalan architect’s deep connection to his homeland and his desire to create buildings that are both functional and aesthetically striking.
+Here is a detailed 1000-word helpful sentence about Gaudí inference:
+
+Antoni Gaudí's architectural style is distinguished by its innovative and imaginative use of parabolic arches, hyperboloid vaults, and intricate mosaics, which are frequently inspired by the natural world and imbued with a profound sense of mysticism and symbolism, reflecting the Catalan architect's profound connection to his native Catalonia and his unwavering desire to design buildings that are not only functional and practical but also aesthetically striking and emotionally resonant, as evident in iconic landmarks such as the Sagrada Família, Park Güell, and Casa Batlló, which showcase Gaudí's unique ability to blend Gothic and Art Nouveau styles with his own distinctive vision, resulting in structures that are at once futuristic and timeless, and which continue to inspire wonder and awe in visitors from around the world, while also providing a glimpse into the architect's inner world and his deep reverence for the natural beauty and cultural heritage of Catalonia.
+
+Here's a breakdown of the sentence:
+
+* The sentence begins by introducing Gaudí's architectural style, highlighting its distinctive features such as parabolic arches, hyperboloid vaults, and intricate mosaics.
+* The phrase "frequently inspired by the natural world" suggests that Gaudí drew inspiration from the forms and patterns found in nature, which is a common theme in his work.
+* The sentence then notes that Gaudí's architecture is "imbued with a profound sense of mysticism and symbolism", which reflects his deep connection to his Catholic faith and his desire to create buildings that are not only functional but also spiritually meaningful.
+* The phrase "reflecting the Catalan architect's profound connection to his native Catalonia" highlights Gaudí's deep love for his homeland and his desire to create buildings that are rooted in Catalan culture and tradition.
+* The sentence then lists several of Gaudí's most famous landmarks, including the Sagrada Família, Park Güell, and Casa Batlló, which showcase his unique style and vision.
+* The phrase "blend Gothic and Art Nouveau styles with his own distinctive vision" suggests that Gaudí was influenced by a range of architectural styles, but ultimately created something entirely new and original.
+* The sentence concludes by noting that Gaudí's buildings are "at once futuristic and timeless", which reflects their enduring appeal and relevance, even in the modern era.
+* Finally, the sentence suggests that Gaudí's architecture provides a glimpse into his inner world and his deep reverence for the natural beauty and cultural heritage of Catalonia, which is a common theme in his work.
+
+Overall, this sentence provides a detailed and nuanced overview of Gaudí's architectural style, highlighting its key features, inspirations, and themes, while also providing a sense of the architect's unique vision and creative genius.assistant
+
+Here is a rewritten version of the text in a more readable format:
+
+**Understanding Gaudí's Architecture**
+
+Antoni Gaudí's architectural style is a unique blend of innovative and imaginative elements. His use of parabolic arches, hyperboloid vaults, and intricate mosaics is inspired by the natural world and infused with a sense of mysticism and symbolism. This distinctive style reflects Gaudí's deep connection to his native Catalonia and his desire to create buildings that are both functional and aesthetically striking.
+
+**Inspiration from Nature**
+
+Gaudí's architecture is frequently inspired by the natural world. He drew inspiration from the forms and patterns found in nature, which is evident in the organic shapes and curves that characterize his buildings. This emphasis on natural forms reflects Gaudí's deep reverence for the natural beauty of Catalonia and his desire to create buildings that are in harmony with their surroundings.
+
+**Mysticism and Symbolism**
+
+Gaudí's architecture is also imbued with a profound sense of mysticism and symbolism. His buildings often feature intricate mosaics and ornate decorations that reflect his deep Catholic faith and his desire to create buildings that are spiritually meaningful. This emphasis on mysticism and symbolism adds a layer of depth and complexity to Gaudí's architecture, making it more than just functional buildings.
+
+**Catalan Heritage**
+
+Gaudí's architecture is deeply rooted in Catalan culture and tradition. His buildings reflect his love for his homeland and his desire to create structures that are uniquely Catalan. This emphasis on Catalan heritage is evident in the use of traditional materials and techniques, as well as the incorporation of Catalan motifs and symbols into his designs.
+
+**Iconic Landmarks**
+
+Some of G
+
+HPU Power Usage Summary:
+Average Power: -792478339766985587 W
+Maximum Power: 0 W
+Raw power log saved in power_log.csv

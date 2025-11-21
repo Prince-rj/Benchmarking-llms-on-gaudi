@@ -1,0 +1,140 @@
+🟢 Starting power monitoring...
+✅ Loaded 1024 prompts from Alpaca dataset
+
+🚀 Running batch 1/64 (16 prompts)
+
+🚀 Running batch 2/64 (16 prompts)
+
+🚀 Running batch 3/64 (16 prompts)
+
+🚀 Running batch 4/64 (16 prompts)
+
+🚀 Running batch 5/64 (16 prompts)
+
+🚀 Running batch 6/64 (16 prompts)
+
+🚀 Running batch 7/64 (16 prompts)
+
+🚀 Running batch 8/64 (16 prompts)
+
+🚀 Running batch 9/64 (16 prompts)
+
+🚀 Running batch 10/64 (16 prompts)
+
+🚀 Running batch 11/64 (16 prompts)
+
+🚀 Running batch 12/64 (16 prompts)
+
+🚀 Running batch 13/64 (16 prompts)
+
+🚀 Running batch 14/64 (16 prompts)
+
+🚀 Running batch 15/64 (16 prompts)
+
+🚀 Running batch 16/64 (16 prompts)
+
+🚀 Running batch 17/64 (16 prompts)
+
+🚀 Running batch 18/64 (16 prompts)
+
+🚀 Running batch 19/64 (16 prompts)
+
+🚀 Running batch 20/64 (16 prompts)
+
+🚀 Running batch 21/64 (16 prompts)
+
+🚀 Running batch 22/64 (16 prompts)
+
+🚀 Running batch 23/64 (16 prompts)
+
+🚀 Running batch 24/64 (16 prompts)
+
+🚀 Running batch 25/64 (16 prompts)
+
+🚀 Running batch 26/64 (16 prompts)
+
+🚀 Running batch 27/64 (16 prompts)
+
+🚀 Running batch 28/64 (16 prompts)
+
+🚀 Running batch 29/64 (16 prompts)
+
+🚀 Running batch 30/64 (16 prompts)
+
+🚀 Running batch 31/64 (16 prompts)
+
+🚀 Running batch 32/64 (16 prompts)
+
+🚀 Running batch 33/64 (16 prompts)
+
+🚀 Running batch 34/64 (16 prompts)
+
+🚀 Running batch 35/64 (16 prompts)
+
+🚀 Running batch 36/64 (16 prompts)
+
+🚀 Running batch 37/64 (16 prompts)
+
+🚀 Running batch 38/64 (16 prompts)
+
+🚀 Running batch 39/64 (16 prompts)
+
+🚀 Running batch 40/64 (16 prompts)
+
+🚀 Running batch 41/64 (16 prompts)
+
+🚀 Running batch 42/64 (16 prompts)
+
+🚀 Running batch 43/64 (16 prompts)
+
+🚀 Running batch 44/64 (16 prompts)
+
+🚀 Running batch 45/64 (16 prompts)
+
+🚀 Running batch 46/64 (16 prompts)
+
+🚀 Running batch 47/64 (16 prompts)
+
+🚀 Running batch 48/64 (16 prompts)
+
+🚀 Running batch 49/64 (16 prompts)
+
+🚀 Running batch 50/64 (16 prompts)
+
+🚀 Running batch 51/64 (16 prompts)
+
+🚀 Running batch 52/64 (16 prompts)
+
+🚀 Running batch 53/64 (16 prompts)
+
+🚀 Running batch 54/64 (16 prompts)
+
+🚀 Running batch 55/64 (16 prompts)
+
+🚀 Running batch 56/64 (16 prompts)
+
+🚀 Running batch 57/64 (16 prompts)
+
+🚀 Running batch 58/64 (16 prompts)
+
+🚀 Running batch 59/64 (16 prompts)
+
+🚀 Running batch 60/64 (16 prompts)
+
+🚀 Running batch 61/64 (16 prompts)
+
+🚀 Running batch 62/64 (16 prompts)
+
+🚀 Running batch 63/64 (16 prompts)
+
+🚀 Running batch 64/64 (16 prompts)
+
+🛑 Stopping power logging...
+📊 Samples: 2096
+📊 Average Power: 372.2 W
+📊 Peak Power: 492.0 W
+📁 Power Log: power_log.csv
+
+✅ Benchmark complete. 1024 successful prompts.
+⏱️ Total Time: 1025.50s
+📁 Results saved to: alpaca_benchmark_results.csv

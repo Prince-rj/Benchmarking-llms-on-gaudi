@@ -1,0 +1,203 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+[2025-08-28 20:42:45,258] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-28 20:42:45,258] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-28 20:42:45,258] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-28 20:42:45,258] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-28 20:42:45,300] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-28 20:42:45,300] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-28 20:42:45,321] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-28 20:42:45,324] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-08-28 20:42:45,971] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:42:45,972] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:42:45,975] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:42:45,976] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:42:45,996] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:42:45,998] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:42:46,009] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:42:46,024] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s][Info] World size: 8, using HPU local_rank=0
+[Info] Loading tokenizer from: /mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s][Info] Loading model on rank 0 ...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:04<00:27,  4.62s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:04<00:27,  4.65s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:04<00:28,  4.73s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:04<00:29,  4.93s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:05<00:30,  5.04s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:04<00:27,  4.62s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:05<00:31,  5.25s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:04<00:27,  4.62s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:26,  5.37s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:26,  5.37s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:26,  5.39s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:27,  5.54s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:26,  5.37s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:27,  5.42s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:27,  5.50s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:11<00:28,  5.63s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:16<00:23,  5.83s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:16<00:23,  5.83s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:17<00:23,  5.86s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:17<00:23,  5.93s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:16<00:23,  5.84s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:16<00:23,  5.84s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:17<00:23,  5.98s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:17<00:23,  5.91s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:22<00:17,  5.89s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:22<00:17,  5.87s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:23<00:17,  5.94s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:23<00:17,  5.93s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:23<00:17,  5.97s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:22<00:17,  5.89s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:22<00:17,  5.89s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:22<00:17,  5.89s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:29<00:12,  6.12s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:29<00:12,  6.11s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:29<00:12,  6.14s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:29<00:12,  6.11s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:29<00:12,  6.11s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:29<00:12,  6.11s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:29<00:12,  6.15s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:30<00:12,  6.17s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:35<00:06,  6.10s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:35<00:06,  6.11s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:35<00:06,  6.12s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:35<00:06,  6.11s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:35<00:06,  6.10s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:36<00:06,  6.14s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:35<00:06,  6.10s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:35<00:06,  6.10s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:39<00:00,  5.25s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:39<00:00,  5.58s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:39<00:00,  5.26s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:39<00:00,  5.61s/it]
+[2025-08-28 20:43:26,247] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-08-28 20:43:26,247] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-08-28 20:43:26,247] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-28 20:43:26,247] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-08-28 20:43:26,247] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-28 20:43:26,247] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+Loading checkpoint shards: 100%|██████████| 7/7 [00:38<00:00,  5.24s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:38<00:00,  5.56s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:38<00:00,  5.25s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:38<00:00,  5.56s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:38<00:00,  5.25s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:38<00:00,  5.57s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:38<00:00,  5.25s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:38<00:00,  5.56s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:39<00:00,  5.26s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:39<00:00,  5.62s/it]
+[2025-08-28 20:43:26,254] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-08-28 20:43:26,254] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-08-28 20:43:26,255] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+Loading checkpoint shards: 100%|██████████| 7/7 [00:39<00:00,  5.27s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:39<00:00,  5.65s/it]
+[2025-08-28 20:43:26,255] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-28 20:43:26,255] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-08-28 20:43:26,255] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-28 20:43:26,255] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-08-28 20:43:26,255] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:43:26,255] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:43:26,255] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-08-28 20:43:26,255] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-08-28 20:43:26,255] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-08-28 20:43:26,255] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-08-28 20:43:26,255] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-28 20:43:26,255] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-08-28 20:43:26,256] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-28 20:43:26,256] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-28 20:43:26,256] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-08-28 20:43:26,256] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-08-28 20:43:26,257] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-08-28 20:43:26,257] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-08-28 20:43:26,258] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-08-28 20:43:26,258] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-08-28 20:43:26,258] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+[2025-08-28 20:43:26,265] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:43:26,265] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-08-28 20:43:26,266] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:43:26,266] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:43:26,266] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-08-28 20:43:26,266] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-08-28 20:43:26,266] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:43:26,266] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:43:26,266] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-08-28 20:43:26,266] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-08-28 20:43:26,267] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-08-28 20:43:26,268] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-08-28 20:43:26,268] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-08-28 20:43:26,268] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-08-28 20:43:26,268] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-08-28 20:43:26,268] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-08-28 20:43:26,268] [INFO] [comm.py:821:init_distributed] cdb=None
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+[2025-08-28 20:43:26,270] [INFO] [comm.py:821:init_distributed] cdb=None
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 0
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 160
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[Info] Starting timed generation...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Generated text:
+ Explain Llama 2 and DeepSpeed inference. Llama 2 is an AI model developed by Meta, designed to process and generate human-like language. It's a large language model that can understand and respond to a wide range of questions and prompts, from simple to complex. Llama 2 is trained on a massive dataset of text from the internet and can learn from its interactions with users. DeepSpeed inference is a technique used to improve the performance of Llama 2 and other large language models by reducing the computational resources required for inference. It uses a combination of techniques such as model parallelism, pipeline parallelism, and mixed precision training to achieve faster and more efficient inference.
+DeepSpeed inference is a technique that can be used to improve the performance of Llama 2 and other large language models by reducing the computational resources required for inference. It uses a combination of techniques such as model parallelism, pipeline parallelism, and mixed precision training to achieve faster and more efficient inference.
+Model parallelism involves dividing the model into smaller sub-models and processing them in parallel, which can reduce the computational resources required for inference. Pipeline parallelism involves processing the input data in parallel, which can also reduce the computational resources required for inference. Mixed precision training involves using a combination of floating-point and integer data types to reduce the memory usage and computational resources required for inference.
+DeepSpeed inference can be used to improve the performance of Llama 2 and other large language models by reducing the computational resources required for inference, which can make them more efficient and scalable. It can also be used to improve the performance of other AI models and applications that require large-scale inference.
+Here are some key benefits of DeepSpeed inference:
+Improved performance: DeepSpeed inference can improve the performance of Llama 2 and other large language models by reducing the computational resources required for inference.
+Increased scalability: DeepSpeed inference can make large language models more scalable by reducing the computational resources required for inference.
+Reduced memory usage: DeepSpeed inference can reduce the memory usage required for inference by using a combination of floating-point and integer data types.
+Faster inference: DeepSpeed inference can achieve faster inference times by reducing the computational resources required for inference.
+Here are some key use cases for DeepSpeed inference:
+Large language models: DeepSpeed inference can be used to improve the performance of large language models such as Llama 2.
+AI applications: DeepSpeed inference can be used to improve the performance of other AI applications that require large-scale inference.
+High-performance computing: DeepSpeed inference can be used to improve the performance of high-performance computing applications that require large-scale inference.
+Here are some key technical details about DeepSpeed inference:
+Model parallelism: DeepSpeed inference uses model parallelism to divide the model into smaller sub-models and process them in parallel.
+Pipeline parallelism: DeepSpeed inference uses pipeline parallelism to process the input data in parallel.
+Mixed precision training: DeepSpeed inference uses mixed precision training to reduce the memory usage and computational resources required for inference.
+TensorFlow and PyTorch: DeepSpeed inference can be used with TensorFlow and PyTorch frameworks.
+GPU acceleration: DeepSpeed inference can be accelerated using GPUs.
+Here are some key resources for learning more about DeepSpeed inference:
+DeepSpeed documentation: The official DeepSpeed documentation provides detailed information about the technique and its implementation.
+Research papers: There are several research papers that provide more information about DeepSpeed inference and its applications.
+Tutorials and guides: There are several tutorials and guides that provide step-by-step instructions for implementing DeepSpeed inference.
+Here are some key best practices for using DeepSpeed inference:
+Use model parallelism: Model parallelism can be used to divide the model into smaller sub-models and process them in parallel.
+Use pipeline parallelism: Pipeline parallelism can be used to process the input data in parallel.
+Use mixed precision training: Mixed precision training can be used to reduce the memory usage and computational resources required for inference.
+Monitor performance: Monitor the performance of the model and adjust the parameters of DeepSpeed inference as needed.
+Here are some key tools and frameworks for implementing DeepSpeed inference:
+TensorFlow: TensorFlow is a popular open-source machine learning framework that can be used to implement DeepSpeed inference.
+PyTorch: PyTorch is a popular open-source machine learning framework that can be used to implement DeepSpeed inference.
+DeepSpeed library: The DeepSpeed library provides a set of tools and APIs for implementing DeepSpeed inference.
+GPU acceleration: GPUs can be used to accelerate DeepSpeed inference.
+In conclusion, DeepSpeed inference is a technique that can be used to improve the performance of Llama 2 and other large language models by reducing the computational resources required for inference. It uses a combination of techniques such as model parallelism, pipeline parallelism, and mixed precision training to achieve faster and more efficient inference. DeepSpeed inference can be used to improve the performance of other AI models and applications that require large-scale inference. By following the best practices and using the right tools and frameworks, developers can
+
+=== Benchmark Metrics (rank 0) ===
+World size: 8
+Prompt length: 12 tokens
+Generated tokens: 1000
+Total time: 293.1468 sec
+Time to First Token (TTFT): 0.2931 sec
+Inter-Token Latency (Mean): 0.2931 sec
+Inter-Token Latency (Median): 0.2931 sec
+Throughput: 3.41 tokens/sec
+
+power_usage in power_log.csv

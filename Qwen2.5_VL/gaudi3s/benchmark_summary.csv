@@ -1,0 +1,6 @@
+batch_size,total_time,successful_requests,avg_ttft,avg_mean_itl,avg_throughput,avg_tokens,csv_file,power_log
+2,447.6,90,1.1024,0.0095,72.49,279.8,cord_benchmark_batch_2.csv,power_log_batch_2.csv
+4,236.25,90,0.5039,0.0111,72.6,269.0,cord_benchmark_batch_4.csv,power_log_batch_4.csv
+8,160.76,90,0.7009,0.0157,64.43,298.3,cord_benchmark_batch_8.csv,power_log_batch_8.csv
+12,128.5,90,0.9126,0.0317,49.38,263.6,cord_benchmark_batch_12.csv,power_log_batch_12.csv
+16,103.61,90,1.1466,0.0348,52.62,299.5,cord_benchmark_batch_16.csv,power_log_batch_16.csv

@@ -1,0 +1,201 @@
+prompt,tokens_generated,ttft,mean_itl,median_itl,throughput
+What is LLaMA 2 and how does it work?,1000,4.5956,0.0206,0.0205,39.71
+Explain the architecture of a transformer model.,1000,0.0589,0.0204,0.0204,48.82
+What are the core differences between CNN and RNN?,748,0.058,0.0204,0.0203,48.84
+Describe how attention mechanism improves translation models.,1000,0.0523,0.0203,0.0201,49.3
+What is the role of positional encoding in transformers?,1000,0.0515,0.0203,0.0203,49.19
+How does self-attention differ from cross-attention?,1000,0.048,0.0205,0.0203,48.78
+Explain the concept of tokenization in NLP.,1000,0.056,0.0203,0.0203,49.1
+What is the vanishing gradient problem and how to mitigate it?,1000,0.0537,0.0206,0.0205,48.42
+Describe how Gaudi architecture differs from NVIDIA GPUs.,1000,0.0576,0.0209,0.0208,47.72
+What is model parallelism and how does it help scale large models?,1000,0.0573,0.0208,0.0207,47.89
+Explain the difference between GPT and BERT architectures.,652,0.0557,0.0208,0.0207,47.85
+How does prompt engineering affect language model outputs?,1000,0.059,0.0209,0.0208,47.69
+What is the function of layer normalization in deep networks?,1000,0.0586,0.021,0.0207,47.63
+Explain causal language modeling with examples.,1000,0.0594,0.0213,0.0211,46.96
+What is quantization and how does it improve inference performance?,1000,0.0602,0.0211,0.0209,47.24
+Describe how fine-tuning works for large language models.,1000,0.055,0.0205,0.0204,48.62
+What are LoRA adapters and how do they help in parameter-efficient training?,1000,0.059,0.0209,0.0208,47.69
+Explain the purpose of rotary positional embeddings.,1000,0.0531,0.0212,0.0209,47.16
+How does DeepSpeed improve model training efficiency?,1000,0.0556,0.0213,0.021,46.97
+Compare data parallelism and pipeline parallelism.,1000,0.058,0.0213,0.0211,46.82
+What is ALiBi positional encoding?,512,0.0567,0.0214,0.021,46.59
+Describe the purpose of HF Transformers library.,1000,0.0588,0.0211,0.0209,47.23
+How do attention heads capture contextual meaning?,1000,0.0558,0.0204,0.0203,48.97
+What is dynamic batching in inference servers?,1000,0.0509,0.0206,0.0205,48.56
+Explain greedy decoding vs beam search vs sampling.,1000,0.0536,0.0204,0.0203,48.9
+What is perplexity in language models and why is it important?,1000,0.0569,0.0207,0.0205,48.32
+How does mixed precision training benefit model training?,1000,0.0516,0.0203,0.0203,49.13
+What is the function of the softmax layer in transformers?,1000,0.0497,0.0204,0.0203,49.06
+Explain embeddings and how they're used in NLP models.,845,0.0513,0.0205,0.0204,48.79
+Describe the function of the tokenizer's vocabulary.,1000,0.0496,0.0204,0.0204,49.02
+What is causal masking in transformer decoders?,1000,0.0592,0.0206,0.0205,48.46
+How does gradient checkpointing reduce memory usage?,1000,0.0567,0.0206,0.0205,48.42
+Explain the difference between encoder-decoder and decoder-only models.,1000,0.0544,0.0205,0.0204,48.8
+What is zero-shot vs few-shot vs fine-tuned inference?,585,0.058,0.0203,0.0203,49.01
+What are prompt templates and why do they matter?,1000,0.0521,0.0204,0.0204,48.93
+Explain the role of BOS and EOS tokens in transformers.,1000,0.054,0.0204,0.0203,48.92
+What is a floating-point tensor and how is it represented?,1000,0.0537,0.0203,0.0202,49.2
+What are hypernetworks in neural architectures?,1000,0.0533,0.0202,0.0202,49.31
+Explain MoE (Mixture of Experts) architecture.,1000,0.0584,0.0203,0.0203,49.09
+What is distillation in model compression?,1000,0.0571,0.0201,0.0201,49.66
+How do you implement top-k and top-p sampling?,1000,0.0522,0.0201,0.02,49.77
+What is a vector database and how is it used with LLMs?,682,0.0524,0.0202,0.0201,49.44
+Describe how you would use RAG (Retrieval Augmented Generation).,1000,0.0563,0.0201,0.02,49.7
+What is streaming inference and how is it used?,1000,0.0513,0.0201,0.02,49.72
+How does TTFT relate to user-perceived latency?,1000,0.0498,0.0202,0.0201,49.45
+Explain transformer decoder blocks layer-by-layer.,1000,0.0494,0.0203,0.0203,49.09
+What is a KV cache in transformer inference?,1000,0.0514,0.0202,0.0201,49.46
+Describe token-by-token generation and its challenges.,1000,0.055,0.0203,0.0202,49.27
+How does LLaMA 2 compare to GPT-3.5?,1000,0.0522,0.0203,0.0203,49.07
+Explain the training data pipeline for a large model.,1000,0.0536,0.0206,0.0204,48.48
+What are the ethical concerns with generative models?,1000,0.0612,0.0203,0.0202,49.08
+How do transformers process multilingual text?,1000,0.0561,0.0203,0.0202,49.21
+What are flash attention mechanisms?,1000,0.0571,0.0202,0.0202,49.3
+Describe how memory-efficient attention works.,1000,0.0523,0.0205,0.0204,48.62
+What is inference throughput and how is it calculated?,1000,0.0568,0.0207,0.0206,48.11
+Explain how masked self-attention works in BERT.,818,0.0558,0.0207,0.0206,48.09
+How do instruction-tuned models differ from base models?,1000,0.0512,0.0205,0.0204,48.7
+Describe an RLHF (Reinforcement Learning from Human Feedback) process.,1000,0.0608,0.0205,0.0203,48.78
+What is SFT (Supervised Fine-Tuning) in LLM training?,1000,0.0528,0.0203,0.0202,49.29
+Explain the role of HPU in Gaudi chips.,1000,0.0552,0.0204,0.0203,48.83
+What is a causal attention mask?,1000,0.0561,0.0204,0.0203,48.92
+Describe the HF `generate()` function in Transformers.,1000,0.0469,0.0204,0.0202,48.99
+"Explain differences between T5, BART, and GPT models.",1000,0.0482,0.0204,0.0203,48.88
+What is model checkpointing and resumption?,1000,0.0547,0.0204,0.0203,49.0
+Describe how checkpoint sharding works in distributed training.,1000,0.0517,0.0202,0.0201,49.42
+How are model weights stored in HuggingFace format?,1000,0.0564,0.0201,0.02,49.59
+Explain the impact of batch size on training and inference.,1000,0.0506,0.0202,0.0202,49.33
+What are fused kernels and why are they fast?,1000,0.0521,0.0202,0.0201,49.36
+How does the `AutoModelForCausalLM` class work?,616,0.0542,0.0204,0.0204,48.88
+What are tensor parallel and tensor slicing?,1000,0.0604,0.0203,0.0201,49.24
+Describe the key steps of model serving using vLLM.,1000,0.0531,0.0203,0.0203,49.07
+What are inference graphs in deep learning?,1000,0.0506,0.0202,0.0201,49.41
+What is a streaming response in OpenAI-style APIs?,554,0.0531,0.0203,0.0202,49.19
+How does speculative decoding reduce latency?,1000,0.0532,0.0204,0.0202,49.05
+What is JAX and how is it different from PyTorch?,1000,0.0553,0.0206,0.0204,48.45
+Describe lazy loading of weights in vLLM.,1000,0.0499,0.0202,0.0202,49.4
+Explain the role of SynapseAI in Gaudi software stack.,1000,0.0502,0.0203,0.0202,49.2
+What are the differences between HPU and GPU tensors?,661,0.057,0.0203,0.0202,49.15
+What are the limitations of LLaMA 2?,1000,0.0505,0.0203,0.0202,49.11
+How is multilingual performance evaluated in LLMs?,1000,0.0558,0.0204,0.0203,49.01
+Describe an example use of prompt tuning.,715,0.0581,0.0205,0.0204,48.75
+What is the attention bottleneck and how to address it?,1000,0.054,0.0205,0.0204,48.7
+How does token alignment affect downstream tasks?,1000,0.0554,0.0207,0.0205,48.13
+What are the challenges in inference on edge devices?,1000,0.0551,0.0204,0.0203,48.97
+Explain the principle behind rotary embeddings.,1000,0.0554,0.0205,0.0204,48.72
+How does temperature affect language model output?,1000,0.0538,0.0205,0.0204,48.61
+What are stop sequences in generation APIs?,1000,0.0556,0.0208,0.0206,48.01
+Describe token streaming latency optimization.,1000,0.0502,0.0204,0.0202,48.98
+How to evaluate hallucinations in language models?,1000,0.0535,0.0209,0.0206,47.84
+What is the purpose of `bos_token_id`?,1000,0.0544,0.021,0.0208,47.64
+How are fused attention layers implemented?,1000,0.0582,0.0211,0.0208,47.39
+Describe a pipeline for deploying LLaMA 2 in production.,1000,0.0538,0.0207,0.0205,48.19
+How does instruction following improve model usability?,1000,0.0517,0.0209,0.0206,47.84
+What is a sequence-to-sequence model?,693,0.0531,0.0207,0.0205,48.25
+What is the purpose of `pad_token_id` in generation?,1000,0.0519,0.0206,0.0205,48.54
+Explain the concept of auto-regressive generation.,1000,0.0599,0.0207,0.0205,48.21
+How is top-p sampling different from nucleus sampling?,1000,0.057,0.0205,0.0203,48.73
+What are decoding strategies for safe responses?,479,0.0531,0.0206,0.0205,48.39
+How are model prompts structured in ChatML?,459,0.0523,0.0206,0.0204,48.34
+What is a system prompt in chat inference?,1000,0.0523,0.0206,0.0205,48.36
+How do you batch requests for high throughput?,1000,0.0526,0.0209,0.0208,47.85
+Explain model serving with `transformers + vLLM`.,1000,0.0541,0.0207,0.0205,48.32
+What is Triton Inference Server?,1000,0.0552,0.0207,0.0205,48.3
+Describe the significance of large context windows.,600,0.0605,0.0209,0.0207,47.76
+What is dynamic quantization in transformers?,1000,0.0511,0.0207,0.0206,48.29
+How to prevent prompt injection in LLMs?,1000,0.0614,0.0208,0.0207,47.88
+What are attention scores and how are they computed?,1000,0.057,0.0211,0.0208,47.4
+What are residual connections in transformers?,381,0.05,0.021,0.0208,47.43
+How to handle long sequences in generation?,1000,0.0546,0.0208,0.0206,47.99
+Explain the use of flash attention v2.,1000,0.057,0.0205,0.0205,48.66
+What is a greedy search in inference?,1000,0.0536,0.0203,0.0202,49.08
+How do checkpoints improve fault tolerance?,1000,0.0499,0.0201,0.02,49.62
+Describe how text-to-text generation works.,1000,0.0582,0.0205,0.0204,48.72
+Explain cosine similarity in embeddings.,1000,0.0544,0.0203,0.0202,49.16
+What is token-wise parallelism?,1000,0.0504,0.0203,0.0202,49.15
+How do shared embeddings help in decoder-only models?,1000,0.0548,0.0205,0.0203,48.76
+Explain how to measure latency in model output.,1000,0.0593,0.0206,0.0204,48.46
+What is the purpose of dropout during training?,1000,0.0553,0.0207,0.0205,48.33
+What is the role of GELU activation in transformers?,1000,0.0551,0.0208,0.0206,47.98
+Explain forward and backward pass in transformers.,1000,0.0541,0.0204,0.0203,48.86
+What is speculative decoding and how does it help?,1000,0.0479,0.0203,0.0203,49.18
+How to optimize HPU memory usage during inference?,1000,0.0532,0.0205,0.0204,48.81
+Explain profiling for LLM inference performance.,755,0.0574,0.0202,0.0202,49.33
+How to compute inter-token latency per request?,1000,0.0513,0.0202,0.0202,49.35
+What is the difference between BFloat16 and Float16?,1000,0.0521,0.0205,0.0204,48.67
+What are logits and how are they interpreted?,591,0.0518,0.0207,0.0205,48.28
+What is log probability in token prediction?,1000,0.0528,0.0205,0.0204,48.78
+How to use `TextStreamer` for streaming output?,1000,0.0562,0.0206,0.0205,48.54
+How to tokenize and detokenize a prompt manually?,1000,0.0542,0.0205,0.0204,48.66
+Describe how a prompt flows through the transformer layers.,1000,0.0561,0.0204,0.0203,48.82
+How to handle EOS in streaming responses?,1000,0.0528,0.0204,0.0203,49.01
+What is a model config JSON in HF models?,753,0.0516,0.0206,0.0206,48.35
+What is kv_cache reuse in decoder models?,1000,0.055,0.021,0.0207,47.65
+Describe a scenario of real-time chatbot streaming.,690,0.0587,0.0212,0.0209,47.08
+How to compute throughput with variable prompts?,1000,0.0552,0.0206,0.0206,48.5
+How does `max_new_tokens` differ from `max_length`?,1000,0.0515,0.0204,0.0203,49.05
+Explain the difference between loss and perplexity.,1000,0.054,0.0203,0.0203,49.12
+How to log benchmark results in a structured CSV?,1000,0.0535,0.0208,0.0206,48.0
+What are attention heads and how do they specialize?,1000,0.0538,0.0208,0.0207,47.95
+How to ensure reproducible benchmarking?,616,0.0581,0.0207,0.0205,48.17
+What are model shards and when are they used?,1000,0.0518,0.0204,0.0203,48.88
+Explain the relationship between prompt length and latency.,1000,0.0527,0.0208,0.0206,48.04
+What is batch inference and why is it faster?,1000,0.0527,0.021,0.0208,47.58
+What are rotary sin-cos embeddings?,1000,0.0569,0.0208,0.0206,47.88
+Describe HuggingFace's `AutoTokenizer` features.,1000,0.059,0.0207,0.0206,48.13
+How does positional encoding interact with attention?,1000,0.0589,0.021,0.0208,47.46
+What is a streaming callback in Transformers?,694,0.055,0.0211,0.0208,47.37
+How to benchmark models using curl and Python?,1000,0.0544,0.021,0.0207,47.65
+How to parse streaming responses from vLLM?,1000,0.0517,0.0209,0.0207,47.8
+How does deep caching work in inference?,1000,0.0574,0.0207,0.0206,48.11
+What is a prompt-truncation error?,1000,0.0545,0.0207,0.0206,48.3
+Explain the role of tokenizer config files.,1000,0.0578,0.0207,0.0206,48.11
+How to batch multiple prompts into one request?,1000,0.0575,0.0208,0.0206,47.94
+What is a chat template in HuggingFace?,593,0.053,0.0206,0.0205,48.46
+What is inference latency and why is it important?,513,0.052,0.0205,0.0204,48.55
+How to reduce memory footprint of LLaMA models?,1000,0.0577,0.0207,0.0205,48.29
+What is the difference between `generation_config.json` and `config.json`?,1000,0.0518,0.0209,0.0207,47.82
+What is a quantized model and how is it served?,691,0.0596,0.021,0.0208,47.51
+How to handle prompt overflow in generation?,1000,0.0544,0.0209,0.0208,47.82
+What is warmup time in inference pipelines?,1000,0.0553,0.021,0.0208,47.62
+How to stream JSON tokens using curl?,1000,0.0553,0.0209,0.0208,47.66
+What is a `generate_with_streaming()` wrapper?,1000,0.0562,0.0211,0.0208,47.25
+How to evaluate TTFT and ITL for multiple prompts?,1000,0.0518,0.0212,0.0209,47.21
+What are server cold starts in model serving?,540,0.0524,0.0212,0.021,47.04
+Explain how to avoid padding inefficiencies.,694,0.0624,0.0211,0.0209,47.17
+How does tokenizer pre-processing affect TTFT?,1000,0.0579,0.0216,0.0213,46.31
+How to track per-prompt latency in logs?,1000,0.0533,0.0211,0.0209,47.27
+Explain streaming benchmarks with high concurrency.,1000,0.0536,0.0209,0.0207,47.87
+How to calculate power usage per prompt?,1000,0.055,0.0209,0.0207,47.82
+How does the tokenizer handle emojis and symbols?,1000,0.0507,0.0206,0.0205,48.41
+How does model size affect inference latency?,1000,0.053,0.0206,0.0205,48.38
+How to debug slow streaming responses?,892,0.0534,0.0208,0.0206,48.01
+What causes generation to stall midway?,1000,0.0538,0.0206,0.0205,48.37
+How to load a model on HPU using HF Transformers?,1000,0.0534,0.0208,0.0206,47.99
+How to pass prompt + history into a chat model?,1000,0.0557,0.0206,0.0205,48.46
+What is an OpenAI-compatible inference API?,1000,0.0617,0.0206,0.0205,48.56
+How to handle decoding errors in stream?,1000,0.0555,0.0206,0.0205,48.38
+What are temperature vs randomness in sampling?,524,0.0499,0.0206,0.0204,48.45
+Explain token logprobs in output.,1000,0.0574,0.0207,0.0206,48.19
+How to measure and reduce TTFT on Gaudi?,1000,0.0567,0.0207,0.0206,48.13
+Explain the internals of HF `generate()` loop.,1000,0.0581,0.0209,0.0208,47.71
+What is speculative token generation?,1000,0.0566,0.0208,0.0207,47.94
+What are possible failure points in vLLM serving?,1000,0.0547,0.0207,0.0205,48.13
+How to catch stream decoding errors gracefully?,1000,0.0538,0.0208,0.0206,47.97
+How to enable/disable kv caching in transformers?,1000,0.0601,0.0211,0.0208,47.36
+What are challenges of multilingual streaming inference?,1000,0.0613,0.0209,0.0207,47.83
+How to benchmark with different model precisions?,1000,0.053,0.021,0.0208,47.63
+What is the tradeoff between token latency and batch size?,552,0.0538,0.0208,0.0206,47.99
+Describe the advantages and limitations of transformer-based neural networks.,1000,0.0543,0.0207,0.0205,48.29
+Explain the concept of overfitting in machine learning and how to prevent it.,1000,0.0559,0.021,0.0208,47.62
+How does the attention mechanism work in transformer models?,1000,0.0617,0.0211,0.0209,47.24
+Summarize the main differences between supervised and unsupervised learning.,1000,0.0576,0.021,0.0209,47.47
+What are the ethical concerns associated with deploying large language models?,625,0.0621,0.0214,0.0212,46.6
+Explain how gradient descent works in training deep neural networks.,963,0.0561,0.0215,0.0213,46.45
+Describe the role of activation functions in deep learning.,1000,0.0543,0.0213,0.0211,46.86
+How can transfer learning improve model performance on small datasets?,1000,0.0567,0.0211,0.0209,47.28
+Explain the concept of reinforcement learning with an example.,1000,0.0542,0.0206,0.0205,48.4
+What are the main components of a convolutional neural network (CNN)?,1000,0.0511,0.021,0.0208,47.56
+Describe how large language models like GPT or LLaMA are trained and fine-tuned.,1000,0.0537,0.0212,0.021,47.08
+Compare and contrast BERT and GPT in terms of architecture and use cases.,1000,0.0524,0.0211,0.0209,47.36

@@ -1,0 +1,269 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+[WARNING|utils.py:212] 2025-08-25 19:47:11,024 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but habana-frameworks v1.22.0.538 was found, this could lead to undefined behavior!
+[WARNING|utils.py:212] 2025-08-25 19:47:11,025 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but habana-frameworks v1.22.0.538 was found, this could lead to undefined behavior!
+[WARNING|utils.py:212] 2025-08-25 19:47:11,025 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but habana-frameworks v1.22.0.538 was found, this could lead to undefined behavior!
+[WARNING|utils.py:212] 2025-08-25 19:47:11,026 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but habana-frameworks v1.22.0.538 was found, this could lead to undefined behavior!
+[WARNING|utils.py:225] 2025-08-25 19:47:12,224 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but the driver version is v1.22.0, this could lead to undefined behavior!
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+[WARNING|utils.py:225] 2025-08-25 19:47:12,830 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but the driver version is v1.22.0, this could lead to undefined behavior!
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+[WARNING|utils.py:225] 2025-08-25 19:47:12,956 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but the driver version is v1.22.0, this could lead to undefined behavior!
+[WARNING|utils.py:225] 2025-08-25 19:47:12,971 >> optimum-habana v1.18.1 has been validated for SynapseAI v1.21.0 but the driver version is v1.22.0, this could lead to undefined behavior!
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Using HPU fused kernel for apply_rotary_pos_emb
+Using HPU fused kernel for RMSNorm
+Running on 4 HPUs...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:5803: UserWarning: "hpu:X" notation is not supported by Gaudi PyTorch intergration bridge. Please change to "hpu" without index (Triggered internally at /npu-stack/pytorch-integration/habana_eager/ops/empty.cpp:37.)
+  _ = torch.empty(byte_count // factor, dtype=torch.float16, device=device, requires_grad=False)
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:5803: UserWarning: "hpu:X" notation is not supported by Gaudi PyTorch intergration bridge. Please change to "hpu" without index (Triggered internally at /npu-stack/pytorch-integration/habana_eager/ops/empty.cpp:37.)
+  _ = torch.empty(byte_count // factor, dtype=torch.float16, device=device, requires_grad=False)
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:5803: UserWarning: "hpu:X" notation is not supported by Gaudi PyTorch intergration bridge. Please change to "hpu" without index (Triggered internally at /npu-stack/pytorch-integration/habana_eager/ops/empty.cpp:37.)
+  _ = torch.empty(byte_count // factor, dtype=torch.float16, device=device, requires_grad=False)
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 1
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 160
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:787: UserWarning: "hpu:X" notation is not supported by Gaudi PyTorch intergration bridge. Please change to "hpu" without index (Triggered internally at /npu-stack/pytorch-integration/habana_eager/ops/empty.cpp:74.)
+  param = param[...]
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:787: UserWarning: "hpu:X" notation is not supported by Gaudi PyTorch intergration bridge. Please change to "hpu" without index (Triggered internally at /npu-stack/pytorch-integration/habana_eager/ops/empty.cpp:74.)
+  param = param[...]
+/usr/local/lib/python3.10/dist-packages/transformers/modeling_utils.py:787: UserWarning: "hpu:X" notation is not supported by Gaudi PyTorch intergration bridge. Please change to "hpu" without index (Triggered internally at /npu-stack/pytorch-integration/habana_eager/ops/empty.cpp:74.)
+  param = param[...]
+Loading checkpoint shards:  14%|█▍        | 1/7 [00:06<00:40,  6.74s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:06<00:37,  6.22s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:06<00:37,  6.27s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:06<00:37,  6.18s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:25,  5.06s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:26,  5.25s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:25,  5.09s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:10<00:25,  5.11s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:15<00:20,  5.01s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:15<00:20,  5.04s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:15<00:20,  5.01s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:15<00:20,  5.15s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:20<00:15,  5.08s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:21<00:15,  5.14s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:20<00:15,  5.06s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:20<00:15,  5.07s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:25<00:09,  4.90s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:25<00:09,  4.90s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:25<00:09,  4.98s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:25<00:09,  4.94s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:30<00:04,  4.89s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:30<00:04,  4.89s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:30<00:04,  4.88s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:30<00:04,  4.91s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:32<00:00,  4.25s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:32<00:00,  4.71s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:33<00:00,  4.25s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:33<00:00,  4.72s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:33<00:00,  4.26s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:33<00:00,  4.72s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:33<00:00,  4.28s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:33<00:00,  4.79s/it]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+<|begin_of_text|>what is Llama3 explain in very detail along with Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+<|begin_of_text|>what is Llama3 explain in very detail along with Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+<|begin_of_text|>what is Llama3 explain in very detail along with Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+<|begin_of_text|>what is Llama3 explain in very detail along with architecture.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
+architecture.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+architecture.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+architecture.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+Llama Llama Llama 3 Llama3 3 is 3 is an is is a a artificial large an large language intelligence artificial language model model developed model intelligence developed by developed Meta by by AI. (AI) Meta, Meta, model It's designed designed a developed to to process process by multimodal large and and language generate generate Meta, model, designed human-like human-like which to means process it language. language. can and It It process generate is and is a generate a human-like type large text, of language. language It images, transformer-based is model, and a other model, significant pre-trained forms which advancement on of is in a natural a data. massive language popular dataset processing architecture Here's of for a natural text detailed language from overview (NLP) processing of the technology, Llama allowing internet, for (NLP) 3 books, more and tasks. sophisticated and its and other architecture:
+Here's nuanced a interactions detailed sources. **Key explanation between of Llama Features:**
+
+humans and Llama 3 1. is computers. 3's an In architecture improvement and this **Multimodal over how its it capabilities**: works:
+
+explanation, predecessors, Llama we'll 3 Llama **Architecture:**
+
+delve can process into and the 1 Llama generate architecture and 3 and text, is key Llama based images, features on and of the other forms transformer 2, of with architecture, Llama3.
+data, enhanced which making was capabilities it introduced a in in powerful the **Architecture:**
+tool areas paper for such tasks "Attention like as Is image Llama3 All is You reasoning, based captioning, Need" on visual by question a understanding, transformer answering, and Vaswani and generating architecture, et which text-to-image al. human-like synthesis.
+in is responses.
+
+a 2. type 2017. of Here's The neural **Large-scale a transformer network architecture detailed designed is pre-training**: explanation designed specifically to of Llama for handle sequential processing 3 Llama sequential is data, such pre-trained data, as on 3, such a including text, massive as its by dataset using of architecture:
+
+text. The self-attention text, mechanisms transformer to images, architecture weigh **Architecture:**
+
+and consists the other of importance of several Llama data, different key input which components:
+elements.
+
+3 allows is it The based to architecture 1. on learn of a complex Llama patterns transformer and **Encoder:** 3 architecture, relationships consists The of between which encoder the different is is following a components:
+
+responsible modalities.
+type for of 1. taking neural 3. in network input **Encoder:** **Transformer designed The text encoder architecture**: specifically and is for generating responsible Llama a for natural processing set 3 language the uses of processing input a vectors sequence that transformer-based of tasks. tokens The represent architecture, transformer which the architecture is meaning particularly (e.g., consists words and of or several context well-suited for components:
+
+of subwords) the and generating 1. sequence-to-sequence a input. tasks  continuous like These representation language vectors of translation are the and **Encoder:** text called The input. generation.
+encoder The is encoder responsible 4. consists "embeddings."
+of for a processing series **Self-supervised of the 2. identical input learning**: layers, text Llama each **Decoder:** and of 3 The generating which is decoder applies a trained a representation is using of responsible the for self-attention self-supervised input mechanism generating learning that to output the can methods, text input which be sequence.
+based means used it on by learns the to 2. the predict embeddings missing produced decoder. or **Decoder:** by corrupted The The the data decoder encoder without encoder.
+is any consists responsible explicit of for supervision.
+
+generating a 3. the series output sequence of **Architecture:**
+
+of identical **Self-Attention tokens. Llama The layers, decoder each also Mechanism:** 3's consists architecture This of of is mechanism a based which allows series on consists the of the of model transformer identical to two model, layers, weigh which each the consists of of importance which sub-layers: applies several of a a key different components:
+
+parts self-attention self-attention of 1. mechanism mechanism the to the and input **Encoder**: output a text The sequence.
+when encoder is feed-forward generating responsible 3. neural for network output. processing input **Self-Attention It's data, such like Mechanism:** as (FFNN). a The text The spotlight or that self-attention shines images. mechanism on self-attention It is the a mechanism uses most key allows a component relevant series the of of parts the model transformer of to self-attention the weigh architecture. mechanisms It to the text.
+allows compute importance the weighted model sums of of to different 4. the weigh parts input the importance of data, of the which different input are input text then **Feed-Forward elements fed when based Network into generating on a the their relevance representation.
+feed-forward to network the current (FFN):** 2. input  The element. (FFN) The to produce FFN a **Decoder:** set self-attention is The of mechanism decoder a is contextualized implemented is neural representations.
+using responsible network a for set layer 2. generating of that the learned processes output **Decoder**: weights, The the text decoder which based output is are on responsible applied of for the to the generating representation the output generated input by data, sequence self-attention such the to as mechanism generate text and encoder. a or generates weighted The the sum images. decoder final of It consists the uses output.
+input a of series elements.
+a of 5. series 4. of self-attention mechanisms identical and **Positional **Feed-Forward FFNs Network layers, to Encoding:** each compute the This of probability which component distribution (FFN):** over consists helps The the of the output two model FFN space.
+is understand a the 3. fully order connected and neural sub-layers: position network **Self-attention a that of is words mechanisms**: applied in to the self-attention the Self-attention output input mechanism mechanisms of and allow the the a text, model to which feed-forward self-attention weigh is neural the mechanism. importance essential network The of for different tasks FFN input elements is like relative used (FFNN). language to to The translation each transform the and other. output text This of self-attention is the mechanism particularly summarization.
+useful allows for the self-attention tasks mechanism model like 6. into text to a weigh **Layer generation, higher-dimensional where the space.
+the importance model Normalization:** needs of This to 5. different consider component parts the **Layer helps context of stabilize of the the the Normalization:** input training Layer text.
+input normalization process is text by a 4. when technique generating used normalizing **Feed-forward to the the networks normalize output.
+input the output to of each each 3. layer.
+(FFNs)**: layer  in FFNs the are **Attention encoder 7. used and to compute decoder. the Mechanism:** This output The helps of **Dropout:** to attention the stabilize This encoder mechanism the and component is training helps process decoder. a prevent They and key consist improve component of the multiple of overfitting layers model's by the of performance.
+randomly fully transformer connected dropping neural 6. architecture, networks.
+out allowing neurons **Positional the during 5. training.
+
+model Encoding:** **Layer to Positional normalization**: focus **Key Layer encoding on normalization is specific is a Features:**
+used parts technique to used of normalize to the the inject input output information text of about Llama3 each when the position generating has layer, of which several the each helps input key to element stabilize features output. into the that the training The make process and model. it attention improve This a the helps mechanism powerful the model's is model performance.
+to based NLP understand on model:
+
+the 6. a order of weighted the 1. input **Residual sum elements.
+
+of connections**: the input **How Residual connections **Multitask are Llama text, used Learning:** where to 3 connect the the Works:**
+
+weights input are Llama3 and output learned is Here's of during a trained each training.
+on high-level layer, multiple which overview helps of tasks to 4. how preserve  the simultaneously, Llama information such from 3 the **Positional works:
+
+as previous layer.
+
+language Encoding:** 1. The positional translation, **Input encoding **Multimodal text is Processing:** The Architecture:**
+
+a input technique sequence summarization, used Llama of and to tokens is incorporate 3's processed information by multimodal about the architecture the is encoder, position based question-answering. which on of generates This the a each following allows continuous components:
+
+the token representation model of in 1. the to the input.
+learn **Text input a text encoder**: 2. into more The the text general encoder is model. and **Self-Attention responsible This robust for is processing representation Mechanism:** text necessary The of input because language.
+the data. It self-attention transformer uses mechanism architecture a 2. is does applied transformer-based not to architecture have the to input a compute **Large-Scale sequence notion to contextualized of weigh representations the of Pretraining:** position, the importance input and of text.
+different the input Llama3 model elements is needs 2. based to on **Image be their pre-trained relevance able encoder**: on to to The the image understand a current encoder massive the input is responsible element.
+dataset relationships for of processing between image 3. input different text, tokens which data. in It allows **Feed-Forward uses the Network it a input to text.
+
+convolutional learn neural a network (FFN):** rich The and **Training:**
+
+(CNN) nuanced FFN to understanding compute is of feature applied Llama language.
+representations to of the the output 3 input of is 3. image.
+the trained on 3. a self-attention massive mechanism to dataset transform **Fine-Tuning:** of **Multimodal the text output fusion**: from into The the a Llama3 multimodal can fusion higher-dimensional internet, be component space.
+is responsible books, for 4. and fine-tuned combining other on the **Layer output specific of sources. tasks the Normalization:** The text and The and training output image process datasets, of each involves allowing encoders. layer it the It is to uses normalized following a using adapt layer steps:
+
+to normalization.
+new self-attention mechanism domains to 1. and 5. compute  applications.
+the weighted **Positional sum of **Data Encoding:** the 4. The output positional of Preparation:** encoding the The is two dataset **Generative applied encoders.
+to is the output 4. preprocessed of Capabilities:** each to layer remove **Decoder**: to The any inject Llama3 decoder unnecessary information can is about responsible generate the for characters, position generating such of human-like output each as input data, text, element.
+such including punctuation, as text and or 6. stories, to images. convert conversations, It **Decoder:** uses and The all a even decoder text generates entire to transformer-based the articles.
+architecture lowercase.
+output to sequence compute of the tokens 5. probability 2. based distribution on  over the the output output space.
+
+**Conversational of the **Tokenization:** encoder.
+Capabilities:** The **Training:**
+
+7. Llama preprocessed Llama3 text 3 can is is engage trained **Self-Attention using in a tokenized, combination Mechanism of which involves natural-sounding self-supervised breaking learning (Decoder):** the conversations, The text methods, including:
+
+using into context individual self-attention 1. and words mechanism is understanding or applied **Masked to tokens.
+to language respond the to output modeling**: sequence user 3. The to model input.
+
+ is weigh trained the to importance predict **Training:** of missing different The or output corrupted model **Advantages:**
+elements text based is input on data.
+their trained relevance Llama3 on to 2. has the the current several **Image output advantages element.
+tokenized that captioning**: make text The it 8. using a model a powerful combination is of trained **Feed-Forward NLP supervised Network to model:
+
+and generate captions for images.
+(FFN) 1. unsupervised learning 3. **Improved (Decoder):** **Visual The techniques. question Accuracy:** The FFN answering**: model is The applied is model Llama3 to is the trained achieves trained output to to of answer the questions predict about images.
+the state-of-the-art self-attention results mechanism next to on 4. word transform a the in wide output a **Text-to-image into range a of synthesis**: The higher-dimensional sequence, model space.
+NLP is given trained to the tasks, 9. generate including previous images language from **Output:** words text The input final in translation, data.
+
+output text the sequence of sequence.
+tokens is summarization, **Advantages:**
+
+generated and by 4. the 1.  decoder.
+
+**Multimodal **Evaluation:** **Training:**
+
+question-answering.
+The capabilities**: model Llama Llama is 2. evaluated 3 3 is can on **Increased trained process using a and a generate separate combination Flexibility:** of text, test supervised set images, and Llama3 and to other can ensure forms unsupervised be of learning that data, techniques. it making The fine-tuned it is model a on is performing powerful trained specific tool on well tasks for a on a and large wide unseen corpus range data.
+
+of datasets, of text applications.
+allowing it data, 2. to which **Capabilities:**
+
+is adapt used to **Large-scale to new optimize domains Llama the pre-training**: and model's Llama applications.
+3 parameters. 3 has is The several 3. training pre-trained capabilities process on that involves a the make **Enhanced massive following it dataset steps:
+
+a of Generative powerful text, 1. language images, model:
+
+**Data and Capabilities:** other data, Preprocessing:** 1. which The Llama3 allows  input can it data to generate is learn complex preprocessed patterns **Reasoning:** by and high-quality, relationships coherent Llama tokenizing between text the different that 3 text, modalities.
+is can removing stop reason 3. about words, indistinguishable complex **Transformer and from applying topics architecture**: other and human-written preprocessing provide Llama techniques.
+text.
+3 uses well-supported 2. a 4. answers **Model transformer-based to Initialization:** **Better questions.
+architecture, The which model is is Conversational initialized 2. particularly with  random weights Capabilities:** well-suited and for biases.
+**Understanding:** Llama3 3. Llama can sequence-to-sequence engage 3 tasks **Training:** in can The like model understand language is translation the trained and natural-sounding context using text a of combination generation.
+
+a conversations, of supervised conversation using and and context respond and accordingly.
+**Challenges:**
+
+unsupervised understanding learning to techniques.
+respond 1. to 3. 4. user  input.
+
+**Evaluation:** **Multimodal **Generating The model learning**: is **Applications:**
+Human-like evaluated on Llama a Responses:** held-out Llama 3's Llama3 test set has 3 to multimodal a measure architecture can its wide requires generate performance.
+the range model of human-like to 5. applications responses learn in to to **Hyperparameter fields process questions such and and as:
+
+combine Tuning:** multiple The prompts, types hyperparameters of making of 1. it the data, model a which **Language are useful can tuned tool to be Translation:** for optimize challenging.
+applications its performance.
+
+such as 2. Llama3 can chatbots be **Advantages:**
+
+and used virtual to **Scalability**: assistants.
+Llama translate Llama text 3 has from several 4. one 3's  advantages, language including:
+
+large-scale to pre-training 1. another, requires significant **Multitask with **High computational high resources Accuracy:** Learning:** and accuracy data Llama and storage.
+Llama 3 has fluency.
+been 3. 3 shown can to **Evaluation perform achieve 2. multiple metrics**: tasks **Text Evaluating state-of-the-art simultaneously, the performance such performance on of as a question variety Llama Summarization:** of 3 answering, NLP requires text the development tasks, Llama3 of including can classification, new language summarize evaluation and metrics long translation, that language documents question can translation.
+
+capture into answering, its and text multimodal concise, capabilities.
+
+easily summarization.
+In **Applications:**
+
+digestible summary, 2. summaries.
+Llama Llama 3 **Flexibility:** is 3. a 3 Llama powerful has large 3 language several can model potential be that can
+**Question-Answering:** applications, fine-tuned including:
+
+for a Llama3 variety of can 1. answer tasks,  including complex language translation, **Chatbots questions, question using and its answering, Virtual and understanding text of summarization.
+Assistants:** language 3. and Llama context 3 to **Efficiency:** L
+can provide be accurate used and to build informative responses.
+chatbots and virtual assistants 4. that can **Content understand and Generation:** respond to user queries.
+Llama3 can generate 2.  high-quality, **Language coherent text on Translation:** a wide Llama range of 3 can topics, be including used to articles, build language stories, translation systems and that even can entire books.
+translate text from 5. one language to another.
+**Conversational AI:** 3.  Llama3 **Text can be used Summarization:** to power Llama conversational AI 3 can systems, be such used as to chatbots build and text virtual assistants.
+
+summarization systems In that conclusion, can summarize long Llama3 documents is a into powerful shorter summaries.
+NLP model that 4. has  the potential **Question to revolutionize Answering:** the way Llama we interact 3 with can be computers. Its used advanced to architecture build and question key answering features systems make that it can a answer versatile user and queries.
+
+effective tool for a wide **Limitations:**
+
+range of Llama applications, from language 3 translation has and several text limitations, summarization including:
+
+to content generation 1. and  conversational AI. **Bias:** As the Llama field of 3 may NLP contain continues biases to present in evolve, the training Llama3 data, is which likely can to lead play a to major unfair role or in discriminatory shaping outcomes.
+the future of 2.  **Lack human-computer of Common interaction. what Sense:** is Llama 3 Llama3 may explain not in have very the detail same along with level of architecture. 
+common sense as a Llama3 is human, an which can artificial lead intelligence to absurd or (AI) model developed nonsensical by responses.
+Meta, designed 3. to  process and **Limited Domain generate Knowledge:** human-like Llama language. It 3 is may a not significant have advancement in the natural same level language of processing domain knowledge as (NLP) a human technology, expert, allowing which for more can sophisticated lead and to inaccurate nuanced or interactions incomplete between responses.
+humans and 4. computers.  In this **Dependence explanation, on Training we'll delve
+Data:** Llama 3 is
+
+=== Benchmark Results ===
+Prompt length: 14 tokens
+Generated tokens: 1000
+Time to First Token (TTFT): 0.0061 sec
+Inter-Token Latency (Mean): 0.0480 sec
+Inter-Token Latency (Median): 0.0463 sec
+Throughput: 20.81 tokens/sec
+
+power_usage in power_log.csv

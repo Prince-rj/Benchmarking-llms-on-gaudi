@@ -1,0 +1,270 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+INFO 09-03 22:48:39 [__init__.py:254] Automatically detected platform hpu.
+INFO 09-03 22:48:42 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 09-03 22:48:43 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 09-03 22:48:44 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 09-03 22:48:44 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 09-03 22:48:44 [api_server.py:1289] vLLM API server version 0.6.3.dev5453+ge9c83fca1
+INFO 09-03 22:48:45 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 09-03 22:48:45 [cli_args.py:309] non-default args: {'model': '/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct', 'tensor_parallel_size': 4}
+INFO 09-03 22:48:52 [config.py:822] This model supports multiple tasks: {'classify', 'reward', 'generate', 'score', 'embed'}. Defaulting to 'generate'.
+INFO 09-03 22:48:52 [config.py:3284] Downcasting torch.float32 to torch.bfloat16.
+INFO 09-03 22:48:52 [arg_utils.py:1706] hpu is experimental on VLLM_USE_V1=1. Falling back to V0 Engine.
+WARNING 09-03 22:48:52 [arg_utils.py:1543] The model has a long context length (131072). This may causeOOM during the initial memory profiling phase, or result in low performance due to small KV cache size. Consider setting --max-model-len to a smaller value.
+INFO 09-03 22:48:52 [config.py:1941] Defaulting to use mp for distributed inference
+INFO 09-03 22:48:52 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 09-03 22:48:52 [api_server.py:267] Started engine process with PID 3840784
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+WARNING 09-03 22:48:54 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 09-03 22:48:55 [__init__.py:254] Automatically detected platform hpu.
+INFO 09-03 22:48:58 [llm_engine.py:239] Initializing a V0 LLM engine (v0.6.3.dev5453+ge9c83fca1) with config: model='/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct', speculative_config=None, tokenizer='/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=auto, tensor_parallel_size=4, pipeline_parallel_size=1, disable_custom_all_reduce=True, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=hpu, decoding_config=DecodingConfig(backend='xgrammar', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=None, served_model_name=/mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=None, chunked_prefill_enabled=False, use_async_output_proc=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":[],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"use_cudagraph":false,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"max_capture_size":256,"local_cache_dir":null}, use_cached_outputs=True, 
+WARNING 09-03 22:48:58 [multiproc_worker_utils.py:325] Reducing Torch parallelism from 72 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.
+WARNING 09-03 22:48:58 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+WARNING 09-03 22:48:58 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+WARNING 09-03 22:48:58 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+WARNING 09-03 22:48:58 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x7c797077d450>
+WARNING 09-03 22:48:59 [runtime.py:60] ************************************************ Warning! ************************************************
+WARNING 09-03 22:48:59 [runtime.py:61] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+WARNING 09-03 22:48:59 [runtime.py:62] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+WARNING 09-03 22:48:59 [runtime.py:63] **********************************************************************************************************
+INFO 09-03 22:48:59 [runtime.py:26] Environment:
+INFO 09-03 22:48:59 [runtime.py:30]     hw: gaudi2
+INFO 09-03 22:48:59 [runtime.py:30]     build: 1.22.0.538
+INFO 09-03 22:48:59 [runtime.py:30]     engine_version: v0
+INFO 09-03 22:48:59 [runtime.py:30]     bridge_mode: eager
+INFO 09-03 22:48:59 [runtime.py:30]     model_type: llama
+INFO 09-03 22:48:59 [runtime.py:26] Features:
+INFO 09-03 22:48:59 [runtime.py:30]     fp32_alibi_biases: True
+INFO 09-03 22:48:59 [runtime.py:30]     fp32_softmax: False
+INFO 09-03 22:48:59 [runtime.py:30]     fused_block_softmax_adjustment: False
+INFO 09-03 22:48:59 [runtime.py:30]     fused_block_softmax: False
+INFO 09-03 22:48:59 [runtime.py:30]     prompt_attn_impl: fsdpa_impl
+INFO 09-03 22:48:59 [runtime.py:30]     skip_warmup: True
+INFO 09-03 22:48:59 [runtime.py:30]     merged_prefill: False
+INFO 09-03 22:48:59 [runtime.py:30]     use_contiguous_pa: True
+INFO 09-03 22:48:59 [runtime.py:30]     use_delayed_sampling: True
+INFO 09-03 22:48:59 [runtime.py:30]     use_bucketing: True
+INFO 09-03 22:48:59 [runtime.py:30]     bucketing_strategy: exponential_bucketing
+INFO 09-03 22:48:59 [runtime.py:26] User flags:
+INFO 09-03 22:48:59 [runtime.py:30]     VLLM_USE_V1: False
+INFO 09-03 22:48:59 [runtime.py:26] Experimental flags:
+INFO 09-03 22:48:59 [runtime.py:30]     VLLM_SKIP_WARMUP: True
+WARNING 09-03 22:48:59 [hpu.py:135] Pin memory is not supported on HPU.
+INFO 09-03 22:48:59 [hpu.py:60] Using HPUAttention backend.
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+WARNING 09-03 22:49:01 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+WARNING 09-03 22:49:01 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+WARNING 09-03 22:49:01 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 09-03 22:49:02 [__init__.py:254] Automatically detected platform hpu.
+INFO 09-03 22:49:02 [__init__.py:254] Automatically detected platform hpu.
+INFO 09-03 22:49:02 [__init__.py:254] Automatically detected platform hpu.
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:04 [multiproc_worker_utils.py:228] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:04 [multiproc_worker_utils.py:228] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:04 [multiproc_worker_utils.py:228] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:05 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:05 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:05 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:05 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x71a9729b0e80>
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:05 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:05 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:05 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:05 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:05 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:05 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:05 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x7369332d4df0>
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:05 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x77d1b5568e20>
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:06 [runtime.py:60] ************************************************ Warning! ************************************************
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:06 [runtime.py:61] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:06 [runtime.py:62] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:06 [runtime.py:63] **********************************************************************************************************
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Environment:
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     hw: gaudi2
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     build: 1.22.0.538
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     engine_version: v0
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     bridge_mode: eager
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     model_type: llama
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Features:
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fp32_alibi_biases: True
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fp32_softmax: False
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fused_block_softmax_adjustment: False
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fused_block_softmax: False
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     prompt_attn_impl: fsdpa_impl
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     skip_warmup: True
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     merged_prefill: False
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_contiguous_pa: True
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_delayed_sampling: True
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_bucketing: True
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     bucketing_strategy: exponential_bucketing
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:26] User flags:
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     VLLM_USE_V1: False
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Experimental flags:
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     VLLM_SKIP_WARMUP: True
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m WARNING 09-03 22:49:06 [hpu.py:135] Pin memory is not supported on HPU.
+[1;36m(VllmWorkerProcess pid=3841015)[0;0m INFO 09-03 22:49:06 [hpu.py:60] Using HPUAttention backend.
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:06 [runtime.py:60] ************************************************ Warning! ************************************************
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:06 [runtime.py:61] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:06 [runtime.py:62] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:06 [runtime.py:63] **********************************************************************************************************
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Environment:
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     hw: gaudi2
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     build: 1.22.0.538
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     engine_version: v0
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     bridge_mode: eager
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     model_type: llama
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Features:
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fp32_alibi_biases: True
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fp32_softmax: False
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fused_block_softmax_adjustment: False
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fused_block_softmax: False
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     prompt_attn_impl: fsdpa_impl
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     skip_warmup: True
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     merged_prefill: False
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_contiguous_pa: True
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_delayed_sampling: True
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_bucketing: True
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     bucketing_strategy: exponential_bucketing
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:26] User flags:
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     VLLM_USE_V1: False
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Experimental flags:
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     VLLM_SKIP_WARMUP: True
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m WARNING 09-03 22:49:06 [hpu.py:135] Pin memory is not supported on HPU.
+[1;36m(VllmWorkerProcess pid=3841016)[0;0m INFO 09-03 22:49:06 [hpu.py:60] Using HPUAttention backend.
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:06 [runtime.py:60] ************************************************ Warning! ************************************************
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:06 [runtime.py:61] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:06 [runtime.py:62] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:06 [runtime.py:63] **********************************************************************************************************
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Environment:
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     hw: gaudi2
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     build: 1.22.0.538
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     engine_version: v0
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     bridge_mode: eager
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     model_type: llama
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Features:
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fp32_alibi_biases: True
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fp32_softmax: False
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fused_block_softmax_adjustment: False
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     fused_block_softmax: False
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     prompt_attn_impl: fsdpa_impl
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     skip_warmup: True
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     merged_prefill: False
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_contiguous_pa: True
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_delayed_sampling: True
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     use_bucketing: True
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     bucketing_strategy: exponential_bucketing
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:26] User flags:
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     VLLM_USE_V1: False
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:26] Experimental flags:
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [runtime.py:30]     VLLM_SKIP_WARMUP: True
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m WARNING 09-03 22:49:06 [hpu.py:135] Pin memory is not supported on HPU.
+[1;36m(VllmWorkerProcess pid=3841014)[0;0m INFO 09-03 22:49:06 [hpu.py:60] Using HPUAttention backend.
+ERROR 09-03 22:49:06 [engine.py:472] synStatus=8 [Device not found] Device acquire failed.
+ERROR 09-03 22:49:06 [engine.py:472] Traceback (most recent call last):
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/engine/multiprocessing/engine.py", line 460, in run_mp_engine
+ERROR 09-03 22:49:06 [engine.py:472]     engine = MQLLMEngine.from_vllm_config(
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/engine/multiprocessing/engine.py", line 134, in from_vllm_config
+ERROR 09-03 22:49:06 [engine.py:472]     return cls(
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/engine/multiprocessing/engine.py", line 88, in __init__
+ERROR 09-03 22:49:06 [engine.py:472]     self.engine = LLMEngine(*args, **kwargs)
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/engine/llm_engine.py", line 274, in __init__
+ERROR 09-03 22:49:06 [engine.py:472]     self.model_executor = executor_class(vllm_config=vllm_config)
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/executor/executor_base.py", line 287, in __init__
+ERROR 09-03 22:49:06 [engine.py:472]     super().__init__(*args, **kwargs)
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/executor/executor_base.py", line 53, in __init__
+ERROR 09-03 22:49:06 [engine.py:472]     self._init_executor()
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/executor/mp_distributed_executor.py", line 125, in _init_executor
+ERROR 09-03 22:49:06 [engine.py:472]     self._run_workers("init_device")
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/executor/mp_distributed_executor.py", line 190, in _run_workers
+ERROR 09-03 22:49:06 [engine.py:472]     driver_worker_output = run_method(self.driver_worker, sent_method,
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/utils.py", line 2784, in run_method
+ERROR 09-03 22:49:06 [engine.py:472]     return func(*args, **kwargs)
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/worker/worker_base.py", line 633, in init_device
+ERROR 09-03 22:49:06 [engine.py:472]     self.worker.init_device()  # type: ignore
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/vllm/worker/hpu_worker.py", line 165, in init_device
+ERROR 09-03 22:49:06 [engine.py:472]     torch.hpu.set_device(self.device)
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/hpu/__init__.py", line 352, in set_device
+ERROR 09-03 22:49:06 [engine.py:472]     device_idx = _get_device_index(device, optional=True)
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/hpu/_utils.py", line 61, in _get_device_index
+ERROR 09-03 22:49:06 [engine.py:472]     device_idx = hpu.current_device()
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/hpu/__init__.py", line 159, in current_device
+ERROR 09-03 22:49:06 [engine.py:472]     _lazy_init()
+ERROR 09-03 22:49:06 [engine.py:472]   File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/hpu/__init__.py", line 87, in _lazy_init
+ERROR 09-03 22:49:06 [engine.py:472]     _hpu_C.init()
+ERROR 09-03 22:49:06 [engine.py:472] RuntimeError: synStatus=8 [Device not found] Device acquire failed.
+ERROR 09-03 22:49:06 [multiproc_worker_utils.py:123] Worker VllmWorkerProcess pid 3841015 died, exit code: -15
+INFO 09-03 22:49:06 [multiproc_worker_utils.py:127] Killing local vLLM worker processes
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/engine/multiprocessing/engine.py", line 474, in run_mp_engine
+    raise e from None
+  File "/usr/local/lib/python3.10/dist-packages/vllm/engine/multiprocessing/engine.py", line 460, in run_mp_engine
+    engine = MQLLMEngine.from_vllm_config(
+  File "/usr/local/lib/python3.10/dist-packages/vllm/engine/multiprocessing/engine.py", line 134, in from_vllm_config
+    return cls(
+  File "/usr/local/lib/python3.10/dist-packages/vllm/engine/multiprocessing/engine.py", line 88, in __init__
+    self.engine = LLMEngine(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/engine/llm_engine.py", line 274, in __init__
+    self.model_executor = executor_class(vllm_config=vllm_config)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/executor/executor_base.py", line 287, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/executor/executor_base.py", line 53, in __init__
+    self._init_executor()
+  File "/usr/local/lib/python3.10/dist-packages/vllm/executor/mp_distributed_executor.py", line 125, in _init_executor
+    self._run_workers("init_device")
+  File "/usr/local/lib/python3.10/dist-packages/vllm/executor/mp_distributed_executor.py", line 190, in _run_workers
+    driver_worker_output = run_method(self.driver_worker, sent_method,
+  File "/usr/local/lib/python3.10/dist-packages/vllm/utils.py", line 2784, in run_method
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/worker/worker_base.py", line 633, in init_device
+    self.worker.init_device()  # type: ignore
+  File "/usr/local/lib/python3.10/dist-packages/vllm/worker/hpu_worker.py", line 165, in init_device
+    torch.hpu.set_device(self.device)
+  File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/hpu/__init__.py", line 352, in set_device
+    device_idx = _get_device_index(device, optional=True)
+  File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/hpu/_utils.py", line 61, in _get_device_index
+    device_idx = hpu.current_device()
+  File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/hpu/__init__.py", line 159, in current_device
+    _lazy_init()
+  File "/usr/local/lib/python3.10/dist-packages/habana_frameworks/torch/hpu/__init__.py", line 87, in _lazy_init
+    _hpu_C.init()
+RuntimeError: synStatus=8 [Device not found] Device acquire failed.
+Traceback (most recent call last):
+  File "/usr/local/bin/vllm", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.10/dist-packages/vllm/entrypoints/cli/main.py", line 59, in main
+    args.dispatch_function(args)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/entrypoints/cli/serve.py", line 58, in cmd
+    uvloop.run(run_server(args))
+  File "/usr/local/lib/python3.10/dist-packages/uvloop/__init__.py", line 82, in run
+    return loop.run_until_complete(wrapper())
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/usr/local/lib/python3.10/dist-packages/uvloop/__init__.py", line 61, in wrapper
+    return await main
+  File "/usr/local/lib/python3.10/dist-packages/vllm/entrypoints/openai/api_server.py", line 1325, in run_server
+    await run_server_worker(listen_address, sock, args, **uvicorn_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/entrypoints/openai/api_server.py", line 1345, in run_server_worker
+    async with build_async_engine_client(args, client_config) as engine_client:
+  File "/usr/lib/python3.10/contextlib.py", line 199, in __aenter__
+    return await anext(self.gen)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/entrypoints/openai/api_server.py", line 157, in build_async_engine_client
+    async with build_async_engine_client_from_engine_args(
+  File "/usr/lib/python3.10/contextlib.py", line 199, in __aenter__
+    return await anext(self.gen)
+  File "/usr/local/lib/python3.10/dist-packages/vllm/entrypoints/openai/api_server.py", line 290, in build_async_engine_client_from_engine_args
+    raise RuntimeError(
+RuntimeError: Engine process failed to start. See stack trace for the root cause.

@@ -1,0 +1,322 @@
+📥 Loading CORD-v2 dataset...
+✅ Loaded 100 images from CORD-v2 dataset
+
+============================================================
+🚀 STARTING BENCHMARK FOR BATCH SIZE: 2
+============================================================
+
+🟢 Starting power monitoring...
+
+🚀 Running batch 1/50 (2 images)
+
+🚀 Running batch 2/50 (2 images)
+
+🚀 Running batch 3/50 (2 images)
+
+🚀 Running batch 4/50 (2 images)
+
+🚀 Running batch 5/50 (2 images)
+
+🚀 Running batch 6/50 (2 images)
+
+🚀 Running batch 7/50 (2 images)
+
+🚀 Running batch 8/50 (2 images)
+
+🚀 Running batch 9/50 (2 images)
+
+🚀 Running batch 10/50 (2 images)
+
+🚀 Running batch 11/50 (2 images)
+
+🚀 Running batch 12/50 (2 images)
+
+🚀 Running batch 13/50 (2 images)
+
+🚀 Running batch 14/50 (2 images)
+
+🚀 Running batch 15/50 (2 images)
+
+🚀 Running batch 16/50 (2 images)
+
+🚀 Running batch 17/50 (2 images)
+
+🚀 Running batch 18/50 (2 images)
+
+🚀 Running batch 19/50 (2 images)
+
+🚀 Running batch 20/50 (2 images)
+
+🚀 Running batch 21/50 (2 images)
+
+🚀 Running batch 22/50 (2 images)
+
+🚀 Running batch 23/50 (2 images)
+
+🚀 Running batch 24/50 (2 images)
+
+🚀 Running batch 25/50 (2 images)
+
+🚀 Running batch 26/50 (2 images)
+
+🚀 Running batch 27/50 (2 images)
+
+🚀 Running batch 28/50 (2 images)
+
+🚀 Running batch 29/50 (2 images)
+
+🚀 Running batch 30/50 (2 images)
+
+🚀 Running batch 31/50 (2 images)
+
+🚀 Running batch 32/50 (2 images)
+
+🚀 Running batch 33/50 (2 images)
+
+🚀 Running batch 34/50 (2 images)
+
+🚀 Running batch 35/50 (2 images)
+
+🚀 Running batch 36/50 (2 images)
+
+🚀 Running batch 37/50 (2 images)
+
+🚀 Running batch 38/50 (2 images)
+
+🚀 Running batch 39/50 (2 images)
+
+🚀 Running batch 40/50 (2 images)
+
+🚀 Running batch 41/50 (2 images)
+
+🚀 Running batch 42/50 (2 images)
+
+🚀 Running batch 43/50 (2 images)
+
+🚀 Running batch 44/50 (2 images)
+
+🚀 Running batch 45/50 (2 images)
+
+🚀 Running batch 46/50 (2 images)
+
+🚀 Running batch 47/50 (2 images)
+
+🚀 Running batch 48/50 (2 images)
+
+🚀 Running batch 49/50 (2 images)
+
+🚀 Running batch 50/50 (2 images)
+
+🛑 Stopping power logging...
+📊 Samples: 2068
+📊 Average Power: 280.1 W
+📊 Peak Power: 455.0 W
+📁 Power Log: power_log_batch_2.csv
+
+✅ Batch size 2 complete. 90 successful requests.
+⏱️ Total Time: 514.23s
+📊 Average TTFT: 1.2757s
+📊 Average Mean ITL: 0.0111s
+📊 Average Throughput: 62.50 tokens/s
+📊 Average Tokens Generated: 293.7
+📁 Results saved to: cord_benchmark_batch_2.csv
+
+============================================================
+🚀 STARTING BENCHMARK FOR BATCH SIZE: 4
+============================================================
+
+🟢 Starting power monitoring...
+
+🚀 Running batch 1/25 (4 images)
+
+🚀 Running batch 2/25 (4 images)
+
+🚀 Running batch 3/25 (4 images)
+
+🚀 Running batch 4/25 (4 images)
+
+🚀 Running batch 5/25 (4 images)
+
+🚀 Running batch 6/25 (4 images)
+
+🚀 Running batch 7/25 (4 images)
+
+🚀 Running batch 8/25 (4 images)
+
+🚀 Running batch 9/25 (4 images)
+
+🚀 Running batch 10/25 (4 images)
+
+🚀 Running batch 11/25 (4 images)
+
+🚀 Running batch 12/25 (4 images)
+
+🚀 Running batch 13/25 (4 images)
+
+🚀 Running batch 14/25 (4 images)
+
+🚀 Running batch 15/25 (4 images)
+
+🚀 Running batch 16/25 (4 images)
+
+🚀 Running batch 17/25 (4 images)
+
+🚀 Running batch 18/25 (4 images)
+
+🚀 Running batch 19/25 (4 images)
+
+🚀 Running batch 20/25 (4 images)
+
+🚀 Running batch 21/25 (4 images)
+
+🚀 Running batch 22/25 (4 images)
+
+🚀 Running batch 23/25 (4 images)
+
+🚀 Running batch 24/25 (4 images)
+
+🚀 Running batch 25/25 (4 images)
+
+🛑 Stopping power logging...
+📊 Samples: 1116
+📊 Average Power: 296.3 W
+📊 Peak Power: 512.0 W
+📁 Power Log: power_log_batch_4.csv
+
+✅ Batch size 4 complete. 90 successful requests.
+⏱️ Total Time: 276.36s
+📊 Average TTFT: 0.5092s
+📊 Average Mean ITL: 0.0118s
+📊 Average Throughput: 62.66 tokens/s
+📊 Average Tokens Generated: 255.8
+📁 Results saved to: cord_benchmark_batch_4.csv
+
+============================================================
+🚀 STARTING BENCHMARK FOR BATCH SIZE: 8
+============================================================
+
+🟢 Starting power monitoring...
+
+🚀 Running batch 1/13 (8 images)
+
+🚀 Running batch 2/13 (8 images)
+
+🚀 Running batch 3/13 (8 images)
+
+🚀 Running batch 4/13 (8 images)
+
+🚀 Running batch 5/13 (8 images)
+
+🚀 Running batch 6/13 (8 images)
+
+🚀 Running batch 7/13 (8 images)
+
+🚀 Running batch 8/13 (8 images)
+
+🚀 Running batch 9/13 (8 images)
+
+🚀 Running batch 10/13 (8 images)
+
+🚀 Running batch 11/13 (8 images)
+
+🚀 Running batch 12/13 (8 images)
+
+🚀 Running batch 13/13 (4 images)
+
+🛑 Stopping power logging...
+📊 Samples: 604
+📊 Average Power: 292.4 W
+📊 Peak Power: 559.0 W
+📁 Power Log: power_log_batch_8.csv
+
+✅ Batch size 8 complete. 90 successful requests.
+⏱️ Total Time: 148.23s
+📊 Average TTFT: 0.6860s
+📊 Average Mean ITL: 0.0210s
+📊 Average Throughput: 49.95 tokens/s
+📊 Average Tokens Generated: 230.8
+📁 Results saved to: cord_benchmark_batch_8.csv
+
+============================================================
+🚀 STARTING BENCHMARK FOR BATCH SIZE: 12
+============================================================
+
+🟢 Starting power monitoring...
+
+🚀 Running batch 1/9 (12 images)
+
+🚀 Running batch 2/9 (12 images)
+
+🚀 Running batch 3/9 (12 images)
+
+🚀 Running batch 4/9 (12 images)
+
+🚀 Running batch 5/9 (12 images)
+
+🚀 Running batch 6/9 (12 images)
+
+🚀 Running batch 7/9 (12 images)
+
+🚀 Running batch 8/9 (12 images)
+
+🚀 Running batch 9/9 (4 images)
+
+🛑 Stopping power logging...
+📊 Samples: 540
+📊 Average Power: 298.1 W
+📊 Peak Power: 531.0 W
+📁 Power Log: power_log_batch_12.csv
+
+✅ Batch size 12 complete. 90 successful requests.
+⏱️ Total Time: 132.20s
+📊 Average TTFT: 0.6044s
+📊 Average Mean ITL: 0.0245s
+📊 Average Throughput: 50.34 tokens/s
+📊 Average Tokens Generated: 267.4
+📁 Results saved to: cord_benchmark_batch_12.csv
+
+============================================================
+🚀 STARTING BENCHMARK FOR BATCH SIZE: 16
+============================================================
+
+🟢 Starting power monitoring...
+
+🚀 Running batch 1/7 (16 images)
+
+🚀 Running batch 2/7 (16 images)
+
+🚀 Running batch 3/7 (16 images)
+
+🚀 Running batch 4/7 (16 images)
+
+🚀 Running batch 5/7 (16 images)
+
+🚀 Running batch 6/7 (16 images)
+
+🚀 Running batch 7/7 (4 images)
+
+🛑 Stopping power logging...
+📊 Samples: 516
+📊 Average Power: 301.4 W
+📊 Peak Power: 403.0 W
+📁 Power Log: power_log_batch_16.csv
+
+✅ Batch size 16 complete. 90 successful requests.
+⏱️ Total Time: 126.19s
+📊 Average TTFT: 0.9454s
+📊 Average Mean ITL: 0.0320s
+📊 Average Throughput: 45.23 tokens/s
+📊 Average Tokens Generated: 270.5
+📁 Results saved to: cord_benchmark_batch_16.csv
+
+============================================================
+✅ ALL BENCHMARKS COMPLETE!
+============================================================
+📊 Summary saved to: benchmark_summary.csv
+
+Results by batch size:
+  Batch  2:  514.23s | Throughput:  62.50 tok/s | TTFT: 1.2757s
+  Batch  4:  276.36s | Throughput:  62.66 tok/s | TTFT: 0.5092s
+  Batch  8:  148.23s | Throughput:  49.95 tok/s | TTFT: 0.6860s
+  Batch 12:  132.20s | Throughput:  50.34 tok/s | TTFT: 0.6044s
+  Batch 16:  126.19s | Throughput:  45.23 tok/s | TTFT: 0.9454s

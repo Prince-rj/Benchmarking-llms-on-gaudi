@@ -1,0 +1,97 @@
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling add_step_closure function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+Calling iter_mark_step function does not have any effect. It's lazy mode only functionality. (warning logged once)
+[2025-09-12 21:48:43,231] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-09-12 21:48:43,231] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to hpu (auto detect)
+[2025-09-12 21:48:43,972] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 21:48:43,973] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[Info] World size: 2, using HPU local_rank=0
+[Info] Loading tokenizer from: /mnt/weka/data/pytorch/llama3.1/Meta-Llama-3.1-8B-Instruct
+[Info] Loading model on rank 0 ...
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:02<00:13,  2.30s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:02<00:13,  2.30s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:04<00:10,  2.13s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:04<00:10,  2.14s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:06<00:08,  2.17s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:06<00:08,  2.17s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:08<00:06,  2.22s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:08<00:06,  2.22s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:11<00:04,  2.24s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:11<00:04,  2.24s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:13<00:02,  2.25s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:13<00:02,  2.25s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:14<00:00,  1.90s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:14<00:00,  2.08s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [00:14<00:00,  1.90s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:14<00:00,  2.08s/it]
+[2025-09-12 21:48:59,155] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-09-12 21:48:59,155] [INFO] [logging.py:107:log_dist] [Rank -1] DeepSpeed info: version=0.17.5, git-hash=unknown, git-branch=unknown
+[2025-09-12 21:48:59,156] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-09-12 21:48:59,156] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-09-12 21:48:59,156] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2025-09-12 21:48:59,156] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2025-09-12 21:48:59,164] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 21:48:59,164] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-12 21:48:59,165] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-09-12 21:48:59,165] [INFO] [logging.py:107:log_dist] [Rank -1] quantize_bits = 8 mlp_extra_grouping = False, quantize_groups = 1
+[2025-09-12 21:48:59,166] [INFO] [comm.py:821:init_distributed] cdb=None
+[2025-09-12 21:48:59,167] [INFO] [comm.py:821:init_distributed] cdb=None
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['mlp.down_proj', 'self_attn.o_proj'])]
+AutoTP:  [(<class 'transformers.models.llama.modeling_llama.LlamaDecoderLayer'>, ['self_attn.o_proj', 'mlp.down_proj'])]
+============================= HPU SW VERSION ====================================== 
+ HB_BUILD_VER = 1.22.0-538
+============================= HPU PT BRIDGE CONFIGURATION ON RANK = 0 ============= 
+ PT_HPU_LAZY_MODE = 0
+ PT_HPU_RECIPE_CACHE_CONFIG = ,false,1024,false
+ PT_HPU_MAX_COMPOUND_OP_SIZE = 9223372036854775807
+ PT_HPU_LAZY_ACC_PAR_MODE = 0
+ PT_HPU_ENABLE_REFINE_DYNAMIC_SHAPES = 0
+ PT_HPU_EAGER_PIPELINE_ENABLE = 1
+ PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE = 1
+ PT_HPU_ENABLE_LAZY_COLLECTIVES = 0
+---------------------------: System Configuration :---------------------------
+Num CPU Cores : 224
+CPU RAM       : 1007 GB
+------------------------------------------------------------------------------
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[Info] Starting timed generation...
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+
+Generated text:
+ Explain Llama 2 and DeepSpeed inference. Llama 2 is a large language model developed by Meta AI, and it is designed to be highly efficient and scalable. DeepSpeed is a library for high-performance deep learning that is used to accelerate the inference of Llama 2.
+Llama 2 is a large language model that is based on the transformer architecture, which is a type of neural network that is particularly well-suited to natural language processing tasks. The model is trained on a massive dataset of text and is capable of generating human-like responses to a wide range of questions and prompts.
+DeepSpeed is a library that is designed to accelerate the inference of large language models like Llama 2. It uses a number of techniques, including model parallelism, data parallelism, and mixed precision training, to improve the performance and efficiency of the model.
+Model parallelism involves splitting the model into multiple parts and training each part on a separate device. This can help to reduce the memory requirements of the model and improve its performance.
+Data parallelism involves training the model on multiple devices simultaneously, which can help to improve the speed of training and reduce the time it takes to train the model.
+Mixed precision training involves training the model using a combination of 32-bit and 16-bit floating point numbers. This can help to improve the performance of the model and reduce the memory requirements.
+DeepSpeed uses a number of other techniques, including gradient accumulation and checkpointing, to improve the performance and efficiency of the model.
+Overall, Llama 2 and DeepSpeed are designed to work together to provide a highly efficient and scalable solution for natural language processing tasks.
+Here are some key benefits of using Llama 2 and DeepSpeed together:
+Improved performance: Llama 2 and DeepSpeed can provide significant improvements in performance compared to traditional language models and inference engines.
+Scalability: Llama 2 and DeepSpeed are designed to scale to large models and datasets, making them well-suited for applications that require high levels of performance and efficiency.
+Flexibility: Llama 2 and DeepSpeed can be used for a wide range of natural language processing tasks, including language translation, text summarization, and question answering.
+Cost-effectiveness: Llama 2 and DeepSpeed can help to reduce the cost of training and deploying large language models, making them more accessible to a wider range of applications.
+Overall, Llama 2 and DeepSpeed are designed to provide a highly efficient and scalable solution for natural language processing tasks, and can help to improve the performance, scalability, and cost-effectiveness of a wide range of applications. More
+DeepSpeed is a library developed by Meta AI to accelerate the training and inference of large-scale deep learning models, including Llama 2. It provides a set of tools and techniques to improve the performance and efficiency of model training and inference. Some of the key features of DeepSpeed include:
+Model parallelism: DeepSpeed allows models to be split into multiple parts and trained on multiple devices, reducing the memory requirements and improving the performance of the model.
+Data parallelism: DeepSpeed enables training on multiple devices simultaneously, improving the speed of training and reducing the time it takes to train the model.
+Mixed precision training: DeepSpeed uses a combination of 32-bit and 16-bit floating point numbers to improve the performance of the model and reduce the memory requirements.
+Gradient accumulation: DeepSpeed accumulates gradients from multiple iterations to reduce the number of gradient updates, improving the performance of the model.
+Checkpointing: DeepSpeed saves the model's state at regular intervals, allowing for efficient training and reducing the risk of model loss due to hardware failures.
+DeepSpeed also provides a set of APIs and tools to integrate with popular deep learning frameworks such as PyTorch and TensorFlow, making it easy to use and deploy.
+Some of the benefits of using DeepSpeed include:
+Improved model performance: DeepSpeed can improve the performance of large-scale models by up to 3x compared to traditional training methods.
+Increased model size: DeepSpeed can handle larger models than traditional training methods, making it possible to train and deploy larger and more complex models.
+Reduced training time: DeepSpeed can reduce the training time of large-scale models by up to 50% compared to traditional training methods.
+Improved scalability: DeepSpeed can scale to large models and datasets, making it possible to train and deploy models on a wide range of applications.
+Overall, DeepSpeed is a powerful tool for accelerating the training and inference of large-scale deep learning models, including Llama 2. Its features and benefits make it an essential tool for researchers and developers working on large-scale AI projects. More
+Llama 2 is a large language model developed by Meta AI, and it is designed to be highly efficient and scalable. DeepSpeed is a library for high-performance deep learning that is used to accelerate the inference of Llama 2.
+Here are some key benefits of using Llama 2 and DeepSpeed together:
+Improved performance: Llama 
+
+=== Benchmark Metrics (rank 0) ===
+World size: 2
+Prompt length: 12 tokens
+Generated tokens: 1000
+Total time: 220.0821 sec
+Time to First Token (TTFT): 0.2201 sec
+Inter-Token Latency (Mean): 0.2201 sec
+Inter-Token Latency (Median): 0.2201 sec
+Throughput: 4.54 tokens/sec
+
+power_usage in power_log.csv
