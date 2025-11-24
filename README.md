@@ -85,23 +85,24 @@ The project provides a vendor-neutral, reproducible evaluation of LLM inference 
 
 ```bash
 pip install transformers==4.35.2 optimum[habana] deepspeed
-2. Install vLLM Habana Fork
-bash
-Copy code
+```
+### 2. Install vLLM Habana Fork
+```bash
 git clone https://github.com/HabanaAI/vllm-fork.git
 cd vllm-fork
 git checkout 18423b3ea006bc09083635a386d5fc10f581ddc9
 pip install -r requirements-hpu.txt
 python setup.py develop
-3. Run Benchmarks (Example: vLLM)
-bash
-Copy code
+```
+### 3. Run Benchmarks (Example: vLLM)
+```bash
 python benchmark_vllm.py --model meta-llama/Llama-2-7b-hf --tp 1
-4. Power Logging
-bash
-Copy code
+```
+### 4. Power Logging
+```bash
 hl-smi --power --interval 1 --log power_trace.csv
-📈 Summary of Key Findings
+```
+## 📈 Summary of Key Findings
 8B models provide the best efficiency (3.84 J/token, 122 tok/s).
 
 70B models incur ~3× higher energy/token due to KV-cache and memory bandwidth limits.
@@ -120,50 +121,8 @@ Continuous batching (vLLM) maximizes throughput.
 
 Distributed inference (DeepSpeed) achieves lowest TTFT for single queries.
 
-📚 Repository Structure
-bash
-Copy code
-/benchmarks
-    benchmark_vllm.py
-    benchmark_deepspeed.py
-    benchmark_optimum.py
 
-/scripts
-    power_logger.sh
-    parse_metrics.py
-
-/logs
-    *.csv  (TTFT, ITL, throughput)
-    power_traces/
-
-/analysis
-    notebooks/
-    plots/
-
-/configs
-    gaudi2/
-    gaudi3/
-📑 Thesis Document
-The full thesis PDF is included in this repository:
-
-Copy code
-mtech_thesis_21_11_2025.pdf
-📝 Citation
-If you use this work, please cite:
-
-nginx
-Copy code
-Prince Raj, "Benchmarking Large Language Models on Intel Habana Gaudi AI Accelerators," IIT Ropar, 2025.
-🧭 Future Work
-Add quantized (INT8/INT4) baselines
-
-Speculative decoding benchmarks
-
-Collective communication profiling
-
-End-to-end agentic workload testing
-
-📬 Contact
+## 📬 Contact
 Prince Raj
 MTech Artificial Intelligence
 IIT Ropar
