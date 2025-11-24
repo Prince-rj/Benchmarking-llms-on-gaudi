@@ -126,4 +126,4 @@ Distributed inference (DeepSpeed) achieves lowest TTFT for single queries.
 Prince Raj
 MTech Artificial Intelligence
 IIT Ropar
-Email: (your email here)
+Email: (2024AIM1012@iitrpr.ac.in)
