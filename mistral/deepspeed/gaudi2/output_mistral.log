@@ -1,0 +1,27 @@
+[Info] World size: 1, using HPU local_rank=0
+[Info] Loading tokenizer from: /mnt/weka/data/pytorch/mistral/Mistral-7B-Instruct-v0.3/
+[Info] Loading model on rank 0 ...
+[2026-01-15 20:07:44,282] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2026-01-15 20:07:44,282] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[Info] Starting timed generation...
+
+Generated text:
+ Explain mistral  and DeepSpeed inference.
+
+Mistral is an open-source, high-performance, and scalable deep learning inference engine developed by Meta (formerly Facebook). It is designed to run machine learning models efficiently on various hardware platforms, including CPUs, GPUs, and TPUs. Mistral is optimized for low latency and high throughput, making it suitable for real-time inference applications.
+
+DeepSpeed Inference, on the other hand, is an open-source deep learning inference framework developed by Meta. It is designed to optimize the performance of deep learning models on various hardware platforms, including GPUs, TPUs, and CPUs. DeepSpeed Inference provides a unified framework for model serving, allowing developers to easily deploy their models to production environments. It also includes features like model pruning, quantization, and model compression to reduce the size and improve the efficiency of the models.
+
+Both Mistral and DeepSpeed Inference are designed to help developers deploy their deep learning models efficiently and at scale, but they have different focuses. Mistral is more focused on low latency and high throughput, while DeepSpeed Inference is more focused on optimizing the performance of deep learning models on various hardware platforms.
+
+=== Benchmark Metrics (rank 0) ===
+World size: 1
+Prompt length: 12 tokens
+Generated tokens: 258
+Total time: 57.1169 sec
+Time to First Token (TTFT): 0.2214 sec
+Inter-Token Latency (Mean): 0.2214 sec
+Inter-Token Latency (Median): 0.2214 sec
+Throughput: 4.52 tokens/sec
+
+power_usage in power_log.csv

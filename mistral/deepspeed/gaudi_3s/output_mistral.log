@@ -1,0 +1,33 @@
+[Info] World size: 2, using HPU local_rank=0
+[Info] Loading tokenizer from: /mnt/weka/data/pytorch/mistral/Mistral-7B-Instruct-v0.3/
+[Info] Loading model on rank 0 ...
+[2026-01-19 19:02:07,645] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2026-01-19 19:02:07,645] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2026-01-19 19:02:07,645] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2026-01-19 19:02:07,645] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[Info] Starting timed generation...
+
+Generated text:
+ Explain mistral  and DeepSpeed inference.
+
+Mistral is an open-source framework developed by Meta (formerly Facebook) for building and deploying machine learning models at scale. It provides a unified interface for managing the entire lifecycle of a machine learning model, from training and serving to monitoring and optimization.
+
+Mistral is designed to handle large-scale machine learning workloads, with a focus on efficiency and reliability. It includes features for distributed training, model serving, and model management, as well as tools for monitoring and debugging.
+
+DeepSpeed Inference, on the other hand, is a library developed by Meta for optimizing the inference performance of machine learning models. It is designed to work with a variety of deep learning frameworks, including PyTorch and TensorFlow, and provides a number of optimizations for improving the speed and efficiency of model inference.
+
+DeepSpeed Inference includes features for model pruning, quantization, and optimization, as well as tools for profiling and tuning model performance. It is designed to work with both CPU and GPU hardware, and can be used to accelerate the inference of a wide range of machine learning models.
+
+In summary, Mistral is a framework for managing the entire lifecycle of a machine learning model, while DeepSpeed Inference is a library for optimizing the inference performance of machine learning models. Both are open-source tools developed by Meta and are designed to work together to help developers build and deploy efficient and scalable machine learning models.
+
+=== Benchmark Metrics (rank 0) ===
+World size: 2
+Prompt length: 12 tokens
+Generated tokens: 312
+Total time: 54.8150 sec
+Time to First Token (TTFT): 0.1757 sec
+Inter-Token Latency (Mean): 0.1757 sec
+Inter-Token Latency (Median): 0.1757 sec
+Throughput: 5.69 tokens/sec
+
+power_usage in power_log.csv
