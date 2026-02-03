@@ -1,8 +1,8 @@
 [Info] World size: 1, using HPU local_rank=0
 [Info] Loading tokenizer from: /mnt/weka/data/pytorch/mistral/Mistral-7B-Instruct-v0.3/
 [Info] Loading model on rank 0 ...
-[2026-01-19 18:43:26,699] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
-[2026-01-19 18:43:26,699] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
+[2026-02-03 20:38:22,538] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter replace_method is deprecated. This parameter is no longer needed, please remove from your call to DeepSpeed-inference
+[2026-02-03 20:38:22,538] [WARNING] [config_utils.py:70:_process_deprecated_field] Config parameter mp_size is deprecated use tensor_parallel.tp_size instead
 [Info] Starting timed generation...
 
 Generated text:
@@ -22,10 +22,10 @@ In summary, Mistral is a framework for managing the entire lifecycle of a machin
 World size: 1
 Prompt length: 12 tokens
 Generated tokens: 312
-Total time: 40.7821 sec
-Time to First Token (TTFT): 0.1307 sec
-Inter-Token Latency (Mean): 0.1307 sec
-Inter-Token Latency (Median): 0.1307 sec
-Throughput: 7.65 tokens/sec
+Total time: 40.7070 sec
+Time to First Token (TTFT): 0.1305 sec
+Inter-Token Latency (Mean): 0.1305 sec
+Inter-Token Latency (Median): 0.1305 sec
+Throughput: 7.66 tokens/sec
 
 power_usage in power_log.csv
