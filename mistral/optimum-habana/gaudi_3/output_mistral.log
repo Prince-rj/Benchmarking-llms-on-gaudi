@@ -23,9 +23,9 @@ Overall, Mistral's architecture is designed to provide a flexible and scalable m
 === Benchmark Results ===
 Prompt length: 13 tokens
 Generated tokens: 1000
-Time to First Token (TTFT): 0.0442 sec
-Inter-Token Latency (Mean): 0.1255 sec
-Inter-Token Latency (Median): 0.1249 sec
-Throughput: 15.83 tokens/sec
+Time to First Token (TTFT): 0.0193 sec
+Inter-Token Latency (Mean): 0.1252 sec
+Inter-Token Latency (Median): 0.1247 sec
+Throughput: 15.87 tokens/sec
 
 power_usage in power_log.csv
