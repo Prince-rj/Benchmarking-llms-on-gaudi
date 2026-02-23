@@ -1,0 +1,201 @@
+What is LLaMA 2 and how does it work?
+Explain the architecture of a transformer model.
+What are the core differences between CNN and RNN?
+Describe how attention mechanism improves translation models.
+What is the role of positional encoding in transformers?
+How does self-attention differ from cross-attention?
+Explain the concept of tokenization in NLP.
+What is the vanishing gradient problem and how to mitigate it?
+Describe how Gaudi architecture differs from NVIDIA GPUs.
+What is model parallelism and how does it help scale large models?
+Explain the difference between GPT and BERT architectures.
+How does prompt engineering affect language model outputs?
+What is the function of layer normalization in deep networks?
+Explain causal language modeling with examples.
+What is quantization and how does it improve inference performance?
+Describe how fine-tuning works for large language models.
+What are LoRA adapters and how do they help in parameter-efficient training?
+Explain the purpose of rotary positional embeddings.
+How does DeepSpeed improve model training efficiency?
+Compare data parallelism and pipeline parallelism.
+What is ALiBi positional encoding?
+Describe the purpose of HF Transformers library.
+How do attention heads capture contextual meaning?
+What is dynamic batching in inference servers?
+Explain greedy decoding vs beam search vs sampling.
+What is perplexity in language models and why is it important?
+How does mixed precision training benefit model training?
+What is the function of the softmax layer in transformers?
+Explain embeddings and how they're used in NLP models.
+Describe the function of the tokenizer's vocabulary.
+What is causal masking in transformer decoders?
+How does gradient checkpointing reduce memory usage?
+Explain the difference between encoder-decoder and decoder-only models.
+What is zero-shot vs few-shot vs fine-tuned inference?
+What are prompt templates and why do they matter?
+Explain the role of BOS and EOS tokens in transformers.
+What is a floating-point tensor and how is it represented?
+What are hypernetworks in neural architectures?
+Explain MoE (Mixture of Experts) architecture.
+What is distillation in model compression?
+How do you implement top-k and top-p sampling?
+What is a vector database and how is it used with LLMs?
+Describe how you would use RAG (Retrieval Augmented Generation).
+What is streaming inference and how is it used?
+How does TTFT relate to user-perceived latency?
+Explain transformer decoder blocks layer-by-layer.
+What is a KV cache in transformer inference?
+Describe token-by-token generation and its challenges.
+How does LLaMA 2 compare to GPT-3.5?
+Explain the training data pipeline for a large model.
+What are the ethical concerns with generative models?
+How do transformers process multilingual text?
+What are flash attention mechanisms?
+Describe how memory-efficient attention works.
+What is inference throughput and how is it calculated?
+Explain how masked self-attention works in BERT.
+How do instruction-tuned models differ from base models?
+Describe an RLHF (Reinforcement Learning from Human Feedback) process.
+What is SFT (Supervised Fine-Tuning) in LLM training?
+Explain the role of HPU in Gaudi chips.
+What is a causal attention mask?
+Describe the HF `generate()` function in Transformers.
+Explain differences between T5, BART, and GPT models.
+What is model checkpointing and resumption?
+Describe how checkpoint sharding works in distributed training.
+How are model weights stored in HuggingFace format?
+Explain the impact of batch size on training and inference.
+What are fused kernels and why are they fast?
+How does the `AutoModelForCausalLM` class work?
+What are tensor parallel and tensor slicing?
+Describe the key steps of model serving using vLLM.
+What are inference graphs in deep learning?
+What is a streaming response in OpenAI-style APIs?
+How does speculative decoding reduce latency?
+What is JAX and how is it different from PyTorch?
+Describe lazy loading of weights in vLLM.
+Explain the role of SynapseAI in Gaudi software stack.
+What are the differences between HPU and GPU tensors?
+What are the limitations of LLaMA 2?
+How is multilingual performance evaluated in LLMs?
+Describe an example use of prompt tuning.
+What is the attention bottleneck and how to address it?
+How does token alignment affect downstream tasks?
+What are the challenges in inference on edge devices?
+Explain the principle behind rotary embeddings.
+How does temperature affect language model output?
+What are stop sequences in generation APIs?
+Describe token streaming latency optimization.
+How to evaluate hallucinations in language models?
+What is the purpose of `bos_token_id`?
+How are fused attention layers implemented?
+Describe a pipeline for deploying LLaMA 2 in production.
+How does instruction following improve model usability?
+What is a sequence-to-sequence model?
+What is the purpose of `pad_token_id` in generation?
+Explain the concept of auto-regressive generation.
+How is top-p sampling different from nucleus sampling?
+What are decoding strategies for safe responses?
+How are model prompts structured in ChatML?
+What is a system prompt in chat inference?
+How do you batch requests for high throughput?
+Explain model serving with `transformers + vLLM`.
+What is Triton Inference Server?
+Describe the significance of large context windows.
+What is dynamic quantization in transformers?
+How to prevent prompt injection in LLMs?
+What are attention scores and how are they computed?
+What are residual connections in transformers?
+How to handle long sequences in generation?
+Explain the use of flash attention v2.
+What is a greedy search in inference?
+How do checkpoints improve fault tolerance?
+Describe how text-to-text generation works.
+Explain cosine similarity in embeddings.
+What is token-wise parallelism?
+How do shared embeddings help in decoder-only models?
+Explain how to measure latency in model output.
+What is the purpose of dropout during training?
+What is the role of GELU activation in transformers?
+Explain forward and backward pass in transformers.
+What is speculative decoding and how does it help?
+How to optimize HPU memory usage during inference?
+Explain profiling for LLM inference performance.
+How to compute inter-token latency per request?
+What is the difference between BFloat16 and Float16?
+What are logits and how are they interpreted?
+What is log probability in token prediction?
+How to use `TextStreamer` for streaming output?
+How to tokenize and detokenize a prompt manually?
+Describe how a prompt flows through the transformer layers.
+How to handle EOS in streaming responses?
+What is a model config JSON in HF models?
+What is kv_cache reuse in decoder models?
+Describe a scenario of real-time chatbot streaming.
+How to compute throughput with variable prompts?
+How does `max_new_tokens` differ from `max_length`?
+Explain the difference between loss and perplexity.
+How to log benchmark results in a structured CSV?
+What are attention heads and how do they specialize?
+How to ensure reproducible benchmarking?
+What are model shards and when are they used?
+Explain the relationship between prompt length and latency.
+What is batch inference and why is it faster?
+What are rotary sin-cos embeddings?
+Describe HuggingFace's `AutoTokenizer` features.
+How does positional encoding interact with attention?
+What is a streaming callback in Transformers?
+How to benchmark models using curl and Python?
+How to parse streaming responses from vLLM?
+How does deep caching work in inference?
+What is a prompt-truncation error?
+Explain the role of tokenizer config files.
+How to batch multiple prompts into one request?
+What is a chat template in HuggingFace?
+What is inference latency and why is it important?
+How to reduce memory footprint of LLaMA models?
+What is the difference between `generation_config.json` and `config.json`?
+What is a quantized model and how is it served?
+How to handle prompt overflow in generation?
+What is warmup time in inference pipelines?
+How to stream JSON tokens using curl?
+What is a `generate_with_streaming()` wrapper?
+How to evaluate TTFT and ITL for multiple prompts?
+What are server cold starts in model serving?
+Explain how to avoid padding inefficiencies.
+How does tokenizer pre-processing affect TTFT?
+How to track per-prompt latency in logs?
+Explain streaming benchmarks with high concurrency.
+How to calculate power usage per prompt?
+How does the tokenizer handle emojis and symbols?
+How does model size affect inference latency?
+How to debug slow streaming responses?
+What causes generation to stall midway?
+How to load a model on HPU using HF Transformers?
+How to pass prompt + history into a chat model?
+What is an OpenAI-compatible inference API?
+How to handle decoding errors in stream?
+What are temperature vs randomness in sampling?
+Explain token logprobs in output.
+How to measure and reduce TTFT on Gaudi?
+Explain the internals of HF `generate()` loop.
+What is speculative token generation?
+What are possible failure points in vLLM serving?
+How to catch stream decoding errors gracefully?
+How to enable/disable kv caching in transformers?
+What are challenges of multilingual streaming inference?
+How to benchmark with different model precisions?
+What is the tradeoff between token latency and batch size?
+Describe the advantages and limitations of transformer-based neural networks.
+Explain the concept of overfitting in machine learning and how to prevent it.
+How does the attention mechanism work in transformer models?
+Summarize the main differences between supervised and unsupervised learning.
+What are the ethical concerns associated with deploying large language models?
+Explain how gradient descent works in training deep neural networks.
+Describe the role of activation functions in deep learning.
+How can transfer learning improve model performance on small datasets?
+Explain the concept of reinforcement learning with an example.
+What are the main components of a convolutional neural network (CNN)?
+Describe how large language models like GPT or LLaMA are trained and fine-tuned.
+Compare and contrast BERT and GPT in terms of architecture and use cases.
+
