@@ -132,11 +132,11 @@
 🚀 Running batch 65/65 (8 prompts)
 
 🛑 Stopping power logging...
-📊 Samples: 2468
-📊 Average Power: 190.4 W
-📊 Peak Power: 394.0 W
+📊 Samples: 1181
+📊 Average Power: 542.5 W
+📊 Peak Power: 840.0 W
 📁 Power Log: power_log.csv
 
 ✅ Benchmark complete. 520 successful prompts.
-⏱️ Total Time: 609.45s
+⏱️ Total Time: 1174.26s
 📁 Results saved to: alpaca_benchmark_results.csv
