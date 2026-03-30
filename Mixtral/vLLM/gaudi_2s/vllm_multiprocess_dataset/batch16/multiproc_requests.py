@@ -11,7 +11,7 @@ import json
 
 # ---------------- CONFIG ----------------
 VLLM_URL = "http://localhost:8000/v1/completions"
-MODEL_ID = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+MODEL_ID = "/mnt/weka/data/pytorch/mistral/Mistral-7B-Instruct-v0.3/"
 OUTPUT_CSV = "alpaca_benchmark_results.csv"
 POWER_LOG = "power_log.csv"
 NUM_SAMPLES = 520        # None → load all (≈52,002 samples)
