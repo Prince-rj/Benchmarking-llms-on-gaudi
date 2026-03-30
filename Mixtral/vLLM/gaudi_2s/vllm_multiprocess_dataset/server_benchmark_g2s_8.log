@@ -1,0 +1,172 @@
+INFO 03-12 18:33:18 [__init__.py:254] Automatically detected platform hpu.
+WARNING 03-12 18:33:29 [api_server.py:114] Starting from v1.23.0, the vLLM fork will reach end-of-life (EOL) and be deprecated in v1.24.0, remaining functional only for legacy use cases until then. 
+WARNING 03-12 18:33:29 [api_server.py:114] At the same time, the vllm-gaudi plugin will be production-ready in v1.23.0 and will become the default by v1.24.0.
+WARNING 03-12 18:33:29 [api_server.py:114] This plugin integrates Intel Gaudi with vLLM for optimized LLM inference and is intended for future deployments.
+WARNING 03-12 18:33:29 [api_server.py:114] We strongly suggest preparing a migration path toward the plugin version: https://github.com/vllm-project/vllm-gaudi
+INFO 03-12 18:33:31 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 03-12 18:33:31 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 03-12 18:33:32 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 03-12 18:33:32 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+WARNING 03-12 18:33:32 [utils.py:1517] argument 'device' is deprecated
+INFO 03-12 18:33:32 [api_server.py:1300] vLLM API server version 0.6.3.dev5496+g95af70093
+INFO 03-12 18:33:33 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 03-12 18:33:33 [cli_args.py:309] non-default args: {'model': 'mistralai/Mixtral-8x7B-Instruct-v0.1', 'dtype': 'bfloat16', 'max_model_len': 4096, 'tensor_parallel_size': 2, 'device': 'hpu', 'max_num_batched_tokens': 4096}
+INFO 03-12 18:33:45 [config.py:822] This model supports multiple tasks: {'score', 'reward', 'generate', 'embed', 'classify'}. Defaulting to 'generate'.
+WARNING 03-12 18:33:45 [arg_utils.py:1695] device type=hpu is not supported by the V1 Engine. Falling back to V0. 
+INFO 03-12 18:33:45 [config.py:1941] Defaulting to use mp for distributed inference
+INFO 03-12 18:33:45 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 03-12 18:33:45 [api_server.py:278] Started engine process with PID 3249609
+WARNING 03-12 18:33:48 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 03-12 18:33:49 [__init__.py:254] Automatically detected platform hpu.
+WARNING 03-12 18:33:53 [api_server.py:114] Starting from v1.23.0, the vLLM fork will reach end-of-life (EOL) and be deprecated in v1.24.0, remaining functional only for legacy use cases until then. 
+WARNING 03-12 18:33:53 [api_server.py:114] At the same time, the vllm-gaudi plugin will be production-ready in v1.23.0 and will become the default by v1.24.0.
+WARNING 03-12 18:33:53 [api_server.py:114] This plugin integrates Intel Gaudi with vLLM for optimized LLM inference and is intended for future deployments.
+WARNING 03-12 18:33:53 [api_server.py:114] We strongly suggest preparing a migration path toward the plugin version: https://github.com/vllm-project/vllm-gaudi
+INFO 03-12 18:33:53 [llm_engine.py:239] Initializing a V0 LLM engine (v0.6.3.dev5496+g95af70093) with config: model='mistralai/Mixtral-8x7B-Instruct-v0.1', speculative_config=None, tokenizer='mistralai/Mixtral-8x7B-Instruct-v0.1', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=2, pipeline_parallel_size=1, disable_custom_all_reduce=True, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=hpu, decoding_config=DecodingConfig(backend='xgrammar', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=None, served_model_name=mistralai/Mixtral-8x7B-Instruct-v0.1, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=None, chunked_prefill_enabled=False, use_async_output_proc=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":[],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"use_cudagraph":false,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"max_capture_size":256,"local_cache_dir":null}, use_cached_outputs=True, 
+WARNING 03-12 18:33:54 [multiproc_worker_utils.py:325] Reducing Torch parallelism from 36 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.
+WARNING 03-12 18:33:55 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+WARNING 03-12 18:33:55 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+WARNING 03-12 18:33:55 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+WARNING 03-12 18:33:56 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x73fa9116a440>
+WARNING 03-12 18:33:57 [runtime.py:83] ************************************************ Warning! ************************************************
+WARNING 03-12 18:33:57 [runtime.py:84] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+WARNING 03-12 18:33:57 [runtime.py:85] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+WARNING 03-12 18:33:57 [runtime.py:86] **********************************************************************************************************
+INFO 03-12 18:33:57 [runtime.py:30] Environment:
+INFO 03-12 18:33:57 [runtime.py:34]     hw: gaudi2
+INFO 03-12 18:33:57 [runtime.py:34]     build: 1.23.0.307
+INFO 03-12 18:33:57 [runtime.py:34]     engine_version: v0
+INFO 03-12 18:33:57 [runtime.py:34]     bridge_mode: eager
+INFO 03-12 18:33:57 [runtime.py:34]     model_type: mixtral
+INFO 03-12 18:33:57 [runtime.py:30] Features:
+INFO 03-12 18:33:57 [runtime.py:34]     fp32_alibi_biases: True
+INFO 03-12 18:33:57 [runtime.py:34]     fp32_softmax: False
+INFO 03-12 18:33:57 [runtime.py:34]     fused_block_softmax_adjustment: False
+INFO 03-12 18:33:57 [runtime.py:34]     fused_block_softmax: False
+INFO 03-12 18:33:57 [runtime.py:34]     prompt_attn_impl: fsdpa_impl
+INFO 03-12 18:33:57 [runtime.py:34]     skip_warmup: True
+INFO 03-12 18:33:57 [runtime.py:34]     merged_prefill: False
+INFO 03-12 18:33:57 [runtime.py:34]     use_contiguous_pa: True
+INFO 03-12 18:33:57 [runtime.py:34]     use_delayed_sampling: True
+INFO 03-12 18:33:57 [runtime.py:34]     use_bucketing: True
+INFO 03-12 18:33:57 [runtime.py:34]     use_const_norm: False
+INFO 03-12 18:33:57 [runtime.py:34]     const_norm_value: 10.0
+INFO 03-12 18:33:57 [runtime.py:34]     bucketing_strategy: exponential_bucketing
+INFO 03-12 18:33:57 [runtime.py:34]     defrag: False
+INFO 03-12 18:33:57 [runtime.py:30] User flags:
+INFO 03-12 18:33:57 [runtime.py:34]     VLLM_USE_V1: False
+INFO 03-12 18:33:57 [runtime.py:34]     PT_HPU_WEIGHT_SHARING: 0
+INFO 03-12 18:33:57 [runtime.py:30] Experimental flags:
+INFO 03-12 18:33:57 [runtime.py:34]     VLLM_SKIP_WARMUP: True
+WARNING 03-12 18:33:57 [hpu.py:127] Pin memory is not supported on HPU.
+INFO 03-12 18:33:57 [hpu.py:54] Using HPUAttention backend.
+WARNING 03-12 18:33:57 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 03-12 18:33:59 [__init__.py:254] Automatically detected platform hpu.
+WARNING 03-12 18:34:03 [api_server.py:114] Starting from v1.23.0, the vLLM fork will reach end-of-life (EOL) and be deprecated in v1.24.0, remaining functional only for legacy use cases until then. 
+WARNING 03-12 18:34:03 [api_server.py:114] At the same time, the vllm-gaudi plugin will be production-ready in v1.23.0 and will become the default by v1.24.0.
+WARNING 03-12 18:34:03 [api_server.py:114] This plugin integrates Intel Gaudi with vLLM for optimized LLM inference and is intended for future deployments.
+WARNING 03-12 18:34:03 [api_server.py:114] We strongly suggest preparing a migration path toward the plugin version: https://github.com/vllm-project/vllm-gaudi
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:03 [multiproc_worker_utils.py:228] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:04 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:04 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:04 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:04 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x7b403d21d840>
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:05 [runtime.py:83] ************************************************ Warning! ************************************************
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:05 [runtime.py:84] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:05 [runtime.py:85] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:05 [runtime.py:86] **********************************************************************************************************
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:30] Environment:
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     hw: gaudi2
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     build: 1.23.0.307
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     engine_version: v0
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     bridge_mode: eager
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     model_type: mixtral
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:30] Features:
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     fp32_alibi_biases: True
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     fp32_softmax: False
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     fused_block_softmax_adjustment: False
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     fused_block_softmax: False
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     prompt_attn_impl: fsdpa_impl
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     skip_warmup: True
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     merged_prefill: False
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     use_contiguous_pa: True
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     use_delayed_sampling: True
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     use_bucketing: True
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     use_const_norm: False
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     const_norm_value: 10.0
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     bucketing_strategy: exponential_bucketing
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     defrag: False
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:30] User flags:
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     VLLM_USE_V1: False
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     PT_HPU_WEIGHT_SHARING: 0
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:30] Experimental flags:
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [runtime.py:34]     VLLM_SKIP_WARMUP: True
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m WARNING 03-12 18:34:05 [hpu.py:127] Pin memory is not supported on HPU.
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:05 [hpu.py:54] Using HPUAttention backend.
+[Gloo] Rank 1 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+[Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+[Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+[Gloo] Rank 1 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+INFO 03-12 18:34:10 [shm_broadcast.py:289] vLLM message queue communication handle: Handle(local_reader_ranks=[1], buffer_handle=(1, 4194304, 6, 'psm_d0e3e172'), local_subscribe_addr='ipc:///tmp/f4ba3461-0b6c-4153-8d8b-65a3b36305a9', remote_subscribe_addr=None, remote_addr_ipv6=False)
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+[Gloo] Rank 1 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+INFO 03-12 18:34:10 [parallel_state.py:1065] rank 0 in world size 2 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:10 [parallel_state.py:1065] rank 1 in world size 2 is assigned as DP rank 0, PP rank 0, TP rank 1, EP rank 1
+INFO 03-12 18:34:11 [base_loader.py:47] Loading weights on hpu...
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:11 [base_loader.py:47] Loading weights on hpu...
+INFO 03-12 18:34:11 [weight_utils.py:292] Using model weights format ['*.safetensors']
+[1;36m(VllmWorkerProcess pid=3249905)[0;0m INFO 03-12 18:34:11 [weight_utils.py:292] Using model weights format ['*.safetensors']
+INFO 03-12 19:20:50 [weight_utils.py:308] Time spent downloading weights for mistralai/Mixtral-8x7B-Instruct-v0.1: 2798.953251 seconds
+ERROR 03-12 19:20:51 [engine.py:472] [Rank:0] FATAL ERROR :: MODULE:PT_SYNHELPER synStatus 31 [Synapse is being terminated due to fatality]. Host malloc failed
+ERROR 03-12 19:20:51 [engine.py:472] Traceback (most recent call last):
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/engine/multiprocessing/engine.py", line 460, in run_mp_engine
+ERROR 03-12 19:20:51 [engine.py:472]     engine = MQLLMEngine.from_vllm_config(
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/engine/multiprocessing/engine.py", line 134, in from_vllm_config
+ERROR 03-12 19:20:51 [engine.py:472]     return cls(
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/engine/multiprocessing/engine.py", line 88, in __init__
+ERROR 03-12 19:20:51 [engine.py:472]     self.engine = LLMEngine(*args, **kwargs)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/engine/llm_engine.py", line 274, in __init__
+ERROR 03-12 19:20:51 [engine.py:472]     self.model_executor = executor_class(vllm_config=vllm_config)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/executor/executor_base.py", line 287, in __init__
+ERROR 03-12 19:20:51 [engine.py:472]     super().__init__(*args, **kwargs)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/executor/executor_base.py", line 53, in __init__
+ERROR 03-12 19:20:51 [engine.py:472]     self._init_executor()
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/executor/mp_distributed_executor.py", line 126, in _init_executor
+ERROR 03-12 19:20:51 [engine.py:472]     self._run_workers("load_model",
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/executor/mp_distributed_executor.py", line 190, in _run_workers
+ERROR 03-12 19:20:51 [engine.py:472]     driver_worker_output = run_method(self.driver_worker, sent_method,
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/utils.py", line 2784, in run_method
+ERROR 03-12 19:20:51 [engine.py:472]     return func(*args, **kwargs)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/worker/hpu_worker.py", line 181, in load_model
+ERROR 03-12 19:20:51 [engine.py:472]     self.model_runner.load_model()
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/worker/hpu_model_runner.py", line 1185, in load_model
+ERROR 03-12 19:20:51 [engine.py:472]     self.model = get_model(vllm_config=self.vllm_config)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/model_loader/__init__.py", line 59, in get_model
+ERROR 03-12 19:20:51 [engine.py:472]     return loader.load_model(vllm_config=vllm_config,
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/model_loader/base_loader.py", line 48, in load_model
+ERROR 03-12 19:20:51 [engine.py:472]     self.load_weights(model, model_config)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/model_loader/default_loader.py", line 269, in load_weights
+ERROR 03-12 19:20:51 [engine.py:472]     loaded_weights = model.load_weights(
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/models/mixtral.py", line 518, in load_weights
+ERROR 03-12 19:20:51 [engine.py:472]     return loader.load_weights(weights)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/models/utils.py", line 319, in load_weights
+ERROR 03-12 19:20:51 [engine.py:472]     autoloaded_weights = set(self._load_module("", self.module, weights))
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/models/utils.py", line 277, in _load_module
+ERROR 03-12 19:20:51 [engine.py:472]     yield from self._load_module(prefix,
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/models/utils.py", line 250, in _load_module
+ERROR 03-12 19:20:51 [engine.py:472]     loaded_params = module_load_weights(weights)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/models/mixtral.py", line 416, in load_weights
+ERROR 03-12 19:20:51 [engine.py:472]     weight_loader(param,
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/utils.py", line 55, in _synced_weight_loader
+ERROR 03-12 19:20:51 [engine.py:472]     original_weight_loader(param, *args, **kwargs)
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/layers/fused_moe/layer.py", line 1314, in weight_loader
+ERROR 03-12 19:20:51 [engine.py:472]     self._load_model_weight_or_group_weight_scale(
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/layers/fused_moe/layer.py", line 1077, in _load_model_weight_or_group_weight_scale
+ERROR 03-12 19:20:51 [engine.py:472]     self._load_w13(shard_id=shard_id,
+ERROR 03-12 19:20:51 [engine.py:472]   File "/software/users/rajprinc/Benchmarking/Benchmarking-llms-on-gaudi/Mixtral/vLLM/gaudi_2s/vllm_bench/vllm-fork/vllm/model_executor/layers/fused_moe/layer.py", line 1120, in _load_w13
+ERROR 03-12 19:20:51 [engine.py:472]     expert_data.copy_(loaded_weight)
+ERROR 03-12 19:20:51 [engine.py:472] RuntimeError: [Rank:0] FATAL ERROR :: MODULE:PT_SYNHELPER synStatus 31 [Synapse is being terminated due to fatality]. Host malloc failed
