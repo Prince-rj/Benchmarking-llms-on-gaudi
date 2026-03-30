@@ -1,0 +1,313 @@
+INFO 02-24 06:26:41 [__init__.py:254] Automatically detected platform hpu.
+WARNING 02-24 06:26:48 [api_server.py:114] Starting from v1.23.0, the vLLM fork will reach end-of-life (EOL) and be deprecated in v1.24.0, remaining functional only for legacy use cases until then. 
+WARNING 02-24 06:26:48 [api_server.py:114] At the same time, the vllm-gaudi plugin will be production-ready in v1.23.0 and will become the default by v1.24.0.
+WARNING 02-24 06:26:48 [api_server.py:114] This plugin integrates Intel Gaudi with vLLM for optimized LLM inference and is intended for future deployments.
+WARNING 02-24 06:26:48 [api_server.py:114] We strongly suggest preparing a migration path toward the plugin version: https://github.com/vllm-project/vllm-gaudi
+INFO 02-24 06:26:49 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 02-24 06:26:50 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 02-24 06:26:50 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 02-24 06:26:51 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+WARNING 02-24 06:26:51 [utils.py:1517] argument 'device' is deprecated
+INFO 02-24 06:26:51 [api_server.py:1300] vLLM API server version 0.6.3.dev5496+g95af70093
+INFO 02-24 06:26:51 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 02-24 06:26:51 [cli_args.py:309] non-default args: {'model': 'mistralai/Mixtral-8x7B-Instruct-v0.1', 'dtype': 'bfloat16', 'max_model_len': 4096, 'tensor_parallel_size': 4, 'device': 'hpu', 'max_num_batched_tokens': 4096}
+INFO 02-24 06:27:01 [config.py:822] This model supports multiple tasks: {'score', 'generate', 'embed', 'classify', 'reward'}. Defaulting to 'generate'.
+WARNING 02-24 06:27:01 [arg_utils.py:1695] device type=hpu is not supported by the V1 Engine. Falling back to V0. 
+INFO 02-24 06:27:01 [config.py:1941] Defaulting to use mp for distributed inference
+INFO 02-24 06:27:01 [config.py:1975] Disabled the custom all-reduce kernel because it is not supported on current platform.
+INFO 02-24 06:27:01 [api_server.py:278] Started engine process with PID 2230081
+WARNING 02-24 06:27:03 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 02-24 06:27:04 [__init__.py:254] Automatically detected platform hpu.
+WARNING 02-24 06:27:07 [api_server.py:114] Starting from v1.23.0, the vLLM fork will reach end-of-life (EOL) and be deprecated in v1.24.0, remaining functional only for legacy use cases until then. 
+WARNING 02-24 06:27:07 [api_server.py:114] At the same time, the vllm-gaudi plugin will be production-ready in v1.23.0 and will become the default by v1.24.0.
+WARNING 02-24 06:27:07 [api_server.py:114] This plugin integrates Intel Gaudi with vLLM for optimized LLM inference and is intended for future deployments.
+WARNING 02-24 06:27:07 [api_server.py:114] We strongly suggest preparing a migration path toward the plugin version: https://github.com/vllm-project/vllm-gaudi
+INFO 02-24 06:27:07 [llm_engine.py:239] Initializing a V0 LLM engine (v0.6.3.dev5496+g95af70093) with config: model='mistralai/Mixtral-8x7B-Instruct-v0.1', speculative_config=None, tokenizer='mistralai/Mixtral-8x7B-Instruct-v0.1', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=4, pipeline_parallel_size=1, disable_custom_all_reduce=True, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=hpu, decoding_config=DecodingConfig(backend='xgrammar', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=None, served_model_name=mistralai/Mixtral-8x7B-Instruct-v0.1, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=None, chunked_prefill_enabled=False, use_async_output_proc=True, pooler_config=None, compilation_config={"level":0,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":[],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"use_cudagraph":false,"cudagraph_num_of_warmups":0,"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"max_capture_size":256,"local_cache_dir":null}, use_cached_outputs=True, 
+WARNING 02-24 06:27:08 [multiproc_worker_utils.py:325] Reducing Torch parallelism from 104 threads to 1 to avoid unnecessary CPU contention. Set OMP_NUM_THREADS in the external environment to tune this value as needed.
+WARNING 02-24 06:27:09 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+WARNING 02-24 06:27:09 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+WARNING 02-24 06:27:09 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+WARNING 02-24 06:27:09 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x783250fbae60>
+WARNING 02-24 06:27:10 [runtime.py:83] ************************************************ Warning! ************************************************
+WARNING 02-24 06:27:10 [runtime.py:84] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+WARNING 02-24 06:27:10 [runtime.py:85] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+WARNING 02-24 06:27:10 [runtime.py:86] **********************************************************************************************************
+INFO 02-24 06:27:10 [runtime.py:30] Environment:
+INFO 02-24 06:27:10 [runtime.py:34]     hw: gaudi3
+INFO 02-24 06:27:10 [runtime.py:34]     build: 1.23.0.307
+INFO 02-24 06:27:10 [runtime.py:34]     engine_version: v0
+INFO 02-24 06:27:10 [runtime.py:34]     bridge_mode: eager
+INFO 02-24 06:27:10 [runtime.py:34]     model_type: mixtral
+INFO 02-24 06:27:10 [runtime.py:30] Features:
+INFO 02-24 06:27:10 [runtime.py:34]     fp32_alibi_biases: True
+INFO 02-24 06:27:10 [runtime.py:34]     fp32_softmax: False
+INFO 02-24 06:27:10 [runtime.py:34]     fused_block_softmax_adjustment: True
+INFO 02-24 06:27:10 [runtime.py:34]     fused_block_softmax: False
+INFO 02-24 06:27:10 [runtime.py:34]     prompt_attn_impl: fsdpa_impl
+INFO 02-24 06:27:10 [runtime.py:34]     skip_warmup: True
+INFO 02-24 06:27:10 [runtime.py:34]     merged_prefill: False
+INFO 02-24 06:27:10 [runtime.py:34]     use_contiguous_pa: True
+INFO 02-24 06:27:10 [runtime.py:34]     use_delayed_sampling: True
+INFO 02-24 06:27:10 [runtime.py:34]     use_bucketing: True
+INFO 02-24 06:27:10 [runtime.py:34]     use_const_norm: False
+INFO 02-24 06:27:10 [runtime.py:34]     const_norm_value: 10.0
+INFO 02-24 06:27:10 [runtime.py:34]     bucketing_strategy: exponential_bucketing
+INFO 02-24 06:27:10 [runtime.py:34]     defrag: False
+INFO 02-24 06:27:10 [runtime.py:30] User flags:
+INFO 02-24 06:27:10 [runtime.py:34]     VLLM_USE_V1: False
+INFO 02-24 06:27:10 [runtime.py:34]     PT_HPU_WEIGHT_SHARING: 0
+INFO 02-24 06:27:10 [runtime.py:30] Experimental flags:
+INFO 02-24 06:27:10 [runtime.py:34]     VLLM_SKIP_WARMUP: True
+WARNING 02-24 06:27:10 [hpu.py:127] Pin memory is not supported on HPU.
+INFO 02-24 06:27:10 [hpu.py:54] Using HPUAttention backend.
+WARNING 02-24 06:27:11 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+WARNING 02-24 06:27:11 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+WARNING 02-24 06:27:11 [env_override.py:17] NCCL_CUMEM_ENABLE is set to 0, skipping override. This may increase memory overhead with cudagraph+allreduce: https://github.com/NVIDIA/nccl/issues/1234
+INFO 02-24 06:27:12 [__init__.py:254] Automatically detected platform hpu.
+INFO 02-24 06:27:12 [__init__.py:254] Automatically detected platform hpu.
+INFO 02-24 06:27:12 [__init__.py:254] Automatically detected platform hpu.
+WARNING 02-24 06:27:15 [api_server.py:114] Starting from v1.23.0, the vLLM fork will reach end-of-life (EOL) and be deprecated in v1.24.0, remaining functional only for legacy use cases until then. 
+WARNING 02-24 06:27:15 [api_server.py:114] At the same time, the vllm-gaudi plugin will be production-ready in v1.23.0 and will become the default by v1.24.0.
+WARNING 02-24 06:27:15 [api_server.py:114] This plugin integrates Intel Gaudi with vLLM for optimized LLM inference and is intended for future deployments.
+WARNING 02-24 06:27:15 [api_server.py:114] We strongly suggest preparing a migration path toward the plugin version: https://github.com/vllm-project/vllm-gaudi
+WARNING 02-24 06:27:15 [api_server.py:114] Starting from v1.23.0, the vLLM fork will reach end-of-life (EOL) and be deprecated in v1.24.0, remaining functional only for legacy use cases until then. 
+WARNING 02-24 06:27:15 [api_server.py:114] At the same time, the vllm-gaudi plugin will be production-ready in v1.23.0 and will become the default by v1.24.0.
+WARNING 02-24 06:27:15 [api_server.py:114] This plugin integrates Intel Gaudi with vLLM for optimized LLM inference and is intended for future deployments.
+WARNING 02-24 06:27:15 [api_server.py:114] We strongly suggest preparing a migration path toward the plugin version: https://github.com/vllm-project/vllm-gaudi
+WARNING 02-24 06:27:15 [api_server.py:114] Starting from v1.23.0, the vLLM fork will reach end-of-life (EOL) and be deprecated in v1.24.0, remaining functional only for legacy use cases until then. 
+WARNING 02-24 06:27:15 [api_server.py:114] At the same time, the vllm-gaudi plugin will be production-ready in v1.23.0 and will become the default by v1.24.0.
+WARNING 02-24 06:27:15 [api_server.py:114] This plugin integrates Intel Gaudi with vLLM for optimized LLM inference and is intended for future deployments.
+WARNING 02-24 06:27:15 [api_server.py:114] We strongly suggest preparing a migration path toward the plugin version: https://github.com/vllm-project/vllm-gaudi
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:15 [multiproc_worker_utils.py:228] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:15 [multiproc_worker_utils.py:228] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:15 [multiproc_worker_utils.py:228] Worker ready; awaiting tasks
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:16 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:16 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:16 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:16 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x7af83f85b7f0>
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:16 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:16 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:16 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:16 [rocm.py:28] Failed to import from amdsmi with ModuleNotFoundError("No module named 'amdsmi'")
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:16 [rocm.py:33] Failed to import from vllm._C with ModuleNotFoundError("No module named 'vllm._C'")
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:16 [rocm.py:39] Failed to import from vllm._rocm_C with ModuleNotFoundError("No module named 'vllm._rocm_C'")
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:16 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x7d9bce34f790>
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:16 [utils.py:2850] Methods add_prompt_adapter,cache_config,compilation_config,current_platform,list_prompt_adapters,load_config,pin_prompt_adapter,remove_prompt_adapter,scheduler_config not implemented in <vllm.worker.hpu_worker.HPUWorker object at 0x701068c5b8b0>
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:17 [runtime.py:83] ************************************************ Warning! ************************************************
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:17 [runtime.py:84] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:17 [runtime.py:85] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:17 [runtime.py:86] **********************************************************************************************************
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Environment:
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     hw: gaudi3
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     build: 1.23.0.307
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     engine_version: v0
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     bridge_mode: eager
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     model_type: mixtral
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Features:
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fp32_alibi_biases: True
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fp32_softmax: False
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fused_block_softmax_adjustment: True
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fused_block_softmax: False
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     prompt_attn_impl: fsdpa_impl
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     skip_warmup: True
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     merged_prefill: False
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_contiguous_pa: True
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_delayed_sampling: True
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_bucketing: True
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_const_norm: False
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     const_norm_value: 10.0
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     bucketing_strategy: exponential_bucketing
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     defrag: False
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:30] User flags:
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     VLLM_USE_V1: False
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     PT_HPU_WEIGHT_SHARING: 0
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Experimental flags:
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     VLLM_SKIP_WARMUP: True
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 06:27:17 [hpu.py:127] Pin memory is not supported on HPU.
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:17 [hpu.py:54] Using HPUAttention backend.
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:17 [runtime.py:83] ************************************************ Warning! ************************************************
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:17 [runtime.py:84] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:17 [runtime.py:85] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:17 [runtime.py:86] **********************************************************************************************************
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Environment:
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     hw: gaudi3
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     build: 1.23.0.307
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     engine_version: v0
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     bridge_mode: eager
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     model_type: mixtral
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Features:
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fp32_alibi_biases: True
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fp32_softmax: False
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fused_block_softmax_adjustment: True
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fused_block_softmax: False
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     prompt_attn_impl: fsdpa_impl
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     skip_warmup: True
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     merged_prefill: False
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_contiguous_pa: True
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_delayed_sampling: True
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_bucketing: True
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_const_norm: False
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     const_norm_value: 10.0
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     bucketing_strategy: exponential_bucketing
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     defrag: False
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:30] User flags:
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     VLLM_USE_V1: False
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     PT_HPU_WEIGHT_SHARING: 0
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Experimental flags:
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     VLLM_SKIP_WARMUP: True
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 06:27:17 [hpu.py:127] Pin memory is not supported on HPU.
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:17 [hpu.py:54] Using HPUAttention backend.
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:17 [runtime.py:83] ************************************************ Warning! ************************************************
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:17 [runtime.py:84] Following environment variables are considered experimental: VLLM_SKIP_WARMUP
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:17 [runtime.py:85] In future releases using those flags without VLLM_ENABLE_EXPERIMENTAL_FLAGS will trigger a fatal error.
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:17 [runtime.py:86] **********************************************************************************************************
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Environment:
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     hw: gaudi3
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     build: 1.23.0.307
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     engine_version: v0
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     bridge_mode: eager
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     model_type: mixtral
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Features:
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fp32_alibi_biases: True
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fp32_softmax: False
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fused_block_softmax_adjustment: True
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     fused_block_softmax: False
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     prompt_attn_impl: fsdpa_impl
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     skip_warmup: True
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     merged_prefill: False
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_contiguous_pa: True
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_delayed_sampling: True
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_bucketing: True
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     use_const_norm: False
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     const_norm_value: 10.0
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     bucketing_strategy: exponential_bucketing
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     defrag: False
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:30] User flags:
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     VLLM_USE_V1: False
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     PT_HPU_WEIGHT_SHARING: 0
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:30] Experimental flags:
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [runtime.py:34]     VLLM_SKIP_WARMUP: True
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 06:27:17 [hpu.py:127] Pin memory is not supported on HPU.
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:17 [hpu.py:54] Using HPUAttention backend.
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+INFO 02-24 06:27:18 [shm_broadcast.py:289] vLLM message queue communication handle: Handle(local_reader_ranks=[1, 2, 3], buffer_handle=(3, 4194304, 6, 'psm_28bdd59e'), local_subscribe_addr='ipc:///tmp/cd1688ad-447d-4cbc-8c0d-b0445dcbc515', remote_subscribe_addr=None, remote_addr_ipv6=False)
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:18 [parallel_state.py:1065] rank 3 in world size 4 is assigned as DP rank 0, PP rank 0, TP rank 3, EP rank 3
+INFO 02-24 06:27:18 [parallel_state.py:1065] rank 0 in world size 4 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:18 [parallel_state.py:1065] rank 2 in world size 4 is assigned as DP rank 0, PP rank 0, TP rank 2, EP rank 2
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:18 [parallel_state.py:1065] rank 1 in world size 4 is assigned as DP rank 0, PP rank 0, TP rank 1, EP rank 1
+INFO 02-24 06:27:19 [base_loader.py:47] Loading weights on hpu...
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:19 [base_loader.py:47] Loading weights on hpu...
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:19 [base_loader.py:47] Loading weights on hpu...
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:19 [base_loader.py:47] Loading weights on hpu...
+INFO 02-24 06:27:19 [weight_utils.py:292] Using model weights format ['*.safetensors']
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 06:27:20 [weight_utils.py:292] Using model weights format ['*.safetensors']
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 06:27:20 [weight_utils.py:292] Using model weights format ['*.safetensors']
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 06:27:20 [weight_utils.py:292] Using model weights format ['*.safetensors']
+INFO 02-24 09:20:28 [weight_utils.py:308] Time spent downloading weights for mistralai/Mixtral-8x7B-Instruct-v0.1: 10388.403325 seconds
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:29 [weight_utils.py:308] Time spent downloading weights for mistralai/Mixtral-8x7B-Instruct-v0.1: 0.542076 seconds
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:31 [weight_utils.py:308] Time spent downloading weights for mistralai/Mixtral-8x7B-Instruct-v0.1: 0.567082 seconds
+INFO 02-24 09:20:35 [default_loader.py:272] Loading weights took 6.51 seconds
+INFO 02-24 09:20:36 [hpu_model_runner.py:1189] Pre-loading model weights on hpu:0 took 21.76 GiB of device memory (21.76 GiB/126.5 GiB used) and -84.39 GiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:36 [default_loader.py:272] Loading weights took 6.40 seconds
+INFO 02-24 09:20:36 [hpu_model_runner.py:1272] Wrapping in HPU Graph took 0 B of device memory (21.76 GiB/126.5 GiB used) and -5.406 MiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:36 [hpu_model_runner.py:1189] Pre-loading model weights on hpu:0 took 21.76 GiB of device memory (21.76 GiB/126.5 GiB used) and -84.41 GiB of host memory (166.9 GiB/1007 GiB used)
+INFO 02-24 09:20:37 [hpu_model_runner.py:1276] Compiling took 0 B of device memory (21.76 GiB/126.5 GiB used) and -444 KiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:37 [hpu_model_runner.py:1272] Wrapping in HPU Graph took 0 B of device memory (21.76 GiB/126.5 GiB used) and -15.89 MiB of host memory (166.9 GiB/1007 GiB used)
+INFO 02-24 09:20:37 [hpu_model_runner.py:1280] Loading model weights took in total 21.76 GiB of device memory (21.76 GiB/126.5 GiB used) and -84.41 GiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:37 [default_loader.py:272] Loading weights took 6.64 seconds
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:37 [hpu_model_runner.py:1276] Compiling took 0 B of device memory (21.76 GiB/126.5 GiB used) and -2.32 MiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:37 [hpu_model_runner.py:1189] Pre-loading model weights on hpu:0 took 21.76 GiB of device memory (21.76 GiB/126.5 GiB used) and -84.41 GiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:37 [hpu_model_runner.py:1280] Loading model weights took in total 21.76 GiB of device memory (21.76 GiB/126.5 GiB used) and -84.4 GiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:38 [default_loader.py:272] Loading weights took 6.46 seconds
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:38 [hpu_model_runner.py:1272] Wrapping in HPU Graph took 0 B of device memory (21.76 GiB/126.5 GiB used) and 0 B of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:38 [hpu_model_runner.py:1189] Pre-loading model weights on hpu:0 took 21.76 GiB of device memory (21.76 GiB/126.5 GiB used) and -84.41 GiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:38 [hpu_model_runner.py:1276] Compiling took 0 B of device memory (21.76 GiB/126.5 GiB used) and -4 KiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:38 [hpu_model_runner.py:1280] Loading model weights took in total 21.76 GiB of device memory (21.76 GiB/126.5 GiB used) and -84.4 GiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:38 [hpu_model_runner.py:1272] Wrapping in HPU Graph took 0 B of device memory (21.76 GiB/126.5 GiB used) and -1.164 MiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:38 [hpu_model_runner.py:1276] Compiling took 0 B of device memory (21.76 GiB/126.5 GiB used) and 0 B of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:39 [hpu_model_runner.py:1280] Loading model weights took in total 21.76 GiB of device memory (21.76 GiB/126.5 GiB used) and -84.41 GiB of host memory (166.9 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m WARNING 02-24 09:20:39 [common.py:149] Prompt bucket for (1, 4096, 0) was not prepared. Adding new bucket: (1, 4096, 0)
+WARNING 02-24 09:20:39 [common.py:149] Prompt bucket for (1, 4096, 0) was not prepared. Adding new bucket: (1, 4096, 0)
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m WARNING 02-24 09:20:39 [common.py:149] Prompt bucket for (1, 4096, 0) was not prepared. Adding new bucket: (1, 4096, 0)
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m WARNING 02-24 09:20:39 [common.py:149] Prompt bucket for (1, 4096, 0) was not prepared. Adding new bucket: (1, 4096, 0)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:42 [hpu_worker.py:289] Model profiling run took 180 MiB of device memory (21.94 GiB/126.5 GiB used) and 676.5 MiB of host memory (167.5 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:42 [hpu_worker.py:313] Free device memory: 104.6 GiB, 94.14 GiB usable (gpu_memory_utilization=0.9), 9.414 GiB reserved for HPUGraphs (VLLM_GRAPH_RESERVED_MEM=0.1), 84.73 GiB reserved for KV cache
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:42 [hpu_worker.py:289] Model profiling run took 180 MiB of device memory (21.94 GiB/126.5 GiB used) and 676.3 MiB of host memory (167.5 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:42 [hpu_worker.py:313] Free device memory: 104.6 GiB, 94.14 GiB usable (gpu_memory_utilization=0.9), 9.414 GiB reserved for HPUGraphs (VLLM_GRAPH_RESERVED_MEM=0.1), 84.73 GiB reserved for KV cache
+INFO 02-24 09:20:42 [hpu_worker.py:289] Model profiling run took 180 MiB of device memory (21.94 GiB/126.5 GiB used) and 677 MiB of host memory (167.5 GiB/1007 GiB used)
+INFO 02-24 09:20:42 [hpu_worker.py:313] Free device memory: 104.6 GiB, 94.14 GiB usable (gpu_memory_utilization=0.9), 9.414 GiB reserved for HPUGraphs (VLLM_GRAPH_RESERVED_MEM=0.1), 84.73 GiB reserved for KV cache
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:42 [hpu_worker.py:289] Model profiling run took 180 MiB of device memory (21.94 GiB/126.5 GiB used) and 677 MiB of host memory (167.5 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:42 [hpu_worker.py:313] Free device memory: 104.6 GiB, 94.14 GiB usable (gpu_memory_utilization=0.9), 9.414 GiB reserved for HPUGraphs (VLLM_GRAPH_RESERVED_MEM=0.1), 84.73 GiB reserved for KV cache
+INFO 02-24 09:20:42 [executor_base.py:113] # hpu blocks: 21690, # CPU blocks: 1024
+INFO 02-24 09:20:42 [executor_base.py:118] Maximum concurrency for 4096 tokens per request: 677.81x
+INFO 02-24 09:20:42 [exponential.py:49] Prompt bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], seq:[128, 128, 4096, 13]
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:42 [exponential.py:49] Prompt bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], seq:[128, 128, 4096, 13]
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:42 [exponential.py:49] Prompt bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], seq:[128, 128, 4096, 13]
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:42 [exponential.py:49] Prompt bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], seq:[128, 128, 4096, 13]
+INFO 02-24 09:20:42 [common.py:125] Generated 38 prompt buckets [bs, query, num_blocks]: [(1, 128, 0), (1, 256, 0), (1, 384, 0), (1, 512, 0), (1, 640, 0), (1, 768, 0), (1, 896, 0), (1, 1024, 0), (1, 1408, 0), (1, 1792, 0), (1, 2304, 0), (1, 3072, 0), (1, 4096, 0), (2, 128, 0), (2, 256, 0), (2, 384, 0), (2, 512, 0), (2, 640, 0), (2, 768, 0), (2, 896, 0), (2, 1024, 0), (2, 1408, 0), (2, 1792, 0), (4, 128, 0), (4, 256, 0), (4, 384, 0), (4, 512, 0), (4, 640, 0), (4, 768, 0), (4, 896, 0), (4, 1024, 0), (8, 128, 0), (8, 256, 0), (8, 384, 0), (8, 512, 0), (16, 128, 0), (16, 256, 0), (32, 128, 0)]
+INFO 02-24 09:20:42 [exponential.py:79] Decode bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], block:[128, 128, 21690, 16]
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:42 [common.py:125] Generated 38 prompt buckets [bs, query, num_blocks]: [(1, 128, 0), (1, 256, 0), (1, 384, 0), (1, 512, 0), (1, 640, 0), (1, 768, 0), (1, 896, 0), (1, 1024, 0), (1, 1408, 0), (1, 1792, 0), (1, 2304, 0), (1, 3072, 0), (1, 4096, 0), (2, 128, 0), (2, 256, 0), (2, 384, 0), (2, 512, 0), (2, 640, 0), (2, 768, 0), (2, 896, 0), (2, 1024, 0), (2, 1408, 0), (2, 1792, 0), (4, 128, 0), (4, 256, 0), (4, 384, 0), (4, 512, 0), (4, 640, 0), (4, 768, 0), (4, 896, 0), (4, 1024, 0), (8, 128, 0), (8, 256, 0), (8, 384, 0), (8, 512, 0), (16, 128, 0), (16, 256, 0), (32, 128, 0)]
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:42 [exponential.py:79] Decode bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], block:[128, 128, 21690, 16]
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:42 [common.py:125] Generated 38 prompt buckets [bs, query, num_blocks]: [(1, 128, 0), (1, 256, 0), (1, 384, 0), (1, 512, 0), (1, 640, 0), (1, 768, 0), (1, 896, 0), (1, 1024, 0), (1, 1408, 0), (1, 1792, 0), (1, 2304, 0), (1, 3072, 0), (1, 4096, 0), (2, 128, 0), (2, 256, 0), (2, 384, 0), (2, 512, 0), (2, 640, 0), (2, 768, 0), (2, 896, 0), (2, 1024, 0), (2, 1408, 0), (2, 1792, 0), (4, 128, 0), (4, 256, 0), (4, 384, 0), (4, 512, 0), (4, 640, 0), (4, 768, 0), (4, 896, 0), (4, 1024, 0), (8, 128, 0), (8, 256, 0), (8, 384, 0), (8, 512, 0), (16, 128, 0), (16, 256, 0), (32, 128, 0)]
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:42 [exponential.py:79] Decode bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], block:[128, 128, 21690, 16]
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:42 [common.py:125] Generated 38 prompt buckets [bs, query, num_blocks]: [(1, 128, 0), (1, 256, 0), (1, 384, 0), (1, 512, 0), (1, 640, 0), (1, 768, 0), (1, 896, 0), (1, 1024, 0), (1, 1408, 0), (1, 1792, 0), (1, 2304, 0), (1, 3072, 0), (1, 4096, 0), (2, 128, 0), (2, 256, 0), (2, 384, 0), (2, 512, 0), (2, 640, 0), (2, 768, 0), (2, 896, 0), (2, 1024, 0), (2, 1408, 0), (2, 1792, 0), (4, 128, 0), (4, 256, 0), (4, 384, 0), (4, 512, 0), (4, 640, 0), (4, 768, 0), (4, 896, 0), (4, 1024, 0), (8, 128, 0), (8, 256, 0), (8, 384, 0), (8, 512, 0), (16, 128, 0), (16, 256, 0), (32, 128, 0)]
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:42 [exponential.py:79] Decode bucket config (min, step, max_warmup, limit) bs:[1, 2, 256, 9], block:[128, 128, 21690, 16]
+INFO 02-24 09:20:42 [common.py:125] Generated 144 decode buckets [bs, query, num_blocks]: [(1, 1, 128), (1, 1, 256), (1, 1, 384), (1, 1, 512), (1, 1, 640), (1, 1, 768), (1, 1, 1024), (1, 1, 1408), (1, 1, 2048), (1, 1, 2816), (1, 1, 3968), (1, 1, 5632), (1, 1, 7808), (1, 1, 11008), (1, 1, 15488), (1, 1, 21690), (2, 1, 128), (2, 1, 256), (2, 1, 384), (2, 1, 512), (2, 1, 640), (2, 1, 768), (2, 1, 1024), (2, 1, 1408), (2, 1, 2048), (2, 1, 2816), (2, 1, 3968), (2, 1, 5632), (2, 1, 7808), (2, 1, 11008), (2, 1, 15488), (2, 1, 21690), (4, 1, 128), (4, 1, 256), (4, 1, 384), (4, 1, 512), (4, 1, 640), (4, 1, 768), (4, 1, 1024), (4, 1, 1408), (4, 1, 2048), (4, 1, 2816), (4, 1, 3968), (4, 1, 5632), (4, 1, 7808), (4, 1, 11008), (4, 1, 15488), (4, 1, 21690), (8, 1, 128), (8, 1, 256), (8, 1, 384), (8, 1, 512), (8, 1, 640), (8, 1, 768), (8, 1, 1024), (8, 1, 1408), (8, 1, 2048), (8, 1, 2816), (8, 1, 3968), (8, 1, 5632), (8, 1, 7808), (8, 1, 11008), (8, 1, 15488), (8, 1, 21690), (16, 1, 128), (16, 1, 256), (16, 1, 384), (16, 1, 512), (16, 1, 640), (16, 1, 768), (16, 1, 1024), (16, 1, 1408), (16, 1, 2048), (16, 1, 2816), (16, 1, 3968), (16, 1, 5632), (16, 1, 7808), (16, 1, 11008), (16, 1, 15488), (16, 1, 21690), (32, 1, 128), (32, 1, 256), (32, 1, 384), (32, 1, 512), (32, 1, 640), (32, 1, 768), (32, 1, 1024), (32, 1, 1408), (32, 1, 2048), (32, 1, 2816), (32, 1, 3968), (32, 1, 5632), (32, 1, 7808), (32, 1, 11008), (32, 1, 15488), (32, 1, 21690), (64, 1, 128), (64, 1, 256), (64, 1, 384), (64, 1, 512), (64, 1, 640), (64, 1, 768), (64, 1, 1024), (64, 1, 1408), (64, 1, 2048), (64, 1, 2816), (64, 1, 3968), (64, 1, 5632), (64, 1, 7808), (64, 1, 11008), (64, 1, 15488), (64, 1, 21690), (128, 1, 128), (128, 1, 256), (128, 1, 384), (128, 1, 512), (128, 1, 640), (128, 1, 768), (128, 1, 1024), (128, 1, 1408), (128, 1, 2048), (128, 1, 2816), (128, 1, 3968), (128, 1, 5632), (128, 1, 7808), (128, 1, 11008), (128, 1, 15488), (128, 1, 21690), (256, 1, 128), (256, 1, 256), (256, 1, 384), (256, 1, 512), (256, 1, 640), (256, 1, 768), (256, 1, 1024), (256, 1, 1408), (256, 1, 2048), (256, 1, 2816), (256, 1, 3968), (256, 1, 5632), (256, 1, 7808), (256, 1, 11008), (256, 1, 15488), (256, 1, 21690)]
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:42 [common.py:125] Generated 144 decode buckets [bs, query, num_blocks]: [(1, 1, 128), (1, 1, 256), (1, 1, 384), (1, 1, 512), (1, 1, 640), (1, 1, 768), (1, 1, 1024), (1, 1, 1408), (1, 1, 2048), (1, 1, 2816), (1, 1, 3968), (1, 1, 5632), (1, 1, 7808), (1, 1, 11008), (1, 1, 15488), (1, 1, 21690), (2, 1, 128), (2, 1, 256), (2, 1, 384), (2, 1, 512), (2, 1, 640), (2, 1, 768), (2, 1, 1024), (2, 1, 1408), (2, 1, 2048), (2, 1, 2816), (2, 1, 3968), (2, 1, 5632), (2, 1, 7808), (2, 1, 11008), (2, 1, 15488), (2, 1, 21690), (4, 1, 128), (4, 1, 256), (4, 1, 384), (4, 1, 512), (4, 1, 640), (4, 1, 768), (4, 1, 1024), (4, 1, 1408), (4, 1, 2048), (4, 1, 2816), (4, 1, 3968), (4, 1, 5632), (4, 1, 7808), (4, 1, 11008), (4, 1, 15488), (4, 1, 21690), (8, 1, 128), (8, 1, 256), (8, 1, 384), (8, 1, 512), (8, 1, 640), (8, 1, 768), (8, 1, 1024), (8, 1, 1408), (8, 1, 2048), (8, 1, 2816), (8, 1, 3968), (8, 1, 5632), (8, 1, 7808), (8, 1, 11008), (8, 1, 15488), (8, 1, 21690), (16, 1, 128), (16, 1, 256), (16, 1, 384), (16, 1, 512), (16, 1, 640), (16, 1, 768), (16, 1, 1024), (16, 1, 1408), (16, 1, 2048), (16, 1, 2816), (16, 1, 3968), (16, 1, 5632), (16, 1, 7808), (16, 1, 11008), (16, 1, 15488), (16, 1, 21690), (32, 1, 128), (32, 1, 256), (32, 1, 384), (32, 1, 512), (32, 1, 640), (32, 1, 768), (32, 1, 1024), (32, 1, 1408), (32, 1, 2048), (32, 1, 2816), (32, 1, 3968), (32, 1, 5632), (32, 1, 7808), (32, 1, 11008), (32, 1, 15488), (32, 1, 21690), (64, 1, 128), (64, 1, 256), (64, 1, 384), (64, 1, 512), (64, 1, 640), (64, 1, 768), (64, 1, 1024), (64, 1, 1408), (64, 1, 2048), (64, 1, 2816), (64, 1, 3968), (64, 1, 5632), (64, 1, 7808), (64, 1, 11008), (64, 1, 15488), (64, 1, 21690), (128, 1, 128), (128, 1, 256), (128, 1, 384), (128, 1, 512), (128, 1, 640), (128, 1, 768), (128, 1, 1024), (128, 1, 1408), (128, 1, 2048), (128, 1, 2816), (128, 1, 3968), (128, 1, 5632), (128, 1, 7808), (128, 1, 11008), (128, 1, 15488), (128, 1, 21690), (256, 1, 128), (256, 1, 256), (256, 1, 384), (256, 1, 512), (256, 1, 640), (256, 1, 768), (256, 1, 1024), (256, 1, 1408), (256, 1, 2048), (256, 1, 2816), (256, 1, 3968), (256, 1, 5632), (256, 1, 7808), (256, 1, 11008), (256, 1, 15488), (256, 1, 21690)]
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:42 [common.py:125] Generated 144 decode buckets [bs, query, num_blocks]: [(1, 1, 128), (1, 1, 256), (1, 1, 384), (1, 1, 512), (1, 1, 640), (1, 1, 768), (1, 1, 1024), (1, 1, 1408), (1, 1, 2048), (1, 1, 2816), (1, 1, 3968), (1, 1, 5632), (1, 1, 7808), (1, 1, 11008), (1, 1, 15488), (1, 1, 21690), (2, 1, 128), (2, 1, 256), (2, 1, 384), (2, 1, 512), (2, 1, 640), (2, 1, 768), (2, 1, 1024), (2, 1, 1408), (2, 1, 2048), (2, 1, 2816), (2, 1, 3968), (2, 1, 5632), (2, 1, 7808), (2, 1, 11008), (2, 1, 15488), (2, 1, 21690), (4, 1, 128), (4, 1, 256), (4, 1, 384), (4, 1, 512), (4, 1, 640), (4, 1, 768), (4, 1, 1024), (4, 1, 1408), (4, 1, 2048), (4, 1, 2816), (4, 1, 3968), (4, 1, 5632), (4, 1, 7808), (4, 1, 11008), (4, 1, 15488), (4, 1, 21690), (8, 1, 128), (8, 1, 256), (8, 1, 384), (8, 1, 512), (8, 1, 640), (8, 1, 768), (8, 1, 1024), (8, 1, 1408), (8, 1, 2048), (8, 1, 2816), (8, 1, 3968), (8, 1, 5632), (8, 1, 7808), (8, 1, 11008), (8, 1, 15488), (8, 1, 21690), (16, 1, 128), (16, 1, 256), (16, 1, 384), (16, 1, 512), (16, 1, 640), (16, 1, 768), (16, 1, 1024), (16, 1, 1408), (16, 1, 2048), (16, 1, 2816), (16, 1, 3968), (16, 1, 5632), (16, 1, 7808), (16, 1, 11008), (16, 1, 15488), (16, 1, 21690), (32, 1, 128), (32, 1, 256), (32, 1, 384), (32, 1, 512), (32, 1, 640), (32, 1, 768), (32, 1, 1024), (32, 1, 1408), (32, 1, 2048), (32, 1, 2816), (32, 1, 3968), (32, 1, 5632), (32, 1, 7808), (32, 1, 11008), (32, 1, 15488), (32, 1, 21690), (64, 1, 128), (64, 1, 256), (64, 1, 384), (64, 1, 512), (64, 1, 640), (64, 1, 768), (64, 1, 1024), (64, 1, 1408), (64, 1, 2048), (64, 1, 2816), (64, 1, 3968), (64, 1, 5632), (64, 1, 7808), (64, 1, 11008), (64, 1, 15488), (64, 1, 21690), (128, 1, 128), (128, 1, 256), (128, 1, 384), (128, 1, 512), (128, 1, 640), (128, 1, 768), (128, 1, 1024), (128, 1, 1408), (128, 1, 2048), (128, 1, 2816), (128, 1, 3968), (128, 1, 5632), (128, 1, 7808), (128, 1, 11008), (128, 1, 15488), (128, 1, 21690), (256, 1, 128), (256, 1, 256), (256, 1, 384), (256, 1, 512), (256, 1, 640), (256, 1, 768), (256, 1, 1024), (256, 1, 1408), (256, 1, 2048), (256, 1, 2816), (256, 1, 3968), (256, 1, 5632), (256, 1, 7808), (256, 1, 11008), (256, 1, 15488), (256, 1, 21690)]
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:42 [common.py:125] Generated 144 decode buckets [bs, query, num_blocks]: [(1, 1, 128), (1, 1, 256), (1, 1, 384), (1, 1, 512), (1, 1, 640), (1, 1, 768), (1, 1, 1024), (1, 1, 1408), (1, 1, 2048), (1, 1, 2816), (1, 1, 3968), (1, 1, 5632), (1, 1, 7808), (1, 1, 11008), (1, 1, 15488), (1, 1, 21690), (2, 1, 128), (2, 1, 256), (2, 1, 384), (2, 1, 512), (2, 1, 640), (2, 1, 768), (2, 1, 1024), (2, 1, 1408), (2, 1, 2048), (2, 1, 2816), (2, 1, 3968), (2, 1, 5632), (2, 1, 7808), (2, 1, 11008), (2, 1, 15488), (2, 1, 21690), (4, 1, 128), (4, 1, 256), (4, 1, 384), (4, 1, 512), (4, 1, 640), (4, 1, 768), (4, 1, 1024), (4, 1, 1408), (4, 1, 2048), (4, 1, 2816), (4, 1, 3968), (4, 1, 5632), (4, 1, 7808), (4, 1, 11008), (4, 1, 15488), (4, 1, 21690), (8, 1, 128), (8, 1, 256), (8, 1, 384), (8, 1, 512), (8, 1, 640), (8, 1, 768), (8, 1, 1024), (8, 1, 1408), (8, 1, 2048), (8, 1, 2816), (8, 1, 3968), (8, 1, 5632), (8, 1, 7808), (8, 1, 11008), (8, 1, 15488), (8, 1, 21690), (16, 1, 128), (16, 1, 256), (16, 1, 384), (16, 1, 512), (16, 1, 640), (16, 1, 768), (16, 1, 1024), (16, 1, 1408), (16, 1, 2048), (16, 1, 2816), (16, 1, 3968), (16, 1, 5632), (16, 1, 7808), (16, 1, 11008), (16, 1, 15488), (16, 1, 21690), (32, 1, 128), (32, 1, 256), (32, 1, 384), (32, 1, 512), (32, 1, 640), (32, 1, 768), (32, 1, 1024), (32, 1, 1408), (32, 1, 2048), (32, 1, 2816), (32, 1, 3968), (32, 1, 5632), (32, 1, 7808), (32, 1, 11008), (32, 1, 15488), (32, 1, 21690), (64, 1, 128), (64, 1, 256), (64, 1, 384), (64, 1, 512), (64, 1, 640), (64, 1, 768), (64, 1, 1024), (64, 1, 1408), (64, 1, 2048), (64, 1, 2816), (64, 1, 3968), (64, 1, 5632), (64, 1, 7808), (64, 1, 11008), (64, 1, 15488), (64, 1, 21690), (128, 1, 128), (128, 1, 256), (128, 1, 384), (128, 1, 512), (128, 1, 640), (128, 1, 768), (128, 1, 1024), (128, 1, 1408), (128, 1, 2048), (128, 1, 2816), (128, 1, 3968), (128, 1, 5632), (128, 1, 7808), (128, 1, 11008), (128, 1, 15488), (128, 1, 21690), (256, 1, 128), (256, 1, 256), (256, 1, 384), (256, 1, 512), (256, 1, 640), (256, 1, 768), (256, 1, 1024), (256, 1, 1408), (256, 1, 2048), (256, 1, 2816), (256, 1, 3968), (256, 1, 5632), (256, 1, 7808), (256, 1, 11008), (256, 1, 15488), (256, 1, 21690)]
+INFO 02-24 09:20:44 [hpu_worker.py:350] Initializing cache engine took 84.73 GiB of device memory (106.7 GiB/126.5 GiB used) and 15.18 GiB of host memory (182.7 GiB/1007 GiB used)
+INFO 02-24 09:20:44 [hpu_model_runner.py:3224] Skipping warmup...
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:44 [hpu_worker.py:350] Initializing cache engine took 84.73 GiB of device memory (106.7 GiB/126.5 GiB used) and 15.18 GiB of host memory (182.7 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230292)[0;0m INFO 02-24 09:20:44 [hpu_model_runner.py:3224] Skipping warmup...
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:44 [hpu_worker.py:350] Initializing cache engine took 84.73 GiB of device memory (106.7 GiB/126.5 GiB used) and 15.15 GiB of host memory (182.7 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230293)[0;0m INFO 02-24 09:20:44 [hpu_model_runner.py:3224] Skipping warmup...
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:44 [hpu_worker.py:350] Initializing cache engine took 84.73 GiB of device memory (106.7 GiB/126.5 GiB used) and 15.12 GiB of host memory (182.7 GiB/1007 GiB used)
+[1;36m(VllmWorkerProcess pid=2230294)[0;0m INFO 02-24 09:20:44 [hpu_model_runner.py:3224] Skipping warmup...
+INFO 02-24 09:20:44 [llm_engine.py:431] init engine (profile, create kv cache, warmup model) took 5.59 seconds
+INFO 02-24 09:20:46 [api_server.py:1362] Starting vLLM API server 0 on http://0.0.0.0:8000
+INFO 02-24 09:20:46 [launcher.py:29] Available routes are:
+INFO 02-24 09:20:46 [launcher.py:37] Route: /openapi.json, Methods: GET, HEAD
+INFO 02-24 09:20:46 [launcher.py:37] Route: /docs, Methods: GET, HEAD
+INFO 02-24 09:20:46 [launcher.py:37] Route: /docs/oauth2-redirect, Methods: GET, HEAD
+INFO 02-24 09:20:46 [launcher.py:37] Route: /redoc, Methods: GET, HEAD
+INFO 02-24 09:20:46 [launcher.py:37] Route: /health, Methods: GET
+INFO 02-24 09:20:46 [launcher.py:37] Route: /load, Methods: GET
+INFO 02-24 09:20:46 [launcher.py:37] Route: /ping, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /ping, Methods: GET
+INFO 02-24 09:20:46 [launcher.py:37] Route: /tokenize, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /detokenize, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /v1/models, Methods: GET
+INFO 02-24 09:20:46 [launcher.py:37] Route: /version, Methods: GET
+INFO 02-24 09:20:46 [launcher.py:37] Route: /v1/chat/completions, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /v1/completions, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /v1/embeddings, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /pooling, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /classify, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /score, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /v1/score, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /v1/audio/transcriptions, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /rerank, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /v1/rerank, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /v2/rerank, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /invocations, Methods: POST
+INFO 02-24 09:20:46 [launcher.py:37] Route: /metrics, Methods: GET
