@@ -1,0 +1,78 @@
+🟢 Starting power monitoring...
+✅ Loaded 520 prompts from Alpaca dataset
+
+🚀 Running batch 1/33 (16 prompts)
+
+🚀 Running batch 2/33 (16 prompts)
+
+🚀 Running batch 3/33 (16 prompts)
+
+🚀 Running batch 4/33 (16 prompts)
+
+🚀 Running batch 5/33 (16 prompts)
+
+🚀 Running batch 6/33 (16 prompts)
+
+🚀 Running batch 7/33 (16 prompts)
+
+🚀 Running batch 8/33 (16 prompts)
+
+🚀 Running batch 9/33 (16 prompts)
+
+🚀 Running batch 10/33 (16 prompts)
+
+🚀 Running batch 11/33 (16 prompts)
+
+🚀 Running batch 12/33 (16 prompts)
+
+🚀 Running batch 13/33 (16 prompts)
+
+🚀 Running batch 14/33 (16 prompts)
+
+🚀 Running batch 15/33 (16 prompts)
+
+🚀 Running batch 16/33 (16 prompts)
+
+🚀 Running batch 17/33 (16 prompts)
+
+🚀 Running batch 18/33 (16 prompts)
+
+🚀 Running batch 19/33 (16 prompts)
+
+🚀 Running batch 20/33 (16 prompts)
+
+🚀 Running batch 21/33 (16 prompts)
+
+🚀 Running batch 22/33 (16 prompts)
+
+🚀 Running batch 23/33 (16 prompts)
+
+🚀 Running batch 24/33 (16 prompts)
+
+🚀 Running batch 25/33 (16 prompts)
+
+🚀 Running batch 26/33 (16 prompts)
+
+🚀 Running batch 27/33 (16 prompts)
+
+🚀 Running batch 28/33 (16 prompts)
+
+🚀 Running batch 29/33 (16 prompts)
+
+🚀 Running batch 30/33 (16 prompts)
+
+🚀 Running batch 31/33 (16 prompts)
+
+🚀 Running batch 32/33 (16 prompts)
+
+🚀 Running batch 33/33 (8 prompts)
+
+🛑 Stopping power logging...
+📊 Samples: 6544
+📊 Average Power: 251.0 W
+📊 Peak Power: 441.0 W
+📁 Power Log: power_log.csv
+
+✅ Benchmark complete. 520 successful prompts.
+⏱️ Total Time: 813.45s
+📁 Results saved to: alpaca_benchmark_results.csv
